@@ -1,0 +1,15 @@
+These directories contain all of the manual files for the H7 mudlib.
+
+1) A manual file is a file that is too long for the help system, and
+   that goes into great detail about some facet of play.
+
+2) The manual file should contain the following file endings.
+	a) .wiz for creator only files
+	b) .man for general/player files
+  Files without endings are assumed to be general viewing files.
+
+3) When a new file is added it must have a UNIQUE name
+
+4) When a new file is added the /fucntion/manuals.c file must be
+   updaded. This file contains a mapping of current manual files
+

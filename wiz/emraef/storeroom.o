@@ -1,0 +1,56 @@
+#1:0
+ob_files 0
+ob_list 0
+create_room "wiz/emraef/storeroom"
+name 0
+alias_name 0
+alt_name 0
+plural 0
+adjectiv 0
+long_desc "This is a test room of the storage system.\n"
+extra_info 0
+smell_msg "You smell nothing special.\n"
+weather 0
+climate 0
+daylight_adj 1
+dest_dir ({"/wiz/emraef/workroom2.c","north",})
+extra_objects ({})
+land_development 0
+items ({})
+night_items ({})
+day_items ({})
+monster_files 0
+search_array ({})
+search_complex 0
+day_desc 0
+night_desc 0
+enter_msg 0
+exit_msg 0
+climb 0
+fall_dam 0
+swim 0
+swim_dam 0
+no_track 0
+no_summon 0
+no_fight 0
+land_value 0
+custom_exits 0
+doors ({})
+detect_attempts 0
+disarm_attempts 0
+lock_attempts 0
+s_northwest ({"/"," "," ","N",})
+s_northeast ({"\\"," "," ","M",})
+s_north ({"-----","     ","-+ +-","-+=+-",})
+s_south ({"-----","     ","-+ +-","-+=+-",})
+s_west ({({"|","|","|","|","|",}),({" "," "," "," "," ",}),({"|","+"," ","+","|",}),({"|","+","]","+","|",}),})
+s_east ({({"|","|","|","|","|",}),({" "," "," "," "," ",}),({"|","+"," ","+","|",}),({"|","+","[","+","|",}),})
+s_southeast ({"/"," "," ","N",})
+s_southwest ({"\\"," "," ","M",})
+tabOver "                         "
+max_attempts 0
+room_type 0
+supplies (["stone":3,"wood":21,])
+deposit_values (["wood":12,])
+minimums ([])
+refine_costs ([])

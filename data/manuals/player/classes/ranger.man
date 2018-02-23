@@ -1,0 +1,185 @@
+CONCEPT
+	Ranger, sub-class of Fighter
+
+DESCRIPTION
+	Rangers are a sub-class of fighter who are adept at woodcraft
+	and tracking, scouting, infiltrating and spying. 
+
+	Rangers are not permitted to join other classes, as per all
+	sub-classes. Rangers may not join thief, mage, and the other
+	standard classes. While they have some clerical, mage, and
+	fighter skills, they only pay x1 the exp cost, rather than
+	the standard x2-3 for having so many skills.
+
+	Rangers gain 12 hit points per advancement of constitution.
+	When a player becomes a ranger, his original hit points are
+	recalculated to this new HP multiplier.
+
+RACES
+	Only certain races may become rangers, these are those that
+	are familiar with the forest wilderness. Such include all
+	types of elves, forest gnomes, halflings, humans, and hill
+	dwarves.
+
+
+RANGERS AND GODS
+	Rangers follow the teachings of Antaaries, the goddess of
+	the forests. 
+
+
+RANGER ALIGNMENT   
+	Antaaries only grants rangers their special abilities of
+	spell casting and prayer while they are of relatively 
+	good alignment. While a woodsman's code is not as strict
+	as those of the Paladin, he still must not harm those
+	good creatures who dwell in the forest. 
+
+	If a ranger's alignment falls, then all his spell ability
+	becomes forfeit. If a ranger falls into evil alignments
+	then Antaaries has been known to strip a ranger of all
+	his abilities, and transform him into a simple fighter.
+
+
+RANGERS ARMOUR
+	A ranger's abilities in tracking, stealth, and spying
+	require minimal noise and maximum freedom of movement.
+	To this end, rangers will only don chainmail armour,
+	leathers, scalemail, and padded armours.
+
+
+RANGER SKILLS AND ABILITIES
+	Fighting Abilities
+	~~~~~~~~~~~~~~~~~~
+	All rangers gain the following fighter skills:
+	Multi attack, Multi opponent, and Two weapon.
+
+	A ranger's two weapon skill, however, is superior
+	to a fighters. A ranger is able to wield weapons
+	of equal length, or even large ones, significantly
+	sooner than their parent class.
+
+	See also 'help fighter'.
+
+
+	Spell-like Abilities
+	~~~~~~~~~~~~~~~~~~~~
+	All ranger's gain access to the following druidic-like
+	clerical spheres, granted to them by Antaaries:
+	Nature sphere.
+
+	Ranger's also learn some magic, pertaining especially
+	to the summoning of creatures, and charming them in 
+	order to enlist their help. These schools of magic are:
+	Charm, Conjuration.
+
+	See also the cleric and mage help on these topics.
+
+
+	Stealth/Tracking Abilities
+	~~~~~~~~~~~~~~~~~~~~~~~~~~
+	A ranger can follow any opponent by virtue of his tracking
+	skills. Usage: track <opponent>
+
+	The tracking ability of a ranger also enables him to perform
+	stealth-like functions, akin to thieves. A ranger can, hence,
+	move silently, and hide in shadows just as a thief can.
+	See also the thief help on these topics.
+
+	Tracking also enables a ranger to search a room more effectively
+	than other classes. To this end he is also able to ascertain
+	where creatures may be hiding close by, and determine what
+	ones have passed through the immediate area.
+	Usage: track <creature>
+	Usage: search room|<item>
+
+	Rangers knowledge of wilderness areas enables them to gather
+	specific knowledge of unique areas in reference to game
+	trails and the like. If a ranger finds a game trail when
+	searching an area, he may follow that trail, making the
+	time it takes to pass between areas much shorter.
+	Usage: trail
+
+	Ranger's can also guide others onto game trails they find.
+	Usage: guide <creature|person>
+
+
+	Ranger Specific Abilities
+	~~~~~~~~~~~~~~~~~~~~~~~~~
+	Rangers find giants and their kindred bane to the 
+	forests they protect. Hence, rangers gain damage bonuses
+	when attacking such creatures.
+
+	Ranger's are skilled craftsmen, and have a bowyer/fletcher
+	skill. This enables them to craft bows and arrows.
+
+	A ranger must first locate some dead wood to carve, and then
+	proceed to construct a bow, or arrow. This process is long
+	and time consuming. Only the best bowyers are able to make
+	weapons of fine quality.
+	Usage: craft <bow|arrow>.
+
+	This skill also determines the ranger's skill at using this
+	weapon in combat. While other classes may be able to 
+	employ such a weapon, a ranger's ability almost always 
+	exceeds theirs. The higher a ranger's bowyer skill, the
+	more accurate he is in shooting, and the more damage he is 
+	thereby able to inflict upon an opponent with his arrows.
+
+
+
+RANGER TITLES
+     ------------------------------------
+      Level         Title
+     ------------------------------------
+	 1	 the Lesser Runner  
+	 2	 the Amateur Runner  
+	 3	 the Prominent Runner  
+	 4	 the Amateur Strider  
+	 5	 the Prominent Strider  
+	 6	 the Renowned Strider  
+	 7	 the Amateur Scout  
+	 8	 the Prominent Scout  
+	 9	 the Renowned Scout  
+	10	 the Amateur Courser  
+	11	 the Prominent Courser  
+	12	 the Renowned Courser  
+	13	 the Amateur Tracker  
+	14	 the Prominent Tracker  
+	15	 the Renowned Tracker  
+	16	 the Amateur Guide  
+	17	 the Prominent Guide  
+	18	 the Renowned Guide  
+	19	 the Amateur Pathfinder  
+	20	 the Prominent Pathfinder  
+	21	 the Renowned Pathfinder  
+	22	 the Amateur Woodsman/woman
+	23	 the Prominent Woodsman/woman
+	24	 the Renowned Woodsman/woman  
+	25	 the Amateur Ranger  
+	26	 the Prominent Ranger  
+	27	 the Renowned Ranger  
+	28	 the Keeper of the Forest  
+	29	 the Guardian of the Forest  
+
+     Pretitles after approximately 30th level include: Captain,
+     Major, Colonel, General, Marshall, and Lord.
+
+
+RANGER WEAPONS
+	Ranger's are able to employ all weapons, but prefer
+	to become skilled in the following, before all others:
+	Either a bow or a light crossbow
+	a dagger or a knife
+	a spear or an axe, and
+	a sword (of any type).
+
+HISTORY
+	Originally created for Heaven7 development as a further
+	example of the sub-class system. Sections of this sub-class 
+	are based on Zilanthius' ranger-guild on GUMBImud, and 
+	intended as being an improvement upon/and replacement for 
+	Shwaine's ranger guild on MALEVOLENCE. 
+
+
+AUTHOR
+     Angel, August 1996.

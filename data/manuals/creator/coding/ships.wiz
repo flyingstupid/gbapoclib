@@ -1,0 +1,87 @@
+			Sailing Ships v4.0
+			~~~~~~~~~~~~~~~~~~
+
+The sailing ship code is used to connect various areas together
+that would otherwise not connect due to major differences in 
+theme. It also feels good to players!
+
+What you need to do is the following:
+
+
+#include <mudlib.h>
+inherit SHIPS;
+
+void reset(status arg) {
+  ::reset(arg);
+  if(arg) return;
+
+  set_ship_name("the little ship called bob"); /* ships name    */
+  set_captain("bob");			       /* captains name */
+  set_ship_speed(1);			       /* ships speed   */
+  /* 	1 is slow
+	3 is medium speed
+	5 is fast */
+
+
+  set_weather(2, 4, 6);
+	/* 2 is the light 
+	   4 is 'outside'
+	   6 is sea climate */
+
+  set_ports(({ "ille coronos, "minos", }));
+  /* these are the destinations the ship goes to
+     make sure that you alter the file 
+
+	/d/affils/ships/open/ports.c
+
+     if you want to add another port of call.
+     Make sure you get permission first */
+
+  set_exits(({
+	"d/coronos/w/angel/city/docks/dock1", "gang plank",
+  }));
+
+  /* this is the first port of call on your list
+     Make sure you also make an exit to this ship in the
+     room that is starts from. Call the exit the same name
+     as the ship. THis will be removed when the ship leaves
+     that port of call */
+}
+
+
+That's really all you need to do for the file itself.
+Make sure the file goes into the following directory.
+	/d/affils/open/types
+
+Make sure that the dir of this file matches the ships name
+	E.g. /d/affils/open/types/bob/
+
+Then, make the name of the ship file stern.c
+
+The map code looks in these dirs for a file called stern.c
+when it shows the map of where ALL the ships are located.
+
+
+
+When all the code has been done then you need to add the 
+ENTIRE file name of the ship into the init_arg file. This
+file loads the ships and makes them go when the mud restarts.
+
+E.g. #/d/affils/open/types/bob/stern.c
+
+You must include the # and the .c in the command line.
+
+
+For examples of how to code a ship, please check out the
+files in /d/affils/open/types
+
+Angel, August 1997
+
+
+
+	
+
+
+
+
+  .

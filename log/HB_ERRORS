@@ -1,0 +1,54 @@
+Room: d/coronos/w/alena/ille/c_5
+Error: Error in loading object: 'inherit/store' (inherited by 'd/coronos/w/darkness/cshop').
+Program: inherit/room2.c
+Object: d/coronos/w/alena/ille/c_6
+Line: 888
+
+Room: d/coronos/w/angel/scanthian/new2
+Error: Error in loading object: 'objects/bow'.
+Program: d/coronos/w/angel/scanthian/new3.c
+Object: d/coronos/w/angel/scanthian/new3
+Line: 44
+
+Room: d/coronos/w/alena/ille/temp1
+Error: Error in loading object: 'd/coronos/w/angel/ud/obj/staff'.
+Program: d/coronos/w/angel/ud/monst/drow3.c
+Object: d/coronos/w/angel/ud/monst/drow3#2264
+Line: 130
+
+Room: d/coronos/w/alena/ille/c_1
+Error: Error in loading object: 'd/coronos/w/silvara/bakery'.
+Program: inherit/room2.c
+Object: d/coronos/w/alena/ille/c_2
+Line: 953
+
+Room: d/wastelands/w/critical/secondtry/city2
+Error: Bad arg 1 to capitalize(): got 'number', expected 'string'.
+Program: obj/skills/remoteviewer.c
+Object: obj/skills/remoteviewer#67
+Line: 108
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#73
+Line: 162
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#82
+Line: 162
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#91
+Line: 162
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#100
+Line: 157
+

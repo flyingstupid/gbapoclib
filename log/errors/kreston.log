@@ -1,0 +1,2 @@
+d/ooc/w/kreston/spades.c line 33 near '{': Inconsistent declaration of 'reset': Return type mismatch (void vs int)
+d/ooc/w/kreston/spades.c line 101 near end of line: Missing 'return <value>' statement

@@ -1,0 +1,53 @@
+Affiliation: Werebear Clan
+
+The Werebear Clan is a tribe of natural shape changers for whom 
+nature is the most important aspect of their existence. They 
+are at one with nature, and their ways of hunting and farming 
+are an integral part of their environment. Their deity is 
+Hotoru, the god of the winds, also known as the All-God.
+
+Rituals revolve around the seasons. The ebbing of one season 
+into another is a time of sacrificing important possessions 
+of the tribe. Food, finely made jewelry, and weapons used 
+successfully in battle and the like are burned at these times 
+for the good of the tribe in the upcoming season. Werebear 
+priests and shamans are expected to be apart from the tribe 
+daily in meditation with the village's patron deity.
+
+Young tribal members who wish to become priests enter battle 
+alongside the rest of the warriors of the tribe, while the 
+older shamans attempt to enlist the help of Hotoru for 
+the battle. It is the duty of the tribal shaman to make 
+the war-paint of the warriors and bless the men and weapons 
+before battle.
+
+In times of extreme stress, young warriors have been known 
+to change shape and turn into a great bear. Blessed with 
+the spirit and power of the Great Bear, warriors have known
+great victory in battle.
+
+In order to join this clan one must be noble of spirit, like
+the Great Bear, and have a warriors heart. One must seek an
+elder in the tribe and prove their worth.
+
+Commands & Skills
+================
+
+Werebears, as they are natural lycanthropes, can change form at will.
+This enables them to alter form into that of a great bear. Bears
+are very strong, and a clan member who alters his form has a great
+advantage with his unarmed skills.
+
+Command: change 
+
+The change command also changes a clan member back into his original form.
+
+Note that extreme stress during battle may cause a clan member to
+change into his wereform. If this is the case he may damage himself
+as he will burst out of his armour! Also, werebears can not wimpy
+from battle due to battle rage and loss of honour associated with
+running away from battle.
+
+(c) Angel. October 1997
+
+ 

@@ -1,0 +1,147 @@
+--------------
+QC POLICY
+--------------
+
+Concept:
+
+	These are the general quality control, or QC, guidelines for
+	the mud. 
+
+Description:
+
+	General
+
+		* Code should be wriiten neatly and easily read.
+		* Include comments on the tricky bits.
+
+	Rooms
+		* The long description should include at least 3 lines of text.
+    		* Usage of "makes you feel strange" and other such blunt 
+		  feelings should be used VERY rarely. Instead use the text 
+		  to convey feeling.
+
+		  E.g. (calmness) "The grass sways gently below your feet."
+
+		  E.g. (fear) "The rocks wobble upon the ledge above, 
+		  threatening to fall at any moment."
+
+		* Every noun and action listed in the room description 
+		  needs to be defined in some way.
+
+		  E.g. 	In the middle of the valley you walk along the 
+			fast moving river to the south. A huge oak tree 
+			looms above you. The ground below your feet is 
+			very hard and contains prints of some kind.
+
+		  Defined nouns in this room that require describing are:
+		  	river, tree, ground, prints.
+
+		  Possible actions that require defining in the code are:
+           		climb tree (but mention something in text)
+
+
+		* Room must fit the area. That is, No trees in desert. 
+		  No shop under rocks.
+
+		* Short descriptions should finish the sentence : 
+		  "You are in..."
+
+		  E.g. set_short("a field of golden corn");
+		  E.g. set_short("the town square of Galiabok");
+	
+		* As for exits use standard cardinal exits like north, 
+		  northeast, east, southeast, south, southwest, down,
+		  up, etc. Try not to use exits like door, enter, leave, etc.
+
+		* If there is danger ahead, ie attacking monsters, then
+		  a warning should be given in the description:
+
+		  E.g."huge footprints disappear into the cave opening
+		       to the south."
+
+		* No death traps. Please, no cliffs to fall off or pits to 
+		  fall into unless there is a VERY good reason to.
+
+		* Cliffs and pits should use the climb skill, perhaps some 
+		  falling damage. Climbing/falling can be set for up/down 
+		  movements. See the manuals for rooms for more details
+
+		* Traps, should be able to be detected, and disarmed by 
+		  thieves. Note that there is generic trap code for doors, 
+		  and chests that can be used in rooms.
+
+		* Unless objects are designed to be unique, all equipment
+		  and monsters must be cloned and reset when absent. This
+		  is important as such require replacing if stolen by
+		  a thief character.
+
+
+	Weapons
+		* Refer back to weapon manual
+		* Ensure the name of the weapon is set correctly, as weapon
+		  skills rely on this being absolutely correct.
+		* Check special attacks for typos and/or bugs
+		* Values need to be correct : wt/value/etc
+
+
+
+	Armour
+		* See weapons
+
+
+
+	Monsters
+		* Refer to monster manuals
+		* Short desc need to be good. Many players use brief.
+		* There is a big differance between animals. 
+		  E.g. set_short("a bear");
+
+		  Do you mean a "a large black bear" or "a bear cub"?
+
+		* A short description should complete the following sentence:
+		  You see ... 
+
+		  E.g. set_short("a small black bear cub");
+
+		* The long description should be at least 2 lines.
+		* Make sure monsters are balanced. ie the weapons, armour, etc,
+		  that they carry are worn and wielded, and match the relative
+		  power of the creature.
+		* Make sure they fit the area they are located in. A bear 
+		  wandering the a bar looks out of place.
+
+
+
+
+	Objects
+		* Generic objects need to have a real game purpose, 
+		  otherwise you are just taking up disk space.
+    		* If the object will be special (ie...potions) please 
+		  check with an ELDER or QC.
+		* Make object's value appropriate to the object. 1000 coins 
+		  for a birds beak and 50 coins for a diamond is not good
+		  coding.
+
+
+
+	Maps
+		* Please have a generic type of map for your area. This 
+		  will assist an ELDER or QC in navigating around you area.
+		  You can generate one with the object /obj/mapper.c
+		* Maps are good treasure rewards for players. Ensure you use
+		  a read command. Players have languages, so a map may be in
+		  a language other than common (English).
+
+
+
+	Food
+		* Use the pub or shop code if you want to give out food.
+		* Food is allowed on monsters, but refer to the food
+		  manuals on healing potentials.
+
+
+
+	Original document by: Alena 1995-10-09
+	Last modified: 2002-01-17                                                                
+
+

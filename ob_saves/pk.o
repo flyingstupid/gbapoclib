@@ -1,0 +1,42 @@
+#0:0
+villians (["garion":({1056000,({"kolik",}),({"murdering Kolik",}),}),"finlar":({1000,({"scout",}),({"murdering Scout",}),}),"thrax":({1000,({"tika",}),({"murdering Tika",}),}),])
+ob_files 0
+ob_list 0
+create_room "d/coronos/w/angel/city/chambers/pkoffice"
+name 0
+alias_name 0
+alt_name 0
+plural "0s"
+adjectiv 0
+long_desc "A large desk dominates the confines of this relatively small \noffice. Behind it is a large flag, bearing a golden circle   \nwith a crucifix in the centre. On the wall there is a sign.  \nThere is a dark iron door to the east that marks the hallway \nof the prison cells.\n"
+extra_info 0
+smell_msg "You smell nothing special.\n"
+weather 2
+climate 0
+daylight_adj 1
+dest_dir ({})
+extra_objects ({})
+land_development 0
+items ({"sign","Perhaps you should read it?","flag","The flag of Ille Coronos",})
+night_items ({})
+day_items ({})
+monster_files 0
+search_array ({})
+search_complex 0
+day_desc 0
+night_desc 0
+enter_msg 0
+exit_msg 0
+climb 0
+fall_dam 0
+swim 0
+swim_dam 0
+no_track 0
+no_summon 0
+no_fight 0
+land_value 0
+custom_exits 0
+doors ({({"d/affils/rooms/dirk","north door",0,"A fine door with a poster of the Dirk's captain pinned to it.\n",0,"no_key",0,1,0,({}),0,0,0,0,1,0,0,0,}),({"d/coronos/w/darkness/b/hall/hall6","west door",0,"This is a wooden door made of oak.\n",0,"no_key",0,1,0,({}),0,0,0,0,1,0,0,0,}),({"d/coronos/w/angel/city/chambers/gaol","cell door",0,"A large iron gaol door with a little peep hole at the top.\n",0,"no_key",0,1,0,({}),0,0,0,0,1,0,0,0,}),({"d/affils/rooms/dirk","black door",0,"A fine door with a poster of the Dirk's captain pinned to it.\n",0,"no_key",0,1,0,({}),0,0,0,0,1,0,0,0,}),})
+detect_attempts ({})
+disarm_attempts ({})
+lock_attempts ({})

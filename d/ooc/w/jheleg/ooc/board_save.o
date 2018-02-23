@@ -1,0 +1,10 @@
+#0:0
+name "board"
+alias_name "bulletin board"
+alt_name 0
+plural 0
+adjectiv 0
+long_desc 0
+extra_info 0
+smell_msg 0
+bulletins ({({"Christening.......................[Jheleg    Dec  6 00:04]","jheleg","I hereby christen the board of -the- domain of Heaven7.\n*christen*\n",}),({"Good Work Jheleg..................[Alena     Dec  6 11:59]","alena","\n You've done well Jheleg, and I thank you very much for the room\n and the board. You rock baby. \n\n/Lena\n",}),({"Valen's Map.......................[Jheleg    Dec  6 12:35]","jheleg","       @@@  |\n       @@@  |\n     ^ ^ ^  \\\n    ^ ^ ^ ^  \\                             ____________________\n   ^ ^ ^ ^ ^  \\___________________        /. . . . . . . . . . \\__\n    ^ ^ ^ ^ ^       . . . . . . . |  Cove | . . . . . . . . . . . \\___\n   ^ ^ ^ ^ ^ ^ ^ ^ . . . . . . . . \\_____/ . . . . . . . . . . . . . .\\___\n  ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ . . . . . . . . . . . . . . . . . . .  ^ ^ ^ ^ ^  \\\n   ^ ^ ^ ^ ^ ^ ^ ^ ^ ^         . . . . . . .             . .  ^ ^ ^ ^ ^ ^ |\n                                . . . . . . .                  ^ ^ ^ ^ ^ ^|\n                                                               . .^.^.^.^.|\n                                                               MAIN BEACH |\n                                                               . .HOUSE. .|\n              ^  - Rocks                                      . . . . . . |\n              .  - Beach                                       ^ ^ ^ ^ ^__/\n             @@@ - Hidden Cave                                ^ ^ ^ ^ ^/\n             @@@                                            ^ ^ ^ ^ ^ |\n                                                             ^ ^ ^ ^ ^|\n",}),({"Thank you Jhel....................[Alena     Dec  8 12:19]","alena","\n Thank you for making Valen's ultra cool map look nice :)\n\n/Lena\n",}),})

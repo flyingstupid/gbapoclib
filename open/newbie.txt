@@ -1,0 +1,133 @@
+INTRODUCTION
+============
+
+Dear Newbie
+
+I have prepared this small document so that your travels in the
+fair city of Ille Coronos, and its surrounding environs can be
+as pleasant as possible.
+					Your friend
+					Bastian, the guide and scholar
+
+HELP
+====
+Firstly, there is a good help system with some nice things to
+Read. It's important to read these so that you will know all 
+the commands available to you. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-ic                       -ooc                      alias
+channel                   church                    classes
+drop                      emote                     exa or examine
+examine                   fix                       get
+give                      i (for inventory)         inventory
+kill                      l (for look)              level
+levels                    look                      mail
+ooc                       party                     primary skills
+put                       quit                      Quit
+save                      say                       score
+shout                     skills                    speak
+square                    ss                        whisper
+who                       wimpy                     xp
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+See also: help manuals
+
+
+COMBAT
+======
+Part of your travelling experience will involve, no doubt, some
+combat with foes of various sorts. In the lands of Magia there
+are many villains and foes to meet and conquer. Be warned, however,
+that you won't be able to kill them all right now. You need to
+familiarise yourself with the inhabitants of many lands, develop
+other skills (both magical and otherwise) before you can gauge 
+the strengths of even goblins and orcs!
+
+A handy thing I have found while travelling myself is that animals
+are the easiest of foes; dogs, cats, farm animals (yes, they can
+be very scary indeed!). Don't try to attack guards or people you
+meet early on in your adventuring career, be patient.
+
+Also, don't forget to train in your weapon. In Ille Coronos, the 
+Captain of the guard, Tesmond, often can help your weapons skills.
+Go and find him, and train in your dagger or knife! . . . you might
+learn a thing or two about combat which will help you in your hunt
+for sport.
+
+		THE CITY OF ILLE CORONOS
+		========================
+
+  Note: Bastian thee Guide is at point G
+
+ 1-x-x-x-x-x-x-x-x-x-G-x-x-x-x-x   U
+ | |    /  |         |         |  /
+ x 3   x   x         x         x-x-x
+ |    /    |   R    /|\        |   |
+ 2   x     x       x-x-x       x   x   x
+ |  /      |      /| | |\      |   |  / \
+ x x   x-x-x-x-G-A-R-D-E-N-x-x-x-x-x 5   x
+ |/    |   |      \| | |/      |   |/     \
+ x     x   x       x-x-x       x   x       x
+  \    |   |        \|/        |  /         \
+   x   x   x         x         x 6 4         7
+    \  |   |         |         |/  |        / \
+     x-x-x-x-x-x-x-x-G-x-x-x-x-x-x-x  C    x   x
+       |         |   |   |      \         /     \
+       x         x   x   x       x       x       x
+ beach |         | Church|        \     /       /
+       x         x       x         x 8-x-9     x  sea
+       |         |       |          \ /       /     KEY
+       x         x-x-x-x-x           x   x   x       ~~~
+       |             |              / \ /   /     G - Gate/Newbie Guide
+       x-x-x-x-x-x-x-G-x-x-x-x-x-x-x   x   x      D - Door
+         x   x-x-x-x-D-x-x-x-x   x      \ /
+          \   \             /   /        x        W - Wharfs/Docks
+           x   x           x   x                  R - Residential
+            \   \    B    /   /                   B - Beauracracy
+             x   D       D   x    sea             U - University
+              \   \     /   /
+               x   x   x   x  sea                 1 - Guard's Barracks
+                \   \ /   /                       2 - Temple of Taalandrix
+       beach     x   D   x                        3 - Temple of St Arion
+                  \  |  /                         4 - Armour/Weaponsmith-
+                   x x x                          5 - Bakery
+                    \|/                           6 - Paper maker
+                     x                            7 - Tanner
+                                                  8 - Pub
+                                                  9 - General Store 
+
+
+ Of course this is not an entirely exact map. Ille Coronos changes all the time
+as new people settle in the city.
+
+From what I can recall from my travels there can be found
+a weapon or two in the gardens. Due to the animals in there 
+the occasional adventurer will often leave items in there,
+like a knife or a bag for you to store items.
+
+Also, if you wish to train, seek out the guard's barracks; that's where
+all the guards train for battle and war.
+
+SKILLS
+====== 
+The city of Ille Coronos is a place of learning. There are
+A few places you can visit to train your weapon skills, 
+learn about theology, or even learn the mathemagical principles
+of the wizards. Rumours even have it that the merchants guild
+have an underground thief network that support the government
+here with various spying activities. ..but that's only a rumour.
+
+
+
+GETTING IN TROUBLE
+==================
+1st level newbies have the magical power, granted to them by the gods,
+of avoiding terror, trouble, and places that make them get lost. If you
+do get into trouble, then type 'church', and you will be magically 
+transported back to the temple of the All-God!
+
+
+
+Enjoy your stay in our fair city.
+Bastian
+

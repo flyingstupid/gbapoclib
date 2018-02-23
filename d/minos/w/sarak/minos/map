@@ -1,0 +1,27 @@
+out5.c ----- out6.c ----- out7.c ----- out8.c ----- out9.c
+  |                         |                         |
+  |                         |                         |
+out4.c        in2.c ------ in3.c ------ in4.c       out10.c
+  |             |           |             |           |
+  |             |           |             |           |
+out3.c          |          in6.c          |         out11.c
+  |             |           |             |           |
+  |           in1.c        in7.c        in5.c         |
+  |              \                       /            |
+  |               ------          ------              |
+  |                     \        /                    |
+out2.c ----- out1.c --- castle1.c ---- out13.c ---- out12.c
+               ________/    |
+              /             |
+	  hidden.c     entrance.c
+             |              |
+        under_bed.c         |
+                            |
+                            |
+       island/west2.c       |
+             |              |
+       island/west1.c-----island.c           
+             |
+             D
+       island/pub.c 
+

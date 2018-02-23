@@ -1,0 +1,30 @@
+Room: d/wastelands/w/critical/secondtry/city2
+Error: Bad arg 1 to capitalize(): got 'number', expected 'string'.
+Program: obj/skills/remoteviewer.c
+Object: obj/skills/remoteviewer#67
+Line: 108
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#73
+Line: 162
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#82
+Line: 162
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#91
+Line: 162
+
+Room: d/wastelands/w/critical/secondtry/city10
+Error: Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+Program: bin/skills/classes/medic/heal.c
+Object: bin/skills/classes/medic/heal#100
+Line: 157
+

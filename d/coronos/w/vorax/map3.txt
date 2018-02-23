@@ -1,0 +1,21 @@
+W-W-W-W-W-W-W-W-W-W-
+|      /  |                   R-> resdential road.
+w     S   R          x        S-> Slate road.
+|    /    |         /|\       w-> West Road
+w   S     R        x-x-x      a-> dirt alley, unamed
+|  /      |       /| | |\     M-> Main street.
+w S   a-a-R-x-x- x-x-x-x-     W-> Wall Street
+|/    |   |       \| | |/     the diamond is the gardens you don't
+w     a   R        x-x-x      need to make them..
+ \    |   |         \|/
+  w   a   R
+   \  |   |
+    w-M-M-R-
+
+the houses are all very nice, made of wood, 1 or two story.
+
+Continue (y/q/b) [y]:
+The will be inhabited by mostly humans, as is the city) with a touch
+of elf, and maybe a dwarf. Put some small temples here and there.
+The houses should have middle class working peasant/citizen
+type stuff in it.

@@ -1,0 +1,315 @@
+^#^
+get^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: get
+         Usage: get <item> from <container>
+                get all from <container>
+                get <item>
+                get all
+
+   Description: This allows you to get an item, or all items
+                in the room and put them into you inventory.
+                You can also get items from containers.
+
+       Example: get all from corpse
+
+    Note also : If the mud is running via the Amylaar driver
+		    the parse_command function allows syntax like
+		    the following
+
+	 Example: get the sword from the bag
+		    get the second sword 
+		    get two swords from the bag  ..etc
+	
+
+
+Related topics: put, give, drop, inventory.
+ 
+^#^
+give^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: give
+         Usage: give <item> to <player|monster>
+                give <amount> coins to <player|monster>
+   Description: This allows you to give items to other
+                'living' creatures.  To be able to do this you
+                must be 'alive', and you must be able to see. 
+                The receiver of the object must be in the room
+                with you.
+
+Related topics: get, take, drop, put.
+ 
+^#^
+goin^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: goin
+         Usage: goin <item>
+
+   Description: This command moves the creator into item.  Item can be
+                any object(s) referenced by the object parser.
+
+Related topics: goto.
+ 
+^#^
+goto^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: goto
+         Usage: goto
+                goto <player|monster>
+
+   Description: This command allows you to goto the room which another
+                player resides.
+
+Related topics: goin, Put.
+ 
+^#^
+grab^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: grab
+         Usage: grab <line1>,<line2> <file1> <file2>
+
+   Description: This command allows you grab from line1 to line2 of
+                file1 and append it to file2.
+
+Related topics: none.
+ 
+^#^
+guild^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: guild
+         Usage: guild
+
+   Description: Moves you to the guild.
+
+Related topics: church, post, home, inner, pub.
+ 
+^#^
+gray elf^#^
+SUBTOPIC-races^#^
+     ::: Gray Elves :::
+
+Gray elves are not as common as high elves, and do not normally
+ascociate with humanoids other than elves for long periods. They
+are thinner than high elves, with hair colour of silver and gold
+and eyes of amber and violet. Gray elves are highly intelligent,
+some of their race becomming powerful magic users. They are the
+most noble of the elvish raves, some chosing even to become
+paladin or cavalier.
+All player elves, due to their heightened senses are able to notice
+secret doors, and other such items, better than other races. They 
+also gain benefit when using two weapons in each hand, as they receive
+a weapon class bonus when doing so.
+^#^
+grey elf^#^
+SUBTOPIC-races^#^
+     ::: Gray Elves :::
+
+Gray elves are not as common as high elves, and do not normally
+ascociate with humanoids other than elves for long periods. They
+are thinner than high elves, with hair colour of silver and gold
+and eyes of amber and violet. Gray elves are highly intelligent,
+some of their race becomming powerful magic users. They are the
+most noble of the elvish raves, some chosing even to become
+paladin or cavalier.
+
+All player elves, due to their heightened senses are able to notice
+secret doors, and other such items, better than other races. They 
+also gain benefit when using two weapons in each hand, as they receive
+a weapon class bonus when doing so.
+^#^
+gate^#^
+SUBTOPIC-cleric^#^
+ ___________________________________________________________________
+()__________________________________________________________________)
+ | Prayer: Gate                    Sphere: Stellar                  |
+ | Level:  30                        Cost: 30                       |
+ | Component:  None.                Usage: gate                     |
+ | Description:                                                     |
+ |                                                                  |    
+ | This prayer will create a gate between two points in space and   |
+ | time.  The gate is relatively permanent.                         |
+ |                                                                  |
+ |                                                                  |
+ |                                                                  |
+ |__________________________________________________________________|
+()__________________________________________________________________)
+^#^
+goodberry^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Goodberry            Sphere: Nature                   |
+ | Level:  6                      Cost: 6                        |
+ | Component: A fruit or berry   Usage: goodberry                |
+ | Description:                                                  |
+ | This prayer will imbue an ordinary berry with good healing    |
+ | properties. It is known that the goodberry can be put in      |
+ | bottles to make Goodberry Liquor.                             |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+Get^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Get
+         Usage: Get <item(s)>
+
+   Description: The Get command allows the creator to get any object or list of
+                objects that are able to be referenced by the object parser.  No
+                weight or get() checks are made.
+
+Related topics: Put, parser.
+ 
+^#^
+general^#^
+SUBTOPIC-paladin^#^
+Paladin are a 'guild' or 'sub class', who have a mixture of cleric and
+fighter skills under one class title. Paladin guilds include Paladin of
+Seeker, and Paladin of the All-God.
+
+See 'help fighter', 'help cleric', and 'man paladin'
+^#^
+gnomes^#^
+SUBTOPIC-races^#^
+::: GNOMES :::
+
+	Kin to dwarves, gnomes are noticeably smaller than their distant
+cousins. Gnomes, as they proudly maintain, are also less rotund than dwarves.
+Their noses, however, are significantly larger. Most gnomes have dark tan or
+brown skin and white hair. A typical gnome lives for 350 years.
+	Gnomes have lived and sly sense of humour, especially for practical
+jokes. They have a great love of living things and finely wrought items
+particularly gems and jewellery. Gnomes love all sorts of precious stones
+and are masters of gem polishing and cutting.
+	Gnomes prefer to live in areas of rolling, rocky hills, well wooded
+and uninhabited by humans. Their diminutive stature has made them suspicious
+of the larger races - humans and elves - although they are not hostile. They
+are sly and furtive with those they do not know or trust, and somewhat
+reserved even under the best of circumstances. Dwelling in mines and burrows,
+they are sympathetic to dwarves, but find their cousins' aversion to surface
+dwellers foolish.
+
+
+::: Other Subraces :::
+        Rock Gnome, Forest Gnome, Deep Gnome
+^#^
+guilds^#^
+SUBTOPIC-player^#^
+			-=[ Guild Help ]=-
+
+  A Heaven7 Mudlib does not contain any guilds. Instead, there are 
+various classes with several abilities; mage, cleric, fighter, and
+thief.
+
+  Each class has various sub-classes, in which certain specialisations,
+and unique skills are gained.
+
+  Whereas a player character may have up to three classes, he may
+only be in one sub-class. An example of a sub-class is paladin. A
+player may choose to be either a fighter, cleric, etc (or any
+combination thereof), or he can be a paladin.
+
+  There are, however, several player asociations. Players can become
+guards, have seats on the council of mages, and rule their own 
+kingdoms.
+
+  So... ..in the long run... there is no need for the old LPMud 
+style guilds after all 8)
+
+
+^#^
+globe of invulnerability^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Globe                |:  Description:                |:||
+ ||:|           of Invulnerability |:  There are two versions of   |:||
+ ||:| School: Evocation		   |:  this spell; Minor and Major |:||
+ ||:| Cost:   15/25                |:                              |:||
+ ||:| Level:  15/25                |:  A Minor Globe stops all     |:||
+ ||:| Usage:  globe <minor|major>  |:  spells up to level 10, while|:||
+ ||:|                              |:  Major Globe stops spells up |:||
+ ||:| Related Spells:              |:  to level 15.                |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:  Only White and Grey robe    |:||
+ ||:|                              |:  Mages have access to this   |:||
+ ||:|                              |:  spell.                      |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+gods^#^
+SUBTOPIC-cleric^#^
+				Dieties of Magia
+				~~~~~~~~~~~~~~~~
+
+	The All-God			God of Law, Ruler of the Pantheon
+
+Good		
+	Seeker				God of Light, Destroyer of Undead
+	Antaaries			Goddess of Healing, Watcher of Elves
+	Moradin				God of Dwarves, the Forger
+	St. Arion			God of Justice and Battle
+	Bahamut				God of Good Dragon Kind
+
+Neutral
+	Taalandrix			God of Mischief
+	Thoth				God of Knowledge
+	The Elemental Gods		The children of 'Antaaries'
+		Air			
+		Earth
+		Water
+		Fire
+		Time
+
+Evil
+	Asmodeus			God of Evil
+	The Four Horsemen		Gods of the Last Comming
+		Death				God of the last Death
+		War				God of Battle Lust
+		Pestilence			God of Decay
+		Famine				God of the Death of the Land
+	Tiamut					Goddess of Evil Dragon Kind
+
+
+The Forgotten Ones
+	Skandle, the One Whose Name is Spoken in Whispers
+	War, God of the Battle Plains, God of Revenge
+	Death, God of the Undead.
+
+
+The Guardians of Magic
+	Acipter, the White
+	Majaan, the Grey
+	Zentrani, the Black
+
+See also: man <god's name> for more details on 'affiliations' and 
+	  priesthoods for various dieties.
+^#^
+grep^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ grep <search-string> <files>
+
+SYNOPSIS
+ returns a listing of files that contain the string
+ you specify. The listing tells the line number on 
+ which the string was found.
+

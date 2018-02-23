@@ -1,0 +1,50 @@
+SYNOPSIS
+	Player Killing
+
+DESCRIPTION 
+	Player Killing is the act of killing a player, rather than
+	killing a monster, or NPC. Killing a player results in
+	being a criminal. 
+
+	When you become a criminal, your name and crime is placed
+	on a notice board. Players can buy bounty hunter licenses
+	from that place, and hunt criminals down.
+
+	While it is ILLEGAL! to kill players, it is legal to kill
+	criminals while you have a bounty hunters license.
+
+	You are not permitted to initiate an attack on a player
+	who is more than 8 levels beneath yours.
+
+	It is also a crime to steal from a player. If you get caught, then you
+	may find yourself being hunted down, just like a murderer!
+
+
+	Players will have to visit the city guards office in each
+	new city to determine various rules that the city has set
+	up about their PK.
+
+	Tempus and Ille Coronos have the rule that guards are not
+	allowed to be killed. If you are seen doing so, and reported,
+	then a guard may place a bounty on your head also for 
+	breaking the law in that city.
+
+	Ignorance of a cities laws is no excuse.
+
+	If you don't want to be a criminal anymore, then go and
+	talk to the guard in that city, and discuss with them IC
+	about the matter.
+
+	If a guard abuses his position, and compromises the PK system,
+	then the ADMIN will take exreme action. Such positions
+	have a high RP role, and responsibility, and must be taken very
+	seriously.
+
+	Players should also note that PK is a privledge, and NOT a right.
+	Players do not have the right to abuse and annoy and hunt down
+	others because they 'feel like it'. Hence, the minimum level set
+	for player killing is 10th. It is felt that players have reached 
+	a sensibility about the mud where they know what is expected of 
+	them and what is not.
+
+Related Topics: None

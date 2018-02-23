@@ -1,0 +1,261 @@
+wiz/critical/open/levelplant.c line 19 near ';': Undefined function 'set_dex'
+wiz/critical/open/levelplant.c line 19 near ';': Undefined function 'set_dextery'
+wiz/critical/open/levelplant.c line 46 before end of line: syntax error
+wiz/critical/_lpc_cmd0.c line 1: Missing arguments to simul_efun find_player
+wiz/critical/_lpc_cmd0.c line 1: syntax error
+d/wastelands/w/critical/secondtry/city1.c line 20 before end of line: syntax error
+d/wastelands/w/critical/secondtry/city1.c line 20 before end of line: syntax error
+d/wastelands/w/critical/secondtry/city1.c line 19 before end of line: syntax error
+d/wastelands/w/critical/secondtry/city1.c line 17 before end of line: syntax error
+d/wastelands/w/critical/secondtry/city4.c line 17 before ';   ': syntax error
+d/wastelands/w/critical/secondtry/city7.c line 27 before end of line: syntax error
+d/wastelands/w/critical/secondtry/city5.c line 24 before ');': syntax error
+d/wastelands/w/critical/secondtry/city5.c line 31 before '{': syntax error
+d/wastelands/w/critical/secondtry/city5.c line 31 before '{': syntax error
+d/wastelands/w/critical/secondtry/city11.c line 96 before '/': syntax error
+d/wastelands/w/critical/secondtry/city11.c line 258 before ') {': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/secondtry/city11.c line 258 before ') {': syntax error
+d/wastelands/w/critical/forest/forest_1.c line 5 before ' ROOM;': syntax error
+d/wastelands/w/critical/forest/base/autogenroom.c line 1 before ' get_short': syntax error
+d/wastelands/w/critical/forest/base/autogenroom.c line 1 before ' get_short': syntax error
+d/wastelands/w/critical/forest/forest_1.c line 6 near '': illegal to inherit after defining functions
+d/wastelands/w/critical/forest/forest_1.c line 15 before '': syntax error
+d/wastelands/w/critical/forest/forest_1.c line 15 before '': syntax error
+d/wastelands/w/critical/forest/forest_1.c line 5 before ' ROOM;': syntax error
+d/wastelands/w/critical/forest/forest_1.c line 20 before ' "room_0.c': Variable AREA_PATH not declared !
+d/wastelands/w/critical/secondtry/city9.c line 2 before 'inherit/st': syntax error
+d/wastelands/w/critical/secondtry/city9.c line 2 before 'inherit/st': syntax error
+d/wastelands/w/critical/secondtry/city9.c line 2 before 'inherit/st': syntax error
+d/wastelands/w/critical/secondtry/city9.c line 2 before 'inherit/st': syntax error
+d/wastelands/w/critical/secondtry/city9.c line 2: syntax error
+d/wastelands/w/critical/secondtry/city9.c line 11 near ';': Undefined function 'set_sell_weapons'
+d/wastelands/w/critical/secondtry/city9.c line 11 near ';': Undefined function 'set_sell_weapons'
+d/wastelands/w/critical/secondtry/city9.c line 11 near ';': Undefined function 'add_sell_weapons'
+d/wastelands/w/critical/secondtry/city9.c line 12 near ';': Undefined function 'add_sell_armour'
+d/wastelands/w/critical/secondtry/city9.c line 13 near ';': Undefined function 'add_sell_treasure'
+d/wastelands/w/critical/mine/mine1.c line 12 before '(({"d/wast': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 before ' reset(sta': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 before ' reset(sta': Unrecognized inheritance modifier 'miningmax'
+d/wastelands/w/critical/mine/mine2.c line 6 near '(status arg)': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 near '(status arg)': Unrecognized inheritance modifier 'reset'
+d/wastelands/w/critical/mine/mine2.c line 6 before 'status arg': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 before ' reset(sta': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 before ' reset(sta': Unrecognized inheritance modifier 'miningmax'
+d/wastelands/w/critical/mine/mine2.c line 6 near '(status arg)': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 near '(status arg)': Unrecognized inheritance modifier 'reset'
+d/wastelands/w/critical/mine/mine2.c line 6 before 'status arg': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 before ' reset(sta': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 before ' reset(sta': Unrecognized inheritance modifier 'miningmax'
+d/wastelands/w/critical/mine/mine2.c line 6 near '(status arg)': syntax error
+d/wastelands/w/critical/mine/mine2.c line 6 near '(status arg)': Unrecognized inheritance modifier 'reset'
+d/wastelands/w/critical/mine/mine2.c line 6 before 'status arg': syntax error
+d/wastelands/w/critical/mine/mine2.c line 33 before ';': syntax error
+d/wastelands/w/critical/mine/mine2.c line 68 before '': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/mine/mine2.c line 68 before '': syntax error
+d/wastelands/w/critical/mine/mine2.c line 83 near ';': Too few arguments to clone_object
+d/wastelands/w/critical/mine/mine2.c line 83 before '': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/mine/mine2.c line 83 before '': syntax error
+d/wastelands/w/critical/mine/mine2.c line 46 before ';': Variable minestability not declared !
+d/wastelands/w/critical/mine/mine2.c line 24 before 'random(10)': Variable miningmax not declared !
+d/wastelands/w/critical/mine/mine2.c line 57 near ' + " continu': Wrong number of arguments to query_name: expected 0, got 1
+d/wastelands/w/critical/mine/mine2.c line 58 near '': Undefined function 'mine_find'
+d/wastelands/w/critical/mine/mine2.c line 60 before '': syntax error
+d/wastelands/w/critical/mine/mine2.c line 77 before '': Must return a value for a function declared: "int"
+d/wastelands/w/critical/mine/mine2.c line 81 before 'add_exp(50': Variable this_object not declared !
+d/wastelands/w/critical/mine/mine2.c line 57 near ' + " continu': Wrong number of arguments to query_name: expected 0, got 1
+d/wastelands/w/critical/mine/mine2.c line 58 near ';': Undefined function 'mine_find'
+d/wastelands/w/critical/mine/mine2.c line 60 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 77 before '': Must return a value for a function declared: "int"
+d/wastelands/w/critical/mine/mine2.c line 81 before 'add_exp(50': Variable this_object not declared !
+d/wastelands/w/critical/mine/mine2.c line 58 near ';': Undefined function 'mine_find'
+d/wastelands/w/critical/mine/mine2.c line 60 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 77 before '': Must return a value for a function declared: "int"
+d/wastelands/w/critical/mine/mine2.c line 81 before 'add_exp(50': Variable this_object not declared !
+d/wastelands/w/critical/mine/mine2.c line 58 near ';': Undefined function 'mine_find'
+d/wastelands/w/critical/mine/mine2.c line 60 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 81 before 'add_exp(50': Variable this_object not declared !
+d/wastelands/w/critical/mine/mine2.c line 58 near ';': Undefined function 'mine_find'
+d/wastelands/w/critical/mine/mine2.c line 60 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 93 before 'add_exp(75': Variable this_object not declared !
+d/wastelands/w/critical/mine/mine2.c line 58 near ';': Undefined function 'mine_find'
+d/wastelands/w/critical/mine/mine2.c line 60 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 63 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 63 near '': Missing 'return <value>' statement
+wiz/critical/_lpc_cmd0.c line 1: Variable pickaxe not declared !
+d/wastelands/w/critical/mine/mine2.c line 63 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 63 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 63 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 63 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 81 before '( num <= 4': syntax error
+d/wastelands/w/critical/mine/mine2.c line 91 near ';': Too few arguments to clone_object
+d/wastelands/w/critical/mine/mine2.c line 91 before '': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/mine/mine2.c line 99 before '( num > 75': syntax error
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+d/wastelands/w/critical/mine/mine2.c line 68 near '': Missing 'return <value>' statement
+wiz/critical/_lpc_cmd0.c line 1: Variable medicine not declared !
+wiz/critical/_lpc_cmd0.c line 1: syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 48 before 'd/wastelan': syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 55 before ' i<sizeof(': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/forest/forest_mobmaker.c line 46 before 'd/wastelan': syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 53 before ' i<sizeof(': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/forest/forest_mobmaker.c line 46 before 'd/wastelan': syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 53 before ' i<sizeof(': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/forest/forest_mobmaker.c line 46 before 'd/wastelan': syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 53 before ' i<sizeof(': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/forest/forest_mobmaker.c line 48 before 'd/wastelan': syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 49 before '': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/forest/forest_mobmaker.c line 49 before '': syntax error
+d/wastelands/w/critical/forest/forest_mobmaker.c line 56 before ' i<sizeof(': Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/junkyard/junkyard1.c line 7 near ';': Undefined function 'query_room_type'
+d/wastelands/w/critical/junkyard/junkyard1.c line 7 near ';': Undefined function 'query_room_type'
+d/wastelands/w/critical/forest/forest_0.c line 25 before ';': Variable forest not declared !
+d/wastelands/w/critical/junkyard/junkyard1.c line 7 near ';': Wrong number of arguments to query_room_type: expected 0, got 1
+d/wastelands/w/critical/forest/forest_1.c line 27 before '': syntax error
+d/wastelands/w/critical/forest/forest_1.c line 27 before '': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 4 before '( explode(': syntax error
+d/wastelands/w/critical/cave/base/cave.c line 4: function not defined by inheritance as specified
+d/wastelands/w/critical/cave/base/cave.c line 12: function not defined by inheritance as specified
+d/wastelands/w/critical/cave/base/cave.c line 4: function not defined by inheritance as specified
+d/wastelands/w/critical/cave/base/cave.c line 12: function not defined by inheritance as specified
+d/wastelands/w/critical/cave/base/autogenroom.h line 27 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 27 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 27 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 27 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 29 before end of line: Variable LOAD not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 37 before ';': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 55 before end of line: Bad assignment (int vs string)
+d/wastelands/w/critical/cave/base/autogenroom.h line 67 before '( file, ar': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 68 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 55 before end of line: Bad assignment (int vs string)
+d/wastelands/w/critical/cave/base/autogenroom.h line 67 before '( file, ar': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 68 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 68 before ' ({ arg, f': Variable dig_exit not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 65 near ';': Undefined function 'tell_player'
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 65 near ';': Undefined function 'tell_player'
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 35 near end of line: Inconsistent declaration of 'set_exits': Return type mismatch (string * vs void)
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 44 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 44 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 46 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 59 before '[<1]));': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 60 before ' SIZE_X;': Variable id not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 44 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 44 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 46 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 59 before '[<1]));': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 60 before ' SIZE_X;': Variable id not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 42 near ' : 0);': Undefined function 'restore_file'
+d/wastelands/w/critical/cave/base/autogenroom.h line 42 near ' : 0);': Undefined function 'restore_file'
+d/wastelands/w/critical/cave/base/autogenroom.h line 81 near ', save_value': Undefined function 'fine_player'
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 near ', save_value': Function fine_player undefined
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 near ', save_value': Wrong number of arguments to fine_player: expected 0, got 1
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 near ';': Bad arg 1 type to tell_object(): got unknown, expected object/string
+d/wastelands/w/critical/cave/base/autogenroom.h line 81 near ', save_value': Undefined function 'fine_player'
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 near ', save_value': Function fine_player undefined
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 near ', save_value': Wrong number of arguments to fine_player: expected 0, got 1
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 near ';': Bad arg 1 type to tell_object(): got unknown, expected object/string
+d/wastelands/w/critical/cave/base/autogenroom.h line 49 before ' );': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 51 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 65 before '[<1]));': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 66 before ' SIZE_X;': Variable id not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 49 before ' );': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 51 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 65 before '[<1]));': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 66 before ' SIZE_X;': Variable id not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 82 before '( dig_exit': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 before ');': Variable dir not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 82 before '( dig_exit': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 91 before ');': Variable dir not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 14 near '//#define SA': #define LOAD already defined (from d/wastelands/w/critical/cave/base/autogenroom.h line 6)
+d/wastelands/w/critical/cave/base/autogenroom.h line 14 near '//#define SA': #define LOAD already defined (from d/wastelands/w/critical/cave/base/autogenroom.h line 6)
+d/wastelands/w/critical/cave/base/autogenroom.h line 55 before ' != -1 ? d': Variable SAVE_FILE not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 55 before ' != -1 ? d': Variable SAVE_FILE not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 89 near ';': Undefined function 'TP'
+d/wastelands/w/critical/cave/base/autogenroom.h line 98 near ';': Function TP undefined
+d/wastelands/w/critical/cave/base/autogenroom.h line 98 near ';': Wrong number of arguments to TP: expected 0, got 2
+d/wastelands/w/critical/cave/base/autogenroom.h line 104 near ';': Function TP undefined
+d/wastelands/w/critical/cave/base/autogenroom.h line 104 near ';': Wrong number of arguments to TP: expected 0, got 2
+d/wastelands/w/critical/cave/base/autogenroom.h line 165 before end of line: Must return a value for a function declared: "int"
+d/wastelands/w/critical/cave/base/autogenroom.h line 89 near ';': Undefined function 'TP'
+d/wastelands/w/critical/cave/base/autogenroom.h line 98 near ';': Function TP undefined
+d/wastelands/w/critical/cave/base/autogenroom.h line 98 near ';': Wrong number of arguments to TP: expected 0, got 2
+d/wastelands/w/critical/cave/base/autogenroom.h line 104 near ';': Function TP undefined
+d/wastelands/w/critical/cave/base/autogenroom.h line 104 near ';': Wrong number of arguments to TP: expected 0, got 2
+d/wastelands/w/critical/cave/base/autogenroom.h line 165 before end of line: Must return a value for a function declared: "int"
+d/wastelands/w/critical/cave/base/autogenroom.h line 89 near ';': Undefined function 'TP'
+d/wastelands/w/critical/cave/base/autogenroom.h line 165 before end of line: Must return a value for a function declared: "int"
+d/wastelands/w/critical/cave/base/autogenroom.h line 169 before ';': Variable arg not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 89 near ';': Undefined function 'TP'
+d/wastelands/w/critical/cave/base/autogenroom.h line 165 before end of line: Must return a value for a function declared: "int"
+d/wastelands/w/critical/cave/base/autogenroom.h line 169 before ';': Variable arg not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 165 before end of line: Must return a value for a function declared: "int"
+d/wastelands/w/critical/cave/base/autogenroom.h line 169 before ';': Variable arg not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 165 before end of line: Must return a value for a function declared: "int"
+d/wastelands/w/critical/cave/base/autogenroom.h line 169 before ';': Variable arg not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 169 before ';': Variable arg not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 169 before ';': Variable arg not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 170 before 'arg] );': Variable opp not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 170 before 'arg] );': Variable opp not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 137 before 'arg] );': Variable opp not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 137 before 'arg] );': Variable opp not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 132 before ') );': Variable player not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 133 before ' "You star': Variable player not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 133 before ' "You star': Variable player not declared !
+d/wastelands/w/critical/cave/base/autogenroom.h line 36 before ' restore_v': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 36 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 40 before ') exit_hea': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 40 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 40 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 51 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before ') exit_hea': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 52 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 71 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 71 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before ') exit_hea': syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 41 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 52 before end of line: syntax error
+d/wastelands/w/critical/cave/base/autogenroom.h line 71 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 71 before end of line: Bad assignment: illegal lhs (target)
+d/wastelands/w/critical/cave/base/autogenroom.h line 180 before '1 ) ;': Variable count not declared !
+wiz/critical/_lpc_cmd0.c line 1: Variable a not declared !

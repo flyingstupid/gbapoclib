@@ -1,0 +1,51 @@
+2012.11.12 18:44:58 Seeding PRNG from /dev/urandom.
+2012.11.12 18:44:58 LDMud 3.3.720 (Build 3010) (stable)
+2012.11.12 18:44:58 Attempting to start erq '/usr/local/muds/heaven7/bin/erq'.
+2012.11.12 18:44:58 Hostname 'serv01' address '127.0.0.1'
+Loading init file /secure/init_file
+Preloading file: secure/security.c 0.00
+Preloading file: inherit/base/living.c 0.03
+Preloading file: obj/player.c 0.03
+Preloading file: obj/wizard.c 0.02
+Preloading file: inherit/room2.c 0.01
+Preloading file: inherit/monster.c 0.01
+Preloading file: inherit/weapon.c 0.00
+Preloading file: inherit/armour.c 0.00
+Preloading file: obj/soul_fcn.c 0.01
+Preloading file: d/ooc/rooms/ooc1.c 0.01
+Preloading file: d/affils/realestate/real.c]Warning: Can't scan filename.
+ 0.05
+Preloading file: d/affils/ships/start_ships.c]Loading ship file: /d/affils/ships/open/types/tamiel/stern.c
+]Loading ship file: /d/affils/ships/open/types/bounty/stern.c
+]Loading ship file: /d/affils/ships/open/types/turtle/stern.c
+ 0.02
+Preloading file: bin/std/get.c 0.00
+Preloading file: bin/std/put.c 0.00
+Preloading file: bin/std/put.c 0.00
+Preloading file: bin/std/take.c 0.00
+2012.11.12 18:44:59 LDMud ready for users.
+Bad arg 1 to environment(): got 'number', expected 'string/object'. in d/coronos/w/angel/city/obj/lsword (d/coronos/w/angel/city/obj/lsword.c:57)
+Time: Mon Nov 12 18:45:03 2012
+-------------------------------------------------
+2012.11.12 18:46:20 Caught error: Error in loading object: 'wiz/kate/open/medic/limber'.
+2012.11.12 18:46:20 ... execution continues.
+2012.11.13 20:58:10 Caught error: Failed to load file: 'objects/medkit'.
+2012.11.13 20:58:10 ... execution continues.
+2012.11.15 14:01:21 Caught error: Error in loading object: 'wiz/kate/open/medic/brewserum'.
+2012.11.15 14:01:21 ... execution continues.
+2012.11.15 14:02:57 Caught error: Error in loading object: 'wiz/kate/open/medic/brewserum'.
+2012.11.15 14:02:57 ... execution continues.
+2012.11.15 14:07:47 Caught error: Error in loading object: 'wiz/kate/open/medic/serum'.
+2012.11.15 14:07:47 ... execution continues.
+2012.11.15 14:08:55 Caught error: Error in loading object: 'wiz/kate/open/medic/suture'.
+2012.11.15 14:08:55 ... execution continues.
+2012.11.15 14:31:30 Caught error: Error in loading object: 'wiz/kate/open/medic/serum'.
+2012.11.15 14:31:30 ... execution continues.
+2012.12.05 19:27:44 Caught error: Error in loading object: 'bin/player/craft'.
+2012.12.05 19:27:44 ... execution continues.
+2012.12.05 19:46:59 Caught error: Error in loading object: 'wiz/kate/open/medic/medkit'.
+2012.12.05 19:46:59 ... execution continues.
+2012.12.05 19:48:01 Caught error: Error in loading object: 'wiz/kate/open/medic/medkit'.
+2012.12.05 19:48:01 ... execution continues.
+2012.12.05 19:48:56 LDMud shutting down.
+2012.12.05 19:48:56 Shutting down ipc...

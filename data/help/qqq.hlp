@@ -1,0 +1,99 @@
+^#^
+quit^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: quit
+        Usage :quit
+   Description: Leave the game.  You character is saved.  If
+                you are carrying any items they are dropped. 
+                Unless those items are specially marked to
+                reload the next time your character logs into
+                the game.  When you log into the game you will
+                log into the 'square'.  If there is an entry
+                room failure, then you will be moved to the
+                'void'.
+
+Note: For now this command is the same as Quit. Please play
+     accordingly. help Quit will list this new description
+
+Related topics: save, Quit.
+^#^
+Quit^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: Quit
+        Usage: Quit
+   Description: Leave the game. Your character is saved, and
+                any items you are carrying are saved. Some
+                special items, however, may not save.
+                Certain items that are specially market to
+                reload the next time your character logs into
+                the game (like class/sub-class items) will also
+                remain with you.
+
+                When you log into the game next time, you will
+                log into the room you left.  If there is an entry
+                room failure, then you will be moved to the
+                'void'.
+
+Related topics: save, quit.
+^#^
+quests^#^
+SUBTOPIC-player^#^
+SYNOPSIS: Quests
+
+
+DESCRIPTION:
+        A quest is an adventure that a player must accomplish that
+        teaches you various aspects of mudding, including mapping
+        skills, combat techniques, and exploration to name a few.
+
+        On a H7 mud, you are required to complete quests in order
+        to advance levels.  
+
+        Each quest has a level range assigned to it. Quest points
+        allocated to the quest depend on how difficult it is for
+        you to complete it at the assigned level range.
+
+
+     Difficulty Rating             Quest Points for Completion (qp)
+     ---------------------------------------------------------
+          Routine                                 10
+          Easy                                    20
+          Light                                   30
+          Medium                                  40
+          Hard                                    50
+          Very Hard                               60
+          Extremely Hard                          70
+          Sheer Folly                             80
+          Absurd                                  90
+          Insane                                  100
+     ---------------------------------------------------------
+
+        A 1st - 5th level quest may be set at 'insance'
+        difficulty, and for completing it would grant you
+        100 qp. The same quest, if set at 20th level, may
+        have an easy rating, and so only be allocated 20 qp.
+
+
+        Quests are randomly assigned, so you and your friend
+        who are the same level may not get the same quest. A
+        suitable quest for your level will always be assigned
+        to you; you don't have to worry about getting a 20th
+        level quest if you're only 1st level! 
+
+	Creators can't give out information about hints for quests,
+	so don't ask them. 
+
+	Players can assist in difficult parts of quests, but should
+	not give out the outcomes and solutions to entire quests.
+	A player found doing this can have his file removed without
+	notice by the mud's Admin.
+
+        To have a quest assigned to you, go to the clerk's
+        office in the main city.
+
+
+	(c) Angel. Updated June 1998

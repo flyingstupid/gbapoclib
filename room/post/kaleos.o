@@ -1,0 +1,13 @@
+#0:0
+ob_files 0
+ob_list 0
+create_room "d/coronos/w/angel/city/univ/foyer"
+name "angel"
+alias_name "bear"
+alt_name "Someone"
+plural "angels"
+adjectiv 0
+long_desc "Angel looks like a powerful creature from the outer planes.\n"
+extra_info "To port H7 and Magia over to the new d20 system.\n"
+smell_msg "He smells like heaven"
+mail ({({"vaejor","Forging (Vaejor)","Author: Vaejor@Magia, Sent to: Kaleos\nCC: Angel.\n","The forging ability has been fixed.  Thank you for your efforts in assisting me with finding the problem with it.  If you have any further problems with this ability or find anything else that doesn't appear to work correctly, please let a creator know or use the 'bug' command to report it.\n\nUntil our paths cross again\nVaejor of the Realms\n",0,0,"Jan 26 10:16",}),})

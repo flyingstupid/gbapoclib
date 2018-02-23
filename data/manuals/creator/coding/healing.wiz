@@ -1,0 +1,38 @@
+	:: Healing ::
+
+Since the game revolves primarily around killing and being killed healing
+is a very sensitive area to be playing with. There is already an excelent
+balance of healing in the mud, and so to place excessive items around the
+mud is to disrupt that balance. 
+
+Make sure you are aware of the following standard healing sources before
+asking a QC or other administrator about what kinds of healing are
+available.
+
+Healing is only done through the following standard sources:
+
+1) Pubs: Where players can eat & drink. Use _only_ official pub code.
+
+2) Players: Players have their own healing spells of various sorts.
+
+3) Potions: You can make potions available for players to use but they
+must either
+
+	* be placed on monsters (humanoid that can also use them)
+	* be made through time delay by alchemists
+	* be made through searching rooms once per reset
+
+   You must also use the POTION code, in conjunction with the spells system
+
+4) Food: That can be found in the same way as potions.
+
+5) Temples: Only use the official code that also uses standard healing routines.
+
+
+As a general rule, don't give out free healing, even to 'newbies', and if in doubt
+about healing the answer is almost always no.
+
+Angel
+
+
+

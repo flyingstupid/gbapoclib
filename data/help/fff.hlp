@@ -1,0 +1,287 @@
+^#^
+fix^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: fix
+         Usage: fix carry <reason>, fix weight <reason>
+                fix armour <reason>, fix ac <reason>
+                fix weapon <reason>, fix wc <reason>
+                fix heartbeat <reason>, fix h <reason>
+
+   Description: The fix function uses algorythms that 
+                recalculate and correct problems with your 
+                character.  These problems occur because of 
+                bugs.  So it is in your best interest to 
+                explain how the situation lead up to the bug.
+
+       Example: fix h heartbeat stopped after casting 
+                lightning bolt at bob the forester.
+
+Related topics: none.
+ 
+^#^
+find^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: find
+         Usage: find <file> { <path> }
+                find <file pattern>? { <path> }
+
+   Description: This command allows you to search a directory tree for a
+                file or file pattern.  Don't use this frivolously as it
+                is fairly intensive, and will give too long evaluation
+                errors on large directory trees.
+
+Related topics: tree, Tree.
+ 
+^#^
+fire storm^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Fire Storm           Sphere: Nature                   |
+ | Level:  18                     Cost: 18                       |
+ | Component: None.              Usage: fire storm               |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause a rift to open to the elemental plane  |
+ | of fire.  Fire storms about the area. Everyone is effected    |
+ | except those immune to fire, and the cleric.                  |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+flamestrike^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Flamestrike          Sphere: Combat                   |
+ | Level:  18                     Cost: 18                       |
+ | Component:  None.             Usage: flamestrike who          |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause flame to shout from the prayer's       |
+ | hands. The flames burn the potential victim.                  |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+fire ball^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Fire Ball            |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   10                   |:  This spell causes a ball of |:||
+ ||:| Level:  10                   |:  fire to spread out from the |:||
+ ||:| Usage:  fire ball            |:  caster. It effects everyone |:||
+ ||:|                              |:  including the caster.       |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+fire shield^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Fire Shield          |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   12                   |:  This spell causes a ring of |:||
+ ||:| Level:  12                   |:  cold fire to ring the caster|:||
+ ||:| Usage:  fire shield          |:  This ring protects the      |:||
+ ||:|                              |:  caster from fire damage. It |:||
+ ||:| Related Spells:              |:  also causes damage to anyone|:||  
+ ||:| None.                        |:  who physically attacks the  |:||
+ ||:|                              |:  caster.                     |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+friends^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Friends              |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   12                   |:  This spell causes the       |:||
+ ||:| Level:  12                   |:  caster to appear more       |:||
+ ||:| Usage:  friends              |:  persuasive and charismatic  |:||
+ ||:|                              |:  to other creatures.         |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+forging^#^
+SUBTOPIC-fighter^#^
+     Forging Weapons and Armour.
+
+Your weapon smith and armouring skills allow you to craft
+items from metal. A forge is required here, for without it
+your forging job will stand very little chance of surviving
+combat at all! The higher your skills within these disciplines
+the better the final job will be. Armour that can be forged
+include - 
+     
+     Chainmail, platemail, fieldplate, fullplate, shield,
+metal boots and gauntlets, helm, helmet.
+
+Leather armour cannot be made in this fashion. A leather
+working skill would be required. Clothing such as robes,
+cloaks and rings and bracers of a magical nature that act as
+protection or armour can't be made with an armouring skill.
+Only magical spells and prayers can imbue these normal items
+with protection to act as armour.
+
+Weapons that can be forged as as follows -
+
+     Sickle, dagger, dirk, knife, scimitar, broadsword,
+falchion, khopesh, longsword, shortsword, rapier, sabre,
+cutlass, halberd, pike, lance, ranseur, spear, trident, club,
+flail, hammer, staff, mace, battle axe, hand axe, ace,
+twohandedsword, bastardsword, morning star, claymore.
+
+Forging armour and weapons takes a minimum of about 3 minutes
+real time. The more difficult the armour, or the bigger the
+weapon, or the more complex the job, the longer it takes to
+forge. A fighter cannot fight during the time he/she wishes to
+forge an item. If he/she does so, the job is spoilt and
+stopped.
+
+  Usage: forge <item name>
+
+If you find an item that you believe you should be able to
+forge, then please talk or mail an ELDER or higher creator and
+it might be included in the lists of items.
+^#^
+fskills^#^
+SUBTOPIC-fighter^#^
+CLASS: Fighter
+
+SYNOPSIS
+	A class of skills for players.
+
+DESCRIPTION
+	A fighter is a class with skills stuned simply to combat and
+	other associated skills. 
+
+See also: man fighter
+
+
+^#^
+format^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ format <file>
+ format <path><file>
+ format here
+
+SYNOPSIS
+ The format command can be used to correctly format the long
+ description of a room. The method used by format creates code
+ that is faster and more pleasant to look at in the loaded room.
+
+ It is required that rooms be corrected by the format command
+ prior to QC approval.
+^#^
+frep^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ frep <old-string> <replacement-string> <files>
+
+SYNOPSIS
+ Frep allows wizards to easily change text in numerous
+ places at once. It is a great tool when used with
+ intelligence. Note that if you issue it twice, where
+ the old-string can be found again, it will give
+ two instances which is clearly not what you wanted.
+
+ 
+
+^#^
+finger^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: finger
+         Usage: finger <who>
+                finger <who@mud> (intermud if enabled)
+   Description: finger gives personal information on 
+                characters.  It gives information regarding                
+                real name, title, position, email, guild,
+                spouse, plan, race, last login, new mail.
+
+       Example: finger zilanthius
+Related topics chfn, email, plan, url.
+ 
+^#^
+fod^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell: Finger of Death (fod) |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   20                   |:  With a sucessful hit with   |:||
+ ||:| Level:  20                   |: spell, the target will amass |:||
+ ||:| Usage: fod <target>          |: such a fear that it will die |:||
+ ||:|                              |: from it.                     |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+feelings^#^
+SUBTOPIC-player^#^
+			  --Feelings--
++-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+ack            agree          applaud        blush          boggle
+bop            bounce         bow            burp           cackle
+chuckle        clap           comfort        cough          cower
+cringe         cry            cuddle         curtsey        dance
+fart           flex           flip           fondle         french
+frown          gasp           giggle         glare          grin
+groan          grope          growl          grumble        hiccup
+hkiss          hmm            hug            kick           kiss
+knee           laugh          lick           love           moan
+nibble         nod            pinch          point          poke
+pout           praise         puke           purr           roll
+ruffle         scream         shake          shiver         shrug
+sigh           sing           slap           smirk          smile
+snap           sneer          sneeze         snicker        sniff
+snore          snort          snuggle        spit           squeeze
+stare          strut          sulk           tackle         thank
+twiddle        wait           wave           whistle        wiggle
+wince          wink           yawn
+
+**NEW FEELINGS ADDED
+ah             beam           brb            die            eh
+explode        faint          fiffle         flutter        froth
+headbang       heh            hee            hi5            lag
+mosh           oh             pin            phew
+pounce         raise          rofl           sob            squirm
+stand          stick          swear          taunt          tilt
+tsk            whee                                              
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+EXTRA: If theres a feeling you want ask a creator
+
+

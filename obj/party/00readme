@@ -1,0 +1,19 @@
+[ Party System ]
+	The party system is a simply configured object which can either
+be saved upon a quit, or remove the player from the party. The object
+and daemon store all party members, experience, and party age in an
+array. The list of best parties is now obtained through a function in
+the party daemon.
+	Other files include:
+
+
+party.cfg
+	Fn specs for the party objects
+
+party_d.c
+	Party 'daemon' object which handles party data storage and retrieval
+
+party_ob.c
+	Party object which is cloned to a player
+
+See also: man <party>

@@ -1,0 +1,58 @@
+^#^
+vampiric touch^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Vampiric Touch       |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   12                   |:  The spell has a chance to   |:||
+ ||:| Level:  12                   |:  pipe some of the victim's   |:||
+ ||:| Usage:  vampiric touch who   |:  living essence into the     |:||
+ ||:| Component: corpse or skeleton|:  caster.  This in effect can |:||
+ ||:| Related Spells:              |:  heal the caster.            |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+ventriloquism^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Ventriloquism        |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   1                    |:  This spell causes another   |:||
+ ||:| Level:  1                    |:  person to appear to speak.  |:||
+ ||:| Usage: vent target message   |:  The ventriloquised victim   |:||
+ ||:|                              |:  realises that they did not  |:||
+ ||:| Related Spells:              |:  say it. But they do not     |:||
+ ||:| Phantasm, Improved Phantasm  |:  realise who ventriloquised  |:||
+ ||:|                              |:  them.                       |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+^#^
+visual illusion^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Visual Illusion      |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   15                   |:  This spell weaves an        |:||
+ ||:| Level:  15                   |:  illusion about an item      |:||
+ ||:| Usage:  visual illusion item |:  or monster. The woven       |:||
+ ||:|                              |:  illusion fools all who      |:||
+ ||:| Related Spells:              |:  touch and look at the item. |:||
+ ||:| Permanent Illusion           |:  It can be dispelled with a  |:||
+ ||:|                              |:  dispel magic.               |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`

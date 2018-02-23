@@ -1,0 +1,31 @@
+Overview:
+=========
+   Tic-tac-toe is a 2-player game that is played on a 5x5 grid.  Each player
+   takes alternating turns placing either an 'X' or an 'O' in one of the
+   grid's spaces.  The game is won by a player when he/she has filled up
+   4 spaces in a consecutive manner where it forms a horizontal, vertical,
+   or diagonal line.  A draw can also be reached when all the spaces have
+   been filled up, yet neither player has won.
+
+
+Commands avaialble in the Tic-Tac-Toe Room:
+===========================================
+   'join' -=-=-=-=-=-=- Join/start a game if one is not already in progress.
+   'place <number>' -=- Place your mark (an 'X' or an 'O') in the
+                        corresponding space on the grid.
+   'show' -=-=-=-=-=-=- Display the current status of the game grid.  After
+                        each move, the grid is automatically displayed.
+   'surrender'  -=-=-=- Surrender the current game to your opponent.
+   'return' -=-=-=-=-=- Return to the Gaming Room so long as you are not
+                        involved in playing a game.
+   'info' -=-=-=-=-=-=- This screen.
+
+
+Warnings:
+=========
+   If you are one of the players in the game, be fore-warned that leaving
+   the room will terminate the game.  Neither player will win.
+
+
+-+<<< Jheleg >>>+- 
+Dec 8 1996

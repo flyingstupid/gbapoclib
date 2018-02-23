@@ -1,0 +1,367 @@
+^#^
+emote^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: emote
+        Usage: emote <message>
+                :<message>
+   Description: This allows you do a pseudo-action.  If it is
+                done by a player it prepends the emote with
+                '::'.  The message is echoed to all within the
+                room, with the format: name <message>.
+
+       Example: emote bursts out laughing.
+                Others in the room will see,
+                ::Zilanthius bursts out laughing.
+
+Related topics: say, tell, whisper, shout, speak.
+ 
+^#^
+examine^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: examine
+        Usage: examine
+                examine <item|player|monster>
+                examine <item> on <item>
+                exa
+                exa <item|player|monster>
+                exa <item> on <item>
+
+   Description: This may or may not give a closer examination
+                of item then compared to a casual 'look'.  But
+                it never hurts to be too careful.
+
+Related topics: look.
+ 
+^#^
+exa^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: examine
+        Usage: examine
+                examine <item|player|monster>
+                examine <item> on <item>
+                exa
+                exa <item|player|monster>
+                exa <item> on <item>
+
+   Description: This may or may not give a closer examination
+                of item then compared to a casual 'look'.  But
+                it never hurts to be too careful.
+
+Related topics: look.
+ 
+^#^
+echo^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: echo
+        Usage: echo <string>
+
+   Description: This command echos a string directly to the room.
+
+       Example: echo The earth shakes mightily!
+
+Related topics: echoto, echoall.
+ 
+^#^
+echoall^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: echoall
+        Usage: echoall <string>
+
+   Description: This command echos a string directly to all interactive
+                players on the game.
+
+       Example: echoall The earth shakes mightily!
+
+Related topics: echoto, echo.
+ 
+^#^
+echoto^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: echoto
+        Usage: echoto <player|monster> <str>
+
+   Description: This command echos a str directly to a player.
+
+       Example: echoto zilanthius The earth shakes mightily!
+
+Related topics: echo, echoall.
+ 
+^#^
+ed^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: ed
+        Usage: ed <file>
+
+   Description: This command allows the creator to use the online line
+                editor to edit files.  The creator must have write
+                access to edit a file.
+
+       	Help for Ed  (V 2.0)
+	---------------------------------
+	by Qixx [Update: 7/10/91]
+
+
+	Commands
+	--------
+	/       search forward for pattern
+	?       search backward for a pattern
+	=       show current line number
+	a       append text starting after this line
+	A       like 'a' but with inverse autoindent mode
+	c       change current line, query for replacement text
+	d       delete line(s)
+	e       replace this file with another file
+	E       same as 'e' but works if file has been modified
+	f       show/change current file name
+	g       Search and execute command on any matching line.
+	h       help file (display this message)
+	i       insert text starting before this line
+	I       indent the entire file (from DGD ed v0.1)
+	j       join lines together
+	k       mark this line with a character - later referenced as 'a
+	l       line line(s) with control characters displayed
+	m       move line(s) to specified line
+	n       toggle line numbering
+	p       print line(s) in range
+	q       quit editor
+	Q       quit editor even if file modified and not saved
+	r       read file into editor at end of file or behind the given line
+	s       search and replace
+	set     query, change or save option settings
+	t       move copy of line(s) to specified line
+	v       Search and execute command on any non-matching line.
+	x       save file and quit
+	w       write to current file (or specified file)
+	W       like the 'w' command but appends instead
+	z       display 20 lines, possible args are . + -
+	Z       display 40 lines, possible args are . + -
+
+Related topics: none.
+ 
+^#^
+edit^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: edit
+        Usage: edit
+
+   Description: This command toggles your 'earmuffs' and 'edit flag'
+                on|off.
+
+Related topics: tell, shout, wiz.
+ 
+^#^
+edtitle^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: edtitle
+        Usage: edtitle
+                edtitle <edit title>
+
+   Description: When the creator is has their 'edit' toggled on, it
+          places 'earmuffs' on shouts, tells, and wiz.  However,
+             the creator's title changes to the edtitle.  If no
+          in edit title is given, it defaults to "is editing".
+
+Related topics: align, mhome, mclone, minvis, mtrans, mout, mmin, mmout,
+                edtitle, review, title, pretitle, mdest, edit.
+ 
+^#^
+earthquake^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Earthquake           Sphere: Nature                   |
+ | Level:  20                     Cost: 20                       |
+ | Component: Stone or Gem       Usage: earthquake               |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause the earth to quake in the locale about |
+ | the cleric. The earthquake will not harm the cleric or        |
+ | anyone partying with the cleric.  The prayer needs a rock,    |
+ | stone, or gem as a spell component.                           |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+ebl^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Everburning Log      Sphere: Nature                   |
+ | Level:  1                      Cost: 1                        |
+ | Component: branch or stick.   Usage: evl                      |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause a stick to burn as a bright torch.     |
+ | The torch burns with a much higher light intensity.           |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+enchanted weapon^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Enchanted Weapon     |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   12                   |:  This spell enchants a weapon|:||
+ ||:| Level:  12                   |:  The weapon is more able to  |:||
+ ||:| Usage:  enchanted weapon     |:  hit opponents.              |:||
+ ||:|         <weapon>             |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+energy drain^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Energy Drain         |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   35                   |:  The spell taps the victim's |:||
+ ||:| Level:  35                   |:  living essence. It has the  |:||
+ ||:| Usage:  energy drain who     |:  chance of draining away all |:||
+ ||:|                              |:  magical energy, and a level.|:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+evocation^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:|  Magic Missile 		   |:  Meteor Swarm                |:||
+ ||:|  Lightning Bolt              |:  MKS (Mordenkainen's Sword)  |:||
+ ||:|  Fire Ball                   |:  Acid Arrow                  |:||
+ ||:|  Cone of Cold                |:  Prismatic Spray             |:||
+ ||:|  Chain Lightning             |:  Prismatic Wall              |:||
+ ||:|  Fire Shield                 |:  Prismatic Sphere            |:||
+ ||:|  Ice Storm                   |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+^#^
+equip^#^
+SUBTOPIC-fighter^#^
+Command: equip
+
+SYNOPSIS
+        Fighter skill
+
+
+DESCRIPTION
+	Through the 'equip' command, a fighter can attempt
+	to wear armour items, and be equiped with a weapon.
+	It will not equip clothing items.
+
+	In this way it will simply select the first of each
+	type of armour items worn by a player, and the first
+	weapon in a player's inventory.
+
+	Note that the wielding of secondary weapons is not a 
+	feature of this command.
+
+
+See also: help fighter, man fighter
+^#^
+elves^#^
+SUBTOPIC-races^#^
+::: ELVES :::
+
+	Elves tend to be somewhat shorter and slimmer than normal humans.
+Their features are finely chiselled and delicate, and they speak in melodic
+tones. Although they appear fragile and weak, as a race they are quick and
+strong. Elves often live to be over 1,200 years old, although long before
+this time they feel compelled to depart the realms of men and mortals. Where
+they go is uncertain, but it is an undeniable urge of their race.
+	Elves are often considered frivolous and aloof. In fact, they are
+not, although humans often find their personalities impossible to fathom.
+They concern themselves with natural beauty, dancing and singing, unless
+necessity dictates otherwise. They are not fond of ships or mines, but enjoy
+growing and gazing at the open sky. Even though elves tend toward haughtiness
+and arrogance at times, they regard their friends and associates as equals.
+They do not make friends easily, but a friend (or enemy) is never forgotten.
+They prefer to distance themselves from humans, have little love for dwarves,
+and hate the evil denizens of the woods. 
+	Their humour is clever, as are their songs and poetry. Elves are
+brave but never foolhardy. They eat sparingly; they drink mead and wine, but
+seldom to excess. While they find well-wrought jewellery a pleasure to behold,
+they are not overly interested in money or gain. They find magic and
+swordplay (or a refined combat art) fascinating. If they have a weakness it
+lines in these interests.
+	Over all the elvish races, these notes best describe the high elf, the
+most common and abundant of the elvish races.
+
+::: Other Subraces :::
+        Grey Elf, Wood Elf, Wild Elf, Dark Elf (Drow), Sea Elf
+
+::: Other Help Topics :::
+       See also: help grey elf, wood elf, dark elf
+
+
+^#^
+enlarge^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Enlarge              |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   12                   |:  This spell makes the target |:||
+ ||:| Level:  12                   |:  larger.   They are able to |:||
+ ||:| Usage:  strength target      |:  hit harder than usual.      |:||
+ ||:| Components: none             |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+^#^
+email^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       Command: email
+	Usage: email <email address>
+   Description: This allows your to change your email address 
+                in your finger information.
+
+		Place a '!' at the end of the eMail address if you
+		do not wish other players to see it.
+
+
+Related topice chfn, plan, finger, url.
+ 

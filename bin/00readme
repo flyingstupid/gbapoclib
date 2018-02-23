@@ -1,0 +1,28 @@
+This is the actions directory for the mud.
+
+/creator
+	Security calls, and specialised creator fns
+	can be found in this dir.
+
+/players
+	Special player fns, like score, wimpy, etc which only
+	players use for play can be found in this dir
+
+/players_OOC
+	Special player fns. This directory is used for functions when RPG
+	is defined. Any commands placed in this directory will not have the
+	ooc_check function run before executing them. Therefore, any
+	commands which players should be able to execute while Out Of
+	Character (OOC). Any commands in /players will not be executed when
+	the player is OOC.
+
+/std
+	General standard actions that everyone uses, like standard verbs
+	of read, look, exqamine, get, put, etc are placed into
+	this directory.
+
+/skills
+	The skills dir are fpr specialised cases of skills actions.
+	It includes directories for the classes (fighter, mage, thief etc)
+	and for affiliations.
+

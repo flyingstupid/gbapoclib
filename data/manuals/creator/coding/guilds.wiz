@@ -1,0 +1,216 @@
+CONCEPT
+     Guilds
+
+DESCRIPTION
+	There is no such thing as a 'guild' within a Heaven7 mudlib.
+There are the following, intended as replacements to be integrated
+into the mud at a global level.
+
+1) A class - like fighter, thief, cleric, etc
+
+2) A subclass - like ranger is to fighter, like bard is to thief.
+
+3) Player ascociations - These are basically loosely affiliated
+player groups, designed by creators, but implimented by players.
+
+
+     A guild is NOT a player's race. There should be no elf
+guilds, or vampire guilds, or shape changers guilds. Allowances
+for such is explained later.
+
+
+
+     So, what is left when a Creator wishes to make a guild?
+
+     A guild within this mudlib is simply of the form of what
+would be known in AD&D terms as a 'sub class'. For purposes of
+example I will use the paladin.
+
+
+
+
+GUILD DESIGN
+     1) A guild, or sub class, offers a player a wider range of
+skills and spells from multiple classes, with the advantage of
+only being in one class. With paladin, the player has access to
+several clerical spheres, and hence spells, as well as fighter
+skills. 
+
+     Normally, a player would have to spend about x2+ the normal
+cost for advancing skills in either of the two classes
+fighter/cleric. Being a paladin, he only has to spend x1, as he
+only has one class. 
+
+     Belonging to the paladin subclass also offers the ability
+of specialisation with weapons. That is, that when the player
+uses weapons that he is a) proficient with, and b) specialised
+in, he gains extra damage. 
+
+     When you make a player part of your new guild/sub class,
+remove ALL of his other classes, and set all his skills to ZERO!
+In essence, the player leaves behind all his old training, and
+begins anew. Then, add a new class name, like 'paladin'. Make
+sure the player knows he can not join new classes while he is a
+paladin, and make sure that he knows that when he becomes a
+paladin, all his old skills are lost. To make it easier, you may
+say instead, that while he has other classes, he can not be a
+paladin. This will force the player to go and leave his other
+classes himself. This will also make him realise that he will
+loose his skills in those classes before he is permitted to join
+up as a paladin.
+
+     player->add_class("paladin");
+
+     2) A player in a guild or sub class of this design can only
+have ONE class. That is, he can not go and join up with the mages
+and be a paladin/mage. 
+
+     As the mud is designed around multi classing, and since
+monsters also have these abilities, a sub class offers the player
+more than the standard class offers. This is already seen in the
+fact that a paladin has both cleric and fighter skills. A paladin
+also gains further abilities unique to that sub class.
+
+     When creating such abilities these are really dependant upon
+the Creators imagination, and material he can find to give him
+ideas. The AD&D Players Handbook (tm) is an ideal source of
+information and has been used for the design of the paladin
+'guild'.
+
+     A paladin gains additional abilities of detecting evil/good
+without the cost of divination spell points, the ability to heal
+disease every so often dependant upon level.
+
+     When you create spells or skills, add a new directory under
+/skills, just as the /skills/fighter and /skills/cleric
+directories are assigned. Using our paladin example, you would
+create a /skills/paladin directory. This cuts down the need for
+(and/or size of) separate 'guild objects'.
+
+     When a paladin wishes to cast a cure light wounds, a small
+file or 'daemon' object within the /skills/paladin directory
+makes a simple call to the /skills/cleric directory in order to
+cast the spell. This cuts down the need for multiple files, and
+means that a paladin with healing sphere of 10 heals the SAME as
+a cleric with healing sphere 10. Each are then directly
+comparable!
+
+     3) All classes have their own weapon and armour
+restrictions. Thieves don't use heavy armour or shields, and
+mages wear almost no armour at all. When designing a guild or sub
+class one must decide what armour/weapons are applicable to that
+class. A paladin, as it is mainly a fighter-type may not have any
+weapon or armour penalties. However, literature suggests that
+certain weapons are preferred by paladin; lance, certain swords,
+etc. Paladin, like knights, pride themselves upon the armour they
+wear and would certainly not wear the garb of thieves and
+peasants! Such would be against their station of honour! Hence,
+paladins never wear leather armour, and prefer platemail, full
+plate armours, etc.
+
+     The /include/skills/armour.dat and weapon.dat files contain
+a library of data for classes armour/weapon restrictions. When
+you create a guild your restrictions are added here according to
+the class name. In this case, paladin.
+
+     4) When you add new skills, like weapon specialisation, a
+file named /include/skills/paladin.h is used. In that dir you
+will also notice all the .h files for the other classes. Inside
+each are the individual abilities for fighter, cleric, thief,
+etc. 
+
+     Design your new stats, and then request it be placed here.
+This does mean that when you design your new class/guild, it goes
+into global use! Monsters will then be allowed to use these
+abilities also. You can even make a paladin monster!
+
+     The /include/skills/skills.h file has your paladin.h file
+included into it. This file also contains the number of hit
+points given to your class. For paladin they get the average of
+cleric and fighter (simply because those are the types of
+classes/skills they have). 
+
+     Other special functions can be used through either (a)
+/obj/shadows/ directory, or (b) through an object with the id
+'guild_object'. Actions and abilities should not be coded through
+these objects, but special combat, and other functions can call
+upon shadow or guild_objects. This must also be extensively
+tested and approved before players are allowed to use it.
+
+     A guild room must also be used. An example of one can be
+found in /room/city/cleric/paladin.c This inherits the GUILD
+room file, and has a few alterations which you will simply need
+to copy. Experience and levels and titles are put here.
+
+     Also, don't forget the help files. The /functions/help.c 
+object has all the information you require to add help files.
+Please ask an ELDER before you add help files.
+
+
+
+     5) Once you have decided upon all the skills, spells, and
+abilities of the new class, just put the proposal forward to the
+Creator in charge of class design. He/she should be able to make
+all the arrangements to include it into the /skills directories
+for you to further test and apply. DO NOT FORGET to make help and
+manuals for the class which will be read, and then added.
+
+     Once the new class goes into operation you should be given
+access to make new additions, new spells, etc. Classes like
+cleric and mage always have new spells added to their selections,
+so there is no reason why a paladin, who has healing sphere,
+should not also have access to these new spells!
+
+
+OLD DESIGN GUILDS
+     There are many other forms of 'guilds' that players will
+recognise from older LPmuds. Undead guilds are popular. Players
+seem to love to be evil and suck peoples blood and drain their
+life essence. This is not, however, a guild design, but more of
+a playing tool that can be designed.
+
+     Within the mudlib there is a potion of 'Lichdom' that is
+able to be created, making the player 'undead', with new powers
+and abilities of a Lich, instead of his old race (or perhaps with
+the bonuses of both!). 
+
+     Lycanthropy is a DISEASE (or perhaps a curse) and not a
+guild. It is expected that lycanthropy will be an addition to the
+diseases that players are able to catch. It will have its
+penalties (perhaps they rip out of their armour and destroy it
+when they turn into a werewolf when the moon is full...using the
+weather/day/night system), and its advantages. The AD&D rules
+suggest that a person is freely able to control their lycanthropy
+state and change into the form when they choose to after a period
+of about 3 years. Players inflicted with lycanthropy may have to
+wait 24 hours of playing before they can perform their shape
+change. 
+
+     New races can always be added. There is no need to make a
+deep gnome guild, just make it into a new race. Adding a new race
+is more difficult than a guild, because it has to be interwoven
+into many different files; room.c, player.c, and others. But if
+you have the desire to do so, then there should be no reason why
+you shouldn't be permitted to. 
+
+     Races do have their advantages and disadvantages. Their
+maximum stats (strength, intelligence, etc) are typically 22-23,
+lower than the human average of 25. Yet, they have their own
+little bonuses here and there, poison saves, magic saves, weapon
+bonuses and penalties, etc. Think hard about it before you decide
+to add a new race.
+
+
+HISTORY
+     The Paladin 'guild' was originally designed for GUMBImud,
+but was suggested that it was too powerful compared to other
+classical guilds. This is the common problem with guilds; its
+hard to compare them directly for their power. 
+
+     This system allows direct comparison of skills/spells. A
+paladin's healing sphere is the same as the clerics healing
+sphere. 
+
+
+AUTHOR
+     Angel, Feb 1995.

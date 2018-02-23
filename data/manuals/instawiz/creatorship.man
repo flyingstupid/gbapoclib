@@ -1,0 +1,23 @@
+-----------
+CREATORSHIP
+-----------
+
+Concept:  
+
+	A 'Creatorship' is when someone asks to be instantly promoted
+	to the level of Creator, rather than playing the game first.
+
+Description:
+
+	From time to time, the mud grants an instant promotion to the
+	ranks of CREATORS. These are advertised on the muds bulletin
+	boards in the OOC (out of character) area.
+
+	If you wish to be considered for an instant promotion to the
+	level of CREATOR or HIGHER, you need to contact the ADMIN of
+	the mud, listing the following:
+
+	1) A bit about yourself, who you are
+	2) Your LPC programming experience
+	3) Your thoughts and ideas on what you could contribute to the mud
+

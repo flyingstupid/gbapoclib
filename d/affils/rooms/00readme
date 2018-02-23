@@ -1,0 +1,19 @@
+
+The files contained here are the affiliations for the mud.
+
+Note the following set fns to be used.
+
+set_affiliation_sponsor(string str);
+	This is used when a deity/god looks after the affiliation.
+	these are gods in the RP sense (not admin or actual people).
+	This is used for spell combat messages only)
+
+set_affiliation_name(string name);
+	The actual NAME of the affiliation, like followers of the
+	All-God, or some such hting.
+
+set_affiliation_file(string filename);
+	All affiliation files (objects) go into the dir /obj/skills/affils
+	The file u type here is the abreviated file name, which is also used
+	as the affiliations channel (like, e.g. 'wrm')
+

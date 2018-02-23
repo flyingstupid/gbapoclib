@@ -1,0 +1,335 @@
+^#^
+refresh^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: refresh
+        Usuage: refresh
+                refresh <player>
+
+   Description: Refresh replaces the player object with a new one.  This
+                is useful if any of the player objects have been
+                updated, and you do not wish to log out, and back into
+                the game.  Only creators of security level SEC5 (50) can
+                refresh other player characters.
+
+Related topics: none.
+ 
+^#^
+reset^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: reset
+        Usuage: reset <item(s)>
+
+   Description: This command allows you to call a reset(1) in any
+          item(s).  The reset() function in an item is normally
+          called every 2 hours to reset monsters/rooms.  
+
+Related topics: Reset.
+ 
+^#^
+Reset^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Reset
+        Usuage: Reset <item(s)>
+
+   Description: This command allows you to call a reset(0) in any
+          item(s).  The reset() function in an item is normally
+          called every 2 hours to reset monsters/rooms.  In compat
+          mode reset(0) will reset the items default startup settings.
+
+Related topics: reset.
+ 
+^#^
+review^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: review
+        Usuage: review
+
+   Description: This is a review of the creators messages and titles.
+
+Related topics: align, mhome, mclone, minvis, mtrans, mout, mmin, mmout,
+                edtitle, review, title, pretitle, mdest.
+ 
+^#^
+rlog^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: rlog
+        Usuage: rlog
+
+   Description: rlog removes your error log file.
+
+Related topics: log, main, debug.
+ 
+^#^
+rm^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: rm
+        Usuage: rm <file(s)>
+
+   Description: This command allows you to remove file(s).  Files can
+          use the token '*' as a wildcard.  If the destination
+          directory/file is not given, the creator's default
+          directory is used.  rm will prompt the creator before
+          removing the file.
+
+Related topics: Rm, mkdir, rmdir.
+ 
+^#^
+Rm^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Rm
+        Usuage: Rm <file(s)>
+
+   Description: This command allows you to remove file(s).  Files can
+                use the token '*' as a wildcard.  If the destination
+                directory/file is not given, the creator's default
+                directory is used.  Rm will not prompt the creator
+                before removing the file.
+
+Related topics: rm, mkdir, rmdir.
+ 
+^#^
+rmdir^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: rmdir
+        Usuage: rmdir <directory>
+
+   Description: This removes a directory.  The directory must be empty
+                or command fails.  Directory can be any valid path.
+
+Related topics: path.
+ 
+^#^
+raise dead^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Raise Dead           Sphere: Necromancy               |
+ | Level:  18                     Cost: 18                       |
+ | Component: none.              Usage: raise dead who           |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to raise a dead person.     |
+ | The ghost or the corpse of the person, must be present. Any   |
+ | person raised by a raise dead will not lose as many stats,    |
+ | and the cleric gains experience.                              |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+remove curse^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Remove Curse         Sphere: Combat                   |
+ | Level:  2                      Cost: 2                        |
+ | Component:  None.             Usage: remove curse who         |
+ | Description:                                                  |
+ |                                                               |               
+ | The prayer will remove a curse off the recipient.             |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+resist^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Resist Spells        Sphere: Protection               |
+ | Level:  9                      Cost: 9                        |
+ | Component: shield and armour  Usage: resist <type> who        |
+ | Description:                                                  |
+ |                                                               |            
+ | This prayer will allow the cleric to resist spell effects, of |
+ | a specific element type.  Element types include: light,       |
+ | darkness, death, draining, earth, air, fire, water, cold,     |
+ | acid, lightning, poison, disease, fear, and charm. The spell  |
+ | lasts for about 1 minute for every two levels of cleric.      |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+restore^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ | Prayer: Restore          Sphere: Necromancy           |
+ | Level:  21                 Cost: 21                   |
+ | Component:  None.         Usage: restore who          |
+ | Description:                                          |
+ |                                                       |
+ | This prayer will heal the life essence of the prayer's|
+ | target. It will restore one level, that has been      |
+ | level drained by some dread beast, or spell.          |
+ |                                                       |
+ |                                                       |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+resurrect^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Resurrect            Sphere: Necromancy               |
+ | Level:  35                     Cost: 35                       |
+ | Component: none.              Usage: resurrect who            |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to resurrect a dead         |
+ | person. The dead person is brought to the presence of the     |
+ | cleric. They will not lose as many stats, be fully healed,    |
+ | and the cleric gains experience.                              |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+resist magic^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Resist Magic         |:  Description:                |:||
+ ||:| School: Abjuration           |:                              |:||
+ ||:| Cost:   18                   |:  This spell gives the caster |:||
+ ||:| Level:  18                   |:  a small resistance to magic.|:||
+ ||:| Usage:  resist magic         |:                              |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+rope trick^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Rope Trick           |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   4                    |:  This spell makes an inter-  |:||
+ ||:| Level:  2                    |:  -dimensional space that can |:||
+ ||:| Usage:  rope trick           |:  be climbed into. The rope   |:||
+ ||:|                              |:  can be raised and lowered to|:||
+ ||:| Related Spells:              |:  close the space.            |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+remove^#^
+SUBTOPIC-armour^#^
+                    -=[ Help ]=-
+
+       command: remove
+        Usuage: remove <item>
+
+   Description: Stop wearing armour or clothing.
+
+Related topics: drop, wear, wield, classes (man).
+ 
+^#^
+repair^#^
+SUBTOPIC-fighter^#^
+Command: repair
+
+SYNOPSIS
+	repair <armour name>
+
+DESCRIPTION
+	This skill allows you to repair all kinds of armour
+	and weapon types. Players are not always successful in
+	their attempts and may damage, rather than repair an item.
+
+See also: help fighter, man fighter
+
+^#^
+reincarnate^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Reincarnation        |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   18                   |:  This spell bring back a     |:||
+ ||:| Level:  18                   |:  player from the dead in the |:||
+ ||:| Usage:  reincarnate who      |:  form of a new creature. A   |:||
+ ||:|                              |:  creatures maximum stats     |:||
+ ||:| Related Spells:              |:  will depend on the new      |:||
+ ||:| Raise Dead, Resurrection     |:  form.                       |:||
+ ||:|  (which are cleric spells)   |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+rules^#^
+SUBTOPIC-player^#^
+SYNOPSIS: Rules for Player Conduct
+
+DESCRIPTION:
+        There are a few rules at MAGIA. They are as follows:
+
+        1) Read the manual 'man rp', that outlines certain
+           things about role playing. Afterall, this is a role
+           playing mud.
+
+        2) Don't interfear with other people's enjoyment of
+           their play. This means you're not just supposed to go
+           kill others for the fun of it, or just because they
+           annoyed you.
+
+ ****   3) Enjoy yourself! ..this is a place to have fun!
+
+        4) You may NOT use 'robots'
+
+        5) While you can have more than one character, having
+           them both on at the same time, or in the same party is
+           not permitted.
+
+        6) We do have limited player killing (PK). If you want to
+           to PK you need to read the manual, 'man pk'.
+
+        7) Swearing and obsene behaviour will not be tollerated
+           and you can have your player file removed, without warning,
+           for doing so.
+
+	8) Creators are NOT permitted to give out hints about quests,
+	   OR tell you information about your items, SO DONT ASK THEM!
+
+        It is a players responsibility to have read these rules,
+        and other associated help and manual files. Ignorance of
+        these rules is not an acceptable excuse for breaking them.
+
+        Players must be aware that they have no actual rights on
+        any mud they play, other than the right not to play.
+  
+ ****	Players who disobey any of these rules can have their character
+  	file removed without warning by the mud's Admin.
+
+
+        This file may change, without warning, at any time.
+
+        Angel, updated June 1998
+

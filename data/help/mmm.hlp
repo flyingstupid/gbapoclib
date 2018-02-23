@@ -1,0 +1,823 @@
+^#^
+main^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: main
+         Usage: main
+
+   Description: main tails the main error log file, /log/log.
+
+Related topics: log, debug, rlog.
+ 
+^#^
+mclone^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mclone
+         Usage: mclone
+                mclone <clone message>
+
+   Description: When the creator uses the clone command, they clone an
+                object and move it into their inventory, or into the
+                room.  The clone message is then echoed to the room. 
+                The message accepts two tokens. $name for the creator's
+                name, and $obj for the cloned object's name.  If no
+                clone message is given is defaults to "$name creates
+                $obj".
+
+       Example: mclone $name weaves a spell. Out of a mist appears a
+                $obj.
+
+Related topics: align, mhome, minvis, mtrans, mmin, min, mmout, mout,
+                edtitle, reveiw, title, pretitle, mdest.
+ 
+^#^
+mdest^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mdest
+         Usage: mdest
+                mdest <dest message>
+
+   Description: When a creator uses the dest command.  The dest message
+          is echoed to the room that the creator is present.  The
+          dest message can use two tokens.  $name for the creator's
+          name, and $obj for the object being dested.  If no dest
+          message is given, it defaults to "$name disintegrates $obj".
+
+       Example: mdest $name crushes the $obj in his hands.
+
+Related topics: align, mhome, mclone, minvis, mtrans, mout, mmin, mmout,
+                edtitle, review, title, pretitle.
+ 
+^#^
+mhome^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mhome
+         Usage: mhome
+                mhome <home message>
+
+   Description: When the creator uses the home command, they go to their
+                workroom.  The home message is echoed to the room the
+                creator leaves.  If no home message is given it defaults
+                to "heads home".
+
+       Example: mhome opens up a pit and dives into it.
+
+Related topics: align, mclone, minvis, mtrans, mmin, min, mmout, mout,
+                edtitle, review, title, pretitle, mdest.
+ 
+^#^
+min^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: min
+         Usage: min
+                min <movement message into room>
+
+   Description: When the creator is moved using move_player().  The
+                movement message is echoed to the room the creator
+                enters.  If no in movement message is given, it defaults
+                to "arrives".
+
+       Example: min zooms in on his flying carpet
+
+Related topics: align, mhome, mclone, minvis, mtrans, mout, mmin, mmout,
+                edtitle, review, title, pretitle, mdest.
+ 
+^#^
+minvis^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: minvis
+         Usage: minvis
+                minvis <invis name>
+
+   Description: When the creator uses the invis|vis command, they
+          effectively become invisible to players.  The creator's
+          name changes to their invis name.  If no invis name
+          is given, it defaults to "Someone".
+
+       Example: minvis Liz
+
+Related topics: align, mhome, mclone, mtrans, mmin, min, mmout, mout,
+                edtitle, review, title, pretitle, mdest.
+ 
+^#^
+mkdir^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mkdir
+         Usage: mkdir <directory>
+
+   Description: This makes a new directory.  Directory can be any valid
+                path.
+
+Related topics: path.
+ 
+^#^
+mmin^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mmin
+         Usage: mmin
+                mmin <magical movement message into room>
+
+   Description: When the creator is moved magically.  Using a teleport
+                spell for example.  The magical movement message is
+                echoed to the room the creator enters.  If no in magical
+                movement message is given, it defaults to "appears in a
+                puff of smoke"
+
+Related topics: align, mhome, mclone, minvis, mtrans, min, mmout, mout,
+                edtitle, reveiw, title, pretitle, mdest.
+ 
+^#^
+mmout^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mmout
+         Usage: mmout
+                mmout <magical movement message out of room>
+
+   Description: When the creator is moved magically.  Using a teleport
+                spell for example.  The magical movement message is
+                echoed to the room the creator leaves.  If no in magical
+                movement message is given, it defaults to "disappears in
+                a puff of smoke"
+
+Related topics: align, mhome, mclone, minvis, mtrans, min, mmin, mout,
+                edtitle, reveiw, title, pretitle, mdest.
+ 
+^#^
+more^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: more
+         Usage: more
+                more <file>
+
+   Description: The more command types a file, 1 page at a time to the
+                creator.  If no file is given, it defaults to the room
+                the creator is in.  The more command has the following
+                interactive help file,
+
+      -=[ More Help ]=-
+ Command         Notes
+   u,p      One page up. 
+ <cr>,n     One page down. 
+   b,f      Up/Down 5 lines.
+    #       Goto line #. 
+  +/-#      Jump # lines up/down.
+    !       !external command.
+   s,S      Save "+more_filename+", S is with overwrite.
+    d       Dump page to file, if exists, appends to file.
+    r       Search & Replace in new file.
+    >file   Open another 'mored' file.
+   o        Toggle prompt line off|on, useful for screen captures.
+    >#      Change to more number #.
+    l       Number of lines in file.
+ q,x,Q,X    quit more; Quit all mored files.
+  /str      Search for string \"str\"
+    c       clip page to clipboard
+    m#      Screen Mode, # lines (Default: 20 lines)
+  other     Rewrite page.
+
+
+Related topics: cat, Cat, tail.
+ 
+^#^
+mout^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mout
+         Usage: mout
+                mout <movement message out of room>
+
+   Description: When the creator is moved using move_player().  The
+                movement message is echoed to the room the creator
+                leaves.  If no in movement message is given, it defaults
+                to "leaves".
+
+       Example: mout floats
+
+Related topics: align, mhome, mclone, minvis, mtrans, min, mmin, mmout,
+                edtitle, review, title, pretitle, mdest.
+ 
+^#^
+mtrans^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mtrans
+         Usage: mtrans
+                mtrans <trans message>
+
+   Description: When the creator uses the trans command, they transport
+                a player to their presence.  The transed player is
+                echoed the trans message.  If no trans message is given,
+                it defaults to "You are magically transferred
+                somewhere."
+
+       Example: mtrans A hand reaches down and picks you up.
+
+Related topics: align, mhome, mclone, minvis, mmin, min, mmout, mout,
+                edtitle, review, title, pretitle, mdest.
+ 
+^#^
+mv^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: mv
+         Usage: mv <file1>
+                mv <file1> <file2>
+
+   Description: This command allows you to move file(s).  Files can use
+          the token '*' as a wildcard.  If the destination
+          directory/file is not given, the creator's default
+          directory is used.  mv will not overwrite a file with
+          the same name.  If it cannot overwrite, it will not move
+          the file.
+
+Related topics: copy, Copy, Mv.
+ 
+^#^
+Mv^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Mv
+         Usage: Mv <file1>
+                Mv <file1> <file2>
+
+   Description: This command allows you to move file(s).  Files can use
+          the token '*' as a wildcard.  If the destination
+          directory/file is not given, the creator's default
+          directory is used.  Mv will overwrite a file with the
+          same name.
+
+Related topics: copy, Copy, mv.
+ 
+^#^
+minotaur^#^
+SUBTOPIC-races^#^
+     ::: Minotaurs :::
+
+Minotaurs are gargantuan brutes over seven feet in height. They
+have soft fur covering their massive mmuscles; the fur ranges
+from a red brown to almost black. Their faces are brutish and
+ugly by human standards, reminiscent of those of bulls. They have
+short horns that grow from the edges of their foreheads to a
+length of six to twelve inches for the females and one to two
+feet for the males.
+
+Minotaurs firmly believe in the superiority of their race and in
+their ultimate place as the rulers of the world. It is their
+destiny to bring the reset of the world under their rule. They
+will go to any lengths to achieve domination over others. They
+are ruthless in battle and cold in their justice. They believe
+that the weak should perish and that might proves right. It is,
+to them, the natural process of life.
+^#^
+mountain dwarf^#^
+SUBTOPIC-races^#^
+     ::: Mountain Dwarves :::
+
+Mountain dwarves have light brown skin and smooth cheeks and
+bright eyes. Their hair is brown, black, gray, or occasionally
+white. They favour earth tones in their clothing.  Since mountain
+dwarves have a wide vocal range, communities often form chrouses
+of dwarves that sing the traditional songs of the mountain
+dwarves. These songs can sometimes be heard echoing though the
+mountains where the dwarves live. Mountain dwarves are as
+stubborn as their underground cousins (the hill dwarves, though
+each group clains to be more stubborn than the other).
+
+
+As a player., mountain dwarves can drink much more than other races,
+and hence heal much faster. All dwarves are excelent in combat and
+are granted a weapon class bonus for their right hand weapons. Mountain
+dwarves are also excelent armourers and weapon smiths, so their
+abilities far exceed other races in this regard.
+
+^#^
+multiple^#^
+SUBTOPIC-fighter^#^
+     Multi Attack Skill
+
+This skill allows a fighter to attack multiple times against
+one monster. His 'multi attack' stat is compared to the
+monster's dexterity. If the out come favours the fighter, he
+gains an extra attack, else if it favours the monster, the
+fighters attacks end there. Up to 5 attacks in a single round
+are possible. 
+
+Note that monsters have this skill also. When a monster
+attacks a player its 'multi attack' skill is compared to the
+player's dexterity. If the outcome favours the player, the
+monster has no more attacks beyond the first. Otherwise,
+another attack is made. Up to 5 attacks can be made against a
+player, identical in nature to the player's 'multi attack'
+routines. 
+
+
+
+     Multi Opponent Skill
+
+When more than one opponent is attacking you, a comparison is
+made between the next opponent's dexterity, and your (or
+monster's) 'multi attack' skill. If the out come favours you
+then you attack that extra attacker. This may be done for as
+many attackers attack you beyond the first. If the attacker's
+result is higher than yours then you miss out on the extra
+attack against the second opponent. EG:
+
+     Fred is attacking 3 giants.
+     Fred has a 'multi attack' skill of 10.
+     The giants have a dexterity of 12.
+
+     Fred is attacked by all the giants at once.
+     Compare Fred's 'multi attack' skill vs giant #2's dex.
+     If Fred's skill is higher, he hits giant #2.
+     Compare Fred's 'multi attack' skill vs giant #3's dex.
+     If Fred's skill is higher, he hits giant #3 also.
+
+     If the 1st giant's dex beats Fred's 'multi attack', he
+     misses the giant.
+
+Note that monsters have this skill as well as players. In this
+instance, if Fred was a monster, and there were 3 players
+attacking him, then it is possible for him to attack ALL the
+extra players attacking him! So, watch out all you Newbies who
+kill monsters with 20th level players. That monster you're
+attacking with him CAN hit you as well!
+
+                    Angel
+^#^
+monster summon 2^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Monster Summon 2     |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   16                   |:  This spell summons a monster|:||
+ ||:| Level:  16                   |:  that will aid the caster in |:||
+ ||:| Usage:  monster summon 2     |:  fighting.  The summoned     |:||
+ ||:|                              |:  monster will automatically  |:||
+ ||:| Related Spells:              |:  follow the caster.          |:||  
+ ||:| Monster Summon 1,            |:                              |:||
+ ||:| Monster Summon 3.            |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+monster summon 3^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Monster Summon 3     |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   22                   |:  This spell summons a monster|:||
+ ||:| Level:  22                   |:  that will aid the caster in |:||
+ ||:| Usage:  monster summon 3     |:  fighting.  The summoned     |:||
+ ||:|                              |:  monster will automatically  |:||
+ ||:| Related Spells:              |:  follow the caster.          |:||  
+ ||:| Monster Summon 1,            |:                              |:||
+ ||:| Monster Summon 2.            |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+magic missile^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Magic Missile        |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   1                    |:  This spell causes small     |:||
+ ||:| Level:  1                    |:  magical missiles to leap    |:||
+ ||:| Usage:  magic missile who    |:  from the hand of the caster |:||
+ ||:|                              |:  hitting the appropriate     |:||
+ ||:| Related Spells:              |:  target.                     |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+minor malison^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Minor Malison        |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   7                    |:  The spell sprays the        |:||
+ ||:| Level:  7                    |:  victim with pure evil.      |:||
+ ||:| Usage:  minor malsion who    |:                              |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+mks^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Mordenkainen's Sword |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   7                    |:  This spell evokes a sword   |:||
+ ||:| Level:  7                    |:  that fights with the caster.|:||
+ ||:| Usage:  mks                  |:  The sword fights at a level |:||
+ ||:|                              |:  that is half the caster's   |:||
+ ||:| Related Spells:              |:  level.                      |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+monster summon 1^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Monster Summon 1     |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   11                   |:  This spell summons a monster|:||
+ ||:| Level:  11                   |:  that will aid the caster in |:||
+ ||:| Usage:  monster summon 1     |:  fighting.  The summoned     |:||
+ ||:|                              |:  monster will automatically  |:||
+ ||:| Related Spells:              |:  follow the caster.          |:||  
+ ||:| Monster Summon 2,            |:                              |:||
+ ||:| Monster Summon 3.            |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+manuals^#^
+SUBTOPIC-general^#^
+                    -=[ Manuals ]=-
+
+     Command: man
+       Usage: man <topic>
+	      man <sub category>
+
+    Description: Help gives a brief description on a topic.  Manuals
+           are a lot more in depth, and give a lot more detail.
+           It is recommended that you read the manuals available
+           to you.
+
+           The manual sub category will appear at the top of your screen.
+
+^#^
+move silently^#^
+SUBTOPIC-thief^#^
+		-=[ Move Silently ]=-
+
+	Command: move silently
+	  Usage: move silently
+
+    Description: This command allows you to stealthily sneak from place to
+                 place.  People may not see you coming and going.
+
+ Related Topics: hide in shadows, backstab, steal.
+^#^
+multi attack^#^
+SUBTOPIC-ranger^#^
+Command: multi attack
+
+SYNOPSIS
+	Ranger skill
+
+DESCRIPTION
+	The multi attack skill enables the ranger to attack an opponent
+	more than once, to a maximum of five times, per combat round.
+
+	See also help 'multiple' in the fighter help sub topic.
+
+
+See also: help ranger, man ranger
+^#^
+multi opponent^#^
+SUBTOPIC-ranger^#^
+Command: multi opponent
+
+SYNOPSIS
+	Ranger skill
+
+DESCRIPTION
+	This skill enables the ranger to attack more than one opponent
+	in a single attack round. This is also the same skill as the
+	fighter class.
+
+See also: help ranger, man ranger
+^#^
+mail^#^
+SUBTOPIC-player^#^
+      -=[ Mail Help ]=-
+
+     ?   this help
+     f   forward mail
+     r   reply mail
+     h   headers
+     m   mail
+     p   mail, and mark it as confidential (private)
+     d   delete
+     #1  read mail number #1
+    +/-  move current message number up or down
+    <cr> read current message
+     c   clip mail to clipboard
+    x,q  quit
+    oops restore a mail deletion (maybe)
+   l   log mail to mailbox
+
+^#^
+macro^#^
+SUBTOPIC-player^#^
+		-=[ Help ]=-
+	Command: do
+	  Usage: do
+
+   Description : The macro command for the mud is known as 'do', taken from
+		 the original command from Lars Penji's 2.4.5 LPMud.
+
+   		 To see more about how to use macro's, try 'help do'.
+
+^#^
+muds^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ muds
+
+SYNOPSIS
+ Get a list of muds using the Intermud 3 protocol.
+
+
+^#^
+money^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       Command: money
+         Usage: money
+   Description: This will show you how much money you currently have
+                in your inventory.
+
+
+Related topics: inventory.
+
+^#^
+meteorswarm^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Meteor Swarm         Sphere: Combat                   |
+ | Level:  27                     Cost: 27                       |
+ | Component:  None.             Usage: meteorswarm              |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer causes a swarm of meteors to pound into the area. |
+ | Everyone is effected except the cleric, and the cleric's      |
+ | affiliated party.                                             |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+magic mouth^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Magic Mouth          |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   10                   |: This spell creates a magical |:||
+ ||:| Level:  10                   |: mouth that can communicate a |:||
+ ||:| Usage:  magicmouth           |: message to those who walk by.|:||
+ ||:| Components: None             |:                              |:||
+ ||:| Related Spells: None         |: Warning: Offensive language  |:||
+ ||:|                              |: is not an acceptable message |:||
+ ||:|                              |: for such spells.             |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+meteor swarm^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Meteor swarm         |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   27                   |: This spell is an area effect |:||
+ ||:| Level:  27                   |: that causes a swarm of       |:||
+ ||:| Usage: meteor swarm          |: meteors to pound the area.   |:||
+ ||:| Components: None             |:                              |:||
+ ||:| Related Spells: None         |: Everyone is effected, bar    |:||
+ ||:|                              |: the mage & his party         |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+ _
+^#^
+mage spells^#^
+SUBTOPIC-mage^#^
+	Mage Spells List by Level/School
+
+School	Level	Spell
+-----------------------------------------------
+Illusion	 1	Ventriloquism
+		 4	Phantom armour
+		 5	Phantasm
+		 8	Invisibility
+		10	Improved phantasm
+		10	Suggest
+		11	Shadow door
+		12	Phantasmal force
+		14	Scare
+		15	Shadow monster
+		15	Visual illusion
+		18	Alter reality
+		25	Permanent illusion
+-----------------------------------------------
+Charm
+		 2	Charm animal
+		12	Charm person
+		12	Hold person
+		15	Demand
+		15	Hold monster
+		18	Charm monster
+		20	Fod (finger of death)
+-----------------------------------------------
+Conjuration
+		 8	Comet
+		10	Magic mouth
+		11	Monster summon 1
+		13	Acid rain
+		13	Shooting stars
+		14	Limited wish
+		15	Pws (power word stun)
+		16	Monster summon 2
+		22	Monster summon 3
+		25	Wish
+		30	Pwk (power word kill)
+-----------------------------------------------
+Abjuration
+		 3	Shield
+		 5	Dispel illusion
+		 7	Dispel conjuration
+		10	Dispel magic
+		14	Spell immunity
+		14	Stoneskin
+		18	Resist magic
+		20	Anti magic shell
+-----------------------------------------------
+Necromancy
+		 1	Sbf (sin's black flame)
+		 5	Chill touch
+		 7	Contagion
+		 7	Minor malison
+		 7	Wraith form
+		10	Bbb (beltyn's burning blood)
+		12	Vampiric touch
+		18	Reincarnate (reincarnation)
+		35	Death spell
+		35	Energy drain
+-----------------------------------------------
+Evocation
+		 1	Magic missile
+		 5	Acid arrow
+		 7	Mks (mordenkainen's sword)
+		 9	Lightning bolt
+		10	Coc (cone of cold)
+		10	Fire ball
+		12	Fire shield
+		15	Fhain lightning
+		15	Flobe of invulnerability (minor)
+		17	Ice storm
+		25	Globe of invulnerability (major)
+		25	Prismatic spray
+		27	Meteor swarm
+		28	Prismatic wall
+		30	Prismatic sphere
+-----------------------------------------------
+Divination
+		 1	Detect illusion
+		 2	Detect secret doors
+		 3	Detect magic
+		 4	Detect immunities
+		 4	Detect magic resistance
+		 5	Identify
+		 6	Locate
+		10	Wizard eye
+		12	Scry
+-----------------------------------------------
+Alteration
+		 2	Burning hands
+		 2	Rrope trick
+		 5	Deep pocket
+		 8	Teleport
+		 9	Strength
+		12	Enchanted weapon
+		12	Enlarge
+		12	Friends
+		12	Teleport other
+		12	Warp
+		19	Teleport party
+		21	Warp other
+		26	Disintegrate
+		29	Warp party
+-----------------------------------------------
+List compiled by Magus Pointer
+List effective as of April 1998
+-----------------------------------------------
+^#^
+mage-spells-list^#^
+SUBTOPIC-mage^#^
+SYNOPSIS: Spells and Skills
+
+DESCRIPTION:
+	A spell, or prayer, is a supernatural ability. Spells are granted soley
+	through study and understanding of magical energies, whereas priests
+	gain their power directly from a deity.
+
+
+	For mages, their spell power is broken up into schools of magic, which are:
+	Illusion, Charm, Conjuration, Abjuration, Necromancy, Evocation, Divination,
+	and Alteration
+
+	For cleric/priests, their spell/prayer power is broken up into spheres
+	of influence, which are: Healing, Necromancy, Combat, Stellar, 
+	Protection, Nature and Divination
+
+	Each skill has its own spell points. A player actual level has nothing to do
+	with casting spells. 
+
+	Example
+	If a player wants to cast a detect evil spell on something, he needs a
+	divination sphere level of 1, and 1 spell points (sp) in divination to cast it.
+
+	If a mage wants to cast a fireball spell, he needs an evocation level of
+	10, and 10 sp in evocation to cast it.
+
+	This ensures that if a player of 20th level suddenly joins a class, he does not
+	automatically have spell ability. He must advance his skills in order to 
+	be able to cast spells.
+
+	To advance your spell ability you must increase the spell skill you want.
+	It's no good advancing healing sphere if you want to cast combat spells!
+
+
+
+See also: man mage, man cleric
+	  help mage, help cleric
+^#^
+morale^#^
+SUBTOPIC-bard^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:   Morale              |:  Description:                |:||
+ ||:| School:  Song                |:                              |:||
+ ||:| Cost:    8                   |:  Morale gives combat bonuses |:||
+ ||:| Level:   8                   |:  to all party members present|:||
+ ||:| Usage:   morale              |:  in the same way a prayer    |:||
+ ||:|                              |:  spell does.                 |:||
+ ||:| Related Spells: Prayer       |:                              |:||
+ ||:|                 Bless        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+

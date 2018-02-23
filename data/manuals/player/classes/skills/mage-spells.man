@@ -1,0 +1,109 @@
+	Mage Spells List by Level/School
+
+School	Level	Spell
+-----------------------------------------------
+Illusion	 1	Ventriloquism
+		 4	Phantom armour
+		 5	Phantasm
+		 8	Invisibility
+		10	Improved phantasm
+		10	Suggest
+		11	Shadow door
+		12	Phantasmal force
+		14	Scare
+		15	Shadow monster
+		15	Visual illusion
+		18	Alter reality
+		25	Permanent illusion
+-----------------------------------------------
+Charm
+		 2	Charm animal
+		12	Charm person
+		12	Hold person
+		15	Demand
+		15	Hold monster
+		18	Charm monster
+		20	Fod (finger of death)
+-----------------------------------------------
+Conjuration
+		 8	Comet
+		10	Magic mouth
+		11	Monster summon 1
+		13	Acid rain
+		13	Shooting stars
+		14	Limited wish
+		15	Pws (power word stun)
+		16	Monster summon 2
+		22	Monster summon 3
+		25	Wish
+		30	Pwk (power word kill)
+-----------------------------------------------
+Abjuration
+		 3	Shield
+		 5	Dispel illusion
+		 7	Dispel conjuration
+		10	Dispel magic
+		14	Spell immunity
+		14	Stoneskin
+		18	Resist magic
+		20	Anti magic shell
+-----------------------------------------------
+Necromancy
+		 1	Sbf (sin's black flame)
+		 5	Chill touch
+		 7	Contagion
+		 7	Minor malison
+		 7	Wraith form
+		10	Bbb (beltyn's burning blood)
+		12	Vampiric touch
+		18	Reincarnate (reincarnation)
+		35	Death spell
+		35	Energy drain
+-----------------------------------------------
+Evocation
+		 1	Magic missile
+		 5	Acid arrow
+		 7	Mks (mordenkainen's sword)
+		 9	Lightning bolt
+		10	Coc (cone of cold)
+		10	Fire ball
+		12	Fire shield
+		15	Fhain lightning
+		15	Flobe of invulnerability (minor)
+		17	Ice storm
+		25	Globe of invulnerability (major)
+		25	Prismatic spray
+		27	Meteor swarm
+		28	Prismatic wall
+		30	Prismatic sphere
+-----------------------------------------------
+Divination
+		 1	Detect illusion
+		 2	Detect secret doors
+		 3	Detect magic
+		 4	Detect immunities
+		 4	Detect magic resistance
+		 5	Identify
+		 6	Locate
+		10	Wizard eye
+		12	Scry
+-----------------------------------------------
+Alteration
+		 2	Burning hands
+		 2	Rrope trick
+		 5	Deep pocket
+		 8	Teleport
+		 9	Strength
+		12	Enchanted weapon
+		12	Enlarge
+		12	Friends
+		12	Teleport other
+		12	Warp
+		19	Teleport party
+		21	Warp other
+		26	Disintegrate
+		29	Warp party
+-----------------------------------------------
+List compiled by Magus Pointer
+List effective as of April 1998
+-----------------------------------------------

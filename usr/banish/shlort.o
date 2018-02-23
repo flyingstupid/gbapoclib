@@ -1,0 +1,155 @@
+#0:0
+create_room "players/alena/workroom"
+name "shlort"
+alias_name "Shlort"
+alt_name "Laen"
+plural 0
+adjectiv 0
+long_desc "He looks funny.\n"
+extra_info ""
+smell_msg 0
+languages_known ({"common",})
+level_drained 0
+ghost 0
+dead 0
+hp_displ 1
+whimpy 0
+weapon_prof ([])
+climb 0
+swim 0
+two_weapon 0
+unarmed 0
+multi_attack 0
+armouring 0
+weapon_smith 0
+multi_opponent 0
+stealth 0
+locks 100000
+steal 0
+backstab 0
+appraisal 0
+traps 0
+disguise 0
+healing_sphere 0
+necromancy_sphere 0
+combat_sphere 0
+stellar_sphere 0
+protection_sphere 0
+nature_sphere 0
+divination_sphere 0
+healing_sphere_points 0
+necromancy_sphere_points 0
+combat_sphere_points 0
+stellar_sphere_points 0
+protection_sphere_points 0
+nature_sphere_points 0
+divination_sphere_points 0
+illusion 0
+charm 0
+conjuration 0
+abjuration 100
+necromancy 0
+evocation 0
+divination 100
+alteration 0
+illusion_points 0
+charm_points 0
+conjuration_points 0
+abjuration_points 200
+necromancy_points 0
+evocation_points 0
+divination_points 200
+alteration_points 0
+weapon_spec 0
+sword_spec 0
+crushing_spec 0
+lance_spec 0
+shield_spec 0
+horse_info 0
+bowyer 0
+clairsentient 0
+psychokinetic 0
+psychometabolic 0
+psychoportive 0
+telepathic 0
+metapsionic 0
+psionic_points 0
+max_psionic_points 0
+psi_skill_points 0
+max_psi_skill_points 0
+psi_skills 0
+psi_skills_list 0
+level 20
+msgin "arrives, therefore he is"
+msgout "dances off"
+mmsgin "shimmers in the air, becoming a solid form in front of your eyes."
+mmsgout "wavers in air, phasing in and out of exsistance, finally he dissappears."
+race "elf"
+classes ({"fighter","thief","mage",})
+hp 1100060
+max_hp 1100060
+experience 186
+money 152
+age 368591
+alignment 100
+gender 1
+is_invis 0
+combat 10
+dexterity 10000
+intelligence 10000
+wisdom 3
+charisma 3
+constitution 100000
+strength 3
+max_combat 25
+max_dexterity 25
+max_intelligence 25
+max_wisdom 25
+max_charisma 25
+max_constitution 25
+max_strength 25
+cmd_paths ({"/bin/player/","/skills/thief/","/skills/mage/","/bin/skills/classes/mage/",})
+env_vars 0
+party 0
+pinger 0
+lastname ""
+special_title ""
+birth_date "/Firstday of Hanael 4:41 am in the year 131, being the Second Age of Magic"
+spouse "none"
+realname 0
+email "mikeside@harborside.com"
+last_login_time 868737837
+last_login "Sat Jul 12 15:03:57 1997"
+called_from_ip "204.214.110.236"
+enter_room "players/shlort/workroom"
+ooc_enter_room 0
+security_level 20
+pretitle ""
+title "locks himself behind his iron shield."
+al_title "(Hades, Aggy)"
+password "ZK1vUHIfJ.KZU"
+savings 0
+total_exp 186
+intoxicated 0
+stuffed 0
+soaked 0
+scar 0
+tot_value 0
+guild_string "No"
+affiliations ({})
+alias_commands ({"pl","pick lock on","sr","search room",":","echo Shlort","tal","taalandrix",";","echo Shlort",})
+autoload ({})
+saved_items ({})
+ansi_on 1
+URL 0
+quest_points 0
+quests ({})
+current_quest 0
+channels ({"OOC","wiz","gnome","common","lpc","elf","mage","fighter","thief","dwarf","halfling","just us","just us'","taalandrix","helpme","wild","all-god","sfc","jc",})
+intermud3_channels_blocked ({"imud_gossip","imud_code",})
+domain_level 0
+msgtrans "Shlort presses a button and you appear next to him, he grins."
+msghome "fades in and out, dissappearing before your eyes, he vanishes with a *pop*"
+mclone "$obj creates a $name."
+mdest "$obj destructs a $name."
+edtitle "is editing at the moment, mail him if you need him."

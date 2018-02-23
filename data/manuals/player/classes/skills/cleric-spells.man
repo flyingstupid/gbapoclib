@@ -1,0 +1,119 @@
+
+        Cleric Spells List by Level/School
+
+Sphere  Level   Spell
+----------------------------------------------------
+Healing Sphere
+
+	 1 	Cure/Cause Wounds
+	 4 	Cure/Cause Light Wounds
+	 5 	Cure/Cause Blindnes
+	 3	Cure/Cause Deafness    
+	 7	Cure/Cause Disease
+	 7 	Cure/Cause Minor Wounds
+	10	Cure/Cause Medium Wounds
+	13	Cure/Cause Serious Wounds
+	16	Cure/Cause Critical Wounds
+	19	Cure/Cause Major Wounds
+	23	Cure/Cause Heavy Wounds
+	30	Heal
+	30	Harm
+
+
+----------------------------------------------------
+Necromancy Sphere
+
+	 3 	Slow Poison
+	 8 	Neutralize Poison
+	11 	Animate Skeleton
+	14 	Animate Zombie
+	14 	Poison
+	18 	Raise Dead
+	21 	Restore
+	30 	Death Curse
+	30/35 	Slay Living
+	35 	Resurrect
+
+----------------------------------------------------
+Combat Sphere
+
+	 1 	Bless
+	 1 	Curse
+	 2 	Remove Curse
+	 5 	Prayer 
+	 4 	Spiritual Hammer
+	 8 	Holy Strike
+	18 	Flamestrike
+	27 	Meteor Swarm
+	30 	Holy Word
+	
+----------------------------------------------------
+Stellar Sphere
+
+	 1 	Lt (light)
+	 8 	Starburst
+	12 	Dimensional Fold Gem
+	16 	Dimensional Fold Other Gem
+	16 	Time Shift Gem
+	23 	Dimensional Fold Party Gem
+	25 	Time Shift Other Gem
+	30 	Gate
+	33 	Time Shift Party Gem
+	
+
+
+
+----------------------------------------------------
+Protection Sphere
+
+	9 	Resist Light
+	9 	Resist Cold
+	9 	Resist Darkness
+	9 	Resist Acid
+	9 	Resist Death
+	9 	Resist Lightning       
+	9 	Resist Draining
+	9 	Resist Poison
+	9 	Resist Earth
+	9 	Resist Disease
+	9 	Resist Fire
+	9 	Resist Fear
+	9 	Resist Water
+	9 	Resist Charm
+	9 	Resist Air
+
+
+----------------------------------------------------
+Nature Sphere
+
+	 1 	EBL (Ever Burning Log) Branch
+	 3 	Animal Friendship
+	 6 	Goodberry Berry
+	 7 	Barkskin Branch
+	 8 	Call Lightning
+	 8 	Create Food
+	 8 	Create Water Bottle
+	 8 	Plant Door Tree
+	 9 	Plant Growth Seed/Berry
+	11 	STS (Sticks to Snakes) Branch
+	18 	Fire Storm                     
+	20 	Earthquake
+
+
+----------------------------------------------------
+Divination Sphere
+
+	 1 	Detect Illusion
+	 4 	Detect Immunities
+	 4 	Detect Magic Resistance    
+	 3 	Detect Magic
+	 2 	Detect Secret Doors
+	 6 	Locate
+	 5 	Identify
+	12 	Scry
+
+	.
+-----------------------------------------------
+List compiled by High Priest Garion of the All-God
+List effective as of April 1998
+-----------------------------------------------

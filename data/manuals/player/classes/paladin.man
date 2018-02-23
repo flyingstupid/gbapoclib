@@ -1,0 +1,216 @@
+CONCEPT
+     Paladin, sub-class of Fighter
+
+DESCRIPTION
+     A paladin is a knight of a holy order, in service to a god.
+     Where a cleric serves his god through worship and prayer and
+     deeds of faith, a paladin serves his god through his honour,
+     combat, and deeds of chivalry. 
+
+     Paladin are not permitted to join other classes, like mage,
+     or thief. And while they have both fighter and clerical
+     skills and spells they only have to pay x1 the exp cost,
+     rather than the x2-3 exp cost.
+
+     Paladin gain 12 hit points per advancement of constitution.
+     When a player becomes a paladin, his original hit points are
+     recalculated to this new hp multiplier.
+
+RACES
+     Only certain elvish races, grey elves, high elves, half elves,
+     and humans may become holy knights, paladin. It is thought that
+     some mountain dwarves have earned the privledge, but this is rare.
+
+
+PALADIN GODS AND GUILDS
+     Orders of holy knights, the paladin, are known to serve:
+          The All-God, 
+     A paladin always gives 10% of all his earnings to the
+     church to further the cause he serves.
+
+PALADIN ALIGNMENT   
+     Law and good deeds are the meat and drink of paladin. If a
+     paladin should ever become of evil alignment it is known
+     that the god he serves will serve his full wrath and justice
+     upon him. This usually means death for the paladin.
+
+PALADIN ARMOUR
+     To the paladin, armour is as much as a badge of station as
+     it is a means of protection. Thus, a paladin will always
+     seek to possess the very best and finest-quality armour the
+     paladin is able to own. In this endeavour, appearance is as
+     important as function, so engraving, inlaying, and
+     decoration of the armour will always be sought. Plate armour
+     is the paladin's first choice; other preferences ranking
+     beneath that are (in order of desirability) plate mail,
+     banded or splint mail, chain mail, scale mail, and ring
+     mail. Leather, studded leather, and padded armour are the
+     dress of thieves and peasants, and such are beneath the
+     paladin's station, such that the paladin will not wear these
+     armour types. 
+
+
+PALADIN CODE OF HONOUR
+     Paladin must follow a code of conduct and ethics, akin to
+     chivalry. Upon being sworn to knighthood, the paladin must
+     pledge himself or herself to this code. Failure to sustain
+     the oath is not sufficient reason to revoke knighthood
+     unless the deed is evil. In this case, the paladin's god
+     strikes the paladin dead.
+
+     A paladin seeks to sustain the virtues and code of chivalry.
+     These knightly virtues are these:
+          Liberality          Honour              Good Faith
+          Glory               Unselfishness       Pride
+          Courtesy            Bravery
+          
+          Noble service cheerfully rendered
+          Respect for all peers and equals
+          Honour to all above your station
+          Obedience and respect from all beneath your station
+          Courtesy to all ladies (if the paladin is male)
+          Combat is glory
+          Death before dishonour
+
+PALADIN SKILLS AND ABILITIES
+     All Paladin gain the following fighter skills: Armouring,
+     Multi attack, Multi opponent, Weaponsmith. See also 'help fighter'.
+
+     All Paladin gain access to the following clerical spheres
+     through their worship of the All-God: Combat sphere, Healing
+     sphere, Protection sphere. The paladin must be of good
+     alignment to call upon these spells from his god. See also
+     'help cleric' for help on these clerical spheres.
+
+     Paladin radiate a protection from evil aura; a divine aura
+     which aids and protects the paladin somewhat from evil.
+
+     Paladin are able to detect evil, at will, when they
+     concentrate upon a desired creature.
+
+     A paladin is immune to disease, and is able to cure disease
+     once for every 6 levels in an hour of playing time.
+
+     Upon reaching the title of Chevalier (16th level) the
+     paladin may call forth a magical steed, blessed by the
+     gods with strength and intelligence. An empathic bond
+     exists between this steed and the paladin so that the
+     horse is able to perform actions by his side. 
+     Commands: follow, stay, get, drop, kill, leave
+
+     The steed may also be named by the paladin, and may also
+     have its personalised description. 
+     Command: 'name steed'
+
+     The gods bring great wrath on those paladin who choose to
+     slay their steeds. Gods are known to strike down dead any
+     paladin who has done this.
+
+     Paladin are incredible horsemen. When they attack from horseback
+     a paladin gain additional damage dependant upon their level.
+
+     When a paladin finds a weapon truely blessed and holy in the
+     sight of their god, they gain the benefit of magic resistance, 
+     as well as bonuses in damage when fighting evil opponents!
+
+
+
+
+PALADIN TITLES
+     ------------------------------------
+      Level         Title
+     ------------------------------------
+      1          the Novice Horseman
+      2          the Simple Lancer
+      3          the Prominent Armiger
+      4          the Famed Armiger
+      5          the Simple Esquire
+      6          the Skilled Esquire
+      7          the Prominent Esquire
+      8          the Gallant
+      9          the Noble Warder
+     10          the Holy Warder
+     11          the Saintly Warder
+     12          the Guardian
+     13          the Noble Guardian
+     14          the Holy Guardian
+     15          the Saintly Guardian
+     16          the Chevalier
+     17          the Noble Chevalier
+     18          the Holy Chevalier
+     19          the Saintly Chevalier
+     20          the Noble Justicar
+     21          the Holy Justicar
+     22          the Saintly Justicar
+     23          the Noble Knight
+     24          the Holy Knight
+     25          the Saintly Knight
+     26          the Guardian of the Faith
+     27          the Keeper of the Faith
+     28          the Protector of the Faith
+     29          the Defender of the Faith
+     30          the Paladin
+     31          the Noble Paladin
+     32          the Holy Paladin
+     33          the Saintly Paladin
+     34          the Chosen Paladin of the All-God
+
+     Pretitles after approximately 30th level include: Captain,
+     Major, Colonel, General, Marshall, Knight Marshall, Sir, and
+     Lord.
+
+
+PALADIN WEAPONS
+     All Paladin are expert in weapon use. Their training and
+     honour revolves around the use of three weapon types - the
+     sword, crushing weapons like the footmans' mace and flail,
+     and, of upmost importance, the lance. In tournaments a
+     knights, and indeed a paladin's honour in battle are
+     symbolised by his prowess in these weapons above all others.
+     Paladin are not limited in which weapons they can use, but
+     these weapons are preferred above others, such that a
+     paladin will seek proficiency in these weapons before
+     learning other weapons. These weapons are the longsword,
+     shortsword, scimitar, lance, broadsword, bastardsword,
+     footmans flail, horsemans flail, footmans mace, horsemans
+     mace, and militarypick. 
+
+
+    A paladin receives the greatest damage bonus when using a lance,
+    and even more so when he is mounted. Next follows his sword, and
+    finally his mace or other such weapon.
+
+     Weapons that deal out damage at a distance (including pole
+     arms, missile weapons, and two-handed weapons) call into
+     question the paladin's personal bravery, and such are
+     avoided by all except the most powerful paladin whose honour
+     of combat at arms is unquestionable. Only paladin of greater
+     than 15th level wield such weapons.
+
+     When you begin training as a Paladin you forsake all of your
+     previous training, and begin afresh in the military-style of
+     combat taught by your Knight Commander. Thus, when you join, all
+     of your weapon skills are set to zero, and you will first learn to
+     use the lance. This also means you are required to find a lance with
+     which to train.
+
+     A paladin has three skills which increase his damage when
+     he uses these weapons: sword spec (sword specialisation),
+     lance spec (lance specialisation), crushing spec (crushing
+     weapon specialisation).
+
+     A paladin also uses his shield as a weapon in combat. A
+     player's skill in the use of a shield in this manner is
+     reflected by the skill of shield spec. As with sword spec,
+     etc, the higher this skill, the more damage is done (shield
+     specialisation).
+
+
+HISTORY
+     Originally created for Heaven7 development as an example of
+     a guild for the v2.08 release, based on the GUMBImud
+     cavalier's guild by Angel (formerly Archangel).
+
+AUTHOR
+     Angel, November 1994
+     Updated April 1998

@@ -1,0 +1,20 @@
+When a player dies, only two files are utilised, along with the choice of
+many script files.
+
+death_mark.c is cloned to the player when he/she dies.
+death_room.c is the place to which the player is moved when he/she dies.
+
+The death_mark.c is auto_loading, with a timer, so that if a player logs
+out, when he logs back in he will enter the death scene at the same point
+at which he left it.
+
+The death scene is mainly to make the player wait a while, to cool off, before
+he allowed to re-enter play again. If the .txt files are changed, please
+keep the length of the death scene to less than two minutes.
+
+A heart_beat within the death_mark.c reads script from a file that matches
+his alignment. Hence, each time the player dies, his death scene is dependant
+upon his alignment. Other script files may be added to the /room/death/open
+directory, and the death_mark.c object changed to accomodate these.
+
+			Angel, Nov 1994

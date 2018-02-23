@@ -1,0 +1,53 @@
+Manuals File: Affiliations
+
+Affiliations are player groups formed under a particular theme. 
+Some offer special abilities, others do not. The basis of the 
+affiliation is to offer some role playing elements to players, 
+and some variable abilities and skills to keep players interested.
+
+The main idea behind an affiliation is not to give players powers, 
+but to form clans or player groups who share special interests.
+
+Joining an Affiliation
+===============
+In order to join an affiliation go to where it meets. If you type:
+
+Command: leaders
+
+you will see a list of players who help to run the affiliation, 
+or clan. You need to find one such leader if you are to join the
+affiliation. 
+
+You can join any number of affiliations, the only problem is that 
+some leaders may require special tasks to be performed in order 
+to join.
+
+
+
+Priests
+=====
+Priestly affiliations worship some deity, and in turn gain 
+special powers that differ dependent upon the god itself. 
+Non cleric players may also join these affiliations. 
+Often, these players form part of the military, or special 
+forces that ally themselves with the church. While the 
+priests gain special powers through their prayers, other 
+classes gain no such bonuses.
+
+Some priestly affiliations require certain alignments to be 
+maintained in order to gain special bonuses. It is advised 
+that you read the manuals on the gods before you 
+decide what deity to follow.
+
+Command: man gods
+
+
+Other Commands
+=============
+man affiliations	: 	See this file
+	leaders		: 	See the leaders of an affiliation
+	members		:	See the members of an affiliation
+
+
+
+(c) Angel October 1997

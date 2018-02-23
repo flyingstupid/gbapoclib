@@ -1,0 +1,35 @@
+Map of the junkyard
+
+                         
+level 1
+
+S = Secret doors
+[] = Can go up into the second level with a climb check
+                         
+     23-[24]-25 -[26]- 27                             
+     |       |         |          
+    [18] 19~[20]   21~[22]                           
+     |       |         |              
+    [13]~14  15 ~ 16  [17]                     
+     |       |         |                             
+     8 - 9 - 10 - 11 - 12                       
+             |                              
+        5  6 7                           
+         \ | |                         
+         4-3-2   
+             |
+             1
+
+
+level 2
+
+X = Place holders, no actual rooms, just lets you lay the second layer over the first easier
+
+
+     X-[32]- X - [33]- X                            
+     |       |         |          
+    [29]    [30]      [31]                           
+     |       |         |              
+    [27]     X        [28]                     
+     |       |         |                             
+     X - X - X -  X - X  

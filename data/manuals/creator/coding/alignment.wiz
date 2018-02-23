@@ -1,0 +1,54 @@
+	::: ALINGMENT :::
+
+1.0 Introduction
+----------------
+	Alignment is a much missunderstood thing with creators. No one knows exactly
+how it works, and what to set alignments to for monsters. The following sets out to
+describe the alignment system for the mud, and to give you a few guidelines for your
+monsters.
+
+
+2.0 Coding alignment for Monsters
+---------------------------------
+	Alignment with monsters is pretty objective. Some creators like to set it
+high, low, or none at all. Every monster should have an alignment, as the monster
+manual sets out to explain.
+	A good source of monster info is TSR's Monsterous Manual, and other such
+reference books. Basically, follow these as a guideline, or the following table:
+
+
+	Description  Player Equivalent		Alignment number
+	```````````  `````````````````          ````````````````
+	Demonic    Chaotic Evil			-400
+	Very Evil  Neutral Evil			-250
+	Evil       Chaotic Neutral		-100
+	Neutral    True Neutral			   0
+	Good       Neutral Good			 100
+	Very Good  Lawful Neutral		 250
+	Holy       Lawful Good			 400
+
+	These are not the player numbers exactly, but will give you a pretty
+good idea about setting alignments for monsters.
+
+
+
+
+3.0 Alignment & Spells
+----------------------
+	Players have alignment changing spells, like the priest spell 'Atone'. This
+will alter another player's alignment to that of the caster. If you're going to
+start altering a players alignment be aware that such a spell exists. Also, some
+players require certain alignments, e.g. paladins & rangers. Don't go messing up
+a players alignment unless there is a very good reason to do so. Just making an
+'alignment changing room' is not a good idea. 
+
+
+4.0 Player Help
+---------------
+	Players have a help file 'help alignment' that sets out how alignment
+works within the mud. Please read that file to clear up any confusion on how
+it works.
+
+
+
+Angel (c) 1996.

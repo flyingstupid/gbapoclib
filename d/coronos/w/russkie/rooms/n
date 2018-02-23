@@ -1,0 +1,18 @@
+
+    if (arg) return;
+
+    set_short("the North Gate");
+    set_long(
+      "The west, east wall comes together here, bridged by a tall \n"+
+      "iron gate. Small bushes and trees line South Temple on the \n"+
+      "north side, hidding the temple of Ille Coronos behind their \n"+
+      "branches and thick cover of leaves. The brick is that of \n"+
+      "red and browns, smoothed over from the boots of many \n"+
+      "travelers.");
+    set_day_desc(
+      " A pair of unlit lamps hang from the gate.\n");
+    set_night_desc(
+      " A pair of lamps hang from the gate. They \n"+
+      "shine brightly, illuminating the large iron gate.\n");
+    set_items(({
+	"cobblestones#cobblestone",

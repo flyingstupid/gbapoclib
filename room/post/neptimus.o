@@ -1,0 +1,13 @@
+#0:0
+ob_files 0
+ob_list 0
+create_room "room/city/garden/n_gate"
+name "adept"
+alias_name "Adept"
+alt_name "Someone"
+plural "adepts"
+adjectiv 0
+long_desc "Adept is the supporter of the Heaven7 mudlib.\n"
+extra_info "Get this mud a-rollin!\n"
+smell_msg 0
+mail ({({"adept","Congratulations! (Adept)","Author: Adept@Magia, Sent to: Neptimus\nCC: admin.\n","Neptimus,\nCongratulations on advancing out of newbie!\n",0,0,"Jan 11 16:00",}),})

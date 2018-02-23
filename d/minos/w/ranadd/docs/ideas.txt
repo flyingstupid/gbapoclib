@@ -1,0 +1,21 @@
+/* this shall be a file to list possible ideas for minos,ranadd. */
+
+/* dark forest */
+/* dread swamp */
+/* Lost city */
+/* some sort of connecting passage way shall lead to a large */
+/* forest. as you travell deeper into the forest, it slowly */
+/* becomes swampy. The swamp has many dead-end trails. One trail alone */
+/* shall lead the adventurous travellor to a great, dead city. */
+/* ie...there are no humanoid races that occupy this city now. */
+/* However, with the grandness of the remaining buildings, temples */
+/* fountains, etc., tells you it could only be <cityname>, the once */
+/* powerful sister-city of Minos herself. ...perhaps a book could */
+/* be added to a library in minos vaguely hinting of the former */
+/* relationship between the two kingdoms....  Now, many dreadful */
+/* creatures roam through the streets of the lost city, and */
+/* even more unspeakable things haunt it by night.... */
+
+/* this would be easy to break into three parts for release */
+/* Obviously, it needs to be flushed out more, as I have no real */
+/* idea what monsters will inhabit each area... */

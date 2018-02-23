@@ -1,0 +1,17 @@
+RACE FILES
+
+The files contained herein are the modular race system files
+for players. 
+
+When you make a new race, put all the bonuses into this file 
+after inheriting player.c 
+
+When a player logs in the base part of his race, like elf if he
+is a grey elf, or the whole race name, like giant if he is just
+a giant, his race object gets cloned to him.
+
+Only PCs and not NPCs use these files.
+
+It's just an easy way to add more races.
+
+Angel

@@ -1,0 +1,69 @@
+			The Priesthood of Taalandrix
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+TAALANDRIX (Intermediate God)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Taalandrix, ruler of fun and mischief, enjoys watching mortals
+for the purpose of entertainment. He delights in the amuzing and funny.
+Many a time has he ventured to the prime, simply in order to play a 
+practial joke on some unsuspecting mortal. He never tells the truth, 
+and if forced to only tells half truths. Likewise, no being appears to 
+be able to tell him the truth, or speak to him without doing so in 
+rhyme. 
+
+
+Taalandrix's Avatar 
+~~~~~~~~~~~~~~~~~~~
+	Taalandrix appears as a grey elf in platemail with a handful 
+of kender following behind him, although he has known to appear as a 
+mushroom, or infact, anything he so desires. On his face is always a 
+smile, and an eternal youth in the twinkle of his eyes. His thievish 
+skills are exemplary, able to perform any feet, acrobatic or technical 
+with relative ease. Traps, whether magical or mechanical never seem to 
+interfear with the delight he gains in his skills, no do they seem to 
+effect him.
+
+
+
+Duties of the Priesthood
+~~~~~~~~~~~~~~~~~~~~~~~~
+The priests of Taalandrix are a very strange group of clerics. They 
+delight in changing poor, unsuspecting people in monsters, misplacing 
+others goods, hampering rather thanhelping, finding fun in the odd, 
+and causing the unusual.
+
+When approaching these clerics for help, healing, regeneration and 
+general aid, they often claim they are unable to do the required 
+service, praying for, instead, some bizzarre effect to befall them 
+in a hope that somehow they will be cured. Even if they are level 
+drained instead of restored, turned insane instead of cured, have 
+their skin turn pink and grow three additional arms instead of being 
+regenerated whole, they simply cannot help it! and subsequently, get 
+away with it.
+
+
+Symbol
+~~~~~~
+The symbol of the Taalandrix is a kitten's paw print. This is easily 
+seen as representative of his humour and fun nature, although, knowing 
+the ways of the god as his clerics do, it is possibly just a big joke.
+
+
+Spheres
+~~~~~~~
+	* No special sphere abilities.
+	* Priests of Taalandrix gain a +2 bonus to their maximum Dex.
+	* Priests and followers gain a basic ability to pick pockets
+	  Usage: pick pockets <item> from <victim>
+	  which is determined by the players dexterity and chaos.
+
+
+Alignment
+~~~~~~~~~
+A followers alignment must be neutral; either true neutral or chaotic
+neutral; in order to gain the full benefit of his powers.
+
+
+
+Note that most effects are only valid while the cleric's alignment
+is of the appropriate type (see help gods).

@@ -1,0 +1,21 @@
+==Add edited rooms to the list. :) ==
+3.c
+4.c
+27.c
+26.c
+6.c
+1.c
+8.c
+10.c
+11.c
+12.c
+13.c
+14.c
+gate.c (it needed a set_long)
+Rooms 1-14 are the north road.  DONE.  =-=Darkness. :)
+17.c
+19.c
+21.c
+23.c
+25.c
+-----Wahoo.. the west road is DONE too! 8)  *cheer*  Darkness.

@@ -1,0 +1,13 @@
+Here can be found all the generic objects which are used by the skills
+bin dir. E.g. the cleric' tree spell object. Etc.
+
+
+
+/obj/skills/classes
+These are class specific items that are used by the classes. E.g. the 
+paladin's war horse, and the paladin 'class' auto_load object.
+
+/obj/skills/affils
+Here can be found the auto_load objects for each affiliation. It is 
+important that all affiliation objects go in here as to the generic
+calls made back to them by the system.

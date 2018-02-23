@@ -1,0 +1,527 @@
+^#^
+whisper^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: whisper
+        Usuage: whisper <who> <message>
+
+   Description: This echos the message to 'who' in the same 
+                room as you.  Of coarse, unlike tell, everyone
+                else in the room knows you said something, but
+                they don't know what!  This gives an air of
+                secrecy and mischief ;)
+
+Related topics: tell.
+ 
+^#^
+who^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: who
+        Usuage: who
+                who@mud (if intermud is used)
+
+   Description: who gives a list of current interactive users
+                of the game.
+
+Related topics: none.
+ 
+^#^
+wimpy^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: wimpy
+        Usuage: wimpy
+                wimpy direction
+                wimpy <hit points>
+                wimpy direction <direction>
+
+   Description: Wimpy is an automatic (but not failsafe)
+                safeguard that forces you to run from battle
+                when your hit points are lower then
+                <hit points>.  If a direction is chosen then
+                you will try to run in that direction. 
+                If the direction does not exist then you will
+                fail to run away.  If no direction is set then
+                you will run in a random direction.  Using
+                wimpy has a disadvantage.  You get less
+                experience for combat kills, based upon your
+                wimpy percentage.
+
+Related topics: none.
+ 
+^#^
+wiz^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: wiz
+        Usuage: wiz <message>
+
+   Description: This command echos message to all wizards on the game. 
+                Except those who have their 'earmuffs' on and have a
+                higher security level.
+
+Related topics: tell, shout.
+ 
+^#^
+wizlist^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: wizlist
+        Usuage: wizlist
+                wizlist <creator name>
+
+   Description:  The wizard top score list.
+
+A wizard get one point for every command he has defined when it is used
+by a player. It is quite easy to cheat, of course, but cheating wizards
+are simply removed from the game (and the list).
+
+When you use commands defined by your objects, you will also get points,
+but this is legal for normal use.
+
+The score decays with 1 % every reset, and is saved and restored from
+file when reboot of game.
+
+If there are many wizards, not all wizlist data is printed. Give name of
+wizard as argument if you want to look at a special wizard.
+
+Columns:
+1:   Score of the castle.
+2:   Score % of total.
+3:   Rank sorted by column 1.
+4:   Total number of evaluated nodes.
+5:   Total number of heart beats.
+6:   Experience + money given to players by this wizard.
+7:   Total number of indices used in arrays.
+
+Example:  wizlist
+
+Related topics: people.
+ 
+^#^
+wild elf^#^
+SUBTOPIC-races^#^
+     ::: Wild Elves :::
+
+Wild elves, or grugach, shun outsiders even more feverently than
+other elves, and are xenophobic even with regard to other elven
+races. Wild evles are very strong, and deal with woodland animals
+very well, who seem always very friendly towards them.They are
+similar in appearance to wood elves, with very fair complexions,
+and hair ranging from copper red to blonde and eyes of light
+brown,light green or hazel, but are smaller and thinner. While
+wild elves make poor magic users, being not as intelligent as
+other elves, but as they are stronger they make excelent rangers
+and druids. Most lack the commitment to worship that is required
+of clerics.
+
+All player elves, due to their heightened senses are able to notice
+secret doors, and other such items, better than other races. They 
+also gain benefit when using two weapons in each hand, as they receive
+a weapon class bonus when doing so.
+^#^
+wood elf^#^
+SUBTOPIC-races^#^
+     ::: Wood Elves :::
+
+Wood elves, also known as sylvan elves, have a similar
+disposition to high 
+elves, and speak the languages of the woodland animals that live
+in their 
+forests. They are unusually strong for elves, but like wild
+elves, are not 
+as intelligent. Wood elves are generally more reserved than gray
+elves, and do not miz with the other organised societies of other
+races on a regular or recurring basis. Wood elves have fair
+complexions, with hair colour ranging from copper red to blonde
+and eyes of light brown, light green or hazel.
+
+All player elves, due to their heightened senses are able to notice
+secret doors, and other such items, better than other races. They 
+also gain benefit when using two weapons in each hand, as they receive
+a weapon class bonus when doing so.
+^#^
+warp^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Warp Other           |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   12                   |:  This spell warps the caster |:||
+ ||:| Level:  12                   |:  to anywhere within the      |:||
+ ||:| Usage:  warp <location>      |:  realm.  Location keyword    |:||
+ ||:|                              |:  is made using the           |:||
+ ||:| Component: 2 gems            |:  'destination' command after |:||
+ ||:| Related Spells:              |:  using teleport for the very |:||
+ ||:| Warp Party,                  |:  first time.                 |:||
+ ||:| Warp Other.                  |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+warp other^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Warp Other           |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   21                   |:  This spell warps the target |:||
+ ||:| Level:  21                   |:  to anywhere within the      |:||
+ ||:| Usage:  warp other <who>     |:  realm.  Location keyword    |:||
+ ||:|         <location>           |:  is made using the           |:||
+ ||:| Component: 2 gems            |:  'destination' command after |:||
+ ||:| Related Spells:              |:  using teleport for the very |:||
+ ||:| Warp Party,                  |:  first time.                 |:||
+ ||:| Warp.                        |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+warp party^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Warp Party           |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   29                   |:  This spell warps the party  |:||
+ ||:| Level:  29                   |:  to anywhere within the      |:||
+ ||:| Usage:  warp party <location>|:  realm.  Location keyword    |:||
+ ||:|                              |:  is made using the           |:||
+ ||:| Component: 2 gems            |:  'destination' command after |:||
+ ||:| Related Spells:              |:  using teleport for the very |:||
+ ||:| Warp Other,                  |:  first time.                 |:||
+ ||:| Warp.                        |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+wish^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Wish                 |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   25                   |:  A wish can imitate          |:||
+ ||:| Level:  25                   |:  almost any spell whose level|:||
+ ||:| Usage:  wish <spell>         |:  does not exceed level 20.   |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| Limited Wish.                |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+wizard eye^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Wizard Eye           |:  Description:                |:||
+ ||:| School: Divination           |:                              |:||
+ ||:| Cost:   10                   |:  This spell will make a      |:||
+ ||:| Level:  10                   |:  floating eye that can be    |:||
+ ||:| Usage:  wizard eye           |:  directed around an area.    |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+     Please note that this spell has been removed from play.
+^#^
+wraith form^#^
+SUBTOPIC-mage^#^
+    ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Wraith Form          |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   7                    |:  The spell causes the caster |:||
+ ||:| Level:  7                    |:  to become ghost-like, by    |:||
+ ||:| Usage:  wraith form          |:  making him 'ethereal'.      |:||
+ ||:|                              |:                              |:||
+ ||:|                              |:  Some attacks & spells,      |:||
+ ||:| Related Spells:              |:  however, can still affect   |:||
+ ||:| None.                        |:  the caster.                 |:||
+ ||:|                              |:                              |:||
+ ||:|                              |: It can be dispelled with     |:||
+ ||:|                              |:   'dispel wraith form'       |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+
+^#^
+wear^#^
+SUBTOPIC-armour^#^
+                    -=[ Help ]=-
+
+       command: wear
+        Usuage: wear <item>
+
+   Description: You may wear items of clothing and armour. 
+                Armour gives you protection from all types of
+                damage.  Armour is divided into many categories. 
+                You can only wear one category type at a time. 
+                But each different category adds to your overall
+                protection.  Categories include Armour, Shield,
+                Helm, Gloves, Cloak, Amulet, Ring, and Boots. 
+                Certain classes have restrictions in categories
+                they can wear.  You can remove armour by the drop
+                or remove commands.
+
+Related topics: drop, wear, remove, classes (man).
+ 
+^#^
+wield^#^
+SUBTOPIC-weapons^#^
+                    -=[ Help ]=-
+
+       command: wield
+        Usuage: wield <item>
+                wield <item> in right hand
+                wield <item> in left hand
+
+   Description: All weapons must be wielded to gain any benefit
+                from them.  If the character has any skill in
+                wielding two weapons (fighters for example), then
+                they may attempt to wield the weapon in their
+                left hand.  You cannot wield a second weapon if
+                it is too long for your skill, or you are wearing
+                a shield.  You 'unwield'  the weapon by wielding
+                another weapon or dropping it.  Note that some
+                weapons cannot be wielded by certain classes.
+
+Related topics: drop, wear.
+ 
+^#^
+
+weapon proficiency^#^
+
+SUBTOPIC-weapons^#^
+
+
+
+                     -=[ Weapon Proficiencies ]=-
+
+
+
+  A proficiency in a weapon enables a player to use a weapon more
+
+effectively. If you do not have a proficiency in a weapon, and are
+
+wielding it, you do so at a penalty. 
+
+ 
+
+ Penalties for wielding non-proficient weapons are low for fighters,
+
+and larger for thieves, paladins, and rangers, larger still for
+
+clerics, and higher still for mages.
+
+
+
+ The more you train in a weapon, the better you become in using it
+
+in combat. Fighters gain more chances to train in weapons as they
+
+increase in levels. The number of chances a player gains depends on
+
+his class. Rangers, Thieves, and Paladins gain the next highest
+
+amount per level, followed by clerics and mages.
+
+
+
+ To become more proficient in a weapon, simply train in it at the
+
+place where you train your said skills.
+
+
+
+                                                   Angel, Aug '96
+
+
+^#^
+weapon slots^#^
+SUBTOPIC-weapons^#^
+       Command: train
+         Usage: train
+
+   Description: Training in a weapon is important. It means that
+		you are better able to use the weapon in combat.
+
+		Every few levels you gain a player has the chance
+		to gain more 'slots' to fill with weapon skills.
+		Fighters gain slots faster than anyone, followed
+		by thieves, rangers and paladins, then clerics
+		and mages.
+
+		When you have more than one class, say fighter/cleric,
+		then the rate at which you gain new slots to train in
+		a weapon is the rate of the slowest class you have.
+
+		No character may train to a skill level in his weapon
+		beyond 1/2 of his player level.
+
+
+		Every time you train in a weapon, your skill in
+		that weapon increases. You can choose to train 
+		in the same weapon, or different ones.
+
+		The only place you can train in a weapon, is with
+		the masters who reside within the temples, arenas
+		and other such places where you train in your class
+		ascociated skills.
+
+		
+ Weapon Mastery: A character is considered skills in a weapon when he
+		reaches level 5 in a weapon. An expert is usually rated
+		about 10 in any said weapon. A master has an impressive
+		15 in a weapon, and a grand master has reached an
+		incredible level of 20 in a weapon. 
+
+		It is said that masters can also train others.
+
+
+  See also: wield
+^#^
+wis^#^
+SUBTOPIC-primary-skills^#^
+                    -=[ Help ]=-
+
+         Topic: Primary Stats
+     Sub Topic: wisdom
+
+   Description: Wisdom is used for your wimpy (5hp per point),
+		as well as spell resistance.
+
+      See also: man stats
+
+
+Related topics: none
+^#^
+weapon info^#^
+SUBTOPIC-weapons^#^
+		-=[ Help ]=-
+
+DESCRIPTION
+	Weapons
+
+SYNOPSIS
+	Weapons allow a player to attack monsters more efficiently. Without
+	a weapon you're left with only your hands to beat up on an enemy with!
+
+	The weapons you are allowed to wield are determined by your class; if
+	you don't have an occupational class (like fighter, thief, etc), then
+	you wont be able to wield a weapon.
+
+        Restrictions for the classes can be found in 'man player/classes'.
+
+	Every few levels you gain you are allowed to train in a weapon.
+	Training means you become better with the weapon in question, and
+	do more damage when wielding it. 
+
+	Weapon slots help can be found in 'help weapon slots'.
+
+See also: man classes, man fighter, man thief, man cleric, man mage.
+^#^
+werebear^#^
+SUBTOPIC-fighter^#^
+SYNOPSIS: Werebear Clan (Affiliation)
+
+DESCRIPTION:
+
+	Lycanthropes (General)
+	------------
+	Lycanthropes are humans who can transform themselves to resemble
+	normal animals or monsters. The term "lycanthrope" is actually a
+	misnomer, coming from the roots 'lycos' (wolf), and 'anthropos' 
+	man). A more correct term is 'therianthrope', from 'therios' 
+	(animal) and 'anthropos'. However, since werewolves are the most
+	common therianthropes, the term lycanthrope has gained much more
+	popularity, and more common usage.
+
+	The condition of being a lycanthrope, often referred to as a curse,
+	is called lycanthropy. A distinction must be made between true
+	lycanthropes, or natural lycanthropes, and infected lycanthropes.
+	True lycanthropes are those to whom lycanthropy is a genetic trait;
+	they breed with other lycanthropes and produce baby lycanthropes.
+	Infected lycanthropes are those whose lycanthropy results from being
+	wounded by a true lycanthrope. 
+
+
+
+	Werebears
+	---------
+	Werebears are humans who can transform themselves into large bears.
+	They are the best known good-aligned lycanthropes. The ursine form
+	most often resembles a brown bear. Some have blonde, reddish, black
+	or ivory fur (the latter is common in frozen regions).
+
+
+	Werebears are terribly naive of the ways of the world, 
+	are superstitious, and fear magic, except that cast by 
+	tribal shamans. They are, basically good, and have a
+	harmony of life with nature. They revere Hotoru, the god
+	of the wind of life (spirit), who is also known as the
+	Earth Father, or the All-God.
+	
+	They travel in clans, whose technology resembles tribal life. They
+	have a tribal shaman, who performs rituals of protection over the
+	clan, and braves and warriors who hunt. Honour is one of the most
+	cherished things among werebear clans. Only those who prove
+	themselves, worthy in the eyes of the chieftains are permitted to
+	join the tribe, as the chieftains are the leaders of the tribe.
+
+
+
+	Wereform: Natural lycanthropes have the ability to change their
+	form at will, unlike inflicted lycanthropes whose form is 
+	pushed upon them due to a trigger of some sort, like the rising
+	of the moon. 
+
+	In their bear form, a member of the werebear clan sheds his 
+	armour and weapons and use their unarmed skills against their foe.
+	Werebears are certainly formidable in this style of combat!
+
+	During armed combat it is likely that battle stress may simply
+	Force a change into wereform. If this occurs a werebear may
+	injure himself bursting out of his armour!
+
+	During wereform, a werebear is not able to 'wimpy' from combat,
+	such would only dishonour his clan. 
+
+
+	Joining the Clan
+	----------------
+	Outsiders have been known to be taken in by the clan, but only
+	if and when they prove themselves as honourable warriors, or
+	valued shamans. A werebear must look after the cubs of the tribe,
+	as they are the future warriors, and strong warriors make the
+	clan strong! 
+
+	Only a clan chieftain may induct new members.
+
+
+        See also: man werebear
+                  man affiliations

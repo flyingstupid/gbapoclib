@@ -1,0 +1,30 @@
+::: The RACES within Heaven7 :::
+
+
+	
+This table gives an indication of how races compare to humans.
+
+
+Racial    Save      Carry     Right     Left      Defence   Bargain
+Stock     Bonus     Bonus     Weapon    Weapon    Bonus     Bonus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Elf       V. Good   Average   Good      Good      Good      V. Poor
+Dwarf     Excellent Average   V. Good   Average   Average   Poor
+Minotaur  Good      Excellent V. Good   V. Good   V. Poor   V. Poor
+Orc       Poor      V. Good   V. Good   Average   V. Good   V. Poor
+Giant     Poor      Mega      Good      Average   Poor      V. Good
+Halfling  Excellent V. Poor   Good      Good      Good      Excellent
+Kender    Mega      Bad       Average   V. Good   V. Good   Good
+Gnome     Mega      Poor      Average   V. Good   Excellent Average
+Pixie     Excellent V. Poor   Poor      V. Good   Excellent V. Good
+Nixie     Mega      Poor      Poor      V. Good   V. Good   Good
+Sprite    Mega      Poor      Average   V. Good   V. Good   Good
+Kobold    V. Good   Poor      Good      V. Good   Excellent Poor
+Goblin    Good      Good      V. Good   V. Good   Good      Poor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	For further information, see the help files on the individual races.
+
+See also: help races
+

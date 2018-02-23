@@ -1,0 +1,214 @@
+^#^
+i^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: inventory
+         Usage: inventory
+                i
+   Description: This gives an inventory of all visible items 
+                the character is carrying.  Invisible items
+                are the realms of creators.
+
+Related topics: none.
+ 
+^#^
+inner^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: inner
+         Usage: inner
+
+   Description: Moves you to the default creator enter room.  Usually,
+                adv_inner.c
+
+Related topics: guild, post, church, home, pub.
+ 
+^#^
+invis^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: invis
+         Usage: invis
+                vis
+
+   Description: This command allows the creator to become effectively
+                invisible to other players in the same room.  
+
+Related topics: minvis.
+ 
+^#^
+ice storm^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Ice Storm            |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   15                   |:  This spell causes a storm   |:||
+ ||:| Level:  17                   |:  of ice to pound the area.   |:||
+ ||:| Usage:  ice storm            |:  Everyone, except the caster |:||
+ ||:|                              |:  is effected by the spell.   |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+identify^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Identify             |:  Description:                |:||
+ ||:| School: Divination           |:                              |:||
+ ||:| Cost:   5                    |:  An identify spell is able   |:||
+ ||:| Level:  5                    |:  to give information on the  |:||   
+ ||:| Usage:  identify <item>      |:  ability, of a person or     |:||
+ ||:|                              |:  an item.                    |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+illusion^#^
+SUBTOPIC-mage^#^
+
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|      Illusion Spells         |:      Illusion Spells         |:||
+ ||:|                              |:                              |:||
+ ||:|   Ventriloquism              |:   Visual Illusion            |:||
+ ||:|   Phantasm                   |:   Permanent Illusion         |:||
+ ||:|   Phantasmal Force           |:   Improved Phantasm          |:||
+ ||:|   Invisibility               |:                              |:||
+ ||:|   Shadow Door                |:                              |:||
+ ||:|   Phantom Armour             |:                              |:||
+ ||:|   Alter Reality              |:                              |:||
+ ||:|   Shadow Monster             |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+improved phantasm^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Improved Phantasm    |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   3                    |:  This causes a small illusion|:||
+ ||:| Level:  10                   |:  that fools all in the room. |:||
+ ||:| Usage:  improved phantasm msg|:                              |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| Ventriloquism, Phantasm.     |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+invisibility^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:     Invisibility      |:  Description:                |:||
+ ||:| School:    Illusion          |:                              |:||
+ ||:| Cost:      8                 |:  This spell makes the        |:||
+ ||:| Level:     8                 |:  caster turn invisible.      |:||
+ ||:| Component: gem or rock       |:  Invisibility ceases when    |:||
+ ||:| Usage:     invisibility      |:  you begin battle.           |:||
+ ||:| Related Spells: None.        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+
+ident^#^
+
+SUBTOPIC-ranger^#^
+
+
+
+Command: identify
+
+
+
+SYNOPSIS: Ranger Skills
+
+
+
+DESCRIPTION
+
+                Due to the rangers knowledge of the forest and
+
+                animal wildlife, he gains the ability to identify
+
+                the creatures that live therein, and their abilities.
+
+
+
+
+
+Related topics: ranger.
+
+ 
+
+
+^#^
+int^#^
+SUBTOPIC-primary-skills^#^
+                    -=[ Help ]=-
+
+         Topic: Primary Stats
+     Sub Topic: intelligence
+
+   Description: Intelligence is used for learning languages, and
+		being aware of people when they are hiding, being
+		invisible, or attempting to steal things from you.
+
+      See also: man stats
+
+
+Related topics: none
+^#^
+ifinger^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ ifinger <name>@<address>
+
+SYNOPSIS
+ ifinger issues a finger request to the given host. It is
+ similar to issueing a finger request from the unix command
+ line. You may wait for a minute or more before receiving
+ the reply. If not contacted, three attempts are made.
+
+
+
+^#^
+inventory^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: inventory
+         Usage: inventory
+                i
+   Description: This gives an inventory of all visible items 
+                the character is carrying.  Invisible items
+                are the realms of creators.
+
+Related topics: money.
+ 

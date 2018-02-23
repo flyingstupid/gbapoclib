@@ -1,0 +1,70 @@
+#1:0
+affiliation_info (["leaders":({"angel","octavian",}),"sponsor":0,"donations":0,"members":({"angel","kane",}),"founder":"angel",])
+file "taalandrix"
+skills_file "/obj/skills/affils/taalandrix"
+affiliation_name "follower of the Taalandrix"
+affiliation_file "taalandrix"
+affiliation_sponsor "taalandrix"
+donations 0
+ob_files 0
+ob_list 0
+create_room "d/affils/rooms/taalandrix"
+name 0
+alias_name 0
+alt_name 0
+plural 0
+adjectiv 0
+long_desc "The inner sanctumn of the temple looks more like a pub than \na place of worship. There are scraps of food all near the   \npodium where the priest comes to speak, as if people have   \nheard a bad joke, or a funny one, and tossed fruit and cream\npies in that direction. Behind the podium are several drapes\nof silver, blue, black and red, that shine in the candle light\nfrom the candelabrahs at the sides of the room. Hanging from \nthe ceiling, infront of the drapes, is a shield which bears\na symbol on its surface.\n"
+extra_info 0
+smell_msg "You smell nothing special.\n"
+weather 0
+climate 0
+daylight_adj 1
+dest_dir ({})
+extra_objects ({})
+land_development 0
+items ({"scraps#food","They have been thrown at the podium","fruit","There are a few over ripe tomatoes lying about the front of the room","cream#cream pies#pies","They looks quite nice, accept they have been thrown away!","candle#candles#candelabrahs","A soft holy shine comes from them. They make the place look oddly peaceful","drapes","The closer you look at the drapes you notice that there are more \nand more colours contained in the fabric","shield","It seems to be made of steel and iron, and bears the symbol of Taalandrix","symbol","The symbol is a kitten paw",})
+night_items ({})
+day_items ({})
+monster_files 0
+search_array ({})
+search_complex 0
+day_desc 0
+night_desc 0
+enter_msg 0
+exit_msg 0
+climb 0
+fall_dam 0
+swim 0
+swim_dam 0
+no_track 0
+no_summon 0
+no_fight 0
+land_value 0
+custom_exits 0
+doors ({({"d/coronos/w/vorax/west5","temple door",1,"A fine door of sturdy red wood.\nIt bears the symbol of the kitten paw above the peep hole.\n",0,"no_key",0,0,0,0,0,0,0,0,0,0,0,0,}),})
+detect_attempts ({})
+disarm_attempts ({})
+lock_attempts ({})
+s_northwest ({"/"," "," ","N",})
+s_northeast ({"\\"," "," ","M",})
+s_north ({"-----","     ","-+ +-","-+=+-",})
+s_south ({"-----","     ","-+ +-","-+=+-",})
+s_west ({({"|","|","|","|","|",}),({" "," "," "," "," ",}),({"|","+"," ","+","|",}),({"|","+","]","+","|",}),})
+s_east ({({"|","|","|","|","|",}),({" "," "," "," "," ",}),({"|","+"," ","+","|",}),({"|","+","[","+","|",}),})
+s_southeast ({"/"," "," ","N",})
+s_southwest ({"\\"," "," ","M",})
+tabOver "                         "
+classes 0
+races ({})
+titles 0
+pretitles 0
+exp 0
+qp 0
+skill_exp 0
+guild_master 0
+guild_name 0
+tmpClass 0
+weapon_rate 0
+exp_multiplier 0
+skill_exp_multiplier 0

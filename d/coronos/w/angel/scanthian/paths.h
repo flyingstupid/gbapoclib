@@ -1,0 +1,5 @@
+#define PATH "d/coronos/w/angel/scanthian/"
+#define CANOPY "d/coronos/w/angel/scanthian/canopy/"
+#define ROADS "d/coronos/w/angel/city/roads/"
+#define DARKNESS "d/coronos/w/darkness/"
+#define CAVES "d/coronos/w/angel/scanthian/cave/"

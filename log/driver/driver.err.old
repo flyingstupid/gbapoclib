@@ -1,0 +1,111 @@
+2012.11.12 18:44:58 [xerq] XERQ Sep 22 2012: Path 'erq', debuglevel 0
+2012.11.12 18:44:58 [xerq] Demon started
+2012.11.12 18:44:58 include/skills/techman.h line 56: Warning: Missing 'return <value>' statement near ''.
+2012.11.12 18:44:58 obj/wizard.c line 719: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ') return 0; '.
+2012.11.12 18:44:58 obj/wizard.c line 1044: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ';  /* easier'.
+2012.11.12 18:44:58 obj/wizard.c line 1054: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ';'.
+2012.11.12 18:44:58 obj/wizard.c line 1103: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ';'.
+2012.11.12 18:44:58 obj/wizard.c line 3182: Warning: Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to '' near '{'.
+2012.11.12 18:45:08 wiz/kate/open/medic/medkit.c line 302: Warning: Missing 'return <value>' statement near ''.
+2012.11.12 18:45:08 wiz/kate/open/medic/medkit.c line 414: Warning: Missing 'return <value>' statement near ''.
+2012.11.12 18:46:20 wiz/kate/open/medic/limber.c line 43: syntax error before ' 1;'.
+2012.11.12 18:46:20 Error in loading object: 'wiz/kate/open/medic/limber'.
+2012.11.13 20:58:10 Failed to load file: 'objects/medkit'.
+2012.11.13 20:58:35 wiz/kate/open/city.c line 66: Warning: Inconsistent declaration of 'is_leader': Return type mismatch (string vs int) near '{'.
+2012.11.13 20:58:35 wiz/kate/open/city.c line 96: Warning: Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int) near '{'.
+2012.11.13 20:58:35 wiz/kate/open/city.c line 180: Warning: Inconsistent declaration of 'has_building': Return type mismatch (string vs int) near '{'.
+2012.11.13 20:58:58 inherit/store.c line 960: Warning: Missing 'return <value>' statement near end of line.
+2012.11.13 20:59:06 inherit/std_pub.c line 433: Warning: Missing 'return <value>' statement near end of line.
+2012.11.13 21:00:09 wiz/emraef/open/scav/gather_source.c line 94: Warning: Inconsistent declaration of 'long': Return type mismatch (void vs int) near end of line.
+2012.11.15 14:01:21 wiz/kate/open/medic/brewserum.c line 37: Undefined function 'do_brew' near ';'.
+2012.11.15 14:01:21 wiz/kate/open/medic/brewserum.c line 39: Warning: Missing 'return <value>' statement near end of line.
+2012.11.15 14:01:21 wiz/kate/open/medic/brewserum.c line 47: Variable level not declared ! before ' 2) + (thi'.
+2012.11.15 14:01:21 Error in loading object: 'wiz/kate/open/medic/brewserum'.
+2012.11.15 14:02:57 wiz/kate/open/medic/brewserum.c line 37: Undefined function 'do_brew' near ';'.
+2012.11.15 14:02:57 wiz/kate/open/medic/brewserum.c line 39: Warning: Missing 'return <value>' statement near end of line.
+2012.11.15 14:02:57 wiz/kate/open/medic/brewserum.c line 47: Variable level not declared ! before ' 2) + (thi'.
+2012.11.15 14:02:57 Error in loading object: 'wiz/kate/open/medic/brewserum'.
+2012.11.15 14:06:32 wiz/kate/open/medic/brewserum.c line 41: Warning: Missing 'return <value>' statement near end of line.
+2012.11.15 14:07:30 wiz/kate/open/medic/medkit.c line 302: Warning: Missing 'return <value>' statement near ''.
+2012.11.15 14:07:30 wiz/kate/open/medic/medkit.c line 414: Warning: Missing 'return <value>' statement near ''.
+2012.11.15 14:07:47 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:07:47 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:07:47 wiz/kate/open/medic/serum.c line 27: Undefined function 'set_empty_container' near ';'.
+2012.11.15 14:07:47 wiz/kate/open/medic/serum.c line 40: Missing type for argument near '){'.
+2012.11.15 14:07:47 wiz/kate/open/medic/serum.c line 49: syntax error before end of line.
+2012.11.15 14:07:47 Error in loading object: 'wiz/kate/open/medic/serum'.
+2012.11.15 14:08:43 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:08:43 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:08:43 wiz/kate/open/medic/serum.c line 51: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:08:55 wiz/kate/open/medic/suture.c line 36: Variable tp not declared ! before 'query_atta'.
+2012.11.15 14:08:55 Error in loading object: 'wiz/kate/open/medic/suture'.
+2012.11.15 14:12:59 wiz/kate/open/medic/brewserum.c line 41: Warning: Missing 'return <value>' statement near end of line.
+2012.11.15 14:23:56 wiz/kate/open/medic/brewserum.c line 41: Warning: Missing 'return <value>' statement near end of line.
+2012.11.15 14:28:07 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:28:07 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:28:07 wiz/kate/open/medic/serum.c line 51: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:28:55 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:28:55 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:28:55 wiz/kate/open/medic/serum.c line 52: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:31:30 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:31:30 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:31:30 wiz/kate/open/medic/serum.c line 54: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:31:30 wiz/kate/open/medic/serum.c line 60: syntax error before end of line.
+2012.11.15 14:31:30 Error in loading object: 'wiz/kate/open/medic/serum'.
+2012.11.15 14:31:48 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:31:48 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:31:48 wiz/kate/open/medic/serum.c line 54: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:36:56 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:36:56 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:36:56 wiz/kate/open/medic/serum.c line 57: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:38:14 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:38:14 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:38:14 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:40:09 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:40:09 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:40:09 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:41:50 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:41:50 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:41:50 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 14:43:30 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 14:43:30 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 14:43:30 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 18:27:30 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 18:27:30 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 18:27:30 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 18:28:03 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 18:28:03 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 18:28:03 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 18:30:06 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 18:30:06 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 18:30:06 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 18:35:48 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 18:35:48 wiz/kate/open/medic/serum.c line 22: Warning: Redefining inherited nosave variable 'value' with a non-nosave variable before end of line.
+2012.11.15 18:35:48 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 18:37:16 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 18:37:16 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.15 18:38:42 wiz/kate/open/medic/serum.c line 16: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near ';'.
+2012.11.15 18:38:42 wiz/kate/open/medic/serum.c line 61: Warning: Inconsistent declaration of 'set_value': Return type mismatch (int vs void) near '{'.
+2012.11.19 14:11:46 inherit/store.c line 960: Warning: Missing 'return <value>' statement near end of line.
+2012.12.05 19:27:44 bin/player/craft.c line 288: syntax error.
+2012.12.05 19:27:44 Error in loading object: 'bin/player/craft'.
+2012.12.05 19:35:24 wiz/kate/open/city.c line 66: Warning: Inconsistent declaration of 'is_leader': Return type mismatch (string vs int) near '{'.
+2012.12.05 19:35:24 wiz/kate/open/city.c line 96: Warning: Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int) near '{'.
+2012.12.05 19:35:24 wiz/kate/open/city.c line 180: Warning: Inconsistent declaration of 'has_building': Return type mismatch (string vs int) near '{'.
+2012.12.05 19:40:05 inherit/store.c line 960: Warning: Missing 'return <value>' statement near end of line.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 112: Undefined function 'lengthof' near '; j++) {'.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 125: syntax error before ')'.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 302: Undefined function 'query_syringe' near '+"\n";'.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 321: Function query_syringe undefined near '+"\n";'.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 329: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 349: Function query_syringe undefined near '+query_banda'.
+2012.12.05 19:46:59 wiz/kate/open/medic/medkit.c line 441: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:46:59 Error in loading object: 'wiz/kate/open/medic/medkit'.
+2012.12.05 19:48:01 wiz/kate/open/medic/medkit.c line 112: Undefined function 'length' near '; j++) {'.
+2012.12.05 19:48:01 wiz/kate/open/medic/medkit.c line 330: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:48:01 wiz/kate/open/medic/medkit.c line 442: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:48:01 Error in loading object: 'wiz/kate/open/medic/medkit'.
+2012.12.05 19:48:29 wiz/kate/open/medic/medkit.c line 330: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:48:29 wiz/kate/open/medic/medkit.c line 442: Warning: Missing 'return <value>' statement near ''.
+[xerq] read: Success
+2012.12.05 19:48:56 [xerq] Demon exiting.

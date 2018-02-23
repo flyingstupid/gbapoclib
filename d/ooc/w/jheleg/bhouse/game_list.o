@@ -1,0 +1,40 @@
+#0:0
+name 0
+alias_name 0
+alt_name 0
+plural "0s"
+adjectiv 0
+long_desc "  Here resides the infamous gaming room of Heaven7.  Soft    \n  lights illuminate the room in a very pleasant way.  Soft,  \n  velvet couches surround a huge oaken table where the games \n  are actually played.  A giant hi-fi stereo system sits     \n  against one wall.  Above the stereo is a sign that has been\n  hand carved into a piece of stained walnut.                \n"
+extra_info 0
+smell_msg "The scent of fresh wood and new carpet permeates the room.\n"
+weather 2
+climate 0
+daylight_adj -1
+dest_dir ({"/d/ooc/w/jheleg/bhouse/hall2","west",})
+extra_objects ({})
+items ({"light#lights#round light#round lights#embedded light#embedded lights","Round, embedded lights give of a heatless glow all throughout\nthe room.\n","table#oaken table#horseshoe-shaped table","A horseshoe-shaped table sits in he middle of the room      \nproviding plenty of room for all.                            \n","stereo#giant stereo#hi-fi stereo#stereo system#hi-fi stereo system","A hi-fi Onkyo component system is tuned to the local classical\nradio station.\n","carpet#tan carpet#short carpet#short tan carpet#tan short carpet","Unlike the rest of the carpet located in the house, the carpet\nhere is short and tan.  It appears as though it is vacuumed   \nfaithfully every day.                                         \n",})
+night_items ({"sign","It is a carved wooden sign.  Perhaps you should read it?\n",})
+day_items ({"sign","It is a carved wooden sign.  Perhaps you should read it?\n",})
+search_array ({})
+search_complex 0
+day_desc 0
+night_desc 0
+enter_msg 0
+exit_msg 0
+climb 0
+fall_dam 0
+swim 0
+swim_dam 0
+no_track 0
+no_summon 0
+no_fight 0
+custom_exits 0
+doors ({({"d/ooc/w/jheleg/bhouse/hall2","west door",1,"The door is made of solid oak.\n",0,"no_key",0,1,0,({}),0,0,0,0,1,0,0,0,}),})
+detect_attempts ({})
+disarm_attempts ({})
+lock_attempts ({})
+games ({"tic-tac-toe","/d/ooc/w/jheleg/games/ttt.info","/d/ooc/w/jheleg/games/ttt.c","jheleg",})
+new_title "tic-tac-toe"
+new_infofile "/d/ooc/w/jheleg/games/ttt.info"
+new_filename "/d/ooc/w/jheleg/games/ttt.c"
+new_author "jheleg"

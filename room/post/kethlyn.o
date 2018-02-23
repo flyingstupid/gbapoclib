@@ -1,0 +1,13 @@
+#0:0
+ob_files 0
+ob_list 0
+create_room "d/ooc/rooms/ooc1"
+name "kethlyn"
+alias_name "Kethlyn"
+alt_name "Someone"
+plural 0
+adjectiv 0
+long_desc "Kethlyn stands approximately 5'8\" tall.  His long, black hair is \npulled back into a loose tail.  He has piercing grey eyes that \nseem to evaluate everything and everyone around him thoroughly.\n"
+extra_info ""
+smell_msg 0
+mail ({({"adept","How are things (Adept)","Author: Adept@Magia, Sent to: Kethlyn\nCC: admin.\n","Greetings,\nWanted to check in with you and see how things are going. What are you working on? Is there anything you need help with?\n\nIf you have any idea's, suggestions or questions, please let us know!\n\nThanks!\n",0,0,"Jan 15 14:35",}),})

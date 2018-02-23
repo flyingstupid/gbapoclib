@@ -1,0 +1,697 @@
+wiz/emraef/_lpc_cmd0.c line 1: Missing arguments to simul_efun find_player
+wiz/emraef/_lpc_cmd0.c line 1: Bad type for struct lookup: object
+wiz/emraef/_lpc_cmd0.c line 1: Bad type for struct lookup: object
+wiz/emraef/_lpc_cmd0.c line 1: Variable file not declared !
+wiz/emraef/_lpc_cmd0.c line 1: Variable file not declared !
+wiz/emraef/_lpc_cmd0.c line 1: Variable path not declared !
+wiz/emraef/_lpc_cmd0.c line 1: Missing arguments to simul_efun replace_string
+wiz/emraef/_lpc_cmd0.c line 1: Illegal character (hex 23) '#'
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Illegal character (hex 2e) '.'
+wiz/emraef/_lpc_cmd0.c line 1: Newline in string
+wiz/emraef/_lpc_cmd0.c line 1: Illegal character (hex 23) '#'
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Illegal character (hex 2e) '.'
+wiz/emraef/_lpc_cmd0.c line 1: Illegal character (hex 23) '#'
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Illegal character (hex 2e) '.'
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 47 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 66 before end of line: Must return a value for a function declared: "int"
+wiz/emraef/open/scav/gather_source.c line 71 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 71 near end of line: Missing 'return <value>' statement
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/scavroom.c line 29 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 71 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gatherbag_base.c line 24 near end of line: Inconsistent declaration of 'look_at': Return type mismatch (int vs string)
+wiz/emraef/open/scav/gatherbag_base.c line 27 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gatherbag_base.c line 27 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gatherbag_base.c line 28 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gatherbag_base.c line 43 near ', fullness +': Undefined function 'this_playr'
+wiz/emraef/open/scav/gatherbag_base.c line 55 before end of line: syntax error
+wiz/emraef/open/scav/gatherbag_base.c line 57 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Variable wood not declared !
+wiz/emraef/_lpc_cmd0.c line 1: Variable wood not declared !
+wiz/emraef/_lpc_cmd0.c line 1: Too many arguments to environment
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/scavroom.c line 2 near end of line: Cannot #include '/wis/emraef/open/scav/scavpaths.h'
+wiz/emraef/open/scav/scavroom.c line 46 before ' ([ "wood"': Variable SCAV_PATH not declared !
+wiz/emraef/open/scav/scavroom.c line 51 near ';': Too few arguments to tell_room
+wiz/emraef/open/scav/scavroom.c line 58 near ';': Undefined function 'tell_obect'
+wiz/emraef/open/scav/scavroom.c line 58 near ';': Undefined function 'tell_obejct'
+wiz/emraef/open/scav/wood.c line 6 near end of line: illegal to inherit after defining functions
+wiz/emraef/open/scav/wood.c line 6 near end of line: Misplaced prototype for set_resource_type in wiz/emraef/open/scav/wood.c ignored.
+
+wiz/emraef/open/scav/wood.c line 6 near end of line: Misplaced prototype for get_resource_type in wiz/emraef/open/scav/wood.c ignored.
+
+wiz/emraef/open/scav/wood.c line 6 near end of line: Misplaced prototype for reset in wiz/emraef/open/scav/wood.c ignored.
+
+wiz/emraef/open/scav/wood.c line 6 near end of line: illegal to inherit after defining functions
+wiz/emraef/open/scav/wood.c line 6 near end of line: Misplaced prototype for set_resource_type in wiz/emraef/open/scav/wood.c ignored.
+
+wiz/emraef/open/scav/wood.c line 6 near end of line: Misplaced prototype for get_resource_type in wiz/emraef/open/scav/wood.c ignored.
+
+wiz/emraef/open/scav/wood.c line 6 near end of line: Misplaced prototype for reset in wiz/emraef/open/scav/wood.c ignored.
+
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Undefined function 'tell_obect'
+wiz/emraef/_lpc_cmd0.c line 1: Too few arguments to call_out
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Too few arguments to call_out
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Too few arguments to call_out
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Too few arguments to call_out
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/scavroom.c line 105 before ' ob = chec': syntax error
+wiz/emraef/open/scav/scavroom.c line 105 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/scavroom.c line 111 before end of line: Return type not matching: got int, expected void
+wiz/emraef/open/scav/scavroom.c line 105 before ' ob = chec': syntax error
+wiz/emraef/open/scav/scavroom.c line 105 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/scavroom.c line 111 before end of line: Return type not matching: got int, expected void
+wiz/emraef/open/scav/scavroom.c line 112 before end of line: Return type not matching: got int, expected void
+wiz/emraef/open/scav/scavroom.c line 115 before ' clone_obj': Illegal to redeclare local name 'ob'
+wiz/emraef/open/scav/scavroom.c line 56 near ';': Undefined function 'destrcut'
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/gather_source.c line 112 near ';': Undefined function 'scavenge_cleanup'
+wiz/emraef/open/scav/gather_source.c line 116 near end of line: Redeclaration of function do_gather.
+wiz/emraef/open/scav/gather_source.c line 121 before end of line: Must return a value for a function declared: "int"
+wiz/emraef/open/scav/gather_source.c line 155 before end of line: Variable max_attempts not declared !
+wiz/emraef/open/scav/gather_source.c line 129 before end of line: Variable max_attempts not declared !
+wiz/emraef/open/scav/gather_source.c line 160 before end of line: Return type not matching: got int, expected void
+wiz/emraef/open/scav/gather_source.c line 170 before end of line: Return type not matching: got int, expected void
+wiz/emraef/open/scav/gather_source.c line 175 before ' ".\n" );': Variable type not declared !
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/resource_d.c line 28 before '( "mushroo': syntax error
+wiz/emraef/open/scav/resource_d.c line 46 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/resource_d.c line 48 before ';': Variable roomType not declared !
+wiz/emraef/open/scav/resource_d.c line 28 before '( "mushroo': syntax error
+wiz/emraef/open/scav/resource_d.c line 46 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/resource_d.c line 48 before ';': Variable roomType not declared !
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 60 before ' rooms[fil': Illegal to redeclare local name 'room'
+wiz/emraef/open/scav/resource_d.c line 71 before ', i++ )': Variable roomArry not declared !
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 71 before end of line: syntax error
+wiz/emraef/open/scav/resource_d.c line 73 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/resource_d.c line 74 before ' typeWeigh': syntax error
+wiz/emraef/open/scav/resource_d.c line 74 before end of line: Variable roomAdjust not declared !
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 79 before ' random( t': Variable roll not declared !
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 79 before ' random( t': Variable roll not declared !
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 81 before end of line: syntax error
+wiz/emraef/open/scav/resource_d.c line 83 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/resource_d.c line 84 before ' typeWeigh': syntax error
+wiz/emraef/open/scav/resource_d.c line 84 before end of line: Variable roomAdjust not declared !
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 108 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 115 near ';': Undefined function 'set_name'
+wiz/emraef/open/scav/resource_d.c line 116 near ';': Undefined function 'set_plural'
+wiz/emraef/open/scav/resource_d.c line 117 near ';': Undefined function 'set_short'
+wiz/emraef/open/scav/resource_d.c line 121 near ';': Undefined function 'set_long'
+wiz/emraef/open/scav/resource_d.c line 123 near ';': Undefined function 'set_weight'
+wiz/emraef/open/scav/resource_d.c line 124 near ';': Undefined function 'set_value'
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 108 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 25 before ' max( 1, d': Variable difficulty not declared !
+wiz/emraef/open/scav/gather_source.c line 29 before '; }': syntax error
+wiz/emraef/open/scav/gather_source.c line 37 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/gather_source.c line 49 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 55 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 108 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 58 before '->set_long': syntax error
+wiz/emraef/open/scav/resource_d.c line 64 before 'sourceType': Variable sourceType not declared !
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 64 before end of line: Bad type of index: "string"
+wiz/emraef/open/scav/resource_d.c line 64 before end of line: Bad assignment (mixed * vs int)
+wiz/emraef/open/scav/resource_d.c line 85 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 85 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 85 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 86 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 89 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/scavroom.c line 4: syntax error
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/scavroom.c line 4: syntax error
+wiz/emraef/open/scav/scavroom.c line 4: syntax error
+wiz/emraef/open/scav/scavroom.c line 4: syntax error
+wiz/emraef/open/scav/scavroom.c line 4: syntax error
+wiz/emraef/open/scav/scavroom.c line 4: syntax error
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/scavroom.c line 75 before end of line: syntax error
+wiz/emraef/open/scav/scavroom.c line 103 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/scavroom.c line 104 before ' 30 )': Variable roll not declared !
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 4 near end of line: #define LOG already defined (from wiz/emraef/open/scav/scavpaths.h line 9)
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 4 near end of line: #define LOG already defined (from wiz/emraef/open/scav/scavpaths.h line 9)
+wiz/emraef/open/scav/resource_d.c line 60 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 87 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 90 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 86 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 89 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 61 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 91 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 61 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 91 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 61 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 91 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 61 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 91 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 61 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 88 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 91 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 62 before end of line: Variable resouce not declared !
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 96 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 96 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 96 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 96 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 96 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/gather_source.c line 92 near ';': Wrong number of arguments to long: expected 1, got 0
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 92 near ';': Wrong number of arguments to long: expected 1, got 0
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 35 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 97 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/_lpc_cmd0.c line 1: Variable wood not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 107 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 107 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 110 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 141 before ' 0; i < si': Variable i not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 110 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 110 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 110 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 113 near ';': Undefined function 'm_indicies'
+wiz/emraef/open/scav/storeroom.c line 123 near 'his_player()': Unexpected end of file (or a spurious 0x01 character)
+wiz/emraef/open/scav/storeroom.c line 123 before end of line: syntax error
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 113 near ';': Undefined function 'm_indicies'
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/_lpc_cmd0.c line 1: Variable wood not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 109 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/_lpc_cmd0.c line 1: Newline in string
+wiz/emraef/_lpc_cmd0.c line 2: syntax error
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 46 before 'type] ? re': Variable resrouceTypes not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 46 before 'type] ? re': Variable resrourceTypes not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 46 before 'type] ? re': Variable resrourceTypes not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 48 before '; }': Variable resourceType not declared !
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 37 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 114 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 48 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 125 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 73 near ';': Undefined function 'do_set_value'
+wiz/emraef/open/scav/storeroom.c line 76 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 119 near ';': Undefined function 'do_list_min'
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 338 near end of line: Redeclaration of function do_list_values.
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 90 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 126 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 49 before ');': syntax error
+wiz/emraef/open/scav/resource_d.c line 51 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/resource_d.c line 51 before end of line: syntax error
+wiz/emraef/open/scav/resource_d.c line 78 before ';': Variable type not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 131 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/wood.c line 23 near ';': Undefined function 'set_resource_type'
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/wood.c line 23 near ';': Undefined function 'set_resource_type'
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/wood.c line 6 before ';': syntax error
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 54 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 132 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 3 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 6 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 6 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 6 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 6 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 6 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/open/scav/scavpaths.h line 6 near end of line: #define RESOURCE_D already defined (from include/mudlib.h line 57)
+wiz/emraef/storeroom.c line 13 before end of line: Variable LOAD not declared !
+wiz/emraef/storeroom.c line 14 before ' (arg) ret': syntax error
+wiz/emraef/open/scav/resource_d.c line 42 before '{ "cotton"': syntax error
+wiz/emraef/open/scav/resource_d.c line 55 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/resource_d.c line 55 before end of line: syntax error
+wiz/emraef/open/scav/resource_d.c line 82 before ';': Variable type not declared !
+wiz/emraef/open/scav/resource_d.c line 57 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 135 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/_lpc_cmd0.c line 1: Variable this not declared !
+wiz/emraef/_lpc_cmd0.c line 1: Newline in string
+wiz/emraef/_lpc_cmd0.c line 2: syntax error
+wiz/emraef/open/testcity/base_room.c line 15 before end of line: syntax error
+wiz/emraef/open/testcity/base_room.c line 21 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/testcity/base_room.c line 21 before end of line: syntax error
+wiz/emraef/open/testcity/base_room.c line 22 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/testcity/base_room.c line 22 before end of line: syntax error
+wiz/emraef/open/testcity/base_room.c line 15 before end of line: syntax error
+wiz/emraef/open/testcity/base_room.c line 21 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/testcity/base_room.c line 21 before end of line: syntax error
+wiz/emraef/open/testcity/base_room.c line 22 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/testcity/base_room.c line 22 before end of line: syntax error
+wiz/emraef/open/testcity/base_room.c line 24 before '( room1, r': syntax error
+wiz/emraef/open/testcity/base_room.c line 27 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/testcity/base_room.c line 27 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/testcity/base_room.c line 27 near end of line: Missing 'return <value>' statement
+wiz/emraef/_lpc_cmd0.c line 1: Newline in string
+wiz/emraef/_lpc_cmd0.c line 2: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Variable GETDIR_NAMES not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 74 near ' { return cr': Redeclaration of function query_craft_item_cost.
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 128 before ' "all":': syntax error
+wiz/emraef/open/scav/storeroom.c line 161 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 161 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 161 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 161 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 164 before end of line: Variable minimum not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/storeroom.c line 408 near end of line: Missing 'return <value>' statement
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 59 near end of line: Extra ';' ignored
+wiz/emraef/open/scav/resource_d.c line 169 near end of line: Argument type mismatch in redefinition of 'create_source_by_room_type': arg 1 (object vs string)
+wiz/emraef/open/scav/resource_d.c line 62 before ' create_so': syntax error
+wiz/emraef/open/scav/resource_d.c line 64 near ';': Incorrect number of arguments in redefinition of 'create_source_by_room_type'.
+wiz/emraef/open/scav/resource_d.c line 65 before ' calculate': syntax error
+wiz/emraef/open/scav/resource_d.c line 65 before ' calculate': syntax error
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: Bad type for struct lookup: object
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 418 before end of line: Bad assignment (int vs string)
+wiz/emraef/open/scav/storeroom.c line 421 before '( value ==': syntax error
+wiz/emraef/open/scav/storeroom.c line 423 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 426 before ';': Variable key not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 404 before 'is_valid_r': Variable RESOUCE_D not declared !
+wiz/emraef/open/scav/storeroom.c line 404 before 'is_valid_r': Variable RESOUCE_D not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 476 before ' "\n";': Variable resource_lust not declared !
+wiz/emraef/open/scav/storeroom.c line 476 before ' "\n";': Variable resource_lust not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 36 near ' );': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 42 near ' );': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 164 near ' )': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 555 near ' )': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 36 near ' );': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 42 near ' );': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 164 near ' )': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 555 near ' )': Missing type for argument
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 164 near ' )': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 555 near ' )': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 164 near ' )': Missing type for argument
+wiz/emraef/open/scav/storeroom.c line 555 near ' )': Missing type for argument
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 102 before ' );': Variable i not declared !
+wiz/emraef/open/scav/storeroom.c line 102 before ' );': Variable i not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 110 before ';': Variable j not declared !
+wiz/emraef/open/scav/storeroom.c line 110 before ';': Variable j not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 120 before ' " in stor': syntax error
+wiz/emraef/open/scav/storeroom.c line 121 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 125 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 130 before ' cost[key]': Variable base_price not declared !
+wiz/emraef/open/scav/storeroom.c line 120 before ' " in stor': syntax error
+wiz/emraef/open/scav/storeroom.c line 121 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 125 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 130 before ' cost[key]': Variable base_price not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 120 before ' " in stor': syntax error
+wiz/emraef/open/scav/storeroom.c line 121 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 125 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 130 before ' cost[key]': Variable base_price not declared !
+wiz/emraef/open/scav/storeroom.c line 120 before ' " in stor': syntax error
+wiz/emraef/open/scav/storeroom.c line 121 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 125 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 130 before ' cost[key]': Variable base_price not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 120 before ' " in stor': syntax error
+wiz/emraef/open/scav/storeroom.c line 121 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 125 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 130 before ' cost[key]': Variable base_price not declared !
+wiz/emraef/open/scav/storeroom.c line 120 before ' " in stor': syntax error
+wiz/emraef/open/scav/storeroom.c line 121 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 124 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 125 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 130 before ' cost[key]': Variable base_price not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 153 before ';': Variable file_name not declared !
+wiz/emraef/open/scav/storeroom.c line 153 before ';': Variable file_name not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 159 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 177 before ' arg + " x': syntax error
+wiz/emraef/open/scav/storeroom.c line 194 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 230 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 230 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 291 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 159 before end of line: syntax error
+wiz/emraef/open/scav/storeroom.c line 177 before ' arg + " x': syntax error
+wiz/emraef/open/scav/storeroom.c line 194 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 230 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 230 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 291 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 177 before ' );': Variable bill_of_sail not declared !
+wiz/emraef/open/scav/storeroom.c line 177 before ' );': Variable bill_of_sail not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 109 before ' "|-------': Variable bill_of_sail not declared !
+wiz/emraef/open/scav/storeroom.c line 109 before ' "|-------': Variable bill_of_sail not declared !
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/storeroom.c line 185 before ' + " x " +': syntax error
+wiz/emraef/open/scav/storeroom.c line 202 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 238 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 238 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 301 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 301 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 185 before ' + " x " +': syntax error
+wiz/emraef/open/scav/storeroom.c line 202 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 238 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 238 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 301 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/storeroom.c line 301 before end of line: Bad assignment: illegal lhs (target)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/_lpc_cmd0.c line 2: syntax error
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/open/megaplex/megaplex_0.c line 14 near ';': Wrong number of arguments to common_reset: expected 1, got 0
+wiz/emraef/open/megaplex/megaplex_0.c line 14 near ';': Wrong number of arguments to common_reset: expected 1, got 0
+wiz/emraef/open/megaplex/megaplex_0.c line 14 near ';': Wrong number of arguments to common_reset: expected 1, got 0
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+wiz/emraef/_lpc_cmd0.c line 1: Variable time not declared !
+wiz/emraef/_lpc_cmd0.c line 1: syntax error
+wiz/emraef/open/scav/gather_source.c line 94 near end of line: Inconsistent declaration of 'long': Return type mismatch (void vs int)

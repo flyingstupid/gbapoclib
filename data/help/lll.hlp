@@ -1,0 +1,592 @@
+^#^
+look^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: look
+         Usage: l
+                look
+                look at <item|player|monster>
+                look at <item> on <item>
+   Description: This gives a CASUAL glance at an object that
+                may or may not need a closer examination. 
+                'look' will give a description of the room,
+                unless its dark or you are in brief mode.  
+
+       Example: look at lock on door
+Related topics: examine, brief.
+ 
+^#^
+l^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: look
+         Usage: l
+                look
+                look at <item|player|monster>
+                look at <item> on <item>
+   Description: This gives a CASUAL glance at an object that
+                may or may not need a closer examination. 
+                'look' will give a description of the room,
+                unless its dark or you are in brief mode.  
+
+       Example: look at lock on door
+Related topics: examine, brief.
+ 
+^#^
+light^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: light
+         Usage: light
+                light <amount>
+
+   Description: This command allows you to set the change the light
+                value.  If no argument is given, the light value is
+                returned.  If the light value is zero or less, it is
+                dark.
+
+Related topics: none.
+ 
+^#^
+load^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: load
+         Usage: load <file>
+
+   Description: This attempts to load a file as an object into memory. 
+                Failure will log into /log/log, /log/creator_name.  The
+                logs can be looked at with 'log', 'main', 'debug'. File
+                will accept the token '*' as a wildcard.  All file names
+                have ".c" added to them automatically.
+
+Related topics: load, update, log, main, debug.
+ 
+^#^
+localcmd^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: localcmd
+         Usage: localcmd
+
+   Description: This command gives you a list of all actions currently
+                available to you.
+
+Related topics: none.
+ 
+^#^
+log^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: log
+         Usage: log
+                log <who>
+
+   Description: log tails the end of your error log file.  If you have
+                file read access to other creators log files, then you
+                can look at their error logs.  Your error log file is
+                /log/creator_name.
+
+Related topics: main, debug, rlog.
+ 
+^#^
+lpc^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: lpc
+         Usage: lpc <code>
+
+   Description: This command writes a temporary file, loads the code,
+                and returns the value.  It is used to clarify lpc code
+                output.
+
+       Example: lpc return 30*675;
+
+Related topics: patch.
+ 
+^#^
+ls^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: ls
+         Usage: ls
+                ls <file>
+                ls <file> -v
+                ls <file> -<number>
+                ls -h
+
+   Description: The ls command lists files and directories. If no
+                options are given, it will list files in the creators
+                current default directory.  An optional file path can be
+                given, which accepts the token '*' as a wildcard.  The -
+                v option prints the file list in verbose mode.  Verbose
+                mode shows the file sizes, and gives the creators read
+                and/or write access. 
+
+       Example: ls /obj -v
+
+Related topics: none.
+ 
+^#^
+lt^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Light                Sphere: Stellar                  |
+ | Level:  1                      Cost: 1                        |
+ | Component:  None.             Usage: Lt (with capital 'L')    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause the cleric to glow with a soft halo.   |
+ | The halo enables the cleric to see in darkness.               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+lightning bolt^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Lightning Bolt       |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   10                   |:  This spell causes lightning |:||
+ ||:| Level:  9                    |:  to leap about from the      |:||
+ ||:| Usage: lb who                |: caster. Striking its target.  |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+limited wish^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Limited Wish         |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   14                   |:  A limited wish can imitate  |:||
+ ||:| Level:  14                   |:  almost any spell whose level|:||
+ ||:| Usage:  limited wish <spell> |:  does not exceed level 10.   |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| Wish.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+locate^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Locate               |:  Description:                |:||
+ ||:| School: Divination           |:                              |:||
+ ||:| Cost:   6                    |:  This spell will enable the  |:||
+ ||:| Level:  6                    |:  caster to locate any monster|:||
+ ||:| Usage:  locate who           |:  or player throughout the    |:||
+ ||:|                              |:  domains.                    |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+listen^#^
+SUBTOPIC-general^#^
+                    -=[ Help ]=-
+
+       command: listen
+         Usage: listen
+                listen <item>
+
+   Description: If you stop and listen you may hear something.
+
+Related topics: smell, search.
+ 
+^#^
+lock^#^
+SUBTOPIC-general^#^
+		-=[ Lock ]=-
+
+	Command: lock
+	  Usage: lock <door|item> with <key>
+
+    Description: This command allows you to lock a door or an item with
+		 a 'key'.  The key must fit the lock.  A thief may be able
+		 to pick the lock.
+
+	Example: lock east door with round key
+
+ Related Topics: open, close, unlock, search, pick (thief).
+^#^
+lastname^#^
+SUBTOPIC-player^#^
+                   -=[ Last Name ]=-
+
+	Command: lastname
+	  Usage: lastname 
+    Description: The last name command enables a player to set his
+                 last name, or 'family' name, for the purposes of
+		 role playing.
+
+		 This command is only available to players once they
+		 reach player level 10 (not skills levels). Once
+		 a last name has been set, it can not be changed.
+
+Related topics: describe
+
+^#^
+level^#^
+SUBTOPIC-player^#^
+		-=[  Level & Exp Help  ]=-
+SYNOPSIS
+	Experience for gaining levels on a Heaven7 mud
+
+DESCRIPTION
+	Your level is based solely on the total amount of 
+	experience points you have gained. The following 
+	is a list of that amount of exp.
+
+
+					Total Exp
+	      Level			Required
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                1.......................0
+		2.......................3042
+		3.......................7506
+		4.......................9600
+		5.......................12672
+		6.......................17181
+		7.......................23805
+		8.......................33528
+		9.......................47808
+		10......................68775
+		11......................99561
+		12......................144768
+		13......................211146
+		14......................308613
+		15......................451725
+		16......................661869
+		17......................970431
+		18......................1423506
+		19......................2088780
+		20......................3065637
+		21......................4500000
+		22......................6000000
+		23......................7560000
+		24......................9180000
+		25......................10860000
+		26......................12600000
+		27......................14400000
+		28......................16260000
+		29......................18180000
+		30......................20160000
+		31......................22200000
+		32......................24300000
+
+Related Topics: None
+^#^
+levels^#^
+SUBTOPIC-player^#^
+		-=[  Level & Exp Help  ]=-
+SYNOPSIS
+	Experience for gaining levels on a Heaven7 mud
+
+DESCRIPTION
+	Your level is based solely on the total amount of 
+	experience points you have gained. The following 
+	is a list of that amount of exp.
+
+
+					Total Exp
+	      Level			Required
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                1.......................0
+		2.......................3042
+		3.......................7506
+		4.......................9600
+		5.......................12672
+		6.......................17181
+		7.......................23805
+		8.......................33528
+		9.......................47808
+		10......................68775
+		11......................99561
+		12......................144768
+		13......................211146
+		14......................308613
+		15......................451725
+		16......................661869
+		17......................970431
+		18......................1423506
+		19......................2088780
+		20......................3065637
+		21......................4500000
+		22......................6000000
+		23......................7560000
+		24......................9180000
+		25......................10860000
+		26......................12600000
+		27......................14400000
+		28......................16260000
+		29......................18180000
+		30......................20160000
+		31......................22200000
+		32......................24300000
+
+Related Topics: None
+^#^
+linguistics^#^
+SUBTOPIC-bard^#^
+                -=[ Linguistics ]=-
+
+     	     Topic: Linguistics
+
+	  Synopsis: Through study, and assimilation of culture through
+			experience, a bard is able to understand various
+			writings, as well as spoken language, that he has
+			not studied fully, or even speaks or writes.
+
+			When the bard attempts to read, speak, or listen to
+			an unknown tongue his chance to do so rises as his
+			linguistic ability increases.
+	  
+
+  Related Topics: speak, say
+
+        Category: bard help.
+
+^#^
+list-mage^#^
+SUBTOPIC-mage^#^
+	Mage Spells List by Level/School
+
+School	Level	Spell
+-----------------------------------------------
+Illusion	 1	Ventriloquism
+		 4	Phantom armour
+		 5	Phantasm
+		 8	Invisibility
+		10	Improved phantasm
+		10	Suggest
+		11	Shadow door
+		12	Phantasmal force
+		14	Scare
+		15	Shadow monster
+		15	Visual illusion
+		18	Alter reality
+		25	Permanent illusion
+-----------------------------------------------
+Charm
+		 2	Charm animal
+		12	Charm person
+		12	Hold person
+		15	Demand
+		15	Hold monster
+		18	Charm monster
+		20	Fod (finger of death)
+-----------------------------------------------
+Conjuration
+		 8	Comet
+		10	Magic mouth
+		11	Monster summon 1
+		13	Acid rain
+		13	Shooting stars
+		14	Limited wish
+		15	Pws (power word stun)
+		16	Monster summon 2
+		22	Monster summon 3
+		25	Wish
+		30	Pwk (power word kill)
+-----------------------------------------------
+Abjuration
+		 3	Shield
+		 5	Dispel illusion
+		 7	Dispel conjuration
+		10	Dispel magic
+		14	Spell immunity
+		14	Stoneskin
+		18	Resist magic
+		20	Anti magic shell
+-----------------------------------------------
+Necromancy
+		 1	Sbf (sin's black flame)
+		 5	Chill touch
+		 7	Contagion
+		 7	Minor malison
+		 7	Wraith form
+		10	Bbb (beltyn's burning blood)
+		12	Vampiric touch
+		18	Reincarnate (reincarnation)
+                20      Deathray (Pointer's Deathray)
+		35	Death spell
+		35	Energy drain
+-----------------------------------------------
+Evocation
+		 1	Magic missile
+		 5	Acid arrow
+		 7	Mks (mordenkainen's sword)
+		 9	Lightning bolt
+		10	Coc (cone of cold)
+		10	Fire ball
+		12	Fire shield
+		15	Fhain lightning
+		15	Flobe of invulnerability (minor)
+		17	Ice storm
+		25	Globe of invulnerability (major)
+		25	Prismatic spray
+		27	Meteor swarm
+		28	Prismatic wall
+		30	Prismatic sphere
+-----------------------------------------------
+Divination
+		 1	Detect illusion
+		 2	Detect secret doors
+		 3	Detect magic
+		 4	Detect immunities
+		 4	Detect magic resistance
+		 5	Identify
+		 6	Locate
+		10	Wizard eye
+		12	Scry
+-----------------------------------------------
+Alteration
+		 2	Burning hands
+		 2	Rrope trick
+		 5	Deep pocket
+		 8	Teleport
+		 9	Strength
+		12	Enchanted weapon
+		12	Enlarge
+		12	Friends
+		12	Teleport other
+		12	Warp
+		19	Teleport party
+		21	Warp other
+		26	Disintegrate
+		29	Warp party
+-----------------------------------------------
+List compiled by Magus Pointer
+List effective as of April 1998
+-----------------------------------------------
+^#^
+list-cleric^#^
+SUBTOPIC-cleric^#^
+		Level/	      
+Sphere		 Cost		Prayer Name
+-------------------------------------------------------
+Healing Sphere
+
+		 1 	Cure/Cause Wounds
+		 4 	Cure/Cause Light Wounds
+		 5 	Cure/Cause Blindnes
+		 3 	Cure/Cause Deafness    
+		 7 	Cure/Cause Disease
+		 7 	Cure/Cause Minor Wounds
+		10	Cure/Cause Medium Wounds
+		13 	Cure/Cause Serious Wounds
+		16 	Cure/Cause Critical Wounds
+		19 	Cure/Cause Major Wounds
+		23 	Cure/Cause Heavy Wounds
+		30 	Heal
+		30 	Harm
+-------------------------------------------------------
+Necromancy Sphere
+
+		 3 	Slow Poison
+		 8 	Neutralize Poison
+		11 	Animate Skeleton
+		14 	Animate Zombie
+		14 	Poison
+		18 	Raise Dead
+		21 	Restore
+		30 	Death Curse
+		30/35 	Slay Living
+		35 	Resurrect
+-------------------------------------------------------
+Combat Sphere
+		 1	Bless
+		 1 	Curse
+		 2	Remove Curse
+		 5 	Prayer 
+		 4	Spiritual Hammer
+		 8 	Holy Strike
+		18 	Flamestrike
+		27 	Meteor Swarm
+		30 	Holy Word
+-------------------------------------------------------
+Stellar Sphere
+		 1 	Lt (light)
+		 8 	Starburst
+		12 	Dimensional Fold Gem
+		16 	Dimensional Fold Other Gem
+		16 	Time Shift Gem
+		23 	Dimensional Fold Party Gem
+		25 	Time Shift Other Gem
+		30 	Gate
+		33 	Time Shift Party Gem
+-------------------------------------------------------
+Protection Sphere
+		9 	Resist Light
+		9 	Resist Cold
+		9 	Resist Darkness
+		9 	Resist Acid
+		9 	Resist Death
+		9 	Resist Lightning       
+		9 	Resist Draining
+		9 	Resist Poison
+		9 	Resist Earth
+		9 	Resist Disease
+		9 	Resist Fire
+		9	Resist Fear
+		9	Resist Water
+		9 	Resist Charm
+		9 	Resist Air
+-------------------------------------------------------
+Nature Sphere
+		 1 	EBL (Ever Burning Log) Branch
+		 3 	Animal Friendship
+		 6 	Goodberry Berry
+		 7 	Barkskin Branch
+		 8 	Call Lightning
+		 8 	Create Food
+		 8 	Create Water Bottle
+		 8 	Plant Door Tree
+		 9 	Plant Growth Seed/Berry
+		11 	STS (Sticks to Snakes) Branch
+		18 	Fire Storm                     
+		20 	Earthquake
+-------------------------------------------------------
+Divination Sphere
+		 1 	Detect Illusion
+		 4 	Detect Immunities
+		 4 	Detect Magic Resistance  
+		 3 	Detect Magic
+		 2 	Detect Secret Doors
+		 6 	Locate
+		 5 	Identify
+		12 Scry Gem
+		  
+
+List compiled by High Priest Garion
+List effective as of May 1998

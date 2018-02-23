@@ -1,0 +1,13 @@
+#0:0
+ob_files 0
+ob_list 0
+create_room "d/coronos/w/angel/city/temple/hall4"
+name "sarak"
+alias_name "Sarak"
+alt_name "Someone"
+plural 0
+adjectiv 0
+long_desc "\n"
+extra_info ""
+smell_msg 0
+mail ({})

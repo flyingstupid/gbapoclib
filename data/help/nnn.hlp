@@ -1,0 +1,128 @@
+^#^
+nature sphere^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Nature Sphere                |
+ |                                                       |
+ | Animal Friendship            Plant Growth             |
+ | Call Lightning               Plant Door               |
+ | Barkskin                     Fire Storm               |                       
+ | Goodberry                    Earthquake               |
+ | EBL (Ever Burning Log)                                |
+ | STS (Sticks to Snakes)                                |
+ | Create Food                                           |
+ | Create Water                                          |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+necromancy sphere^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Necromancy Sphere            |
+ |                                                       |
+ | Animate Skeleton             Slay Living              |
+ | Animate Zombie               Death Curse              |
+ | Slow Poison                                           |                   
+ | Neutralize Poison                                     |
+ | Poison                                                |
+ | Raise Dead                                            |
+ | Resurrect                                             |
+ | Restore                                               |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+neutralize poison^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Neutralize Poison    Sphere: Necromancy               |
+ | Level:  8                      Cost: 8                        |
+ | Component: none.              Usage: neutralize poison who    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to neutralize the effects   |
+ | of poison on the prayer's target.                             |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+necromancy^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|      Necromancy Spells       |:     Necromancy Spells        |:||
+ ||:|                              |:                              |:||
+ ||:|   Animate Skeleton           |:  Wraith Form                 |:||
+ ||:|   Animate Zombie             |:  Energy Drain                |:||
+ ||:|   BBB(Beltyn's Burning Blood)|:  Reincarnate                 |:||
+ ||:|   Chill Touch                |:                              |:||
+ ||:|   Vampiric Touch             |:                              |:||
+ ||:|   Death Spell                |:                              |:||
+ ||:|   Minor Malison              |:                              |:||
+ ||:|   SBF (Sin's Black Flames)   |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+newbie^#^
+SUBTOPIC-general^#^
+			-=[ Help Newbies ]=-
+
+SYNOPSIS
+	A Newbie is someone of low level who is new to a mud.
+
+
+DESCRIPTION
+	Heaven7 is a unique mud. Throw all you might know of other
+muds, and start from scratch.
+
+	Heaven7 does not have 'newbie' areas, however some areas
+are primarily 'newbie' in design. Such areas are made to teach
+newbies the basics of gettings items, killing items, selling and
+buying things, mapping, and looking at descriptions to decide for
+yourself what to do. Hence, there is also no 'consider' command. You
+are expected to decide for yourself whether or not a monster is good
+to kill by looking at its description.
+
+
+HINTS
+	A basic hint is to kill small animals, like rats, bees,
+lizards, cats, dogs, and things like that.
+	The more you drink, eat, etc, then the faster you heal, so visit
+the pubs and inns often!
+	Also be warned, ALL newbies (1st level) are removed in the first
+week of each month (usually the first Monday).
+	There is also day and night, so you should find a torch.
+Other hints are use WIMPY! ...don't try and kill monsters/NPCs
+with names like 'guard' or proper names, like Samantha, etc,
+because they are very likely to be HIGH levels.
+
+
+
+	Newbies should read the following help files. They will
+prove to be very handy:
+
+-ic                       -ooc                      alias
+channel                   church                    classes
+drop			  emote                     exa or examine
+examine                   fix                       get
+give                      i (for inventory)         inventory
+kill                      l (for look)              level                     
+levels                    look			    mail 
+ooc			  party                     primary skills
+put                       quit                      Quit
+save                      say                       score
+shout                     skills                    speak
+square                    ss                        whisper
+who			  wimpy                     xp
+
+	Please read these help files!
+
+	Higher level players are there to help, so make sure you bother them!
+
+	See also: help manuals

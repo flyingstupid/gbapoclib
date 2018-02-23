@@ -1,0 +1,6 @@
+This directory contains all the affiliation objects.
+
+Please note that if you make a priestly affiliation that one of the ids
+needs to be 'holy symbol' in order for the spell.c combat routine to
+pick up the diety that the player worships.
+

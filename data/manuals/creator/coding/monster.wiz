@@ -1,0 +1,868 @@
+::: Monster Documentation :::
+
+Table of Contents
+~~~~~~~~~~~~~~~~~
+	1.01 Introduction
+	1.02 What are monsters stats?
+	1.03 Legal Monster Stats
+
+	2.01 Monster Equipment
+
+	3.01 Functions for monsters
+
+	4.01 Undead Monsters
+
+	5.01 Monster Manual
+
+
+
+
+1.01 Introduction
+~~~~~~~~~~~~~~~~~
+Monsters form one of the central functions of any mud, and that is for
+players to kill. Some Creators can get quite creative and make monsters
+that are for the purpose of interaction. With the diversity of this
+mudlib the later is preferable, especially by players. 8)
+
+It is important that a creator is able to create a monster that is in line
+with other monsters of similar power about the mud. Players then are
+able to learn that an orc in one area is about the same ability of other
+orcs around other areas; they will learn that a monster of 5th level in
+the city is similar to another monster of 5th level.
+
+
+
+1.02 What are Monsters Stats?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	A monster is more than just an accumulation of statistics. When
+you make a monster it should appear as real as possible to a player. But
+how does one accomplish this? 
+	The first key is simply continuity. In a later section of this
+document, we will out-line the usual stats for monmsters by name.
+	The second is balance. Make sure that a monster's abilities are
+not death traps, and that they are in-line with standard abilities thru
+the rest of the mud.
+	Three, is to understand what a monsters stats really mean.
+
+	Monsters come in many shapes and sizes, but how is this reflected
+in a monsters statistics? Level is the first guideline. Animals and small
+creatures have only a few HP (hit them a few times and they die). Usually
+such are pretty easy to hit as well. As a result, they come under the
+low level range of levels, 1-5. I'd make a mouse at about 1, and a giant
+at about level 20!
+	Don't forget that AC is not only how much armour they wear, but also
+advantages they get due to size (small vs large) and how they move about
+and can dodge out of the way.
+	Similarly, WC is not only how big your weapon is, but also how
+hard you hit, including muscle, bulk, and sheer size! It does not always
+have to be the fact they have a two handed sword, but the giant who
+hits you with his fist still does alot of damage.
+	Likewise, players AC and WC is automatically adjusted due to their
+race. Gnomes, halflings, and othe rsmaller races get an AC bonus, simply
+due to the fact that they are small, and hence harder to hit. Orcs, Giants
+and Minotaurs are bigger than normal humanoids, and hence gain WC bonuses
+because of their size, and bulk.
+
+	Make sure you remember these things when you code your own monsters.
+
+
+
+1.03 Legal Monster Stats
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Table 1: Legal Monster Stats            Level is the best indicator of
+----------------------------            the general difficulty of the
+Level  HP  WC  AC   MONEY               monster, and also of the area
+----------------------------            that the monster is found.
+ 1     50   5   3    30
+ 2     55   6   3    60                 WC is the same as the player stat
+ 3     60   7   4   100                 but is INDEPENDANT of any weapon
+ 4     70   8   4   150                 that they may wield. If you make a
+ 5     80   9   5   200                 monster wield a weapon set their WC
+ 6     95  10   5   250                 AFTER it. 
+ 7    110  11   6   300
+ 8    130  12   7   350                 AC is also independent of armour.
+ 9    150  13   7   400                 Set a monsters AC AFTER you make it
+10    175  14   8   700                 wear its armour (if any).
+11    200  15   9   900
+12    230  16   9  1000                 Money is the general treasure or
+13    260  17  10  1200                 coinage given to a player after he
+14    300  18  11  1400                 kills it. It is independent of armour
+15    350  20  12  1600                 or weapons he may gain from it. Note
+16    450  22  13  1800		  that these are absolute maximum values.
+17    600  24  14  2000
+18    800  26  15  2200
+19   1100  27  16  2400
+20   1500  30  17  2600
+21+  1700  30  17  2800
+-----------------------------------------------------------------------------
+
+Monster stats are permitted to be +/- 20% dependant upon the Creators
+needs for the area that the monster is placed. Any deviations from this
+will be noted when a QC checks the area. Use of the 'stat' function from
+the standard 'creator' powers will also inform you what monsters are legal
+and what monsters are illegal.
+
+Monsters after 21st level are expected to have extensive spell ability, and
+several class abilities. These monsters are the typical ones that have special
+armour and weapon types.
+
+
+2.01 Monster Equipment
+~~~~~~~~~~~~~~~~~~~~~~
+
+ARMOUR: Any monster is allowed to have armour of the type to wear. Humanoids
+often have chainmail, helms, gloves, etc, that perform protective functions.
+A monster who wears a ring of protection is protected from fire! Some, however,
+don't have need for wearing armour. 
+
+Dragons don't wear armour. Dragon hide as an armour type for it to wear,
+and hence for the player to obtain, is NOT valid armour. A player already
+has the ability to skin the dragon and turn the hide into armour. A wolf's
+pelt is a similar example of what NOT to set armour to. See also 'man armour'.
+
+WEAPONS: Humanoids defend themselves mostly with swords, hammers, maces,
+and other weapons. When a monster has one, make sure he wields it. Set the
+WC after you do this. As with armour, a dragon, or similar monster, does
+NOT have a weapon to wield. Don't make a dragon's claw a weapon for a
+dragon to wield. A player can always hack the claw off to use for other
+purposes, even sell!
+
+
+
+3.01 Functions
+~~~~~~~~~~~~~~
+object set_heart_ob(object ob);
+object set_dead_ob(object ob);
+object set_init_ob(object ob);
+Comment: These fn's allow you to use a heart_beat(), second_life(), and init()
+in an alternative object ob.
+
+E.g.  void reset(status arg) {
+	::reset(arg);
+	if(arg) return;
+	
+	set_name("giant");
+	set_heart_ob(this_object());
+	...etc...
+      }
+
+      void monster_heart_beat() {
+	if(present("angel", environment())) 
+	  tell_room(environment(), "Giant says: Hi Angel!\n");
+      }
+
+'set_dead_ob' works the same, however, this function is called when a monster
+dies. This way you can have a fire elemental burn into nothingness, rather than
+leave a corpse. This is good since a living flame ain't gonna leave a body behind;
+he ain't got one to start off with 8).
+
+int set_random_pick(int r);
+Comment: If there is a gettable object in the room, the monster has r% chance
+to pick it up each heart beat. Put this function along with all the other sets,
+like set_name, set_level, etc.
+
+status set_move_at_reset(status i);
+Comment: set_move_at_reset(1) will cause the monster to move every reset.
+
+status set_aggressive(status a);
+Comment: set_aggressive(1) will cause the monster to fight automatically when
+a player enters the room.
+
+string set_name(string n);
+Comment: This will set living name automatically. 
+  
+void add_spell_immunity(string type);
+status query_spell_immunity(string type);
+Comment: Spell immunities allow a player or monster to be immune to certain
+types of spell and other attacks. The monster can also be immune to
+non enchanted weapons, or weapons of certain types.
+
+E.g. add_spell_immunity("non enchanted weapons"); ...will make a monster
+immune to those weapons that DONT have set_enchanted(), however, you
+can also add_spell_immunity("slash"); ..etc...
+
+void set_level(int l);  
+Comment: This will set the minimum requirements for level l. By setting the
+level wc, ac, & hp are also set to an appromimate amount. It is suggested,
+however, that you set these things as well.
+
+void set_wander(int chance, int time);
+Comment: the monster has chance% to move each heart beat after waiting time
+heart beats.
+
+void set_attack_msg(({ string *array }));
+Comment: the monster is able to attack with 7 messages from least hard hit
+to hardest hit. It makes the monsters attack more realistic if it is not
+wielding a weapon. For non-human monsters it is recommended that you set
+the attack message. After all, you don't want rabbits and lizards kicking
+you!
+     E.g. set_attack_msg(({
+               "bruises softly",   "with its nose",
+               "grazes lightly",   "with its tail",
+               ...etc
+          }));
+  
+
+4.01 Undead Monsters
+~~~~~~~~~~~~~~~~~~~~
+Monsters can be undead. An undead monster has a few more abilities it
+is able to use against a player. To make an undead monster, inherit
+UNDEAD, rather than MONSTER at the top of your file.
+
+Since undead monsters have standard protections (like cold, energy 
+drain.. etc) you are permitted to make them as low as -30% from 
+their original suggested stats.
+
+int set_chill_chance(int chance);
+int set_chill_dam(int damage);
+Comment: This gives the undead monster %chance to damage to a player 
+through a chilling touch. A liches touch is deadly cold.
+
+int set_drain_chance(int chance);
+Comment: This gives the undead monster %chance to drain one level from a
+player. In this case restoration of that level is possible, but it will
+only place the player at the beginning of the level (exp wise) that he lost).
+Many drain life energy levels including vampires, liches, wraiths. The %chance
+should not be set very high, say, 5%
+
+int set_disease_chance(int chance);
+Comment: Mummies and other undead carry dreaded disease which passes to the
+player giving him cold-like symptoms at first, but ending up in weighing the
+player down, not being able to eat or drink as much while he is under its
+effects. The disease is also contagious from monster to monster and player
+to player.
+
+
+Spells & Abilities
+------------------
+All monsters, as they gain in levels, should be given some form of
+spell-like attack. Players find it much more of a challenge if they
+have to use their spells for immunities against monsters spells, and
+find the rewards from the battle much more rewarding.   
+
+It is EXPECTED that appropriate humanoid monsters have spell-like attacks.
+
+
+int set_chance(int c);
+int set_spell_dam(int d);
+  
+string set_spell_mess1(string m);
+string set_spell_mess2(string m);
+string set_spell_type(string t);  /* like fire, lightning, etc */
+ 
+string set_spell_skill_type(string str);
+
+Comment: This is the old way (dated from circa 2.4.5).
+This is not used any more but is left for compatibility.
+ 
+This old spell type can also be used for, say, a red dragon's breath
+weapon (fire), or a black dragon's acid breath weapon, or even a
+minotaur's head butt!
+
+
+The new spell system allows monsters to utilise the same spells and
+skills as players. Firstly, make sure you 'add_class(string class)'
+for the appropriate spell types. E.g. 'add_class("cleric");' for a
+monster who can cast healing spells on itself, or cast curse spells
+on its attacker.
+
+
+void set_spell(mixed *arr);
+Comment: this loads a default spell, in a fashion the same as load_spell().
+See spell2.doc. (This replaces above functions).
+
+/* can call player spells */
+
+void load_spells(int c, string *s);
+Comment: *s is a list of spells (by there bin name). There is a c% chance per
+heart to cast a spell. It is important to note the monster must be of a
+level capable of casting the spell. Set the c% to approximately 2% per level
+as a rule of thumb (only). 
+
+Eg. load_spells(10,({ "cure light wounds", "magic missile", }));
+
+  
+/**************************************************************************/ 
+
+ 
+status init_command(string cmd);
+Comment: commands the monster to 'cmd'. This must be used if a monster has
+an item that it is able to either wear or wield. This feature can also be
+used for any action you want the monster to take when someone walks into
+the room and initialises the monster. 
+
+/***************************************************************************/ 
+/***   Load Chats and Attack chats.   ***/  
+ 
+void load_chat(int chance, string *strs);
+Comment: there is a chance% chance per heart beart to say a chat string. 
+Monsters almost always have something to say, and so this enables the
+player to interact with it on some limited level.
+
+Eg. load_chat(10,({ "Bob says: Hi.\n", "Bob peers into the distance.\n", }));
+
+
+void load_a_chat(int chance, string *strs);
+Comment: If the monster is attacking is will use attack chats instead of chats.
+  
+  
+void load_l_chat(int chance, string lang, string *strs);
+Comment: same as load_chat(), but spoken in language lang. This is useful
+if the monster is an elf, and only people who know elvish will understand
+the monster. 
+  
+
+void load_monster(mixed name, int lev, string race);
+Comment: This is another format for loading monsters. You will have to look at
+the function in /inherit/monster.c. to see a complete listing of how to use
+this feature, or ask an ELDER.
+
+
+A complete listing of valid monster stats can be found in /include/fn/stat.h
+This file is required to be changed if the ADMIN decide to alter the legal
+values and statistics of not only monsters, but also weapons and armour.
+
+
+5.01 Monster Manual.
+~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+
+	The following is an extract from the AD&D DM's Guide (C) TSR.
+The information is reprinted here, with alterations to level as a guide
+only as to what levels to set various monsters to. As a rule of thumb
+you will note that humanoids can always exceed these levels due to
+various training. 
+	Also note that undead and lycanthropes ALWAYS had a life of
+some sort before they became undead. The levels shown here would be
+the absolute minimum you would set them to.
+	Additionally, any animal is classified as having 1-5 levels,
+minor NPCs should have a level between approximately 5th and 15th
+level. Major NPCs should have a level between 15th and 25th level,
+while UNIQUE NPCs should have a level 30+
+
+
+Monster Name			Level		
+~~~~~~~~~~~~			~~~~~
+
+
+A
+~
+aerial servant			30
+anhkheg				10-20
+ant, giant			2-3
+ape				4
+ape, carnivorous		5
+axe beak			3
+
+
+B
+~
+baboon				1
+badger				1
+badger, giant			3
+baluchitherium			20-30
+barracuda			1-3
+basilisk			10
+bear, black			6
+bear, brown,			7
+bear, cave			8
+beaver, giant			4
+beetle, giant -
+	bombardier		2
+	boring			5
+	fire			1
+	rhinoceros		12
+	stag			7
+	water			4
+beholder			40+
+black pudding			10
+blink dog			4
+boar, giant			7
+boar, wild			3
+boar, warthog			3
+brain mole			1
+brownie				1-5
+buffalo				5
+bugbear				8
+bulkette			12
+bull				4
+
+
+C
+~
+camel, wild			3
+carrion crawler			12
+catoblepas			15
+cattle, wild			1-4
+centaur				8+
+centipede, giant		1
+cerebral parasite		1
+chimera				20
+cockatrice			8
+coutal				20-30
+crab, giant			3
+crayfish, giant			5
+crocodile, normal		3
+crocodile, giant		7
+
+
+D
+~
+displacer beast			9
+djinni				40+
+dog, war			3
+dog, wild			1
+dolphin				3
+doppleganger			15
+
+dragon (note good dragons are metalic, and evil dragons are chromatic)
+			young	mature	adult	old	ancient
+			~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	black 		8 	18 	28	38	48
+	blue		10	20	30	40	50
+	brass		8	18	28	38	48
+	bronze		10	20	30	40	50
+	copper		9	19	29	39	49
+	gold		12	22	32	42	52
+	green		9	19	29	39	49	
+	red		11	21	31	41	51
+	silver		11	21	31	41	51
+	white		7	17	27	37	47
+
+dragonne			9-20
+dragon turtle			12-24
+dryad				2-9
+dwarf,
+	hill			5+
+	mountain		5+
+	gully			3+
+	duregar			6+
+
+
+
+
+E
+~
+eagle, giant			4
+ear seeker			1
+eel -
+	electric		2
+	giant			5
+	weed			1
+efreeti				40+
+
+elemental -
+	air			10-16+
+	earth			10-16+
+	fire			10-16+
+	water			10-16+
+
+	Usually only stupid elementals get summoned.
+	On their own plane, or really powerful and
+	intelligent ones could be much higher level!
+
+elephant -
+	elephant		10
+	loxodont		11
+
+elf
+	dark			5+
+	high			5+
+	grey			5+
+	wood			5+
+	wild			5+
+
+ettin				10
+eye, floating			1
+eye of the deep			20+
+flightless bird			1-3
+frog -
+	giant			1-3
+	killer			1
+	poisonous		1
+fungi, violet			3
+gar, giant			8-12
+gargoyle			5
+pas spore			1
+gelatinous cube			10+
+ghast				8+
+ghost				20+
+ghoul				4+
+giant -				
+	cloud			22
+	fire			21
+	frost			20
+	hill			18
+	stone			19
+	storm			25
+gnoll				2-8
+gnome -
+	deep (svirfneblin)	5+
+	forest			5+
+	rock			5+
+
+goat, giant			2
+goblin				1-3
+golem -
+	clay			11
+	flesh			9
+	iron			18
+	stone			14
+gorgon				18
+gray ooze			8
+green slime			9
+griffon				17
+groaning spirit (banshee)	17
+
+
+H
+~
+halfling -
+	hairfoot		5+
+	stout			5+
+	kender			5+
+	tall fellow		5+
+
+harpy				5
+hell hound			12
+herd animal			1-5
+hippocampus			10
+hippogriff			17
+hippopatomus			8
+hobgoblin			2-5
+homonculous			1
+horse				1-3
+hydra -
+	5 heads			12
+	6 heads			15
+	7 heads			17
+	8 heads			19
+	9 heads			21
+	10 heads		23
+	11 heads		25
+	12 heads		27
+	13 heads		29
+	14 heads		31
+	15 heads		33
+	16 heads		35
+hydra - lernaean		12-20
+hydra, pyro
+	5 heads			15
+	6 heads			17
+	7 heads			19
+	8 heads			21
+	9 heads			23
+	10 heads		25
+	11 heads		27
+	12 heads		29
+hyena				3
+hyena, giant			6
+
+
+I
+~
+imp				3
+intellect devourer		12
+invisible stalker		20
+irish deer			5
+ixitxachitl			2
+
+
+
+J
+~
+jackal				2
+jackalwere			12+
+jaguar				4
+
+
+
+K
+~
+ki-rin				30
+kobold				1-2
+
+
+
+L
+~
+lamia				15
+lammansu			20
+lamprey, normal			1
+lamprey, giant			5
+larva				1
+leech, giant			1
+leopard				3
+lephrechaun			1
+leucrotta			12
+lich				40+
+lion -		
+	mountain		5
+	spotted			3
+lizard -			
+	fire			16
+	giant			3
+	minotaur		14
+	subteranean		5
+lizard man			6+
+locathah			6+
+lurker above			20
+lycanthrope -	
+	werebear		20+
+	wereboar		15+
+	wererat			10+
+	weretiger		12+
+	werewolf		15+
+lynx, giant			5
+
+
+
+M
+~
+mammoth				15
+manticore			20
+mastodon			15
+medusa				15
+men				See reccommended NPC lists above.
+	bandit
+	berserker
+	pirate
+	caveman/tribesman
+	nomad/dervish
+	merchant
+	pilgrim
+	
+merman				5+
+mimic				7-15
+mind flayer			17
+minotaur			6+
+mold (brown or yellow)		8				
+morkoth				10
+mummy				30+
+
+
+
+N
+~
+naga -		
+	guardian		40
+	spirit			30
+	water			20
+
+neo-otyugh			10-20
+night hag			12
+nightmare			10
+nixie				1
+nymph				4
+
+
+
+
+O
+~
+ochre jelly			10
+octopus				12
+ogre				
+	leader			15
+	chieftain		10
+	grunt			5-8
+
+ogre magi			10
+	chieftain		15
+
+orc				1-3
+	guard or sub chief	4
+	bodyguard of chief	5
+
+otter, giant			5
+otyugh				10-15
+owl, giant			4
+owlbear				7
+
+
+
+P
+~
+pegasus				4
+peryton				6
+piercer - 
+	largest			4
+	large			3
+	medium			2
+	small			1
+pike, giant			5
+pixie				1
+porcupine, giant		6
+portugese man-o-war		1-4
+pseudo dragon			3
+purple worm			15-30 ('cause they're so BIG!)
+
+
+
+
+Q
+~
+quasit				4
+
+
+
+R
+~
+rakshasa			15-35
+ram, giant			4
+rat, giant			1-2
+ray -
+	manta			8
+	pungi			4
+	sting			1
+remorhaz			10-30
+rhinocerous			8
+	wooly			10
+roc				20
+roper				20
+rot grub			1
+rust monster			5-10
+
+
+
+S
+~
+sahuagin			2+
+	baron/noble		3
+	chieftain		4
+	cleric			5
+	guard/lieutenant	6
+	king			10
+	mutant			8
+	prince			9
+salamander			10
+satyr				8
+scorpion, giant			6
+sea hag				4
+sea horse, giant		2-4			
+sea lion			6
+shadow				10
+shambling mound			10-20
+shark				3-8
+	giant			10-15
+shedu				25
+shrieker			3
+skeleton			1
+skunk, giant			5
+slithering tracker		5
+slug, giant			12
+snake				1-2
+snake, giant -
+	amphisbaena		6
+	constrictor		7
+	poisonous		4
+	sea			8
+	spitting		4
+spectre				10			
+sphinx -
+	andro			25
+	crio-			18
+	gyno-			16
+	heiraco-		20
+spider -
+	giant			4
+	huge			2
+	large			5
+	phase			5
+	water			3
+sprite				1
+squid, giant			20
+stag				2
+stag, giant			3
+stirge				1
+strangle weed			2-4
+su-monster			5
+slyph				3
+
+
+
+T
+~
+thought eater			3
+tick, giant			2
+tiger				5
+	sabre-tooth		7
+titan
+	lesser			25
+	major			30
+	elder			35
+titanothere			20
+toad, giant			3
+toad, ice			5
+toad, poisonous			2
+trapper				20
+treant				
+	"shrubling"		5
+	mature			10
+	"moss trunk"		15+
+triton				3
+	leaders			5
+troglodyte			1
+	chief leader		3
+	major leader		5
+	minor leader/guard	4
+	female			1
+troll				10
+turtle, giant -			
+	sea			25
+	snapping		15
+
+
+U
+~
+umber hulk			20
+unicorn				10
+
+
+V
+~
+vampire				10+
+
+
+W
+~
+wasp, giant			4
+warter wierd			3
+weasel, giant			3
+whale				12-50
+	black			20
+	humpback		21
+	killer			22
+	right			23
+	sperm			24
+	white (beluga)		25
+wight				10
+will-o-wisp			15
+wind walker			10
+wolf				2		
+	dire (worg)		3-4			
+	winter			6
+wolverine			3
+	giant			4
+wraith				12
+wyvern				20
+
+
+X
+~
+xorn				15
+
+
+Y
+~
+yeti				10
+
+
+
+Z
+~
+zombie				15
+
+
+					Angel, July 1996.

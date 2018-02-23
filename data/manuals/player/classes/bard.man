@@ -1,0 +1,123 @@
+
+Concept: Sub-Class; BARDS
+
+Description:
+
+Some bards on Magia are jacks-of-all-trades, while others spend their
+persuits in other singular matters. The bard sub-class that is 
+presented here is a mixture of a few, designed to give an overall
+look to the class 'bard', as well as give some role playing use
+to the player.
+
+Firstly, this bard class is an explorer, a scholar in search of
+the mysteries of his universe. He is a scholar, an academic, and yearns
+to learn more, so that he can then pass it onto others. Often, he is
+called the 'Lore Master', as he keeps the lore of the land.
+
+Bard Skills
+===========
+	Bards have three unique skills:
+		Song
+		History
+		Linguistics
+
+	* Song: See Bard Spells (below)
+
+	* History: Through the knowledge learned through the history
+	of many places, through stories and tales and myth, the bard
+	is able to tell the various uses of items, their supposed
+	command words, and powers. As this skill improves, he is also
+	able to use such items, even if it is only meant for another
+	profession (class). This includes scrolls, staves and wands.
+
+	History also enables the bard, through sociological studies
+	of the lore of various lands, to be able to assess any creature
+	he meets, or any object he discovers. (see also: help history).
+
+	* Linguistics: As the bard increases his skill in linguistics
+	he is better able to decipher languages he does not yet speak
+	or read. Using this skill, he is also better able to understand
+	other languages, and even able to speak them.
+
+	If he fails in his attempt to decipher a language, or to speak
+	it, then he simply has to wait a while before attempting it again
+	(this time is equal to one 'reset').
+
+
+	* Bards gain the following Fighter skills:
+		Two Weapon Use
+
+	* Bards also gain the following Thief skills:
+		Appraisal
+		Steal
+
+	* Bards need not maintain any alignment.
+
+	
+Bard Spells
+===========
+	Bards use the wizard school of Thaumaturgy known as 'Song'.
+	Through song they are able to weave magic and words. Spells
+	available to bards can be seen by typing 'help song'.
+
+	Demi-humans, such as dwarves and halflings do not cast spells
+	well, even if through song, and often find their spells go awry,
+	backfiring, or simply not working at all.
+
+
+Bard Races
+==========
+	Bards may be of any race. However, if a dwarf or halfling
+	race is a bard, then magic use failure is predominant. 
+
+
+Bard Armour & Weapons
+=====================
+	Bards are adept at fighting, more so than simple thieves. Bards
+	gain 12 HP per point of Constitution, 
+
+	Bards are able to use any weapon. They are, however, 
+	limited to thieves armour, such as leather armour, due to 
+	their requirements of slight of hand (such as stealing!).
+
+
+Bard Titles
+===========
+
+	Level	Title
+       ========================================
+         1	the Utter Newbie
+         2	the Simple Rhymer
+         3	the Lyrist
+         4	the Sonnateer
+         5	the Skald
+         6	the Simple Racaraide
+         7	the Skilled Racaraide
+         8	the Simple Joungleur
+         9	the Skilled Joungleur
+        10	the Famed Joungleur
+        11	the Simple Troubador
+        12	the Skilled Troubador
+        13	the Famed Troubador
+        14	the Simple Minstrel
+        15	the Skilled Minstrel
+        16	the Famed Minstrel
+        17	the Simple Muse
+        18	the Skilled Muse
+        19	the Famed Muse
+        20	the Simple Lorist
+        21	the Skilled Lorist
+        22	the Skilled Lorist
+        23	the Famed Lorist
+        24	the Master Lorist
+        25	the Lecturer
+        26	the Master Lecturer
+        27	the Academic
+        28	the Master Academic
+        29	the Master Scholar
+        30	the Bard
+        31	the Master Bard
+      ========================================
+
+
+					(c) Angel, June 1998.

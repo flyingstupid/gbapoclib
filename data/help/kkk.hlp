@@ -1,0 +1,71 @@
+^#^
+kill^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: kill
+         Usage: kill <who>
+   Description: Since this a combat orientated game, you can
+                enter combat attempting to kill someone.  Some
+                areas are marked so that fighting (should)
+                does not occur eg. pubs, shops, churchs.  If
+                the mudlib is in player killing mode them you
+                can kill other players.  You cannot kill other
+                players using this command.  It has been known
+                that area effect spells can kill the unwary
+                player.
+
+Related topics: mage, thief, fighter, cleric.
+ 
+^#^
+keeps^#^
+SUBTOPIC-player^#^
+
+
+SYNOPSIS
+	Player Keeps 
+
+DESCRIPTION
+
+	Introduction
+	~~~~~~~~~~~~
+     	Player keeps, castles, and properties are designed to allow players to 
+	have a place of residence when they reach 30th level or higher. These 
+	may also tie in with the affiliation system. A player, once they build 
+	their place of residence, may apply for an affiliation to tie in his 
+	area with other places he invites.
+
+
+	How to get a property
+	~~~~~~~~~~~~~~~~~~~~~	 
+	A player must first seek a place that sells land. The land council of
+	Ille Coronos in the modular city that can be obtained for the Heaven7
+	mudlib has such a place.
+
+	The idea is to go in there, look at the land available, and buy a piece
+	of land. The price may vary depending on the site itself, or on how
+	good you are at bargaining (i.e. how high your charisma is!)
+
+
+
+	How to build something on your land
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	1) BUY SOME LAND!
+
+	2) Go and find an architect whose particular style you like best.
+	If you seek a dwarf, then most likely he will build in stone, whereas
+	an elf may look for trees and build some kind of tree house instead.
+	Humans would most likely build in a standard fashion.
+
+	3) You need to 'hire' one of these architects (using the command 'hire')
+	and then take him to the building site you own. Then tell him to build
+	something. He will follow you if you hire him.
+
+	Commands:
+		build <house>
+
+
+SEE ALSO
+	affiliation
+
+		

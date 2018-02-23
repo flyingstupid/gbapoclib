@@ -1,0 +1,307 @@
+::: Magic Items :::
+
+Introduction
+	Magical items add spice to mudding life. They give players
+access many different skills and powers that they may not normally
+have access to. However, with this comes a special responsibility
+for the coder - to code such items with special care toward the
+balance of the game.
+
+
+What are magical Items?
+	Magic items include anything that grants players extra 
+powers beyond their normal means. Such include wands, scrolls, 
+magical swords, magical armour, magical rings, magical belts or 
+even potions.
+
+	Magical items should be rare at best, and always destruct 
+when sold. They should be hard to get, and NEVER sold at shops. 
+They should also only have a few uses if they are powerful - wands, 
+staves, rods, potions, scrolls, rings, are standard examples. Some 
+magical items can be placed on monsters of high level and ability, 
+but only if the monster can also use them. 
+
+How many Charges?
+	One thing to note when reading this document is the use of the 
+word 'charges'. Here, it means the total number of usages it is possible 
+to get out of the item. It will then be necessary, when you code the item,
+to calculate how many 'actual' charges to give the item so it will be
+able to produce about 10, 15, or 25 usages.
+
+Scrolls
+While scrolls take the usual time to cast spells from, wands, 
+staves, and rods actually cast them in one heart beat. MACRO commands 
+are still no good in these cases as the spell still goes off in the 
+room that the player is standing in. Hence, he cannot run into a room, 
+use the wand, and run out again, and not get hit. The wand objects 
+still go through the heart beat attack function of the player himself. 
+The advantage, however, is instead of casting a fireball in 3 heart 
+beats, it will be set off in 1 heart beat.
+
+
+How to make a Scroll
+Scrolls are spells which players can use, which have been 
+scribed onto parchment for later use. Usually, only certain spell 
+casting classes can make use of scrolls. Fighters and thieves rarely 
+can use scrolls, usually the only ones they can use are scrolls of 
+protection. A scroll is ONE USE ONLY. Scrolls are coded by the scroll.c 
+object which is inherited and has certain variables set. EG:
+
+     inherit MAGIC_SCROLL;
+
+     void reset(status arg) {
+       if(arg) return;
+       set_name("scroll");
+       set_short("An old sheet of parchment");
+       set_long("It has ancient magical runes written on it.\n");
+       set_read("They are magical and can only be read with a detect \n"+
+               "magic spell or other divination methods.\n");
+       add_spell("fire ball");
+
+	/* this automatically sets a random activation word */
+
+set_class(({ "mage", })); /* classes that can use scroll */
+set_cast_level(12);       /*  level spell is cast  */
+set_charges(110);
+set_sell_destruct(1);
+set_weight(1);
+     }
+
+The amount of charges on a scroll is not important, as it is 
+only a one use item. Later, when we discuss other items it will be 
+important.
+
+
+Wands.
+Wands are magical items only about a foot long, with a command 
+word to operate it. As in the above example, this command word is automatically
+configured, and set into the set_info(message). DO NOT put it into the short 
+or long. Also, do not reveal the nature of the item, i.e. that it is a wand,
+in either the short or the long. Give a few subtle hints, but that is all.
+
+The setting of the funs are exactly the same as used in scroll.c
+The number of charges that is set is similar to if it was a player
+with respect to casting the spell. If a fireball costs 10 spell points
+to cast, and wands normally have 10 charges/uses, then you should set
+the max_charges to 100.
+
+       set_max_charges(int amount);
+
+
+Whereas a scroll is a ONE use only item, wands are able to be used
+until all their charges have been used. Hence, a Wand of Fire could
+be coded. This item, according to the AD&D DM's Manual (c.TSR), can cast
+fire balls, burning hands, walls of fire, and more. To accommodate this
+the following setting can be used -
+
+	add_spell("fire ball");
+	add_spell("wall of fire");
+	add_spell("burning hands");
+	add_spell("fire shield");
+	...etc...
+
+	To use the WAND object, do the following...
+
+	#include <mudlib.h>
+	inherit WAND;
+	void reset(status arg) {
+	  if(arg) return;
+	  set_name("stick");
+	  set_short("A small wiggly stick");
+	  set_long(
+		"The stick is twisted and bent, but has strange \n"+
+		"dark runes along the side. Perhaps it is magical in nature?\n");
+	  set_alias("runes"); /* so the read message will work */
+	  set_weight(2);
+  set_read("The runes appear magical. Perhaps a detect magic "+
+		"will reveal something?\n");
+	  ...etc...
+	}
+
+	Note that one does not need to set the value, as the wand object
+automatically figures out how much the wand is worth, dependant upon
+what spells and charges go into the item. Wands typically have a level
+of casting at 10th level, or the minimum level required to cast the spell.
+
+
+Rings of Spell Storing.
+Often rings can hold magical energy inside. Usually, this is 
+only a one or two one off spells. Such magical items can be coded, and
+the 'inherit WAND;' used again, incorporating the functions in clothing
+of wearing and removing as well as the magical functions in wand.c
+Rings of spell storing hence only have 2, perhaps 3 charges at most.
+A ring typically has a casting level of approximately 10, the same as a 
+wand.
+
+	
+Other Items.
+Rings, or infact any armour & weapons can be used to grant a 
+protection of magic of a certain kind to a player. Hence, a ring of 
+fire resistance, cold protection, and the like can be coded. Using 
+MAGIC_ARMOUR use the fun -
+
+	#include <mudlib.h>
+	inherit MAGIC_ARMOUR
+
+	void reset(status arg) {
+	  if(arg) return;
+	  set_type("ring");
+	  set_weight(1);
+  set_name("ring");
+	  set_ac(1);  /* a +1 ring of protection */
+ 	  set_protection("fire");
+	  set_info(
+		"This ring grants the wearer a magical protection field \n"+
+		"equivalent to wearing armour, as well as making them   \n"+
+		"resistant to fire of all types.\n");
+	  . . . etc. . . 
+	}
+
+
+to protect the player. When worn, it protects him, and when removed,
+dropped, sold, etc, it removes the protection. Weapons can also use this
+set_protection fun if the MAGIC_WEAPON file is inherited. 
+	Note the use of set_info to reveal that the ring is a ring of 
+protection AND a ring of fire resistance. 
+
+Armour and weapons can also use the spell storing funs as mentioned 
+in the above section on rings of spell storing. Such items are counted as
+'rings of spell storing' for determination of the amount of spells, value,
+etc that are set into it. These items should be rare, however, more so than
+rings of spell storing. Rings are the preferred usage for coding, and remember
+that players can enchant items, as well as place extra spells into them.
+	Armour and Weapons of this nature typically have a casting level
+of approximately 10, similar to a wand. The only exception is a rod, which
+may be of level 20, and a stave which may be as high as level 25 (see below).
+
+
+Rods.
+A rod is a little bigger than a wand, but not quite as big as a 
+staff. Its array of powers is also considerably larger. Typically, a rod 
+has no more than 15 charges, and has a casting level of no more than 20.
+Some powerful rods should not be able to be re-charged. When you make a
+rod, simply use WAND and then use set_name("rod").
+
+
+Staves.
+A good staff is often a mages best friend (other than his familiar
+*wink*). By using 'WEAPON' the same settings are available as wands 
+accept that it can also be wielded. Here, the set_wc(int amount) should 
+be used as well as type, length, and other features of weapons (c.f 
+weapon documentation).
+
+It appears that the bigger the item, the more charges it has. This 
+is true with a staff, but a staff also has many more spells as its command, 
+more than a wand or a rod. A staff commands an impressive 25 charges. Some 
+features of a staff may not cost any charges at all! Perhaps the light
+ability of the staff is totally free. In such cases add_actions may have
+to be built into it by you. But keep this in mind, that this is possible.
+A staff commands a casting level of no more than 25th level.
+
+As with some rods, many staves are not rechargeable. 
+
+
+     Recharging Items.
+To recharge the item through 'SPECIAL' ways, like players spells 
+(and not places that simulate petrol(gas) stations for magic items) use -
+
+int adj_charges(int i) 
+int query_charges()  
+
+Never adjust the charges above the max charges allowed for the item.
+
+A mage/cleric of atleast the same level as the wands casting level is
+needed to charge the item. Players have the same limitation.
+
+
+
+     Value and Cost.
+Value of items are already configured for wands, but not for MAGIC_WEAPON,
+or MAGIC_ARMOUR, so you will need to adjust them as you QC deems fit. As
+a rule of thumb, use about 250-100 * casting level.
+
+NPCs can recharge these items, but at a cost of 2 times its current 
+value, which is also subject to charisma checks (like everything else *giggle*)
+
+
+Other Notes.
+To have a good idea of the type of wands, scrolls, rods, etc, then 
+good resource material can be found in AD&D manuals, and other fantasy role-playing/gaming books.
+
+
+
+Other Information/Functions
+
+int query_charges()   { return charges;                        }
+int query_cast_level(){ return cast_level;                     }
+ 
+ 
+ 
+int query_value() { return ((100 * cast_level) + charges); }
+ 
+int query_max_charges(){ return max_charges;  }
+ 
+string *query_spells() { return spells;                 }
+string *query_class()  { return (class) ? class : ({}); }
+string query_casting_msg() { return casting_msg;        }
+ 
+/********************************************************************/
+/* sets */
+ 
+int set_charges(int i) {
+  if(!max_charges) max_charges = i;
+  return charges = i;
+}
+ 
+int set_max_charges(int i) 
+	The maxmum sp usage for the item, just like a players
+own spell point pool for a particular school/sphere.
+
+int set_cast_level(int i) 
+	The casting level for the item. If you don't set it
+high enough, the item may not be able to cast the spell in
+question.
+ 
+string *set_spells(string *arr) 
+	The array of entire spells the magical item has. Do
+not use this unless you have a good reason to.
+
+string *set_class(string *arr) 
+	The list of classes that can use the item.
+
+string *set_bins(string *arr) 
+	The 'bins' or directories you can set the item to look
+in for specific spells/abilities.
+
+string set_casting_msg(string s)
+	Normally, the message is 'the item gets warm'. You can 
+configure this message yourself.
+
+void add_spell(mixed arg)
+	Use this to add a spell to the items repetiteur. This feature
+will automatically produce random 4 letter command words for each 
+spell that you add. This is the preferred way to make a magical item.
+
+int adj_charges(int i) 
+	If you wish to recharge an item, this is how to do it.
+
+string query_charges_string()
+	Just returns the message of 'you have x charges left'
+
+string query_classes_string()
+	Returns the message 'The x can only be used by x classes'
+
+string query_level_string()
+	Returns 'The x has a skill level of y'
+ 
+string query_spell_triggers()
+	Returns 'The word abcd activates the spell xyz'
+ 
+string query_wand_info() 
+	Returns all the above info 8)
+
+
+
+
+                              (c)Angel, December 1993. Revised August '96.
+

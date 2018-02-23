@@ -1,0 +1,25 @@
+#
+# $Author: phaedrus $
+# $Revision: 1.2 $
+# $Date: 2003/11/21 22:31:16 $
+#
+# Purpose: Load these files when the game starts up
+#
+secure/security.c
+inherit/base/living.c
+obj/player.c
+obj/wizard.c
+inherit/room2.c
+inherit/monster.c
+inherit/weapon.c
+inherit/armour.c
+obj/soul_fcn.c
+d/ooc/rooms/ooc1.c
+d/affils/realestate/real.c
+d/affils/ships/start_ships.c
+bin/std/get.c
+bin/std/put.c
+bin/std/put.c
+bin/std/take.c
+#secure/daemons/socket_d.c
+#secure/daemons/http_d.c

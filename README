@@ -1,0 +1,85 @@
+
+Welcome to the Heaven7 mudlib.
+
+Please visit www.heaven7mud.org for support.
+
+This version of the mudlib works with the LDMud driver
+only. It does not support amylaar, MudOS, nor anything
+in between.
+
+This lib can be run on any platform that supports the
+LDMud driver. It has been tested on Unix, Linux and
+Windows 2k and XP.
+
+You should start by logging in as the 'admin' user. The
+initial password for this user is 'admin7'. CHANGE THE
+PASSWORD asap.
+
+The following are installation and usage notes for Unix
+and Windows sytems.
+
+UNIX/LINUX INSTALLATION
+
+Download the latest 'current' LDMud driver. This mudlib
+includes the settings file necessary for the mudlib to 
+work with LDMud. You can change the settings as you see
+fit (such as the port number and prefix directory)
+
+IMPORTANT!!! You MUST compile your LDMud driver using the
+settings file included with this mudlib!!
+
+Configure the driver using the /secure/h7_settings file from
+the mudlib. You should copy this file to the LDMud src/settings
+directory. See the INSTALL note that comes with LDMud.
+
+Once you have compiled the driver and utilities, you can
+Execute the driver with:
+./ldmud --debug-file log/debug <port_number> &
+
+WINDOWS INSTALLATION
+
+You can download a version of LDMud that works with Windows
+in the downloads section of www.heaven7mud.org. Refer to the 
+README.txt file included in the download. That driver has
+already been compiled with the correct settings so the key
+is to extract the LDMud driver files and the mudlib files
+in the right places. Once that is done you can execute the
+heaven7.bat file and you're good to go.
+
+Thanks for using Heaven7 and please give us feedback in the
+form of enhancement request and defects on our website.
+
+-the h7 team
+
+FIXES for Alpha 2
+1. README file now gives the correct location of the h7_settings
+file
+
+2. The missing help files have been included. If the help command
+gives you a message "Help file corrupt" then you've got DOS line
+endings in your file somehow. 
+
+3. Included a new command, dos2unix, which will fix line endings
+in your files should you manage to get nasty dos line endings in 
+them. NOTE: This command will fail on very large files, in which
+case you should use this perl command to fix the files:
+perl -pi -e 's/\r\n/\n/;' bigfile.c			
+
+4. Fixed the find_player() simul efun
+
+5. The promote command accepts both level names and numbers
+
+6. Drop, Get, Take all work as expected. By default they use
+parse_command to do the job. 
+
+7. Added the ability to disable the use of parse_command in
+your command files, and instead use the legacy version of those
+commands. Either should work equally well so it's more a matter
+of whether you want to use parse_command or not. Should you
+decide to disable parse_command, then your commands will still
+work. To make the setting, edit /include/config.h in the mudlib
+and change USE_PARSE_COMMAND to 0.
+
+8. The help tool includes a new command to remove an entire 
+category and all the help topics in that category. Created this
+so it was easier to remove all the old driver efun docs.

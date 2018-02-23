@@ -1,0 +1,28 @@
+2012.12.05 19:48:56 LDMud 3.3.720 (Build 3010) (stable)
+2012.12.05 19:48:56 Attempting to start erq '/usr/local/muds/heaven7/bin/erq'.
+2012.12.05 19:48:56 Hostname 'serv01' address '127.0.0.1'
+2012.12.05 19:48:56 UDP recv-socket requested for port: 7002
+2012.12.05 19:48:56 LDMud ready for users.
+2012.12.05 19:49:02 Bad arg 1 to environment(): got 'number', expected 'string/object'.
+2012.12.05 19:49:02 program: d/coronos/w/angel/city/obj/lsword.c, object: d/coronos/w/angel/city/obj/lsword line 57
+'     heart_beat' in 'd/coronos/w/angel/city/obj/lsword.c' ('d/coronos/w/angel/city/obj/lsword') line 57
+2012.12.05 19:49:02 Heart beat in d/coronos/w/angel/city/obj/lsword turned off.
+2012.12.05 19:49:02 Error in heartbeat.
+2012.12.05 19:59:28 Bad arg 1 to tell_object(): got 'number', expected 'string/object'.
+2012.12.05 19:59:28 program: wiz/emraef/open/scav/resource_d.c, object: wiz/emraef/open/scav/resource_d line 317
+'  do_scavenge_3' in 'wiz/emraef/open/scav/scavroom.c' ('wiz/kate/open/forest/forest_4') line 126
+'create_source_by_room_type' in 'wiz/emraef/open/scav/resource_d.c' ('wiz/emraef/open/scav/resource_d') line 294
+'create_source_given_list' in 'wiz/emraef/open/scav/resource_d.c' ('wiz/emraef/open/scav/resource_d') line 317
+2012.12.05 19:59:28 Error in call out.
+2012.12.05 20:00:20 Bad arg 1 to tell_object(): got 'number', expected 'string/object'.
+2012.12.05 20:00:20 program: wiz/emraef/open/scav/resource_d.c, object: wiz/emraef/open/scav/resource_d line 317
+'  do_scavenge_3' in 'wiz/emraef/open/scav/scavroom.c' ('wiz/kate/open/forest/forest_4') line 126
+'create_source_by_room_type' in 'wiz/emraef/open/scav/resource_d.c' ('wiz/emraef/open/scav/resource_d') line 294
+'create_source_given_list' in 'wiz/emraef/open/scav/resource_d.c' ('wiz/emraef/open/scav/resource_d') line 317
+2012.12.05 20:00:20 Error in call out.
+2012.12.05 20:01:00 Bad arg 1 to tell_object(): got 'number', expected 'string/object'.
+2012.12.05 20:01:00 program: wiz/emraef/open/scav/resource_d.c, object: wiz/emraef/open/scav/resource_d line 317
+'  do_scavenge_3' in 'wiz/emraef/open/scav/scavroom.c' ('wiz/kate/open/forest/forest_4') line 126
+'create_source_by_room_type' in 'wiz/emraef/open/scav/resource_d.c' ('wiz/emraef/open/scav/resource_d') line 294
+'create_source_given_list' in 'wiz/emraef/open/scav/resource_d.c' ('wiz/emraef/open/scav/resource_d') line 317
+2012.12.05 20:01:00 Error in call out.

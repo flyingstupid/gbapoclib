@@ -1,0 +1,19 @@
+This table gives an indication of how races compare to humans.
+
+
+Racial    Save      Carry     Right     Left      Defence   Bargain
+Stock     Bonus     Bonus     Weapon    Weapon    Bonus     Bonus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Elf       V. Good   Average   Good      Good      Good      V. Poor
+Dwarf     Excellent Average   V. Good   Average   Average   Poor
+Minotaur  Good      Excellent V. Good   V. Good   V. Poor   V. Poor
+Orc       Poor      V. Good   V. Good   Average   V. Good   V. Poor
+Giant     Poor      Mega      Good      Average   Poor      V. Good
+Halfling  Excellent V. Poor   Good      Good      Good      Excellent
+Kender    Mega      Bad       Average   V. Good   V. Good   Good
+Gnome     Mega      Poor      Average   V. Good   Excellent Average
+Humans    Average   Average   Average   Average   Average   Average
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For more information please log in as guest and use the help and manual files.

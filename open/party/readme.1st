@@ -1,0 +1,16 @@
+                -=[   Party   System   ]=-
+
+	The file contained in here is the data file of the whole
+	party system
+
+Please don't change this file, but you are welcome to look at it.
+If you want to check out the party system, then please either use the
+help file (help party), or look at the files contained in /obj/party
+
+Old party files can be found in /obj/party/party_old The reason for
+the change was for compatability, and the fact that data handling is
+easier, and more efficient if arrays are used. The newer party system
+also tells correct exp per kill, as well as uses the new follow routine
+a whole lot better.
+
+					Sarak, March 1997.

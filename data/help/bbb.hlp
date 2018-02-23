@@ -1,0 +1,168 @@
+^#^
+brief^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: brief
+       Usage: brief
+
+   Description: When you are in brief mode, you will get the
+                'short' descriptions of the rooms.  However,
+                you can miss a lot of information this way.
+
+Related topics: look, examine.
+ 
+^#^
+bomb^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: bomb
+       Usage: bomb
+
+   Description: The bomb command destructs all objects, except interactive
+                players in the room.
+
+Related topics: dest, clean.
+ 
+^#^
+barkskin^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Barkskin             Sphere: Nature                   |
+ | Level:  7                      Cost: 7                        |
+ | Component: Branch or bark.    Usage: barkskin who             |
+ | Description:                                                  |
+ |                                                               |            
+  
+ | This prayer will cause the target's skin to thicken like      |
+ | bark.  This forms an armour like barrier, helping to          |
+ | protect from physical damage.                                 |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+bless^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Bless                Sphere: Combat                   |
+ | Level:  1                      Cost: 1                        |
+ | Component:  None.             Usage: bless who                |
+ | Description:                                                  |
+ |                                                               |            
+  
+ | This prayer will bless the recipient of this prayer. A        |
+ | blessed recipient is generally able to attack and defend      |
+ | themselves better.                                            |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+bbb^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell: Beltyn's Burning Blood|:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   10                   |:  The spell causes the        |:||
+ ||:| Level:  10                   |:  target's blood to boil.     |:||
+ ||:| Usage:  bbb who              |:                              |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+burning hands^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Burning Hands        |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   1                    |:  This spell causes flames    |:||
+ ||:| Level:  2                    |:  to burn from the caster's   |:||
+ ||:| Usage:  burning hands who    |:  hands. The flames burn the  |:||
+ ||:|                              |:  designated victim.          |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+backstab^#^
+SUBTOPIC-thief^#^
+		-=[ Backstab ]=-
+
+	Command: backstab
+	Usage: backstab <who>
+
+    Description: This command allows you to sneak up behind someone and
+		 visciously strike them while they are not looking.
+
+		 The common missunderstanding about backstab is that it
+		 actually involves stabbing someone. This is incorrect.
+		 Our own phrase 'stabbing someone in the back' comes from
+		 the way in which a person can perform a task against
+		 someone without them knowing about it. The same goes for
+		 the backstab skill for thieves.
+
+		 A backstab involves sneaking up behind someone, using
+		 stealth, and SURPRISING them. This puts them off guard,
+		 and puts a victim in a more vulnerable state. A thief 
+		 knows how to do this with the upmost skill.
+
+		 He then makes an attack upon his victim. It is the
+		 gaining of surprise which is the key, not stabbing them.
+		 Hence, the attack can be made with any weapon, be it
+		 a stabbing weapon, a crushing weapon, or the like.
+
+		 The unguarded state of the victim also means you can 
+		 attack them in the nastiest of places, and hence do a
+		 great deal of harm with a single blow. A strike to the
+	         back of the neck, the head, the chest or from behind is
+		 the usual method.
+
+
+	Example: backstab bob
+
+ Related Topics: move silently, hide in shadows.
+^#^
+banish^#^
+SUBTOPIC-creator^#^
+		-=[ Help ]=-
+
+	Command: banish
+	Usage: banish <name>
+
+    Description: The banish command stops any player name <name> from
+		 logging in, or taking a specified name.  It is usefull
+		 for stopping player characters using the names of
+		 unique monsters, or profane words.  Any wizard can use
+		 the banish command to see if a name is banished, but
+		 only QCs and security level SEC8 can banish names.
+
+Related topics: none.
+^#^
+bowyer^#^
+SUBTOPIC-ranger^#^
+Command: bowyer
+
+SYNOPSIS
+	Ranger skill
+
+DESCRIPTION
+	The bowyer skill enables a ranger to craft a bow, and to be
+	able to use it more effectively than other classes.
+
+See also: help ranger, man ranger

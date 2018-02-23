@@ -1,0 +1,14 @@
+x-x-x-x-x-x-x-x-x-x-GATE
+|    /    |         leading to garden.
+x   x     x
+|  /      |
+x x   x-x-x-x-x- THIS IS THE GARDEN
+|/    |   |
+x     x   x
+ \    |   |
+  x   x   x
+   \  |   |
+    x-x-x-x
+
+
+beach

@@ -1,0 +1,66 @@
+^#^
+update^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: update
+        Usuage: update <file>
+
+   Description: This attempts to unload an object from memory. File
+                will accept the token '*' as a wildcard.  All file names
+                have ".c" added to them automatically.  
+
+Related topics: load, clone, log, main, debug.
+ 
+^#^
+unlock^#^
+SUBTOPIC-general^#^
+		-=[ Unlock ]=-
+
+	Command: unlock
+	 Usuage: unlock <door|item> with <key>
+
+    Description: This command allows you to unlock a door or an item with
+		 a 'key'.  The key must fit the lock.  A thief may be able
+		 to pick the lock.
+
+	Example: unlock east door with round key
+
+ Related Topics: open, close, lock, search, pick (thief).
+
+^#^
+unset^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ unset <environment variable>
+
+SYNOPSIS
+ Remove an environment variable that you set with the
+ 'set' command.
+
+ 
+
+^#^
+uptime^#^
+SUBTOPIC-player^#^
+SYNTAX
+ uptime
+
+SYNOPSIS
+ See how long the mud has been running.
+ 
+
+^#^
+url^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       Command: url
+         Usage: url <home page url>
+   Description: This allows you to set your home page URL address
+                in your finger information. To delete it, simply
+                type the command without any arguments.
+
+
+Related topics: chfn, plan, finger, email.
+

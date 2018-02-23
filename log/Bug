@@ -1,0 +1,3 @@
+
+Emraef (d/wastelands/w/critical/secondtry/city8):
+players do not have shorts so query_short() is returning NULL.  vmap has been modified to handle this but might need to change if things change for the player shorts.

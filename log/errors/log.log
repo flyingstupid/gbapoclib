@@ -1,0 +1,978 @@
+inherit/std_pub.c line 436 near end of line: Missing 'return <value>' statement
+include/skills/pointman.h line 9 before '       /* ': Illegal to redefine global variable 'two_weapon'
+include/skills/pointman.h line 10 before '          ': Illegal to redefine global variable 'unarmed'
+include/skills/pointman.h line 11 before '     /* ma': Illegal to redefine global variable 'multi_attack'
+include/skills/pointman.h line 12 before '   /* max.': Illegal to redefine global variable 'multi_opponent'
+include/skills/pointman.h line 21 near '        { re': Redeclaration of function set_unarmed.
+include/skills/pointman.h line 22 near '     { retur': Redeclaration of function set_two_weapon.
+include/skills/scout.h line 20 before ' ': Redefining inherited nosave variable 'stealth_on' with a nosave variable
+include/skills/scout.h line 67 near '': Missing 'return <value>' statement
+include/skills/pointman.h line 9 before '       /* ': Illegal to redefine global variable 'two_weapon'
+include/skills/pointman.h line 10 before '          ': Illegal to redefine global variable 'unarmed'
+include/skills/pointman.h line 11 before '     /* ma': Illegal to redefine global variable 'multi_attack'
+include/skills/pointman.h line 12 before '   /* max.': Illegal to redefine global variable 'multi_opponent'
+include/skills/pointman.h line 21 near '        { re': Redeclaration of function set_unarmed.
+include/skills/pointman.h line 22 near '     { retur': Redeclaration of function set_two_weapon.
+include/skills/scout.h line 20 before ' ': Redefining inherited nosave variable 'stealth_on' with a nosave variable
+include/skills/scout.h line 67 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+bin/skills/classes/medic/firstaid.c line 39: Bad type for struct lookup: object
+bin/skills/classes/medic/firstaid.c line 39: Bad argument number 1 to '*': "object"
+inherit/std_pub.c line 436 near end of line: Missing 'return <value>' statement
+inherit/store.c line 938 near end of line: Missing 'return <value>' statement
+secure/questdef.c line 28: Argument type mismatch in redefinition of 'short': arg 1 (string vs int)
+secure/questdef.c line 32: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+secure/questdef.c line 32: Argument type mismatch in redefinition of 'long': arg 1 (string vs int)
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+bin/skills/classes/scout/travel.c line 33: syntax error
+bin/skills/classes/scout/travel.c line 33: syntax error
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+objects/medkit.c line 30: syntax error
+objects/medkit.c line 69: Variable i not declared !
+objects/medkit.c line 107: Missing 'return <value>' statement
+inherit/monster.c line 147 near '){': Wrong number of arguments to query_class: expected 1, got 0
+inherit/monster.c line 278 near '){': Wrong number of arguments to query_class: expected 1, got 0
+inherit/monster.c line 147 near '){': Wrong number of arguments to query_class: expected 1, got 0
+inherit/monster.c line 278 near '){': Wrong number of arguments to query_class: expected 1, got 0
+inherit/monster.c line 147 near '){': Wrong number of arguments to query_class: expected 1, got 0
+inherit/monster.c line 278 near '){': Wrong number of arguments to query_class: expected 1, got 0
+inherit/monster.c line 278 near '){': Wrong number of arguments to query_class: expected 1, got 0
+objects/medkit.c line 123: Missing 'return <value>' statement
+objects/medkit.c line 125: Missing 'return <value>' statement
+objects/medkit.c line 125: Missing 'return <value>' statement
+objects/medkit.c line 125: Missing 'return <value>' statement
+objects/medkit.c line 125: Missing 'return <value>' statement
+objects/medkit.c line 130: Missing 'return <value>' statement
+objects/medkit.c line 130: Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 39: syntax error
+objects/medkit.c line 39: syntax error
+objects/medkit.c line 180: Missing 'return <value>' statement
+objects/medkit.c line 151: Variable check_filled not declared !
+objects/medkit.c line 180: Missing 'return <value>' statement
+inherit/store.c line 938 near end of line: Missing 'return <value>' statement
+inherit/store.c line 938 near end of line: Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+inherit/store.c line 938 near end of line: Missing 'return <value>' statement
+bin/player/area.c line 9 before end of line: casting a value to its own type: object
+obj/shadows/calloutwatch.c line 10: syntax error
+obj/shadows/calloutwatch.c line 10: Unrecognized inheritance modifier 'callback'
+obj/shadows/calloutwatch.c line 10: syntax error
+obj/shadows/calloutwatch.c line 10: Unrecognized inheritance modifier 'calloutwatch'
+obj/shadows/calloutwatch.c line 10: syntax error
+obj/shadows/calloutwatch.c line 10: syntax error
+obj/shadows/calloutwatch.c line 10: Unrecognized inheritance modifier 'callback'
+obj/shadows/calloutwatch.c line 10: syntax error
+obj/shadows/calloutwatch.c line 10: Unrecognized inheritance modifier 'calloutwatch'
+obj/shadows/calloutwatch.c line 10: syntax error
+obj/shadows/calloutwatch.c line 26: Variable _callout_owner not declared !
+obj/shadows/calloutwatch.c line 26: Variable _callout_owner not declared !
+obj/shadows/calloutwatch.c line 26: Variable _callout_owner not declared !
+objects/medkit.c line 180: Missing 'return <value>' statement
+bin/skills/classes/techman/absorb.c line 45: Variable this_player not declared !
+bin/skills/classes/techman/absorb.c line 45: Variable this_player not declared !
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+inherit/store.c line 938 near end of line: Missing 'return <value>' statement
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 before 'creating);': Variable destorying not declared !
+include/skills/techman.h line 29 near '+query_creat': Undefined function 'query_destorying'
+include/skills/techman.h line 29 before ' }': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 46 near '': Missing 'return <value>' statement
+include/skills/techman.h line 34 near ' + query_cre': Undefined function 'query_destorying'
+include/skills/techman.h line 34 before '': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 54 near '': Missing 'return <value>' statement
+include/skills/techman.h line 34 near ' + query_cre': Undefined function 'query_destorying'
+include/skills/techman.h line 36 before '': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/techman.h line 36 before '': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/techman.h line 36 before '': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/techman.h line 36 before '': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 180: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 180: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 180: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 180: Missing 'return <value>' statement
+bin/skills/classes/techman/absorb.c line 45: Variable this_player not declared !
+bin/skills/classes/techman/absorb.c line 48: syntax error
+bin/skills/classes/techman/absorb.c line 56: syntax error
+bin/skills/classes/techman/absorb.c line 50: syntax error
+bin/skills/classes/techman/absorb.c line 56: Variable ob not declared !
+bin/skills/classes/techman/absorb.c line 50: syntax error
+bin/skills/classes/techman/absorb.c line 56: Variable ob not declared !
+bin/skills/classes/techman/absorb.c line 50: syntax error
+bin/skills/classes/techman/absorb.c line 56: Variable ob not declared !
+bin/skills/classes/techman/absorb.c line 50: syntax error
+bin/skills/classes/techman/absorb.c line 52: Variable obj not declared !
+bin/skills/classes/techman/absorb.c line 50: syntax error
+bin/skills/classes/techman/absorb.c line 52: Variable obj not declared !
+bin/skills/classes/techman/absorb.c line 50: syntax error
+bin/skills/classes/techman/absorb.c line 52: Variable obj not declared !
+bin/skills/classes/techman/absorb.c line 52: syntax error
+bin/skills/classes/techman/absorb.c line 54: Variable obj not declared !
+bin/skills/classes/techman/absorb.c line 46: Wrong number of arguments to do_absorb: expected 0, got 1
+bin/skills/classes/techman/absorb.c line 52: syntax error
+bin/skills/classes/techman/absorb.c line 54: Variable obj not declared !
+bin/skills/classes/techman/absorb.c line 46: Wrong number of arguments to do_absorb: expected 0, got 1
+bin/skills/classes/techman/absorb.c line 52: syntax error
+bin/skills/classes/techman/absorb.c line 54: Variable obj not declared !
+bin/skills/classes/techman/absorb.c line 52: Inconsistent declaration of 'do_absorb': Return type mismatch (int vs void)
+bin/skills/classes/techman/absorb.c line 52: Inconsistent declaration of 'do_absorb': Return type mismatch (int vs void)
+bin/skills/classes/pointman/combatmind.c line 1: Cannot #include 'path.h'
+bin/skills/classes/pointman/combatmind.c line 42: Variable TP not declared !
+bin/skills/classes/pointman/combatmind.c line 1: Cannot #include 'path.h'
+bin/skills/classes/pointman/morale.c line 110: Missing 'return <value>' statement
+inherit/store.c line 938 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 180: Missing 'return <value>' statement
+inherit/store.c line 943 near end of line: Missing 'return <value>' statement
+objects/wristcomputer.c line 30: Undefined function 'check_affects'
+bin/skills/classes/medic/fillkit.c line 16: Bad assignment (object vs mixed *)
+bin/skills/classes/medic/fillkit.c line 17: Bad assignment (object vs mixed *)
+bin/skills/classes/medic/fillkit.c line 20: Bad arg 2 type to present(): got string, expected int/object
+bin/skills/classes/medic/fillkit.c line 28: Bad arg 1 type to all_inventory(): got string, expected object
+bin/skills/classes/medic/fillkit.c line 28: Bad assignment (object vs object *)
+bin/skills/classes/medic/fillkit.c line 39: Bad type to indexed value: "object"
+bin/skills/classes/medic/fillkit.c line 20: Bad arg 2 type to present(): got string, expected int/object
+bin/skills/classes/medic/fillkit.c line 28: Bad arg 1 type to all_inventory(): got string, expected object
+bin/skills/classes/medic/fillkit.c line 56: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 56: syntax error
+bin/skills/classes/medic/fillkit.c line 149: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 149: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 56: syntax error
+bin/skills/classes/medic/fillkit.c line 149: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 149: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 56: syntax error
+bin/skills/classes/medic/fillkit.c line 149: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 149: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 57: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 150: syntax error
+bin/skills/classes/medic/fillkit.c line 151: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 57: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 150: syntax error
+bin/skills/classes/medic/fillkit.c line 151: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 57: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 150: syntax error
+bin/skills/classes/medic/fillkit.c line 151: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 57: syntax error
+bin/skills/classes/medic/fillkit.c line 147: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 147: syntax error
+bin/skills/classes/medic/fillkit.c line 148: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 57: syntax error
+bin/skills/classes/medic/fillkit.c line 144: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 145: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 147: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 147: syntax error
+bin/skills/classes/medic/fillkit.c line 148: Variable skill not declared !
+bin/skills/classes/medic/fillkit.c line 57: syntax error
+bin/skills/classes/medic/fillkit.c line 146: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 146: syntax error
+bin/skills/classes/medic/fillkit.c line 150: Bad assignment: illegal lhs (target)
+bin/skills/classes/medic/fillkit.c line 60: Undefined function 'ratio'
+bin/skills/classes/medic/fillkit.c line 61: Undefined function 'dest'
+bin/skills/classes/medic/fillkit.c line 73: Function ratio undefined
+bin/skills/classes/medic/fillkit.c line 74: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 74: Wrong number of arguments to dest: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 75: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 61: Undefined function 'dest'
+bin/skills/classes/medic/fillkit.c line 74: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 74: Wrong number of arguments to dest: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 75: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 75: Wrong number of arguments to dest: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 90: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 74: Undefined function 'dest'
+bin/skills/classes/medic/fillkit.c line 75: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 75: Wrong number of arguments to dest: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 90: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 90: Wrong number of arguments to dest: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 91: Function dest undefined
+bin/skills/classes/medic/fillkit.c line 61: Undefined function 'destructruct'
+bin/skills/classes/medic/fillkit.c line 74: Function destructruct undefined
+bin/skills/classes/medic/fillkit.c line 74: Wrong number of arguments to destructruct: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 75: Function destructruct undefined
+bin/skills/classes/medic/fillkit.c line 75: Wrong number of arguments to destructruct: expected 0, got 1
+bin/skills/classes/medic/fillkit.c line 90: Function destructruct undefined
+bin/skills/classes/medic/fillkit.c line 74: Variable destructmedicine not declared !
+objects/medicine.c line 26 near ';': Undefined function 'set_object_type'
+objects/medicine.c line 26 near ';': Undefined function 'set_object_type'
+objects/medicine.c line 26 near ';': Undefined function 'set_object_type'
+objects/medicine.c line 26 near ';': Wrong number of arguments to query_object_type: expected 0, got 1
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 205: syntax error
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+objects/medkit.c line 205: syntax error
+objects/medkit.c line 205: syntax error
+objects/medkit.c line 255: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+bin/skills/classes/medic/heal.c line 16: Variable caster not declared !
+bin/skills/classes/medic/heal.c line 16: syntax error
+bin/skills/classes/medic/heal.c line 23: syntax error
+bin/skills/classes/medic/medicfix.c line 9: Variable TP not declared !
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+bin/skills/classes/medic/newheal.c line 12: Missing type for argument
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+obj/tool.c line 7: syntax error
+obj/tool.c line 7: syntax error
+obj/tool.c line 7: syntax error
+obj/tool.c line 18 before ';': syntax error
+obj/tool.c line 22 near end of line: illegal to inherit after defining functions
+obj/tool.c line 24 before ')': syntax error
+obj/tool.c line 27 before '("tool");': syntax error
+obj/tool.c line 28 near ';': Wrong number of arguments to set_short: expected 1, got 0
+obj/tool.c line 29 near ';': Wrong number of arguments to set_long: expected 1, got 0
+obj/tool.c line 30 near ';': Wrong number of arguments to set_extra_info: expected 1, got 0
+obj/tool.c line 42 before end of line: Must return a value for a function declared: "string"
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 84 before ' >= call_o': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+obj/part.c line 22 before '("part");': syntax error
+obj/part.c line 23 near ';': Wrong number of arguments to set_short: expected 1, got 0
+obj/part.c line 24 near ';': Wrong number of arguments to set_long: expected 1, got 0
+obj/part.c line 25 near ';': Wrong number of arguments to set_extra_info: expected 1, got 0
+obj/part.c line 37 before end of line: Must return a value for a function declared: "string"
+obj/parts/shaft.c line 14: syntax error
+obj/parts/shaft.c line 15: Wrong number of arguments to set_short: expected 1, got 0
+obj/parts/shaft.c line 16: Wrong number of arguments to set_long: expected 1, got 0
+obj/parts/shaft.c line 17: Wrong number of arguments to set_extra_info: expected 1, got 0
+obj/parts/shovel_head.c line 12: Wrong number of arguments to set_alias: expected 1, got 2
+obj/tools/shovel.c line 12: Undefined function 'set_components'
+obj/tools/shovel.c line 12: Undefined function 'set_components'
+bin/player/craft_tool.c line 23: Undefined function 'get_object'
+bin/player/craft_tool.c line 31: syntax error
+bin/player/craft_tool.c line 36: Missing type for argument
+bin/player/craft_tool.c line 39: Variable player not declared !
+bin/player/craft_tool.c line 23: syntax error
+bin/player/craft_tool.c line 23: Bad assignment: illegal lhs (target)
+bin/player/craft_tool.c line 25: Variable fileName not declared !
+bin/player/craft_tool.c line 37: Missing type for argument
+bin/player/craft_tool.c line 40: Variable player not declared !
+bin/player/craft_tool.c line 40: Variable player not declared !
+bin/player/craft_tool.c line 49: Variable component not declared !
+bin/player/craft_tool.c line 51: Variable component not declared !
+bin/player/craft_tool.c line 51: Bad assignment (object vs string)
+bin/player/craft_tool.c line 57: syntax error
+bin/player/craft_tool.c line 59: Bad assignment: illegal lhs (target)
+bin/player/craft_tool.c line 62: syntax error
+bin/player/craft_tool.c line 52: Variable comp not declared !
+bin/player/craft_tool.c line 57: syntax error
+bin/player/craft_tool.c line 59: Bad assignment: illegal lhs (target)
+bin/player/craft_tool.c line 62: syntax error
+bin/player/craft_tool.c line 69: Missing type for argument
+bin/player/craft_tool.c line 75: syntax error
+bin/player/craft_tool.c line 75: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 29: Variable type not declared !
+bin/player/craft.c line 34: Variable item not declared !
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+bin/player/craft.c line 40: Variable filename not declared !
+bin/player/craft.c line 74: Undefined function 'tp'
+bin/player/craft.c line 67: == always false because of different types (string vs object)
+bin/player/craft.c line 55: Bad assignment (object * vs string *)
+bin/player/craft.c line 64: syntax error
+bin/player/craft.c line 70: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 70: syntax error
+bin/player/craft.c line 80: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 80: syntax error
+bin/player/craft.c line 96: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 52: syntax error
+bin/player/craft.c line 56: syntax error
+bin/player/craft.c line 58: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 66: Variable components not declared !
+obj/tool.c line 49 before end of line: syntax error
+obj/tool.c line 50 before end of line: syntax error
+bin/player/craft.c line 41: Variable fineName not declared !
+obj/tools/shovel_head.c line 12: Undefined function 'set_difficulty'
+obj/tools/shaft.c line 14: Undefined function 'set_difficulty'
+bin/player/craft.c line 114: syntax error
+bin/player/craft.c line 129: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 130: Variable ob not declared !
+bin/player/craft.c line 127: Redeclaration of function make_tool.
+bin/player/craft.c line 131: syntax error
+bin/player/craft.c line 133: Variable components not declared !
+bin/player/craft.c line 136: Variable component not declared !
+bin/player/craft.c line 136: Bad arg 1 type to destruct(): got string, expected object
+bin/player/craft.c line 137: syntax error
+bin/player/craft.c line 146: syntax error
+bin/player/craft.c line 150: Variable objMap not declared !
+objects/medkit.c line 255: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+obj/party/party_d.c line 148 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 86 near end of line: Missing 'return <value>' statement
+obj/party/party_ob.c line 102 near ' {': Inconsistent declaration of 'add_members': Return type mismatch (void vs int)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+bin/player/craft.c line 32: syntax error
+bin/player/craft.c line 59: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 59: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 61: syntax error
+bin/player/craft.c line 70: Variable tool not declared !
+bin/player/craft.c line 75: Variable tool not declared !
+bin/player/craft.c line 75: Variable tool not declared !
+bin/player/craft.c line 69: Illegal to redeclare local name 'fileName'
+include/skills/crafting.h line 82 before '}': Return type not matching: got void, expected string
+include/skills/crafting.h line 83 before '}': Return type not matching: got void, expected string
+include/skills/crafting.h line 88 before ' > call_ot': Bad argument number 1 to '*': "unknown"
+include/skills/crafting.h line 92 before '': Return type not matching: got void, expected string
+include/skills/crafting.h line 94 before '': Return type not matching: got void, expected string
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 88 before ' > call_ot': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 88 before ' call_othe': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before 'call_other': Illegal to redeclare local name 'skill'
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before ' xpneeded=': syntax error
+include/skills/crafting.h line 84 before '': Bad argument number 1 to '*': "unknown"
+include/skills/crafting.h line 84 before '': Bad assignment: illegal lhs (target)
+include/skills/crafting.h line 94 before '': Variable xpneeded not declared !
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before ' xpneeded=': syntax error
+include/skills/crafting.h line 84 before '': Bad argument number 1 to '*': "unknown"
+include/skills/crafting.h line 84 before '': Bad assignment: illegal lhs (target)
+include/skills/crafting.h line 94 before '': Variable xpneeded not declared !
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before '': Bad argument number 1 to '*': "unknown"
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before '': Bad assignment (int vs unknown)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before '': Bad assignment (int vs unknown)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before '': Bad assignment (int vs unknown)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before ';': syntax error
+include/skills/crafting.h line 83 before ';': syntax error
+include/skills/crafting.h line 84 before ';': syntax error
+include/skills/crafting.h line 85 before '': Bad assignment: illegal lhs (target)
+include/skills/fighter.h line 15 before '        } ': Variable i not declared !
+include/skills/crafting.h line 82 before ';': syntax error
+include/skills/crafting.h line 83 before ';': syntax error
+include/skills/crafting.h line 84 before ';': syntax error
+include/skills/crafting.h line 85 before '': Bad assignment: illegal lhs (target)
+include/skills/fighter.h line 15 before '        } ': Variable i not declared !
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before '': Bad assignment (int vs unknown)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (int vs unknown)
+include/skills/crafting.h line 84 before '': Bad assignment (int vs unknown)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/crafting.h line 82 before '': Bad assignment (mixed vs unknown)
+include/skills/crafting.h line 83 before '': Bad assignment (mixed vs unknown)
+include/skills/crafting.h line 84 before '': Bad assignment (mixed vs unknown)
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+bin/player/craft.c line 104: Must return a value for a function declared: "int"
+bin/player/craft.c line 106: syntax error
+bin/player/craft.c line 107: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 107: syntax error
+bin/player/craft.c line 113: Missing 'return <value>' statement
+bin/player/craft.c line 115: Missing type
+bin/player/craft.c line 115: Illegal to redefine global variable 'quality'
+bin/player/craft.c line 101: syntax error
+bin/player/craft.c line 101: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 101: Variable i not declared !
+bin/player/craft.c line 104: syntax error
+bin/player/craft.c line 105: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 107: syntax error
+bin/player/craft.c line 109: Variable i not declared !
+bin/player/craft.c line 145: syntax error
+bin/player/craft.c line 145: syntax error
+bin/player/craft.c line 145: Undefined function 'destroy'
+secure/questdef.c line 28: Argument type mismatch in redefinition of 'short': arg 1 (string vs int)
+secure/questdef.c line 32: Inconsistent declaration of 'long': Return type mismatch (void vs int)
+secure/questdef.c line 32: Argument type mismatch in redefinition of 'long': arg 1 (string vs int)
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+bin/player/craft.c line 133: syntax error
+bin/player/craft.c line 138: syntax error
+bin/player/craft.c line 141: Variable j not declared !
+bin/player/craft.c line 154: syntax error
+bin/player/craft.c line 157: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 157: Variable j not declared !
+bin/player/craft.c line 164: Newline in string
+bin/player/craft.c line 164: syntax error
+bin/player/craft.c line 30: syntax error
+bin/player/craft.c line 56: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 56: syntax error
+bin/player/craft.c line 67: Variable fileName not declared !
+bin/player/craft.c line 140: Variable this_player not declared !
+bin/player/craft.c line 141: syntax error
+bin/player/craft.c line 144: syntax error
+bin/player/craft.c line 152: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 152: syntax error
+bin/player/craft.c line 167: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 178: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 185: syntax error
+bin/player/craft.c line 204: syntax error
+bin/player/craft.c line 208: Variable objMap not declared !
+bin/player/craft.c line 155: syntax error
+bin/player/craft.c line 168: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 179: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 179: syntax error
+bin/player/craft.c line 184: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 188: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 155: syntax error
+bin/player/craft.c line 168: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 179: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 179: syntax error
+bin/player/craft.c line 184: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 188: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 63: Undefined function 'tp'
+bin/player/craft.c line 64: syntax error
+bin/player/craft.c line 67: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 71: Variable fileName not declared !
+bin/player/craft.c line 245: Inconsistent number of values in mapping literal
+bin/player/craft.c line 244: syntax error
+bin/player/craft.c line 244: syntax error
+bin/player/craft.c line 244: syntax error
+bin/player/craft.c line 244: syntax error
+bin/player/craft.c line 107: Undefined function 'make_tool'
+bin/player/craft.c line 241: syntax error
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3181 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+bin/player/craft.c line 244: syntax error
+bin/player/craft.c line 258: syntax error
+bin/player/craft.c line 252: Missing 'return <value>' statement
+bin/player/craft.c line 252: Missing 'return <value>' statement
+bin/player/craft.c line 188: syntax error
+bin/player/craft.c line 197: syntax error
+bin/player/craft.c line 205: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 216: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 216: syntax error
+bin/player/craft.c line 221: Bad assignment: illegal lhs (target)
+bin/player/craft.c line 257: Missing 'return <value>' statement
+bin/player/craft.c line 248: syntax error
+bin/player/craft.c line 244: Incorrect number of arguments in redefinition of 'customize_clothing'.
+objects/medkit.c line 255: Missing 'return <value>' statement
+bin/player/craft.c line 252: Bad type for struct lookup: object
+bin/player/craft.c line 217: Incorrect number of arguments in redefinition of 'make_item_2'.
+bin/player/craft.c line 258: Variable pass not declared !
+bin/player/craft.c line 218: Incorrect number of arguments in redefinition of 'make_item_2'.
+obj/craft_weapons.c line 63 before ' vquality;': Variable maxDamage not declared !
+obj/crafting/sign_axe.c line 10: Missing type for argument
+obj/crafting/sign_axe.c line 9: Missing type for argument
+inherit/base/races/elf.c line 14 before ' ': casting a value to its own type: string
+obj/skills/classes/paladin.c line 104: casting a value to its own type: int
+obj/skills/classes/paladin.c line 174: Missing 'return <value>' statement
+obj/craft.c line 70: Variable fileName not declared !
+obj/craft.c line 70: Variable fileName not declared !
+obj/craft.c line 70: Variable fileName not declared !
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 13 before '["plank"; ': syntax error
+room/city_hall.c line 59 before end of line: Variable price not declared !
+room/city_hall.c line 13 before ' "5",': syntax error
+room/city_hall.c line 16 before ' "2",': syntax error
+room/city_hall.c line 59 before end of line: Variable price not declared !
+room/city_hall.c line 15 before ';': syntax error
+room/city_hall.c line 18 before end of line: Bad assignment: illegal lhs (target)
+room/city_hall.c line 18 before end of line: syntax error
+room/city_hall.c line 59 before end of line: Variable price not declared !
+bin/player/set_price.c line 34: Variable action not declared !
+bin/player/set_price.c line 42: Missing 'return <value>' statement
+bin/player/set_price.c line 46: Variable commidity not declared !
+bin/player/set_price.c line 42: Missing 'return <value>' statement
+bin/player/set_price.c line 46: Variable commidity not declared !
+bin/player/set_price.c line 42: Missing 'return <value>' statement
+room/city_hall.c line 67 before ' "setprice': Variable set_price not declared !
+room/city_hall.c line 67 near '(), "setpric': Variable set_price not declared !
+room/city_hall.c line 67 near ', "setprice"': Wrong number of arguments to set_price: expected 1, got 0
+room/city_hall.c line 91 near ';': Undefined function 'TP'
+room/city_hall.c line 97 near ';': Function TP undefined
+room/city_hall.c line 97 near ';': Wrong number of arguments to TP: expected 0, got 2
+room/city_hall.c line 101 near ';': Function TP undefined
+room/city_hall.c line 101 near ';': Wrong number of arguments to TP: expected 0, got 2
+room/city_hall.c line 107 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 67 near ', "setprice"': Wrong number of arguments to set_price: expected 1, got 0
+room/city_hall.c line 91 near ';': Undefined function 'TP'
+room/city_hall.c line 97 near ';': Function TP undefined
+room/city_hall.c line 97 near ';': Wrong number of arguments to TP: expected 0, got 2
+room/city_hall.c line 101 near ';': Function TP undefined
+room/city_hall.c line 101 near ';': Wrong number of arguments to TP: expected 0, got 2
+room/city_hall.c line 107 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 68 before ';': Variable arg not declared !
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 110 near end of line: Redeclaration of function set_buy.
+room/city_hall.c line 115 near end of line: Redeclaration of function set_sell.
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 108 near end of line: Missing 'return <value>' statement
+room/city_hall.c line 50 before ' );': syntax error
+room/city_hall.c line 57 before end of line: Variable tcityName not declared !
+room/city_hall.c line 66 before ';': syntax error
+room/city_hall.c line 66 before end of line: Return type not matching: got int, expected void
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/base/races/elf.c line 14 before ' ': casting a value to its own type: string
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+secure/simul/strings.c line 11: syntax error
+secure/simul/strings.c line 15: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 25 near '#define NAME': #define STORE_ROOM already defined (from include/mudlib.h line 113)
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+objects/medkit.c line 255: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/player.c line 1044 before ' 1, 2 ) );': Variable NAME_RESTRICTION not declared !
+obj/player.c line 1044 before ' 1, 2 ) );': Variable NAME_RESTRICTION not declared !
+obj/player.c line 1044 before ' 1, 2 ) );': Variable NAME_RESTRICTION not declared !
+obj/player.c line 1044 before ' 1, 2 ) );': Variable NAME_RESTRICTION not declared !
+obj/player.c line 1044 before ' 1, 2 ) );': Variable NAME_RESTRICTION not declared !
+obj/player.c line 1044 near end of line: Newline in string
+obj/player.c line 1046 before '( !tmp ) t': syntax error
+obj/player.c line 1046 before end of line: Bad assignment: illegal lhs (target)
+obj/player.c line 1046 before end of line: syntax error
+obj/player.c line 1058 before end of line: Bad assignment: illegal lhs (target)
+obj/player.c line 1058 before end of line: syntax error
+obj/player.c line 1044 near end of line: Newline in string
+obj/player.c line 1046 before '( !tmp ) t': syntax error
+obj/player.c line 1046 before end of line: Bad assignment: illegal lhs (target)
+obj/player.c line 1046 before end of line: syntax error
+obj/player.c line 1058 before end of line: Bad assignment: illegal lhs (target)
+obj/player.c line 1058 before end of line: syntax error
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+objects/medkit.c line 255: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+inherit/std_pub.c line 433 near end of line: Missing 'return <value>' statement
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+bin/player/craft.c line 288: syntax error
+inherit/store.c line 960 near end of line: Missing 'return <value>' statement
+include/skills/techman.h line 56 near '': Missing 'return <value>' statement
+obj/wizard.c line 719 near ') return 0; ': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1044 near ';  /* easier': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1054 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 1103 near ';': tail() is deprecated: replace by a simul-efun (see deprecated/tail.c)
+obj/wizard.c line 3182 near '{': Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to ''

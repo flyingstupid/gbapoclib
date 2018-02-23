@@ -1,0 +1,335 @@
+^#^
+hp^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: hp
+         Usage: hp
+   Description: hp toggles your hit point display on|off.  If 
+                your hit point display is switch on, it will 
+                display any variations in your hit points 
+                during combat.
+
+Related topics: none.
+ 
+^#^
+home^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: home
+         Usage: home
+
+   Description: Moves you to your workroom.
+
+Related topics: guild, post, church, inner, pub.
+ 
+^#^
+hill dwarf^#^
+SUBTOPIC-races^#^
+     ::: Hill Dwarves :::
+
+Hill dwarves have deep tan to light brown skin and ruddy cheeks
+and bright eyes. Their hair is brown, black or gray. They favour
+earth tones in their clothing, although they will occsasionally
+wear something bright. Hill dwarves have deep voices and actually
+sing quite well, but getting one to do so requires exceptional
+skill in diplomacy.
+
+Hill dwarves are as stubborn as their underground cousins (the
+mountain dwarves, though each group clains to be more stubborn
+than the other). They tend to be rough and coarse and lack some
+of the refinement of their underground fellows. They complain
+often but usually do so to side the fact that they have a rather
+pleasant and gentle nature.
+
+As a player, hill dwarves can drink much more than other races,
+and hence heal much faster. All dwarves are excelent in combat
+and are granted a weapon class bonus for their right hand weapons.
+Hill Dwarves are also excelent armourers and weapon smiths, so their
+abilities far exceed other races in this regard.
+
+^#^
+human^#^
+SUBTOPIC-races^#^
+     ::: Humans :::
+
+Humans are the dominant race over all the realms, having a
+general aptitute to anything that they put their mind to. They
+are the most skilled and most adaptive of all races.^#^
+humans^#^
+SUBTOPIC-races^#^
+     ::: Humans :::
+
+Humans are the dominant race over all the realms, having a
+general aptitute to anything that they put their mind to. They
+are the most skilled and most adaptive of all races.^#^
+harm^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ | Prayer: Harm             Sphere: Healing              |
+ | Level:  30                 Cost: 30                   |
+ | Component:  None.         Usage: harm who             |
+ | Description:                                          |
+ |                                                       |                       
+ | This prayer will cause massive wounds to open up on   |
+ | the prayer's target.  These wounds are alway near     |
+ | fatal. There is a chance that the target may escape   |
+ | the effects of this prayer.                           |
+ |                                                       |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+healing sphere^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Healing Sphere               |
+ |                                                       |
+ | Cure/Cause Wounds              Cure/Cause Blindnes    |
+ | Cure/Cause Light Wounds        Cure/Cause Deafness    |
+ | Cure/Cause Minor Wounds        Cure/Cause Disease     |                       
+ | Cure/Cause Medium Wounds       Heal                   |
+ | Cure/Cause Serious Wounds      Harm                   |
+ | Cure/Cause Critical Wounds                            |
+ | Cure/Cause Major Wounds                               |
+ | Cure/Cause Heavy Wounds                               |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+holy arrow^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Holy Arrow           Sphere: Combat                   |
+ | Level:  5                      Cost: 5                        |
+ | Component:  None.             Usage: holy arrow who           |
+ | Description:                                                  |
+ |                                                               |
+ | This prayer causes light to spring from the caster's hand,    |
+ | causing the target to be struck with holy light.              |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+holy strike^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Holy Strike          Sphere: Combat                   |
+ | Level:  8                      Cost: 8                        |
+ | Component:  None.             Usage: holy strike who          |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will overwhelm a victim with the holy might of    |
+ | the cleric's god.                                             |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+holy word^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Holy Word            Sphere: Combat                   |
+ | Level:  30                     Cost: 30                       |
+ | Component:  None.             Usage: holy word who            |
+ | Description:                                                  |
+ |                                                               |               
+ | With a single word, the cleric shows the full power of their  |
+ | god's might.                                                  |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+hold monster^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Hold Monster         |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   15                   |:  This spell make a creature  |:||
+ ||:| Level:  15                   |:  feel like they cannot move. |:||
+ ||:| Usage:  hold monster who     |:  This effectively paralyses  |:||
+ ||:|                              |:  them. This stops a creature |:||
+ ||:| Related Spells:              |:  leaving, attacking, or      |:||
+ ||:| Hold Person.                 |:  spell casting.              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+hold person^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Hold Person          |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   12                   |:  This spell makes humanoids  |:||
+ ||:| Level:  12                   |:  feel like they cannot move. |:||
+ ||:| Usage:  hold person who      |:  This effectively paralyses  |:||
+ ||:|                              |:  them. This stops a creature |:||
+ ||:| Related Spells:              |:  leaving, attacking, or      |:||
+ ||:| Hold Monster.                |:  spell casting.              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+help^#^
+SUBTOPIC-general^#^
+                    -=[ Help ]=-
+
+       command: help
+         Usage: help <topic>
+
+   Description: Help gives you a brief description of some common commands
+          available to you.  Most give topics that may be related.
+          At the bottom of the page is the help category.  The
+          category lists the help available in that category.
+
+          Help is for short brief descriptions.  Their may be more
+          information amongst the manuals.
+
+Related topics: categories, manuals.
+ 
+^#^
+hide in shadows^#^
+SUBTOPIC-thief^#^
+		-=[ Hide in Shadows ]=-
+
+	Command: hide in shadows
+	  Usage: hide in shadows
+
+    Description: This command allows you to stealthily hide amongst the
+		 shadows.  People looking about may not see you.
+
+ Related Topics: move silently, backstab, steal.
+^#^
+healing^#^
+SUBTOPIC-paladin^#^
+ __________________________________________________________
+ ()_________________________________________________________)
+  |   Healing Sphere Spells                               |
+  | Cure/Cause Wounds		Cure/Cause Blindness      |
+  | Cure/Cause Light Wounds	Cure/Cause Deafness       |
+  | Cure/Cause Medium Wounds	Heal                      |
+  | Cure/Cause Serious Wounds	Harm			  |
+  | Cure/Cause Critical Wounds				  |
+  | Cure/Cause Major Wounds				  |
+  | Cure/Cause Heavy Wounds				  |
+  |_______________________________________________________|_
+ ()_________________________________________________________)
+^#^
+halflings^#^
+SUBTOPIC-races^#^
+::: HALFLINGS :::
+	
+	Halflings are short, generally plump people, very much like small
+humans. Their faces are round and broad and often quite florid. Their hair is
+typically curly and the tops of their feet are covered with coarse hair. They
+prefer not to wear shoes whenever possible. Their typical life expectancy is
+approximately 150 years.
+	Halflings are sturdy and industrious, generally quiet and peaceful.
+Overall they prefer the comforts of home to dangerous adventuring. They enjoy
+good living, rough humour, and homespun stories. In fact, they can be a
+trifle boring at times. Halflings are not forward, but they are observant
+and conversational if in friendly company. Halflings see wealth only as a
+means of gaining creature comforts, which they love. They are not overly
+brave or ambitious, they are generally honest and hard working when there
+is need.
+	Halfling homes are well-furnished burrows or cottages, although most
+of their down is done on the surface. Elves generally like them in a
+patronising sort of way. Dwarves cheerfully tolerate them, thinking halflings
+somewhat soft and harmless. Gnomes, although they rink more and eat less,
+like halflings best, feeling them kindred spirits. Because halflings are more
+open and outgoing than any other demihuman race, they get along with other
+races far better.
+
+
+::: Other Subraces :::
+        Hairfoot, Tallfellow, Stout
+^#^
+high elf^#^
+SUBTOPIC-races^#^
+::: ELVES :::
+
+	Elves tend to be somewhat shorter and slimmer than normal humans.
+Their features are finely chiselled and delicate, and they speak in melodic
+tones. Although they appear fragile and weak, as a race they are quick and
+strong. Elves often live to be over 1,200 years old, although long before
+this time they feel compelled to depart the realms of men and mortals. Where
+they go is uncertain, but it is an undeniable urge of their race.
+	Elves are often considered frivolous and aloof. In fact, they are
+not, although humans often find their personalities impossible to fathom.
+They concern themselves with natural beauty, dancing and singing, unless
+necessity dictates otherwise. They are not fond of ships or mines, but enjoy
+growing and gazing at the open sky. Even though elves tend toward haughtiness
+and arrogance at times, they regard their friends and associates as equals.
+They do not make friends easily, but a friend (or enemy) is never forgotten.
+They prefer to distance themselves from humans, have little love for dwarves,
+and hate the evil denizens of the woods. 
+	Their humour is clever, as are their songs and poetry. Elves are
+brave but never foolhardy. They eat sparingly; they drink mead and wine, but
+seldom to excess. While they find well-wrought jewellery a pleasure to behold,
+they are not overly interested in money or gain. They find magic and
+swordplay (or a refined combat art) fascinating. If they have a weakness it
+lines in these interests.
+	Over all the elvish races, these notes best describe the high elf, the
+most common and abundant of the elvish races.
+
+::: Other Subraces :::
+        Grey Elf, Wood Elf, Wild Elf, Dark Elf (Drow), Sea Elf
+
+::: Other Help Topics :::
+       See also: help grey elf, wood elf, dark elf
+
+
+
+^#^
+heal^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ | Prayer: Heal             Sphere: Healing              |
+ | Level:  30                 Cost: 30                   |
+ | Component:  None.         Usage: heal who             |
+ | Description:                                          |
+ |                                                       |                       
+ | This spell completely heals target player/npc.        |
+ |                                                       |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+history^#^
+SUBTOPIC-bard^#^
+              		  -=[ History ]=-
+
+     	     Topic: History
+
+           Usage: assess <item|monster|person>
+
+	  Synopsis: Through study, and assimilation of culture through
+			experience, a bard is able to discern information
+			about an item, its properties, abilities, and origins.
+
+			Such is even possible for living, as well as non-living
+			targets. Such is not a magical ability, but simply 
+			knowledge of history.
+  
+
+  Related Topics: none
+
+        Category: bard help.
+

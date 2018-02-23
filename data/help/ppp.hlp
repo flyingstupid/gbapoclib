@@ -1,0 +1,689 @@
+^#^
+party^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: party
+        Usage: party <party name>
+   Description: This starts up a new party, <party name> with
+                you as the leader.  You can then join others
+                into your party, and adventure together. 
+                Experience from kills are then shared on a
+                level basis.
+
+   Related Topics: see 'man /player/party'
+ 
+^#^
+password^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: password
+        Usage: password
+
+   Description: This allows you to change your password.  You
+                must enter your old password, before you can
+                change it to a new one.
+
+Related topics: suicide.
+ 
+^#^
+put^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: put
+        Usage: put <item> in <container>
+                put all in <container>
+   Description: This allows you to put an item of all of your
+                items in a container.  The container can be on
+                you or in the room.  Note that containers have
+                a limited to what they can carry.  You can
+                only move items about if you can see.
+
+Related topics: get, give, drop.
+ 
+
+^#^
+parser^#^
+SUBTOPIC-creator^#^
+                    -=[ Object Parser ]=-
+
+Most creator commands can use the inbuilt object parser.  The object
+parser allows you to reference any object in the mud with relative ease.
+For convenience <object> is a an object, or a list of objects.
+When dealing with objects there are keywords used for locating
+objects, these are: "users", "who", "room", "env", "me", "all".
+
+<object> can described by position:  position separators are "of" 
+                                     and "in".
+
+               Eg. sword
+                   sword in zilanthius
+                   sword in bag in zilanthius
+                   room of zilanthius
+
+
+<object>  can be described by clonename:
+               Eg. players/zilanthius/obj/sword#10
+
+
+<object>  can be described by its filename:
+               Eg. sword.c (if in current path)
+                   /players/zilanthius/obj/sword.c
+
+
+<object>  can be described by a default name:
+              Default: "users", "who", "room", "env", "me".
+
+
+<object>  can be an object list: using the list separator ","
+               Eg. sword, axe, shovel
+
+<object> can be an object list: using the keyword "all".
+               Eg. all in zilanthius
+                   all swords in zilanthius
+
+<object> can be an object list: using the keyword "users".
+               Eg. users
+                   sword, users
+                   all in users
+
+<object> can be the first number of objects found.
+               Eg. 3 swords in zilanthius
+^#^
+patch^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: patch
+        Usage: patch <object(s)::function>
+                patch <object(s)::function::arg1>
+                patch <object(s)::function::arg1::arg2>
+
+   Description: This command allows you to patch any function in an
+                object and returns the value to you.  It is useful for
+                making on the fly character fixes.  Note that some
+                functions may be logged, anyone caught helping players
+                cheat may be demoted.  Object(s) can be anything that
+                can be referenced by the object parser.
+
+Related topics: lpc.
+ 
+^#^
+path^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+
+   Description: There are a number of symbolic tokens that can be used
+                to make file paths.  These include: 
+                    ..         for parent directory
+                    ~          for home directory
+                    domain#    for domain home directory
+
+       Example: cd             change to /players/zilanthius
+                cd myth#open   change to /d/myth/w/zilanthius/open
+
+Related topics: mkdir, rmdir, rm, Rm, copy, Copy, mv, Mv, ed.
+ 
+^#^
+pay^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: pay
+        Usage: pay <amount> to <player|monster>
+
+   Description: This command allows you to compensate players for lost
+          money.  You should not have to do this.
+
+Related topics: none.
+ 
+^#^
+people^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: people
+        Usage: people
+
+   Description: The people command gives a list of interactive users
+                using the game.  It gives information about the machine
+                they are telneting from, their current room, and how
+                long they have been idle.
+
+Related topics: who.
+ 
+^#^
+post^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: post
+        Usage: post
+
+   Description: Moves you to the post office.
+
+Related topics: church, guild, home, inner, pub.
+ 
+^#^
+pretitle^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: pretitle
+        Usage: pretitle
+                pretitle <title>
+
+   Description: Every player's title is broken into 3 parts: pretitle,
+                title, and alignment title.  This command allows you to
+                set your pretitle.  If no pretitle is given it defaults
+                to "Lord" or "Lady".
+
+       Example: pretitle Emporer
+
+Related topics: mhome, mclone, minvis, mtrans, mmin, min, mmout, mout,
+                edtitle, reveiw, title, align.
+ 
+^#^
+promote^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: promote
+        Usage: promote <who> <level|level name>
+
+   Description: This command promotes a player or creator to a higher
+                security level.  It automatically adds a home directory
+                structure, and file access objects.  You cannot promote
+                anyone, one full security level less then
+                yourself.  Minimum security level to use this command is
+                SEC5 (50).
+
+                Level names: asp, app, creator, sage, lord, sen, elder,
+                             arch, or admin.
+
+Related topics: domain.
+ 
+^#^
+pub^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: pub
+        Usage: pub
+
+   Description: Moves you to the pub.
+
+Related topics: guild, post, church, home, inner.
+ 
+^#^
+pwd^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: pwd
+        Usage: pwd
+
+   Description: print working directory.  This prints the default
+                directory that the creator is using.
+
+Related topics: cd , ls.
+ 
+^#^
+plant door^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Plant Door           Sphere: Nature                   |
+ | Level:  8                      Cost: 8                        |
+ | Component: branch             Usage: plant door               |
+ | Description:                                                  |
+ |                                                               |           
+   
+ | This prayer will allow the cleric to use natures' pathways    |
+ | which stretch from tree to tree. The prayer needs a branch    |
+ | from a tree to work. If the branch is from a tree other then  |
+ | the one you step into, it will most likely take you to that   |
+ | tree. It will not take you to trees in other domains.         |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+plant growth^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Plant Growth         Sphere: Nature                   |
+ | Level: 9                     Cost: 9                          |
+ | Component: seed, berry       Usage: plant growth              |
+ | Description:                                                  |
+ |                                                               |
+ |                                                               |
+ | This prayer will allow the cleric to accerate the growth      |
+ | of a tree.  The tree will have many of the spell components   |
+ | necessary for nature spells. The tree can be planted almost   |
+ | anywhere.                                                     |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+poison^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Poison               Sphere: Necromancy               |
+ | Level:  14                     Cost: 14                       |
+ | Component: none.              Usage: poison who               |
+ | Description:                                                  |
+ |                                                               |           
+ | This prayer will allow the cleric to poison someone. The      |
+ | poison disabilitates the victim about every minute. It also   |
+ | limits the maximum healing potential of the victim.           |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+prayer^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Prayer               Sphere: Combat                   |
+ | Level:  5                      Cost: 5                        |
+ | Component:  None.             Usage: prayer who               |
+ | Description:                                                  |
+ |                                                               |           
+   
+ | The prayer is a more powerful Bless prayer.                   |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+protection sphere^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Protection Sphere            |
+ |                                                       |
+ | Resist Light                 Resist Cold              |
+ | Resist Darkness              Resist Acid              |
+ | Resist Death                 Resist Lightning         |        
+ | Resist Draining              Resist Poison            |
+ | Resist Earth                 Resist Disease           |
+ | Resist Fire                  Resist Fear              |
+ | Resist Water                 Resist Charm             |
+ | Resist Air                                            |
+ |_______________________________________________________|
+()________________________________________________________)
+
+Type 'help resist' for extra information.
+^#^
+phantasmal force^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Phantasmal Force     |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   varies               |:  This spell causes an        |:||
+ ||:| Level:  12                   |:  illusion that perfectly     |:||
+ ||:| Usage: phantasmal force spell|:  imitates most evocation     |:||
+ ||:|                              |:  spell. The cost varies      |:||
+ ||:| Related Spells:              |:  depending on the spell      |:||
+ ||:| Evocation, Alter Reality.    |:  imitated.                   |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+permanent illusion^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Permanent Illusion   |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   25                   |:  This spell weaves an        |:||
+ ||:| Level:  25                   |:  illusion about an item      |:||
+ ||:| Usage:  permanent illusion - |:  or monster. The woven       |:||
+ ||:|         -item                |:  illusion fools all who      |:||
+ ||:| Related Spells:              |:  touch and look at the item. |:||
+ ||:| Illusion.                    |:  It can be dispelled with a  |:||
+ ||:|                              |:  dispel magic.               |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+phantasm^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Phantasm             |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   2                    |:  This spell makes the victim |:||
+ ||:| Level:  5                    |:  appear to do some. The      |:||
+ ||:| Usage:  phantasm who emote   |:  victim knows it wasn't them,|:||
+ ||:|                              |:  but they don't know who     |:||
+ ||:| Related Spells:              |:  caused it.                  |:||
+ ||:| Ventriloquism, Improved      |:                              |:||
+ ||:| Phantasm.                    |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+phantom armour^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Phantom Armour       |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   4                    |: This spell causes an illusion|:||
+ ||:| Level:  4                    |: that makes the caster appear |:||
+ ||:| Usage:  phantom armour       |: to wear platemail. This      |:||
+ ||:|                              |: causes attackers to miss     |:||
+ ||:| Related Spells: None.        |: more often then not.         |:||
+ ||:|                              |: Effectively giving the       |:||
+ ||:|                              |: caster better protection.    |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+pwk^#^
+SUBTOPIC-mage^#^
+     __                            |:                              |:||
+ ||:| Spell:  PWK (Power Word Kill)|:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   30                   |:  This spell will kill        |:||
+ ||:| Level:  30                   |:  instantly any monster that  |:||
+ ||:| Usage:  pwk who              |:  is less then 13th level.    |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| PWS (Power Word Stun).       |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+pws^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Power Word Stun      |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   15                   |:  This spell will stun an     |:||
+ ||:| Level:  15                   |:  opponent. They cannot fight,|:||
+ ||:| Usage:  pws who              |:  move, or cast spells.       |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| PWK (Power Word Kill)        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+Put^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Put
+        Usage: Put <item(s)::where>
+
+   Description: Put is a powerful object moving function.  It can move
+                any object to any where.  No weight checks are made so
+                have care.  The item(s), and where can be any object
+                that can be found using the object parser.
+
+Related topics: parser.
+ 
+^#^
+pick lock^#^
+SUBTOPIC-thief^#^
+          -=[ Pick Lock ]=-
+
+     Command: pick lock
+      Usage: pick lock on <door|item>
+
+    Description: This command allows you to lock or unlock a door
+                 or a item, like a chest for example, without the
+           need for a key.
+
+     Example: pick lock on east door
+
+ Related Topics: open, close, lock, unlock, detect trap.
+^#^
+pskills^#^
+SUBTOPIC-paladin^#^
+Paladin are a 'guild' or 'sub class', who have a mixture of cleric and
+
+fighter skills under one class title. Paladin guilds include Paladin of
+
+Seeker, and Paladin of the All-God.
+
+
+
+See 'help fighter', 'help cleric', and 'man paladin'
+
+^#^
+protection^#^
+SUBTOPIC-paladin^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Protection Sphere            |
+ |                                                       |
+ | Resist Light                 Resist Cold              |
+ | Resist Darkness              Resist Acid              |
+ | Resist Death                 Resist Lightning         |        
+ | Resist Draining              Resist Poison            |
+ | Resist Earth                 Resist Disease           |
+ | Resist Fire                  Resist Fear              |
+ | Resist Water                 Resist Charm             |
+ | Resist Air                                            |
+ |_______________________________________________________|
+()________________________________________________________)
+
+Type 'help resist' for extra information.
+
+^#^
+primary skills^#^
+SUBTOPIC-player^#^
+                 -=[ Help Primary Skills ]=-
+
+str			int			wis
+dex			con			com
+cha
+
+
+There are 7 topics in primary skills help.
+^#^
+prismatic spray^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Prismatic Spray      |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Components: Gem              |:                              |:||
+ ||:| Cost:   25                   |:  This spell causes light     |:||
+ ||:| Level:  25                   |:  to spray all those within   |:||
+ ||:| Usage:  prismatic spray o    |:  the area of the caster.     |:|| 
+ ||:|                              |:  The effects are dependant   |:||
+ ||:| Related Spells:              |:  upon the light that touches |:||
+ ||:|       Prismatic Wall         |:  the victim. Red, orange &   |:||
+ ||:|       Prismatic Sphere       |:  yellow are pure damage,     |:||
+ ||:|                              |:  green is poison, blue is a  |:||
+ ||:|                              |:  hold, indigo is a mental    |:||
+ ||:| Prismatic spells are         |:  drain, and violet is a      |:||
+ ||:| available only to White and  |:  teleport other. The effects |:||
+ ||:| Grey robe mages              |:  of wall and sphere are the  |:||
+ ||:|                              |:  same with respect to the    |:||
+ ||:|                              |:  effects of the colour light |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+prismatic wall^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Prismatic Wall       |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Components: Gem              |:                              |:||
+ ||:| Cost:   28                   |:  This spell causes a wall of |:||
+ ||:| Level:  28                   |:  light in the immediate      |:||
+ ||:| Usage:  prismatic wall       |:  area of the caster.         |:|| 
+ ||:|                              |:  The effects are dependant   |:||
+ ||:| Related Spells:              |:  upon the light that touches |:||
+ ||:|       Prismatic Spray        |:  the victim. Red, orange &   |:||
+ ||:|       Prismatic Sphere       |:  yellow are pure damage,     |:||
+ ||:|                              |:  green is poison, blue is a  |:||
+ ||:|                              |:  hold, indigo is a mental    |:||
+ ||:| Prismatic spells are         |:  drain, and violet is a      |:||
+ ||:| available only to White and  |:  teleport other. The effects |:||
+ ||:| Grey robe mages              |:  of wall and sphere are the  |:||
+ ||:|                              |:  same with respect to the    |:||
+ ||:|                              |:  effects of the colour light |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+
+^#^
+prismatic sphere^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Prismatic Sphere     |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Components: Gem              |:                              |:||
+ ||:| Cost:   30                   |:  This spell causes a sphere  |:||
+ ||:| Level:  30                   |:  of light to form around the |:||
+ ||:| Usage:  prismatic sphere     |:  caster. The effects are two |:|| 
+ ||:|                              |:  fold. Firstly, during combat|:||
+ ||:| Related Spells:              |:  an opponent may touch the   |:||
+ ||:|       Prismatic Spray        |:  sphere and suffer the same  |:||
+ ||:|       Prismatic Wall         |:  effects of a prismatic wall.|:||
+ ||:|                              |:  Secondly, it forms a barrier|:||
+ ||:|                              |:  which is resistant to some  |:||
+ ||:| Prismatic spells are         |:  magic. The chance of a spell|:||
+ ||:| available only to White and  |:  penetrating the barrier is  |:||
+ ||:| Grey robe mages              |:  dependant on the relative   |:||
+ ||:|                              |:  powers of both the sphere   |:||
+ ||:|                              |:  and the spell cast.         |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+plan^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: plan
+        Usage: plan
+   Description: plan allows you to edit the 'plan' part of
+                your personal 'finger'.
+
+Related topics finger, chfn, email, url.
+ 
+^#^
+player rules^#^
+SUBTOPIC-general^#^
+SYNOPSIS: Player Rules
+
+DESCRIPTION:
+	There are a few rules at MAGIA. They are as follows:
+
+	1) Read the manual 'man rp', that outlines certain
+	   things about role playing. Afterall, this is a role
+   	   playing mud.
+
+	2) Don't interfear with other people's enjoyment of
+	   their play. This means you're not just supposed to go
+	   kill others for the fun of it, or just because they
+	   annoyed you.
+
+	3) Enjoy yourself! ..this is a place to have fun!
+
+	4) You may NOT use 'robots'
+
+	5) While you can have more than one character, having
+	   them both on at the same time, or in the same party is
+	   looked down upon.
+
+	6) We do have limited player killing (PK). If you want to	
+	   to PK you need to read the manual, 'man pk'.
+
+	7) Swearing and obsene behaviour will not be tollerated 
+	   and you can have your player file removed, without warning,
+	   for doing so.
+
+
+
+	It is a players responsibility to have read these rules,
+	and other associated help and manual files. Ignorance of
+	these rules is not an acceptable excuse for breaking them.
+
+	Players must be aware that they have no actual rights on 
+	any mud they play, other than the right not to play.
+
+
+	This file may change, without warning, at any time.
+
+	Angel, April 1998
+^#^
+pk^#^
+SUBTOPIC-player^#^
+SYNOPSIS: pk, player killing
+
+DESCRIPTION
+	Player Killing, or PK, is the killing of another character.
+	While monsters are the normal thing that players kill, on 
+	a Heaven7 mudlib, players are able to kill other players.
+
+	On some muds, like MAGIA, this activity is not encouraged.
+
+	Some players enjoy killing eachother, hunting eachother down,
+	running after one another. For this reason, PK has been 
+	included in the mud.
+
+	To see the individual rules for PK for you mud, read the pk
+	manual.
+
+See also: man pk
+
+^#^
+pointer's deathray^#^
+SUBTOPIC-mage^#^
+    ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Pointer's Deathray   |:  Description:                |:||
+ ||:| School: Necromancy           |:  This spell causes a bolt of |:||
+ ||:| Cost:   20                   |:  energy from the negative    |:||
+ ||:| Level:  20                   |:  material plane to strike an |:||
+ ||:| Usage:  deathray             |:  opponent.                   |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`

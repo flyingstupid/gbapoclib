@@ -1,0 +1,392 @@
+^#^
+tell^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       Command: tell
+         Usage: tell <who@mud> <message> (if intermud enabled)
+
+   Description: Tell is an intermud command that allows you to
+		    echo a message to a selected player. 
+
+Related topics: shout.
+ 
+^#^
+tail^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: tail
+         Usage: tail <file>
+
+   Description: The tail command types the end of a file.  It is used by
+                the log command.
+
+Related topics: more, Cat, tail, log, main, debug.
+ 
+^#^
+title^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: title
+         Usage: title
+                title <title>
+
+   Description: Every player's title is broken into 3 parts: pretitle,
+          title, and alignment title.  This command allows you
+          to set you title.  If no title is given it defaults to
+          "is a Creator".
+
+       Example: title is going on Holidays
+
+Related topics: mhome, mclone, minvis, mtrans, mmin, min, mmout, mout,
+                edtitle, review, pretitle, align.
+ 
+^#^
+tree^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: tree
+         Usage: tree 
+                tree <path>
+
+   Description: This command allows you to see a pictorial
+                representation of a directories tree structure.  Don't
+                use this frivolously as it is fairly intensive, and will
+                give too long evaluation errors on large directory
+                trees.
+
+Related topics: Tree.
+ 
+^#^
+Tree^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Tree
+         Usage: Tree 
+                Tree <path>
+
+   Description: This command allows you to see a pictorial
+                representation of a directories tree structure.  Don't
+                use this frivolously as it is fairly intensive, and will
+                give too long evaluation errors on large directory
+                trees.  Tree evaluates each subdirectory of path
+                individually.
+
+Related topics: tree.
+ 
+^#^
+time shift^#^
+SUBTOPIC-cleric^#^
+ ___________________________________________________________________
+()__________________________________________________________________)
+ | Prayer: Time Shift              Sphere: Stellar                  |
+ | Level:  16                        Cost: 16                       |
+ | Component:  Gem.                 Usage: time shift <where>       |
+ | Description:                                                     |
+ |                                                                  |    
+ | This prayer will move the cleric between times, to different     |
+ | domains.                                                         |
+ |                                                                  |
+ |                                                                  |
+ |                                                                  |
+ |__________________________________________________________________|
+()__________________________________________________________________)
+^#^
+time shift other^#^
+SUBTOPIC-cleric^#^
+ ___________________________________________________________________
+()__________________________________________________________________)
+ | Prayer: Time Shift Other        Sphere: Stellar                  |
+ | Level:  25                        Cost: 25                       |
+ | Component:  Gem.           Usage: time shift other <who> <where> |
+ | Description:                                                     |
+ |                                                                  |    
+ | This prayer will move another person between times, to a         |
+ | different time.                                                  |
+ |                                                                  |
+ |                                                                  |
+ |                                                                  |
+ |__________________________________________________________________|
+()__________________________________________________________________)
+^#^
+time shift party^#^
+SUBTOPIC-cleric^#^
+ ___________________________________________________________________
+()__________________________________________________________________)
+ | Prayer: Time Shift Party        Sphere: Stellar                  |
+ | Level:  33                        Cost: 33                       |
+ | Component:  Gem.                 Usage: time shift party <where> |
+ | Description:                                                     |
+ |                                                                  |    
+ | This prayer will move the cleric's party to a different time.    |
+ | Allowing travel between the domains.                             |
+ |                                                                  |
+ |                                                                  |
+ |                                                                  |
+ |__________________________________________________________________|
+()__________________________________________________________________)
+^#^
+teleport other^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Teleport Other       |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   12                   |:  This spell teleports the    |:||
+ ||:| Level:  12                   |:  target to elsewhere in the  |:||
+ ||:| Usage:  teleport other <who> |:  domain.  Location keyword   |:||
+ ||:|         <location>           |:  is made using the           |:||
+ ||:| Component: 2 gems            |:  'destination' command after |:||
+ ||:| Related Spells:              |:  using teleport for the very |:||
+ ||:| Teleport,                    |:  first time.                 |:||
+ ||:| Teleport Party.              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+teleport party^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Teleport Party       |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   19                   |:  This spell teleports the    |:||
+ ||:| Level:  19                   |:  party  to elsewhere in the  |:||
+ ||:| Usage:  teleport party <loc.>|:  domain.  Location keyword   |:||
+ ||:|                              |:  is made using the           |:||
+ ||:| Component: 2 gems            |:  'destination' command after |:||
+ ||:| Related Spells:              |:  using teleport for the very |:||
+ ||:| Teleport Other,              |:  first time.                 |:||
+ ||:| Teleport.                    |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+teleport^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Teleport             |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   8                    |:  This spell teleports the    |:||
+ ||:| Level:  8                    |:  caster to elsewhere in the  |:||
+ ||:| Usage:  teleport <location>  |:  domain.  Location is given  |:||
+ ||:| Components: 2 gems           |:  by using the 'destination'  |:||
+ ||:| Related Spells:              |:  command after teleport is   |:||
+ ||:| Teleport Other,              |:  used for the very first     |:||
+ ||:| Teleport Party.              |:  time.                       |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+tarx^#^
+SUBTOPIC-creator^#^
+                     -=[ Help ]=-
+
+NAME
+	Tarx
+
+Description
+
+	Tarx is an object, /secure/tarx that is cloned. It can be 
+	used to extract tape archive files (file.tar) into the wizard's
+	directory.  It is useful to extract wizard areas that you have
+	coded elsewhere and have ftp'ed onto the mud.  That is, if the
+	administration has set up an ftp daemon for wizard use.
+
+USAGE
+
+	clone /secure/tarx
+	tarx <tar_file>
+
+NOTES
+
+	Due to object evaluation limits, it is slow.  It uses call_out()
+	to overcome this intensive program problem.  However,
+	this restricts file read/write access to 'open',
+	and wizard home directories.
+
+	Existing files are NOT overwritten.
+
+	All tarx'ed files are logged.
+
+	Remember, this tarx is crude.  It should only contain (ustar) archived
+	text files.
+
+	*** ALSO FTP tar files in BINARY mode ***
+	
+^#^
+
+track^#^
+
+SUBTOPIC-ranger^#^
+
+Command: track
+
+
+
+SYNOPSIS
+
+	Ranger skill
+
+
+
+DESCRIPTION
+
+	Track is a simple command that enables a ranger to 1) follow
+
+	a chosen opponent, or 2) find out where the tracks of a 
+
+	person or creature leads to
+
+
+
+See also: help ranger, man ranger
+
+^#^
+
+two weapon^#^
+
+SUBTOPIC-ranger^#^
+
+Command: twoweapon
+
+
+
+SYNOPSIS
+
+	Ranger skill
+
+
+
+DESCRIPTION
+
+	Two weapon is a skill that enables a ranger to wield two
+
+	weapons at the same time. Rangers are able to wield larger
+
+	weapons sooner than fighters are.
+
+
+
+See also: help ranger, man ranger
+
+^#^
+
+training^#^
+
+SUBTOPIC-weapons^#^
+
+
+
+                     -=[ Weapon Proficiencies ]=-
+
+
+
+  A proficiency in a weapon enables a player to use a weapon more
+
+effectively. If you do not have a proficiency in a weapon, and are
+
+wielding it, you do so at a penalty. 
+
+ 
+
+ Penalties for wielding non-proficient weapons are low for fighters,
+
+and larger for thieves, paladins, and rangers, larger still for
+
+clerics, and higher still for mages.
+
+
+
+ The more you train in a weapon, the better you become in using it
+
+in combat. Fighters gain more chances to train in weapons as they
+
+increase in levels. The number of chances a player gains depends on
+
+his class. Rangers, Thieves, and Paladins gain the next highest
+
+amount per level, followed by clerics and mages.
+
+
+
+ To become more proficient in a weapon, simply train in it at the
+
+place where you train your said skills.
+
+
+
+                                                   Angel, Aug '96
+
+
+^#^
+turn undead^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Turn Undead            Sphere: Combat                 |
+ | Level:  10                     Cost: 10                       |
+ | Component: None                                               |
+ | Description:                                                  |
+ |	This prayer summons devine power to strike down any      |
+ | undead within the immediate area.                             |
+ |	Only priests of the All-God, Seeker, Moradin, and        |
+ | St. Arion have the ability to turn the undead.                |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+telnet^#^
+SUBTOPIC-creator^#^
+SYNTAX
+SYNTAX
+ telnet [<address> [<port>] | -q]
+
+SYNOPSIS
+ Telnet to the address given, or reactivate a dormant session.
+ You may only have one session at any given time.
+ Several telnet commands are available, a telnet
+ command starts with the escape character ^[ .
+ Use ^[? to get a list of available telnet commands.
+ The -q option allows you to close a telnet session
+ from the commandline.
+
+
+ telnet [<address> [<port>] | -q]
+
+SYNOPSIS
+ Telnet to the address given, or reactivate a dormant session.
+ You may only have one session at any given time.
+ Several telnet commands are available, a telnet
+ command starts with the escape character (^[).
+ Use \"^[?\" to get a list of available telnet commands.
+ The \"-q\" option allows you to close a telnet session
+ from the commandline.
+
+
+^#^
+two weapon^#^
+SUBTOPIC-fighter^#^
+                -=[ Two Weapon ]=-
+
+	  Topic: Two Weapon
+
+	  Synopsis: Two weapon is a skill, primarily used by the class
+			fighter. The higher this stat, the larger the two
+			weapons a fighter can wield at the same time.
+
+
+  Related Topics: wield
+
+        Category: fighter help.
+

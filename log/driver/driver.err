@@ -1,0 +1,13 @@
+2012.12.05 19:48:56 [xerq] XERQ Sep 22 2012: Path 'erq', debuglevel 0
+2012.12.05 19:48:56 [xerq] Demon started
+2012.12.05 19:48:56 include/skills/techman.h line 56: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:48:56 obj/wizard.c line 719: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ') return 0; '.
+2012.12.05 19:48:56 obj/wizard.c line 1044: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ';  /* easier'.
+2012.12.05 19:48:56 obj/wizard.c line 1054: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ';'.
+2012.12.05 19:48:56 obj/wizard.c line 1103: Warning: tail() is deprecated: replace by a simul-efun (see deprecated/tail.c) near ';'.
+2012.12.05 19:48:56 obj/wizard.c line 3182: Warning: Inconsistent declaration of 'PROCESS_ARG': Visibility changed from 'static' to '' near '{'.
+2012.12.05 19:49:04 wiz/kate/open/medic/medkit.c line 330: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 19:49:04 wiz/kate/open/medic/medkit.c line 442: Warning: Missing 'return <value>' statement near ''.
+2012.12.05 20:14:12 wiz/kate/open/city.c line 66: Warning: Inconsistent declaration of 'is_leader': Return type mismatch (string vs int) near '{'.
+2012.12.05 20:14:12 wiz/kate/open/city.c line 96: Warning: Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int) near '{'.
+2012.12.05 20:14:12 wiz/kate/open/city.c line 180: Warning: Inconsistent declaration of 'has_building': Return type mismatch (string vs int) near '{'.

@@ -1,0 +1,35 @@
+^#^
+open^#^
+SUBTOPIC-general^#^
+		-=[ Open ]=-
+
+	Command: open
+	  Usage: open <door|item>
+
+    Description: This command allows you to open a door or a 'closable'
+		 item like a chest for example.
+
+	Example: open east door
+
+ Related Topics: close, lock, unlock, search.
+
+^#^
+ooc^#^
+SUBTOPIC-player^#^
+                -=[ OOC Help ]=-
+
+
+                Usage: ooc <channel>
+              Command: ooc
+
+          Description: The channel function is designed to allow
+                       players a chat/channel system for communication
+                       and discussion of various topics OOC (out of
+                       character).
+
+                       There are several channels, including:
+                       OOC - Out of character discussion
+                       wiz - Wizards channel only.
+                       lpc - Wizards discussion for lpc.
+
+    	    See also:  help channel

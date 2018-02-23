@@ -1,0 +1,22 @@
+                     -=[ Manuals ]=-
+
+     Command: man
+       Usage: man <topic>
+              man /
+              man <sub category>
+              man <sub category/sub category>/<topic>
+
+ Description: Help gives a brief description on a topic.  Manuals
+             are a lot more in depth, and give a lot more detail.
+             It is recommended that you read the manuals available
+             to you.
+
+             The manual sub category will appear at the top of your screen.
+
+             In order to read a file in that sub category, even if it is another
+             sub category, just type 'man <file>'
+
+
+Main Sub-categories available:
+
+creator/                  general/                  instawiz/

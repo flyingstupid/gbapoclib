@@ -1,0 +1,1021 @@
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/workroom.c line 16 before 'wastelands': Variable d not declared !
+wiz/kate/open/Kate_hall.c line 7: syntax error
+wiz/kate/open/Kate_hall.c line 7: syntax error
+wiz/kate/open/Kate_hall.c line 20: Illegal character (hex 2e) '.'
+wiz/kate/open/Kate_hall.c line 20: syntax error
+wiz/kate/open/Kate_hall.c line 15: Illegal to redefine inherited variable 'cityName'
+wiz/kate/open/Kate_hall.c line 15: Illegal to redefine inherited variable 'cityName'
+wiz/kate/open/Kate_hall.c line 56: syntax error
+wiz/kate/open/Kate_hall.c line 71: syntax error
+wiz/kate/open/Kate_hall.c line 73: Undefined function 'add_leader'
+wiz/kate/open/Kate_hall.c line 75: syntax error
+wiz/kate/open/Kate_hall.c line 83: Undefined function 'add_citizen'
+wiz/kate/open/Kate_hall.c line 85: syntax error
+wiz/kate/open/Kate_hall.c line 90: Undefined function 'query_citizens'
+wiz/kate/open/city.c line 29 near ' buildingNam': Missing type for argument
+wiz/kate/open/city.c line 29 before ' );': syntax error
+wiz/kate/open/city.c line 33 near ');': Missing type for argument
+wiz/kate/open/city.c line 45 before 'leaders (n': Variable push not declared !
+wiz/kate/open/city.c line 45 before 'leaders (n': Variable add not declared !
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near ' buildingNam': Missing type for argument
+wiz/kate/open/city.c line 98 before ' ){': syntax error
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 102 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 103 before ' buildingN': Variable bildings not declared !
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 102 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 103 before ' buildingN': Variable bildings not declared !
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 102 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 111 before end of line: syntax error
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 102 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 113 near '){': Missing type for argument
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 102 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 113 near '){': Missing type for argument
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 102 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/Kate_hall.c line 89: Variable citizens not declared !
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/Kate_hall.c line 89: Variable citizens not declared !
+wiz/kate/open/Kate_hall.c line 89: Variable citizens not declared !
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/Kate_hall.c line 83: syntax error
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/Kate_hall.c line 81: Newline in string
+wiz/kate/open/Kate_hall.c line 81: syntax error
+wiz/kate/open/Kate_hall.c line 83: Missing 'return <value>' statement
+wiz/kate/open/Kate_hall.c line 86: syntax error
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 121 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 52 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 78 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 98 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 54 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 73 before 'is_citizen': Variable CITY not declared !
+wiz/kate/open/kate_hall.c line 81: Must return a value for a function declared: "int"
+wiz/kate/open/kate_hall.c line 85: syntax error
+wiz/kate/open/kate_hall.c line 87: syntax error
+wiz/kate/open/kate_hall.c line 117: Undefined function 'remove_citizen'
+wiz/kate/open/kate_hall.c line 118: syntax error
+wiz/kate/open/kate_hall.c line 118: syntax error
+wiz/kate/open/kate_hall.c line 118: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 120: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 120: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 123: Missing 'return <value>' statement
+wiz/kate/open/city.c line 78 before ' set_city_': syntax error
+wiz/kate/open/city.c line 87 near ';': Undefined function 'set_weather'
+wiz/kate/open/city.c line 99 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 129 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 150 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 170 before ' "wiz/kate': Variable filename not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 194 before ' i<= sizeo': syntax error
+wiz/kate/open/city.c line 195 before '{': Bad assignment: illegal lhs (target)
+wiz/kate/open/city.c line 196 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/city.c line 197 before end of line: syntax error
+wiz/kate/open/city.c line 199 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/city.c line 199 before end of line: syntax error
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 196 before end of line: Bad assignment (int * vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 133: Variable city not declared !
+wiz/kate/open/kate_hall.c line 134: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 134: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 134: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 134: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 133: Variable bulidingName not declared !
+wiz/kate/open/kate_hall.c line 135: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/kate_hall.c line 30: syntax error
+wiz/kate/open/kate_hall.c line 30: Unrecognized inheritance modifier 'building_list'
+wiz/kate/open/kate_hall.c line 30: syntax error
+wiz/kate/open/kate_hall.c line 30: Unrecognized inheritance modifier 'reset'
+wiz/kate/open/kate_hall.c line 30: syntax error
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 151 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 208 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 193 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 223 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 199 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 206 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 226 near '{': Redeclaration of function get_build_site.
+wiz/kate/open/city.c line 236 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 199 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 206 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 197 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 204 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 197 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 204 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 197 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 204 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 197 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 204 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 197 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 204 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 198 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 205 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 208 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 201 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 208 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 212 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 219 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 209 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 before end of line: syntax error
+wiz/kate/open/city.c line 206 before ');': Variable buildingName not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 209 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 207 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 214 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 159 before ';': syntax error
+wiz/kate/open/city.c line 160 before ' "\n" );': Variable siteNumber not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 209 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 209 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 211 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 211 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 167 near ';': Undefined function 'tolower'
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 167 near ';': Undefined function 'tolower'
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 167 near ';': Undefined function 'to_lower'
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 167 near ';': Undefined function 'to_lower'
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 169 before ' siteNumbe': Variable lowerCityName not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 169 before ' siteNumbe': Variable lowerCityName not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 212 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near ' + "\n" );': Bad arg 1 type to implode(): got int *, expected string *
+wiz/kate/open/city.c line 202 near ' + "\n" );': Bad arg 2 type to implode(): got string, expected 
+wiz/kate/open/city.c line 213 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 before ' (implode ': syntax error
+wiz/kate/open/city.c line 203 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/city.c line 203 before end of line: syntax error
+wiz/kate/open/city.c line 210 before ');': Variable buildingName not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 before ' (implode ': syntax error
+wiz/kate/open/city.c line 203 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/city.c line 203 before end of line: syntax error
+wiz/kate/open/city.c line 210 before ');': Variable buildingName not declared !
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near ') + "\n" );': Bad arg 1 type to implode(): got int *, expected string *
+wiz/kate/open/city.c line 202 near ') + "\n" );': Bad arg 2 type to implode(): got string, expected 
+wiz/kate/open/city.c line 202 before ' "\n" );': casting a value to its own type: string
+wiz/kate/open/city.c line 213 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 near ') + "\n" );': Bad arg 1 type to implode(): got int *, expected string *
+wiz/kate/open/city.c line 202 near ') + "\n" );': Bad arg 2 type to implode(): got string, expected 
+wiz/kate/open/city.c line 202 before ' "\n" );': casting a value to its own type: string
+wiz/kate/open/city.c line 213 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 214 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 214 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 214 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 214 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 100 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 130 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 214 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/createcity.c line 33 near end of line: Missing 'return <value>' statement
+wiz/kate/open/base_city/basecity1.c line 19 near '\n");': Illegal character (hex 5c) '\'
+wiz/kate/open/base_city/basecity1.c line 19 before 'n");': syntax error
+wiz/kate/open/base_city/basecity1.c line 19 near end of line: Newline in string
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/kate_forest.c line 8 near '': Cannot #include 'base/autogenroom.h'
+wiz/kate/open/kate_forest.c line 15 near ' );': Undefined function 'get_short_by_id'
+wiz/kate/open/kate_forest.c line 16 near ' );': Undefined function 'get_long_by_id'
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/_lpc_cmd0.c line 1: syntax error
+wiz/kate/open/createcity.c line 33 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/createcity.c line 21 before end of line: Illegal to redefine inherited variable 'cityName'
+wiz/kate/open/createcity.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 48 before 'i, 0]);': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 48 before ';': Bad type to indexed value: "string"
+wiz/kate/open/createcity.c line 51 before 'i, 1]){': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 51 before '{': Bad type to indexed value: "string"
+wiz/kate/open/createcity.c line 55 before 'i, 2]){': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 40 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 47 before 'i, 0]);': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 47 before ';': Bad type to indexed value: "string"
+wiz/kate/open/createcity.c line 50 before 'i, 1]){': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 50 before '{': Bad type to indexed value: "string"
+wiz/kate/open/createcity.c line 54 before 'i, 2]){': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 54 before '{': Bad type to indexed value: "string"
+wiz/kate/open/createcity.c line 40 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 47 before 'i, 0]);': Bad type for struct lookup: string
+wiz/kate/open/createcity.c line 47 before ';': Bad type to indexed value: "string"
+wiz/kate/open/createcity.c line 71 before end of line: syntax error
+wiz/kate/open/createcity.c line 40 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 71 before end of line: syntax error
+wiz/kate/open/createcity.c line 40 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/createcity.c line 40 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/createcity.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/createcity.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/blankcity/blankcity_0.c line 20 before ' "blankcit': Variable AREA_PATH not declared !
+wiz/kate/open/blankcity/blankcity_0.c line 20 near '{': Illegal character (hex 2e) '.'
+wiz/kate/open/blankcity/blankcity_0.c line 20 before '"blankcity': syntax error
+wiz/kate/open/blankcity/blankcity_0.c line 21 near ',': Illegal character (hex 2e) '.'
+wiz/kate/open/blankcity/blankcity_0.c line 22 near ',': Illegal character (hex 2e) '.'
+wiz/kate/open/makecity.c line 28 before ' ".c";': Variable cName not declared !
+wiz/kate/open/makecity.c line 35 near end of line: Missing 'return <value>' statement
+wiz/kate/open/makecity.c line 35 near end of line: Missing 'return <value>' statement
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 45 before ';': Variable east not declared !
+wiz/kate/open/makecity.c line 47 before ';': Variable west not declared !
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 46 near ';': Undefined function 'copy_files'
+wiz/kate/open/makecity.c line 47 before ' 0, i< 8, ': Variable i not declared !
+wiz/kate/open/makecity.c line 47 before '{': syntax error
+wiz/kate/open/makecity.c line 56 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 57 before ' eastExit ': syntax error
+wiz/kate/open/makecity.c line 23 before ' makecity(': syntax error
+wiz/kate/open/makecity.c line 30 before ' lower_cas': Variable cityName not declared !
+wiz/kate/open/makecity.c line 58 before '1, 3, 4, 5': syntax error
+wiz/kate/open/makecity.c line 61 before ' set_short': Variable roomfile not declared !
+wiz/kate/open/makecity.c line 58 before '1, 3, 4, 5': syntax error
+wiz/kate/open/makecity.c line 59 before ' i < sizeo': Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 59 before ' sizeof(ro': Variable i not declared !
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/temp0/temp_5.c line 8 near '': Cannot #include 'base/autogenroom.h'
+wiz/kate/open/temp0/temp_5.c line 15 near ' );': Undefined function 'get_short_by_id'
+wiz/kate/open/temp0/temp_5.c line 16 near ' );': Undefined function 'get_long_by_id'
+wiz/kate/open/makecity.c line 43 near ';': Undefined function 'build_city'
+wiz/kate/open/makecity.c line 70 before ' + ".c";': Variable i not declared !
+wiz/kate/open/makecity.c line 71 near ';': Undefined function 'query_exit_filename_all'
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 72 near ' + "\n" );': Bad arg 1 type to implode(): got string, expected string *
+wiz/kate/open/makecity.c line 72 near ' + "\n" );': Bad arg 2 type to implode(): got string, expected 
+wiz/kate/open/makecity.c line 75 before ' x<(sizeof': syntax error
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 86 before ' eastExit ': syntax error
+wiz/kate/open/makecity.c line 75 before ' x<(sizeof': syntax error
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 86 before ' eastExit ': syntax error
+wiz/kate/open/makecity.c line 75 before ' 2){': syntax error
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 85 before end of line: syntax error
+wiz/kate/open/makecity.c line 75 before ' 2){': syntax error
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 85 before end of line: syntax error
+wiz/kate/open/makecity.c line 75 before ' 2){': syntax error
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 85 before end of line: syntax error
+wiz/kate/open/makecity.c line 77 before ';': Bad type of index: "string"
+wiz/kate/open/makecity.c line 77 before ';': Bad type to indexed value: "string *"
+wiz/kate/open/makecity.c line 77 before ';': Bad type of index: "string"
+wiz/kate/open/makecity.c line 77 before ';': syntax error
+wiz/kate/open/makecity.c line 85 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 85 before end of line: syntax error
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/blankcity/autogenroom.h line 19 near end of line: Newline in string
+wiz/kate/open/blankcity/autogenroom.h line 20 before end of line: syntax error
+wiz/kate/open/blankcity/blankcity_0.c line 25 near '': Missing 'return <value>' statement
+wiz/kate/open/blankcity/blankcity_2.c line 15 near ';': Bad type for argument 1 of set_short (string vs int)
+wiz/kate/open/blankcity/blankcity_2.c line 16 near ';': Bad type for argument 1 of set_long (string vs int)
+wiz/kate/open/blankcity/blankcity_8.c line 15 near ';': Bad type for argument 1 of set_short (string vs int)
+wiz/kate/open/blankcity/blankcity_8.c line 16 near ';': Bad type for argument 1 of set_long (string vs int)
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/temp0/blankcity_7.c line 8 near '': Cannot #include 'autogenroom.h'
+wiz/kate/open/temp0/blankcity_7.c line 15 near ' );': Undefined function 'get_short_by_id'
+wiz/kate/open/temp0/blankcity_7.c line 16 near ' );': Undefined function 'get_long_by_id'
+wiz/kate/open/temp0/blankcity_7.c line 20 before ' "blankcit': Variable AREA_PATH not declared !
+wiz/kate/open/temp0/blankcity_7.c line 8 near '': Cannot #include 'autogenroom.h'
+wiz/kate/open/temp0/blankcity_7.c line 15 near ' );': Undefined function 'get_short_by_id'
+wiz/kate/open/temp0/blankcity_7.c line 16 near ' );': Undefined function 'get_long_by_id'
+wiz/kate/open/temp0/blankcity_7.c line 20 before ' "blankcit': Variable AREA_PATH not declared !
+wiz/kate/open/makecity.c line 70 before ', 2, 6 and': syntax error
+wiz/kate/open/makecity.c line 70 near '.': Illegal character (hex 2e) '.'
+wiz/kate/open/makecity.c line 71 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 72 before ');': Variable build not declared !
+wiz/kate/open/makecity.c line 108 near end of line: Newline in string
+wiz/kate/open/makecity.c line 109 before ' -> remove': syntax error
+wiz/kate/open/makecity.c line 106 near end of line: Newline in string
+wiz/kate/open/makecity.c line 107 before ' -> remove': syntax error
+wiz/kate/open/makecity.c line 112 before ' "south");': Variable NewExit not declared !
+wiz/kate/open/makecity.c line 112 before ' "south");': Variable NewExit not declared !
+wiz/kate/open/makecity.c line 35 before end of line: syntax error
+wiz/kate/open/makecity.c line 38 before ' currentLo': syntax error
+wiz/kate/open/makecity.c line 59 before ' i< 9; i++': Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 59 before ' i< 9; i++': Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 68 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 68 before end of line: syntax error
+wiz/kate/open/makecity.c line 85 before end of line: syntax error
+wiz/kate/open/makecity.c line 84 before '0; 1< size': Variable i not declared !
+wiz/kate/open/makecity.c line 85 before ' "cobblest': Bad type for struct lookup: string
+wiz/kate/open/makecity.c line 87 before ' oppExit =': syntax error
+wiz/kate/open/makecity.c line 88 before '[i]->remov': syntax error
+wiz/kate/open/makecity.c line 98 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 98 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 99 before ' oldExit +': syntax error
+wiz/kate/open/makecity.c line 87 before ' oppExit =': syntax error
+wiz/kate/open/makecity.c line 88 before '[i]->remov': syntax error
+wiz/kate/open/makecity.c line 98 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 98 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 99 before ' oldExit +': syntax error
+wiz/kate/open/makecity.c line 105 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 130 before '"north" : ': syntax error
+wiz/kate/open/makecity.c line 139 near end of line: Missing 'return <value>' statement
+wiz/kate/open/makecity.c line 130 before '[': syntax error
+wiz/kate/open/makecity.c line 141 near end of line: Missing 'return <value>' statement
+wiz/kate/open/makecity.c line 140 before ' oppExits[': syntax error
+wiz/kate/open/makecity.c line 91 before '[i+1] + "\': syntax error
+wiz/kate/open/makecity.c line 101 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 101 before end of line: syntax error
+wiz/kate/open/makecity.c line 108 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 108 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 108 before end of line: syntax error
+wiz/kate/open/makecity.c line 93 before end of line: syntax error
+wiz/kate/open/makecity.c line 101 before ' currentLo': Variable oldExit not declared !
+wiz/kate/open/makecity.c line 86 before ' CITY_PATH': Illegal to redeclare local name 'cityHallPath'
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 109 before ' "west");': syntax error
+wiz/kate/open/makecity.c line 111 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 111 before end of line: syntax error
+wiz/kate/open/makecity.c line 118 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 118 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 118 before end of line: syntax error
+wiz/kate/open/makecity.c line 90 near 'his_player()': Newline in string
+wiz/kate/open/makecity.c line 90 before end of line: syntax error
+wiz/kate/open/makecity.c line 89 before 'i] + "\n\n': Variable oomExits not declared !
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/idigo_0/city_hall.c line 32: syntax error
+wiz/kate/open/junk_0/city_hall.c line 32: syntax error
+wiz/kate/open/kiwi_0/city_hall.c line 32: syntax error
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 27 before ' cityName;': syntax error
+wiz/kate/open/makecity.c line 55 near ';': Undefined function 'callout'
+wiz/kate/open/makecity.c line 56 near ';': Function callout undefined
+wiz/kate/open/makecity.c line 56 near ';': Wrong number of arguments to callout: expected 0, got 2
+wiz/kate/open/makecity.c line 57 near ';': Function callout undefined
+wiz/kate/open/makecity.c line 57 near ';': Wrong number of arguments to callout: expected 0, got 2
+wiz/kate/open/makecity.c line 58 near ';': Function callout undefined
+wiz/kate/open/makecity.c line 68 before 'query_name': Variable this_player not declared !
+wiz/kate/open/makecity.c line 78 near '{': Redeclaration of function build2.
+wiz/kate/open/makecity.c line 93 before end of line: syntax error
+wiz/kate/open/makecity.c line 100 before ' i< 9; i++': Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 100 before ' 9; i++){': Variable i not declared !
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/kate2/kate2_0/city_hall.c line 12: syntax error
+wiz/kate/open/makecity.c line 41 near end of line: Newline in string
+wiz/kate/open/makecity.c line 42 before ' = lower_c': syntax error
+wiz/kate/open/makecity.c line 42 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 42 before end of line: syntax error
+wiz/kate/open/makecity.c line 43 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 43 before end of line: syntax error
+wiz/kate/open/makecity.c line 41 before end of line: syntax error
+wiz/kate/open/makecity.c line 42 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 42 before end of line: syntax error
+wiz/kate/open/makecity.c line 43 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 43 before end of line: syntax error
+wiz/kate/open/makecity.c line 98 before ' i< 9; i++': Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 41 near ';': Undefined function 'remove_char_from_string'
+wiz/kate/open/makecity.c line 136 before end of line: Bad assignment (int * vs int)
+wiz/kate/open/makecity.c line 41 near ';': Undefined function 'remove_char_from_string'
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 140 before '  CITY_PAT': Illegal to redeclare local name 'roomFile'
+wiz/kate/open/makecity.c line 143 before ' roomFile-': Illegal to redeclare local name 'roomExits'
+wiz/kate/open/makecity.c line 139 before ' random (s': Illegal to redeclare local name 'location'
+wiz/kate/open/makecity.c line 47 before '(CITY_PATH': syntax error
+wiz/kate/open/makecity.c line 48 before ' cityName ': syntax error
+wiz/kate/open/makecity.c line 73 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/makecity.c line 74 before '; i += 2) ': Variable tier1 not declared !
+wiz/kate/open/makecity.c line 75 before 'i]->query_': Variable tier not declared !
+wiz/kate/open/makecity.c line 75 before 'i]->query_': Variable tier not declared !
+wiz/kate/open/makecity.c line 75 before 'i]->query_': Variable tier not declared !
+wiz/kate/open/makecity.c line 82 before ' tier2[j]-': Variable 'tier3' shadows previous declaration
+wiz/kate/open/makecity.c line 82 before end of line: Only plain assignments allowed here
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/makecity.c line 147 near ' [i]){': Bad arg 1 type to living(): got object *, expected object
+wiz/kate/open/makecity.c line 147 before '{': Bad type to indexed value: "int"
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city_objects/generator.c line 5: syntax error
+wiz/kate/open/city_objects/generator.c line 5: syntax error
+wiz/kate/open/city_objects/generator.c line 5: syntax error
+wiz/kate/open/city_objects/generator.c line 5: syntax error
+wiz/kate/open/city_objects/generator.c line 5: syntax error
+wiz/kate/open/city.c line 104 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 134 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 218 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 64 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 94 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 128 before 'siteNumber': Variable cityLayout not declared !
+wiz/kate/open/city.c line 64 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 94 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 150 before end of line: syntax error
+wiz/kate/open/city.c line 64 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 94 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 158 before ' i++ ){': Variable maxSize not declared !
+wiz/kate/open/city.c line 64 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 94 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 178 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/one/one.c line 18 near ';': Undefined function 'set_max_size'
+wiz/kate/open/expandcity.c line 108 before ' = CITY_PA': syntax error
+wiz/kate/open/expandcity.c line 108 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/expandcity.c line 109 before ' ".\n" );': Variable cityFile not declared !
+wiz/kate/open/expandcity.c line 108 before ' = CITY_PA': syntax error
+wiz/kate/open/expandcity.c line 108 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/expandcity.c line 109 before ' ".\n" );': Variable cityFile not declared !
+wiz/kate/open/expandcity.c line 108 before ' CITY_PATH': Variable cityfile not declared !
+wiz/kate/open/expandcity.c line 74 before ' ({"\'", "': Variable arg not declared !
+wiz/kate/open/expandcity.c line 112 before ', "/");': Variable i not declared !
+wiz/kate/open/expandcity.c line 103 before 'i] + " .\n': Variable tier not declared !
+wiz/kate/open/expandcity.c line 119 before end of line: Must return a value for a function declared: "int"
+wiz/kate/open/blankcity/autogenroom.h line 3 before ' get_short': syntax error
+wiz/kate/open/city.c line 64 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 94 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 178 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 202 before ' CITY_PATH': Variable cityPath not declared !
+wiz/kate/open/city.c line 65 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 95 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 179 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 203 before ' cName + "': Variable CITY_PATH not declared !
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 204 before end of line: Variable cNname not declared !
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/kate_hall.c line 18 before end of line: Illegal to redefine inherited variable 'cityName'
+wiz/kate/open/kate_hall.c line 19 before end of line: Illegal to redefine inherited variable 'cityPath'
+wiz/kate/open/expandcity.c line 292 near end of line: End of file (or 0x01 character) in a comment
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/_lpc_cmd0.c line 1: Variable wiz not declared !
+wiz/kate/_lpc_cmd0.c line 1: Variable blankcity_4 not declared !
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/store_room.c line 20 before end of line: syntax error
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/expandcity.c line 199 before ' "blankcit': Variable expandPath not declared !
+wiz/kate/open/expandcity.c line 211 before ' (citySide': syntax error
+wiz/kate/open/expandcity.c line 212 before ';': syntax error
+wiz/kate/open/expandcity.c line 212 before ';': syntax error
+wiz/kate/open/expandcity.c line 209 before end of line: Bad assignment (string * vs mapping)
+wiz/kate/open/expandcity.c line 202 before 'expandPath': syntax error
+wiz/kate/open/expandcity.c line 202 before 'expandPath': syntax error
+wiz/kate/open/expandcity.c line 202 before end of line: syntax error
+wiz/kate/open/expandcity.c line 202 before end of line: syntax error
+wiz/kate/open/expandcity.c line 203 before 'expandPath': syntax error
+wiz/kate/open/expandcity.c line 203 before 'expandPath': syntax error
+wiz/kate/open/expandcity.c line 203 before 'expandPath': syntax error
+wiz/kate/open/expandcity.c line 202 before 'expandPath': syntax error
+wiz/kate/open/expandcity.c line 201 before end of line: syntax error
+wiz/kate/open/expandcity.c line 201 before end of line: syntax error
+wiz/kate/open/expandcity.c line 210 before ';': syntax error
+wiz/kate/open/expandcity.c line 205 before ': ({expand': syntax error
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/expandcity.c line 113 before ' "to the "': Variable CITY_FILE not declared !
+wiz/kate/open/expandcity.c line 186 before 'query_city': Variable CITY_FILE not declared !
+wiz/kate/open/expandcity.c line 114 before 'i]->query_': Variable tier not declared !
+wiz/kate/open/expandcity.c line 115 before 'i]->query_': Variable tier not declared !
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/expandcity.c line 190 before ' "makeing ': Variable this_player not declared !
+wiz/kate/open/expandcity.c line 191 before '( "/wiz/ka': syntax error
+wiz/kate/open/expandcity.c line 193 before ' i + ".c",': syntax error
+wiz/kate/open/expandcity.c line 207 before ' "blankcit': Variable expandPath not declared !
+wiz/kate/open/expandcity.c line 254 before end of line: syntax error
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/expandcity.c line 224 near ' + "\n");': Macro 'TP': Wrong number of arguments
+wiz/kate/open/expandcity.c line 224 before ' "\n");': syntax error
+wiz/kate/open/expandcity.c line 310 before end of line: syntax error
+wiz/kate/open/expandcity.c line 224 near ', ", " ) + "': Too few arguments to implode
+wiz/kate/open/expandcity.c line 321 near end of line: Unexpected end of file (or a spurious 0x01 character)
+wiz/kate/open/expandcity.c line 321 before end of line: syntax error
+wiz/kate/open/expandcity.c line 221 before 'entry->que': syntax error
+wiz/kate/open/expandcity.c line 307 before end of line: syntax error
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/forest/mob/chipmunk.c line 15: Variable ob not declared !
+wiz/kate/open/forest/mob/chipmunk.c line 15: Variable ob not declared !
+wiz/kate/open/forest/mob/chipmunk.c line 8: syntax error
+wiz/kate/open/forest/mob/chipmunk.c line 8: syntax error
+wiz/kate/open/forest/mob/chipmunk.c line 10 before '(arg) {': syntax error
+wiz/kate/open/forest/mob/chipmunk.c line 48 before end of line: syntax error
+wiz/kate/open/forest/mob/chipmunk.c line 12 near ') {': Missing type for argument
+wiz/kate/open/forest/mob/skin.c line 8 before ';': syntax error
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/medic/medkit.c line 72: Undefined function 'add_acton'
+wiz/kate/open/medic/medkit.c line 247: Undefined function 'query_strengthserum'
+wiz/kate/open/medic/medkit.c line 266: Function query_strengthserum undefined
+wiz/kate/open/medic/medkit.c line 273: Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 306: Bad type for argument 1 of add_syringe (int vs float)
+wiz/kate/open/medic/medkit.c line 310: Bad type for argument 1 of add_bandage (int vs float)
+wiz/kate/open/medic/medkit.c line 313: Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 75 near ';': Undefined function 'add_acton'
+wiz/kate/open/medic/medkit.c line 276 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 309 near ';': Bad type for argument 1 of add_syringe (int vs float)
+wiz/kate/open/medic/medkit.c line 313 near ';': Bad type for argument 1 of add_bandage (int vs float)
+wiz/kate/open/medic/medkit.c line 316 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 317 near ';': Bad type for argument 1 of add_enzymes (int vs float)
+wiz/kate/open/medic/medkit.c line 320 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 78 near ';': Undefined function 'add_acton'
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 312 near ';': Bad type for argument 1 of add_syringe (int vs float)
+wiz/kate/open/medic/medkit.c line 316 near ';': Bad type for argument 1 of add_bandage (int vs float)
+wiz/kate/open/medic/medkit.c line 319 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 320 near ';': Bad type for argument 1 of add_enzymes (int vs float)
+wiz/kate/open/medic/medkit.c line 323 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 319 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 323 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 327 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 319 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 323 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 327 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 319 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 323 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 327 before '': Bad assignment (float vs int)
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 316 before '.\n")': syntax error
+wiz/kate/open/medic/medkit.c line 316 near '.\n")': Illegal character (hex 2e) '.'
+wiz/kate/open/medic/medkit.c line 316 near '\n")': Illegal character (hex 5c) '\'
+wiz/kate/open/medic/medkit.c line 316 near end of line: Newline in string
+wiz/kate/open/medic/medkit.c line 320 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 320 before '': syntax error
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 317 before '( (int)num': syntax error
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 317 before '( (int)num': syntax error
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 279 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 278 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 318 before ')number > ': syntax error
+wiz/kate/open/medic/medkit.c line 326 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 326 before '': syntax error
+wiz/kate/open/medic/medkit.c line 335 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 335 before '': syntax error
+wiz/kate/open/medic/medkit.c line 345 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 326 before ' = (this_p': syntax error
+wiz/kate/open/medic/medkit.c line 326 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 326 before '': syntax error
+wiz/kate/open/medic/medkit.c line 335 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 335 before '': syntax error
+wiz/kate/open/medic/medkit.c line 345 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 315 before '': syntax error
+wiz/kate/open/medic/medkit.c line 320 before ' (this_pla': Variable number not declared !
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 313 before 'wiz/kate/o': syntax error
+wiz/kate/open/medic/medkit.c line 313 near '.c ) == -1){': Illegal character (hex 2e) '.'
+wiz/kate/open/medic/medkit.c line 321 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 321 before '': syntax error
+wiz/kate/open/medic/medkit.c line 331 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 331 before '': syntax error
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 281 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 64 near ' target);': Missing type for argument
+wiz/kate/open/medic/medkit.c line 64 before ');': syntax error
+wiz/kate/open/medic/medkit.c line 64 near ' target);': Missing type for argument
+wiz/kate/open/medic/medkit.c line 64 before ');': syntax error
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 390 near ' target){': Missing type for argument
+wiz/kate/open/medic/medkit.c line 390 before '){': syntax error
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 391 near ';': Bad arg 1 type to lower_case(): got object, expected string
+wiz/kate/open/medic/medkit.c line 391 before '': Bad assignment (object vs string)
+wiz/kate/open/medic/medkit.c line 392 before ' find_play': Variable victim not declared !
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 392 before ' find_play': Variable victim not declared !
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 392 before ' find_obje': Variable victim not declared !
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 396 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 399 before ' 2) + (thi': Bad type for struct lookup: object
+wiz/kate/open/medic/medkit.c line 399 before ' + (this_p': Bad argument number 1 to '*': "object"
+wiz/kate/open/medic/medkit.c line 400 before '(-1);': syntax error
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 324 before '': Bad assignment (object vs string)
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 290 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 88 near ';': Undefined function 'add_path'
+wiz/kate/open/medic/medkit.c line 291 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 291 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medpatch.c line 20 near ' < 1){': Undefined function 'query_bandages'
+wiz/kate/open/medic/medpatch.c line 25 near ';': Undefined function 'add_bandage'
+wiz/kate/open/medic/medkit.c line 291 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 291 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 291 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medpatch.c line 13 before ' medpatch(': syntax error
+wiz/kate/open/medic/medpatch.c line 13 before ' medpatch(': Unrecognized inheritance modifier 'classObj'
+wiz/kate/open/medic/medpatch.c line 13 near '(string targ': syntax error
+wiz/kate/open/medic/medpatch.c line 13 near '(string targ': Unrecognized inheritance modifier 'medpatch'
+wiz/kate/open/medic/medpatch.c line 13 before 'string tar': syntax error
+wiz/kate/open/medic/medpatch.c line 26 before 'query_long': Variable MK not declared !
+wiz/kate/open/medic/medpatch.c line 35 before ' add_banda': Variable MK not declared !
+wiz/kate/open/medic/medkit.c line 291 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 350 before ' number;': syntax error
+wiz/kate/open/medic/medkit.c line 353 before ' (this_pla': Variable number not declared !
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 410 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 410 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 410 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 341 before '/': syntax error
+wiz/kate/open/medic/medkit.c line 348 before ' case "syr': syntax error
+wiz/kate/open/medic/medkit.c line 349 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 349 before '': syntax error
+wiz/kate/open/medic/medkit.c line 359 before '': Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/medkit.c line 359 before '': syntax error
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 406 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medresource.c line 14 near ';': Undefined function 'set_difficulty'
+wiz/kate/open/medic/medresource.c line 15 near ';': Undefined function 'set_quality'
+wiz/kate/open/medic/medkit.c line 303 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 409 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 303 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 403 before ';': syntax error
+wiz/kate/open/medic/medkit.c line 407 before ';': syntax error
+wiz/kate/open/medic/medkit.c line 303 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 403 before ';': syntax error
+wiz/kate/open/medic/medkit.c line 407 before ';': syntax error
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 341 before '': syntax error
+wiz/kate/open/medic/medkit.c line 345 before ')': Variable hasresource not declared !
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 402 before ';': syntax error
+wiz/kate/open/medic/medkit.c line 409 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 409 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 414 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/limber.c line 15 before ' medpatch(': syntax error
+wiz/kate/open/medic/limber.c line 15 before ' medpatch(': Unrecognized inheritance modifier 'victim'
+wiz/kate/open/medic/limber.c line 15 near '(string targ': syntax error
+wiz/kate/open/medic/limber.c line 15 near '(string targ': Unrecognized inheritance modifier 'medpatch'
+wiz/kate/open/medic/limber.c line 15 before 'string tar': syntax error
+wiz/kate/open/medic/limber.c line 15 before ' limber(st': syntax error
+wiz/kate/open/medic/limber.c line 15 before ' limber(st': Unrecognized inheritance modifier 'victim'
+wiz/kate/open/medic/limber.c line 15 near '(string targ': syntax error
+wiz/kate/open/medic/limber.c line 15 near '(string targ': Unrecognized inheritance modifier 'limber'
+wiz/kate/open/medic/limber.c line 15 before 'string tar': syntax error
+wiz/kate/open/medic/limber.c line 33 before ' (classObj': syntax error
+wiz/kate/open/medic/limber.c line 35 before ';': syntax error
+wiz/kate/open/medic/limber.c line 38 before ') * (rando': syntax error
+wiz/kate/open/medic/limber.c line 39 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/limber.c line 39 before end of line: syntax error
+wiz/kate/open/medic/limber.c line 33 before '(classObj-': syntax error
+wiz/kate/open/medic/limber.c line 39 before ') * (rando': syntax error
+wiz/kate/open/medic/limber.c line 40 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/limber.c line 40 before end of line: syntax error
+wiz/kate/open/medic/limber.c line 39 before ') * (rando': syntax error
+wiz/kate/open/medic/limber.c line 40 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/limber.c line 40 before end of line: syntax error
+wiz/kate/open/medic/limber.c line 45 before ' ")\n");': Variable healAmount not declared !
+wiz/kate/open/medic/limber.c line 45 before ' ")\n");': Variable enduranceAmount not declared !
+wiz/kate/open/medic/limber.c line 49 before ' duration)': Variable remove_enhancement not declared !
+wiz/kate/open/medic/limber.c line 15 before '();': syntax error
+wiz/kate/open/medic/limber.c line 15 before '();': Unrecognized inheritance modifier 'remove'
+wiz/kate/open/medic/limber.c line 15 near '();': Unrecognized inheritance modifier '_enhancement'
+wiz/kate/open/medic/limber.c line 15 before ');': syntax error
+wiz/kate/open/medic/limber.c line 51 before ' duration)': Variable remove_enhancement not declared !
+wiz/kate/open/medic/limber.c line 39 before ' (this_pla': Bad type for struct lookup: object
+wiz/kate/open/medic/limber.c line 43 before end of line: syntax error
+wiz/kate/open/medic/limber.c line 45 before end of line: Bad assignment: illegal lhs (target)
+wiz/kate/open/medic/limber.c line 60 before ')': syntax error
+wiz/kate/open/medic/limber.c line 64 near end of line: Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 414 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/limber.c line 43 before ' 1;': syntax error
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/medic/brewserum.c line 37 near ';': Undefined function 'do_brew'
+wiz/kate/open/medic/brewserum.c line 39 near end of line: Missing 'return <value>' statement
+wiz/kate/open/medic/brewserum.c line 47 before ' 2) + (thi': Variable level not declared !
+wiz/kate/open/medic/brewserum.c line 37 near ';': Undefined function 'do_brew'
+wiz/kate/open/medic/brewserum.c line 39 near end of line: Missing 'return <value>' statement
+wiz/kate/open/medic/brewserum.c line 47 before ' 2) + (thi': Variable level not declared !
+wiz/kate/open/medic/brewserum.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 302 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 414 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 27 near ';': Undefined function 'set_empty_container'
+wiz/kate/open/medic/serum.c line 40 near '){': Missing type for argument
+wiz/kate/open/medic/serum.c line 49 before end of line: syntax error
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 51 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/suture.c line 36 before 'query_atta': Variable tp not declared !
+wiz/kate/open/medic/brewserum.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/medic/brewserum.c line 41 near end of line: Missing 'return <value>' statement
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 51 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 52 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 54 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 60 before end of line: syntax error
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 54 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 57 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 22 before end of line: Redefining inherited nosave variable 'value' with a non-nosave variable
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 16 near ';': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/medic/serum.c line 61 near '{': Inconsistent declaration of 'set_value': Return type mismatch (int vs void)
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)
+wiz/kate/open/medic/medkit.c line 112 near '; j++) {': Undefined function 'lengthof'
+wiz/kate/open/medic/medkit.c line 125 before ')': syntax error
+wiz/kate/open/medic/medkit.c line 302 near '+"\n";': Undefined function 'query_syringe'
+wiz/kate/open/medic/medkit.c line 321 near '+"\n";': Function query_syringe undefined
+wiz/kate/open/medic/medkit.c line 329 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 349 near '+query_banda': Function query_syringe undefined
+wiz/kate/open/medic/medkit.c line 441 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 112 near '; j++) {': Undefined function 'length'
+wiz/kate/open/medic/medkit.c line 330 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 442 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 330 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 442 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 330 near '': Missing 'return <value>' statement
+wiz/kate/open/medic/medkit.c line 442 near '': Missing 'return <value>' statement
+wiz/kate/open/city.c line 66 near '{': Inconsistent declaration of 'is_leader': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 96 near '{': Inconsistent declaration of 'is_citizen': Return type mismatch (string vs int)
+wiz/kate/open/city.c line 180 near '{': Inconsistent declaration of 'has_building': Return type mismatch (string vs int)

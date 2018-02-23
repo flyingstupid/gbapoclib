@@ -1,0 +1,6 @@
+Report Type: Bug  Room: d/wastelands/w/critical/secondtry/city8
+Time: Fri Sep 28 10:49:38 2012
+REPORT: players do not have shorts so query_short() is returning NULL.  
+        vmap has been modified to handle this but might need to change if 
+        things change for the player shorts. 
+

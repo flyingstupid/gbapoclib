@@ -1,0 +1,390 @@
+^#^
+alias^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       Command: alias
+         Usage: alias <alias> <command>
+
+   Description: The alias command allows you to substitute an
+		alias for a command.  You are allowed to have 30 aliases.
+
+		Some commands can not be used as an alias - things like
+		say, for example. Other commands that creators use 
+		are the same. This is because of the way that the functions
+		are organised (i.e. are static). Static commands are designed
+		so no one can 'command' you to do them, not even when it
+		is yourself commanding them through an alias.
+
+       Example: alias 1 buy beer
+
+Related topics: do.
+ 
+^#^
+ansi^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: ansi
+         Usage: ansi
+
+   Description: ansi toggles a flag in the character.  If the
+                flag is not on, ansi characters will be
+                filtered.  This is tested, as some net people
+                cannot use ansi graphic codes.
+
+Related topics: none.
+ 
+^#^
+align^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: align
+         Usage: align
+                align <alignment title>
+
+   Description: Every player's title is broken into 3 parts: pretitle,
+                title, and alignment title.  This command allows you to
+                set your alignment title.  If no alignment title is
+                given it defaults to "Lazy".
+
+       Example: align Busy
+
+Related topics: mhome, mclone, minvis, mtrans, mmin, min, mmout, mout,
+                edtitle, review, title, pretitle.
+ 
+^#^
+animal friendship^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Animal Friendship    Sphere: Nature                   |
+ | Level:  3                      Cost: 3                        |
+ | Component:  None.             Usage: animal friendship who    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause small animals to be more trusting      |
+ | with the cleric. The cleric may be able to persuade the       |
+ | animal to follow, stay, get, drop or kill things.             |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+animate skeleton^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Animate Skeleton     Sphere: Necromancy               |
+ | Level:  11                     Cost: 11                       |
+ | Component: skeleton           Usage: ani skeleton             |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to animate a skeleton. The  |
+ | skeleton will help the cleric combating. It will follow the   |
+ | the cleric.                                                   |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+animate zombie^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Animate Zombie       Sphere: Necromancy               |
+ | Level:  14                     Cost: 14                       |
+ | Component: corpse             Usage: ani zombie               |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to animate a corpse.   The  |
+ | zombie will help the cleric combating. It will follow the     |
+ | the cleric.                                                   |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+atone^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Atone                Sphere: Divination               |
+ | Level:  15                     Cost: 15                       |
+ | Component: none.              Usage: atone who                |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to read a persons alignment,|
+ | then alter it to match their own. You cannot atone players    |
+ | of a higher level then you.                                   |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+abjuration^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|      Abjuration Spells       |:     Abjuration Spells        |:||
+ ||:|                              |:                              |:||
+ ||:|   Shield                     |:  Stoneskin                   |:||
+ ||:|   Dispel Magic               |:                              |:||
+ ||:|   Remove Curse               |:                              |:||
+ ||:|   Spell Immunity             |:                              |:||
+ ||:|   Anti Magic Shell           |:                              |:||
+ ||:|   Resist Magic               |:                              |:||
+ ||:|   Dispel Illusion            |:                              |:||
+ ||:|   Dispel Conjuration         |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+acid arrow^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Acid Arrow           |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   5                    |:  This spell causes a bolt of |:||
+ ||:| Level:  5                    |:  acid to hit a target        |:||
+ ||:| Usage:  acid arrow target    |:  designated by the caster.   |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+acid rain^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Acid Rain            |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   13                   |:  This spell conjures rain    |:||
+ ||:| Level:  13                   |:  to fall from the sky. The   |:||
+ ||:| Usage:  acid rain            |:  acidic rain burns everyone  |:||
+ ||:|                              |:  within the area.            |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+alteration^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|      Alteration Spells       |:     Alteration Spells        |:||
+ ||:|                              |:                              |:||
+ ||:|   Burning Hands              |:  Teleport Other              |:||
+ ||:|   Lt (light)                 |:  Teleport Party              |:||
+ ||:|   Deep Pocket                |:  Warp                        |:||
+ ||:|   Disintergrate              |:  Warp Other                  |:||
+ ||:|   Enchanted Weapon           |:  Warp Party                  |:||
+ ||:|   Rope Trick                 |:                              |:||
+ ||:|   Strength                   |:                              |:||
+ ||:|   Teleport                   |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+alter reality^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Alter Reality        |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   varies               |:  This illusion spell is so   |:||
+ ||:| Level:  18                   |:  powerful that it realy      |:||
+ ||:| Usage:  alter reality spell  |:  alters reality. It can      |:||
+ ||:|                              |:  imitate most spells whose   |:||
+ ||:| Related Spells:              |:  level is less then 15.      |:||
+ ||:| Phantasmal Force.            |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+anti magic shell^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Anti Magic Shell     |:  Description:                |:||
+ ||:| School: Abjuration           |:                              |:||
+ ||:| Cost:   20                   |:  This powerful spell prevents|:||
+ ||:| Level:  20                   |:  any spells, or unnatural    |:||
+ ||:| Usage:  anti magic shell     |:  abilities to be used in an  |:||
+ ||:|                              |:  area.                       |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+alignment^#^
+SUBTOPIC-player^#^
+SYNOPSIS: Alignment and Titles
+
+
+DESCRIPTION:
+	Alignment is a measure of how good or how
+	evil you are. The alignments, from most
+	good to most evil are as follows.
+
+		Lawful Good
+		Lawful Neutral
+		Neutral Good
+		True Neutral
+		Chaotic Neutral
+		Neutral Evil
+		Chaotic Evil
+
+	While they do not exactly fit into the scheme of AD&D,
+	the titles are used as a rough guide, and are not exactly
+	comparable to that system.
+
+	Basically, alignment works like this; the more 'good'
+	a player, then the more 'evil' a monster he needs to
+	kill in order to remain his current alignment.
+
+	If he kills something not so evil, then his alignment
+	will slide back toward neutral.
+
+	Alignment is used in the game for the following things:
+	* Affiliations, like the Robes of Alignment for Magic,
+		and clerical orders.
+	* Intelligent weapons.
+	* Death (and the afterlife).
+
+^#^
+affiliation^#^
+SUBTOPIC-player^#^
+		-=[ Affiliations ]=-
+
+SYNOPSIS
+	Affiliations are 'guild-like' player ascociations
+
+DESCRIPTION
+	An affiliation is, simply, a player run organisation. It is based
+	around themes, classes, sub-classes, and many more things!
+
+	Affiliations don't really give you any powers, or abilities, but
+	function as social units you can join and belong to. Sometimes,
+	when they are formed by high level players, you can gain some
+	room, or special meeting place from it.
+
+	Currently there are the following affiliations:
+
+	The Robes of Alignment
+	~~~~~~~~~~~~~~~~~~~~~
+	The Robes of Alignment are mages who understand the Unified Laws
+	of Magic in all the realms. 
+
+	They are organised into the white (good), grey (neutral), and
+	black (evil) alignments, and gain extra magic power through
+	their casting of spells which are complimentaty with their
+	alignment energies.
+
+	See the 'Law of Magic', or the Isle of Sorcery for more details.
+
+
+
+	The Orders of Priesthood
+	~~~~~~~~~~~~~~~~~~~~~~~~
+	Mortals and beings of power serve the dieties of the realms of Magia.
+	Currently there are two affiliations, or 'orders of priesthood' for
+	players to join.
+
+	Clerics of the All-God
+	Priests of Antaaries
+
+
+	See also: 'help gods' for a list of gods
+
+
+
+
+ABILITIES
+	All players can check the members and leaders of an affiliation
+	by use of the following commands:
+	
+	leaders
+	members
+
+	Those who are leaders are able to admit new members:
+
+	admit <name> as <member|leader>
+
+	The same command is used when new leaders to an affiliation
+	are needed. Since players run the affiliation they are responsible
+	or looking after the politics of the society.
+
+^#^
+arm trap^#^
+SUBTOPIC-thief^#^
+		-=[ Arm Trap ]=-
+
+	Command: arm trap
+	  Usage: arm trap on <door|item>
+
+    Description: This command allows you to arm a trap that has been
+                 detected on a foor or an item, like a chest for example.
+
+	Example: arm trap on east door
+
+ Related Topics: open, close, lock, unlock, search, detect trap.
+^#^
+appraise^#^
+SUBTOPIC-thief^#^
+                -=[ Appraise ]=-
+
+        Command: appraise
+          Usage: appraise <item>
+
+    Description: This command allows you to determine the approximate
+                 value of certain items. The efficiency of the command
+                 increases as your skill in charisma increases.
+
+        Example: appraise sword
+
+ Related Topics: none.
+^#^
+appraisal^#^
+SUBTOPIC-bard^#^
+                -=[ Appraisal ]=-
+
+     	     Topic: Appraisal
+
+	     Usage: appraise <item>
+	  Synopsis: The appraisal ability is two fold:
+
+			1) It enables someone to know the true worth of an item,
+			thereby gaining a better deal in transactions for buying
+			and selling items.
+
+			2) It enables someone to assess the approximate value.
+
+			The higher this statistic, the more reliable the bargaining
+			and information gained from assessment.
+	  
+
+  Related Topics: None
+
+        Category: bard help.
+

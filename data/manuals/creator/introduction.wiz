@@ -1,0 +1,39 @@
+--------------------------------
+INTRODUCTION TO BEING A CREATORS
+--------------------------------
+
+Concept:
+
+	Newbie CREATOR introduction and general practice guide
+
+Description:
+
+	Welcome to the wonderful world of CREATORS. You might enjoy it, 
+	or you may completely despise it. It is up to you to put in the 
+	effort to make it an enjoyable experience. 
+
+	There are a large number of manuals to assist you during your
+	time here on the mud. They include examples on how to code in LPC
+	for the Heaven7 mudlib, a simple code of conduct, and how to get
+	from an APPRENTICE to an ARCH or ADMIN.
+
+	The following manuals are recommended reading for new CREATORS:
+
+		* rules
+		* coding
+		* editor
+
+	For advanced programmers, there are technical manuals on:
+
+		* LPC
+		* efun
+		* mudlib
+		* driver
+
+	To use a manual, simply type 'man <topic>'. E.g. man LPC
+
+	Remember, manual names are case sensitive.
+
+	2002-01-17
+
+

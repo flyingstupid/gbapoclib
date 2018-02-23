@@ -1,0 +1,837 @@
+^#^
+save^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: save
+         Usage: save
+   Description: Generally, the mud saves your character every
+                15 minutes, each time you raise stats, get
+                killed, or quit.  However, typing save will
+                save your character as well.
+
+Related topics: quit, Quit.
+ 
+^#^
+say^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: say
+         Usage: say <message>
+                '<message>
+   Description: This echoes a message to everyone in the room
+                (including non-player-characters).  The
+                default language is 'common'.  But you can
+                speak in many languages.  Each race has its
+                own racial language, and there are
+                opportunities to learn new ones as well.  You
+                can choose a language to speak in using the
+                'speak' command'.
+
+Related topics: speak, tell, whisper, shout.
+ 
+^#^
+score^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: score
+         Usage: score
+   Description: score gives your an estimation of how well you
+                are playing.  This give you general
+                information on your character's current
+                status.
+
+Related topics: none.
+ 
+^#^
+shout^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: shout
+         Usage: shout <message>
+   Description: Shout echos a message to everyone using the
+                game.  Except creators who have their
+                'earmuff' toggle on.  In which case they will
+                only hear shouts from creators with a higher
+                security level.
+
+Related topics: speak, tell, whisper, say.
+ 
+^#^
+skills^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: skills
+         Usage: skills <class>
+   Description: As a player you can gather skills in various
+                fields.  There are 4 basic classes: fighter,
+                thief, mage, cleric.  Each class has their
+                advantages and disadvantages.  skills gives
+                you your current skill levels in a class.  All
+                newbie characters start in the class of
+                fighter.
+
+                Note also that skills for different classes can be
+                accessed using the following method:
+
+                mage@fire ball
+
+
+Related topics: classes.
+ 
+^#^
+speak^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: speak
+         Usage: speak 
+                speak <language>
+   Description: Speak allows you to change the language you
+                use, using the 'say' or 'shout' command.  You
+                can only speak language that you know, or have
+                learnt.  If you do not specify a language, you
+                default to the 'common' language.
+
+Related topics: speak, tell, whisper, shout.
+ 
+^#^
+square^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: square
+         Usage: square
+                church
+
+   Description: As a newbie it is easy to get lost.  All 1st
+                level characters get a free lift back to the
+                square.
+
+Related topics: none.
+ 
+^#^
+ss^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: ss
+         Usage: ss
+
+   Description: ss is your short score.
+
+Related topics: none.
+ 
+^#^
+suicide^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: suicide
+         Usage: suicide
+
+   Description: Sometimes, a character gets disgruntle, bored,
+                and depressed.  They wish to irrevocably
+                destroy their character.  However, they don't
+                want a new person to use their old character
+                name.  A suicide command will banish a
+                character.  Note that a password is needed for
+                this command.
+
+Related topics: none.
+ 
+^#^
+shutdown^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: shutdown
+         Usage: shutdown <reason>
+
+   Description: Shutdown closes the game down.  You may need to do this
+                after the game has been running for a while.  If
+                security level SEC7 (70) or higher calls the shutdown it
+                closes immediately.  Otherwise, shutdown will occur in 5
+                minutes.
+
+Related topics: none.
+ 
+^#^
+skstat^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: skstat
+         Usage: skstat <player|monster>
+                skstat <player|monster> <class>
+
+   Description: This command allows you to find the classes of a player
+                or non-player character.  If you specify a class, it
+                will show you their current statistics in that class.
+
+Related topics: stat.
+ 
+^#^
+snoop^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: snoop
+         Usage: snoop <who>
+
+   Description: Snoop allows you to see what other people are typing
+                directly into the game.  It is bad manners to snoop.  It
+                should be used for debug purposes only.  A minimum
+                security level SEC5 (50) is required.
+
+Related topics: snoop.
+ 
+^#^
+start^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: start
+         Usage: start
+
+   Description: This command stores the current room as your default
+                enter room.  You may wish to type 'start' in your
+                workroom.  So that you will start the game in your
+                workroom rather then adv_inner.c
+
+Related topics: Quit.
+ 
+^#^
+stat^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: stat
+         Usage: stat <player|monster|item>
+
+   Description: Stat gives you a lot of information about an item,
+                player or monster.  It automatically checks if the item
+                is within the mudlibs guidelines and notifies the
+                creator if an object is illegal. 
+
+                Admin have to change guideline arrays in stat.h to suit
+                their mudlib guidelines.
+
+Related topics: skstat.
+ 
+^#^
+slay living^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Slay Living          Sphere: Necromancy               |
+ | Level:  30                     Cost: 35                       |
+ | Component: none.              Usage: slay living who          |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause the prayer's target to die by          |
+ | ripping the victims soul from their very body, if the         |
+ | victim does not resist the prayer.                            |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+slow poison^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Slow Poison          Sphere: Necromancy               |
+ | Level:  3                      Cost: 3                        |
+ | Component: none.              Usage: slow poison who          |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to slow the effects of      |
+ | poison on the prayer's target.                                |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+spiritual hammer^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Spiritual Hammer     Sphere: Combat                   |
+ | Level:  4                      Cost: 4                        |
+ | Component:  None.             Usage: spiritual hammer         |
+ | Description:                                                  |
+ |                                                               |               
+ | The prayer will forge a spiritual war hammer that the         |
+ | cleric can use.                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+starburst^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Starburst            Sphere: Stellar                  |
+ | Level:  8                      Cost: 8                        |
+ | Component:  None.             Usage: starburst who            |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause a small star to burst on the prayer's  |
+ | target. It is known that this prayer may double its effects   |
+ | during the night.                                             |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+stellar sphere^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Stellar Sphere               |
+ |                                                       |
+ | Starburst                      Gate                   |
+ | Lt (light)                                            |
+ | Dimensional Fold                                      |                   
+ | Dimensional Fold Other                                |
+ | Dimensional Fold Party                                |
+ | Time Shift                                            |
+ | Time Shift Other                                      |
+ | Time Shift Party                                      |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+sts^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Sticks to Snakes     Sphere: Nature                   |
+ | Level:  11                     Cost: 11                       |
+ | Component: branch or stick    Usage: sts                      |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will allow the cleric to animate a stick to       |
+ | act like a snake. Some of the snakes are quite poisonous.     |
+ | The snake will attack anyone the cleric is attacking.         |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+sbf^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell: SBF(Sin's Black Flame)|:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   1                    |:  The spell causes poisonous  |:||
+ ||:| Level:  1                    |:  black flames to burn the    |:||
+ ||:| Usage:  sbf who              |:  designated victim.          |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+scare^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Scare                |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   14                   |:  This spell scares a         |:||
+ ||:| Level:  14                   |:  creature. The creature is so|:||
+ ||:| Usage:  scare who            |:  scared it runs away.        |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+scry^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Scry                 |:  Description:                |:||
+ ||:| School: Divination           |:                              |:||
+ ||:| Cost:   12                   |:  This spell enables the      |:||
+ ||:| Level:  12                   |:  caster to scry on a player  |:||
+ ||:| Usage:  scry who             |:  or monster. The spell needs |:||
+ ||:| Component: Gem               |:  a gem to use as a scrying   |:||
+ ||:| Related Spells:              |:  object.                     |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+shadow door^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:   Shadow Door         |:  Description:                |:||
+ ||:| School:  Illusion            |:                              |:||
+ ||:| Cost:    11                  |:  This spell causes a door    |:||
+ ||:| Level:   11                  |:  to be made out of shadow    |:||
+ ||:| Usage:   shadow door         |:  stuff. When you step        |:||
+ ||:|                              |:  through the door you step   |:||
+ ||:| Related Spells: None.        |:  out of another door which   |:||
+ ||:|                              |:  is located in an area       |:||
+ ||:|                              |:  nearby.                     |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+shadow monster^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Shadow Monster       |:  Description:                |:||
+ ||:| School: Illusion             |:                              |:||
+ ||:| Cost:   15                   |:  This spell makes a monster  |:||
+ ||:| Level:  15                   |:  out of shadow stuff. The    |:||
+ ||:| Usage:  shadow monster       |:  monster will attack         |:||
+ ||:|                              |:  whatever the caster is      |:||
+ ||:| Related Spells: None.        |:  attacking, or waits until   |:||
+ ||:|                              |:  the caster attacks.         |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+shield^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Shield               |:  Description:                |:||
+ ||:| School: Abjuration           |:                              |:||
+ ||:| Cost:   2                    |:  This spell causes an        |:||
+ ||:| Level:  3                    |:  invisible shield to appear  |:||
+ ||:| Usage:  shield               |:  in front of the caster.     |:||
+ ||:|                              |:  This gives the caster added |:||
+ ||:| Related Spells:              |:  protection against attacks. |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+shooting stars^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Shooting Stars       |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   13                   |:  This spell conjures small   |:||
+ ||:| Level:  13                   |:  shooting stars that burst   |:||
+ ||:| Usage:  shooting stars who   |:  on the designated target.   |:||
+ ||:| Component: rock or stone     |:                              |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+spell immunity^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Spell Immunity       |:  Description:                |:||
+ ||:| School: Abjuration           |:                              |:||
+ ||:| Cost:   14                   |:  This spell gives the caster |:||
+ ||:| Level:  14                   |:  an immunity to a specific   |:||
+ ||:| Usage:  spell immunity <spel-|:  spell.  The spell must be   |:||
+ ||:|         -lname>              |:  named accurately.           |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+stoneskin^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Stoneskin            |:  Description:                |:||
+ ||:| School: Abjuration           |:                              |:||
+ ||:| Cost:   14                   |:  This spell gives the caster |:||
+ ||:| Level:  14                   |:  a temporary immunity to all |:||
+ ||:| Usage:  stoneskin            |:  physical attacks.           |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+suggest^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Suggest              |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   10                   |:  This spell can cause a      |:||
+ ||:| Level:  10                   |:  humanoid to do the caster's |:||
+ ||:| Usage:  suggest who command  |:  suggestion. A failed        |:||
+ ||:|                              |:  suggestion may or may not   |:||
+ ||:| Related Spells:              |:  cause a fight. This depends |:||
+ ||:| Demand.                      |:  upon the persuasivenes of   |:||
+ ||:|                              |:  the caster.                 |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+search^#^
+SUBTOPIC-general^#^
+                    -=[ Help ]=-
+
+       command: search
+         Usage: search room
+                search <item>
+
+   Description: If you stop and search.  You may find what is 
+                hidden.
+
+Related topics: listen, smell.
+ 
+^#^
+smell^#^
+SUBTOPIC-general^#^
+                    -=[ Help ]=-
+
+       command: smell
+         Usage: smell
+                smell <item>
+
+   Description: If you stop and smell you may smell something.
+
+Related topics: listen, search.
+ 
+^#^
+steal^#^
+SUBTOPIC-thief^#^
+		-=[ Steal ]=-
+
+	Command: steal
+	  Usage: steal <amount> coins from <who>
+                 steal <item> from <who>
+
+    Description: This command allows you to steal something from someone.
+		 However, this might upset some people, and start fights.
+
+	Example: steal gem from dwarf
+
+ Related Topics: move silently, hide in shadows.
+^#^
+strength^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Strength             |:  Description:                |:||
+ ||:| School: Alteration           |:                              |:||
+ ||:| Cost:   9                    |:  This spell makes the target |:||
+ ||:| Level:  9                    |:  stronger.  They are able to |:||
+ ||:| Usage:  strength target      |:  carry more then usual.      |:||
+ ||:| Components: none             |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+str^#^
+SUBTOPIC-primary-skills^#^
+                    -=[ Help ]=-
+
+         Topic: Primary Stats
+     Sub Topic: strength
+
+   Description: Strength is simply how much you can carry. Some
+		powerful weapons require an above average strength
+		to wield.
+
+      See also: man stats
+
+
+Related topics: none
+^#^
+strength of one^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Strength of One        Sphere: Combat                 |
+ | Level:  12                     Cost: 12                       |
+ | Component: None                                               |
+ | Usage: strength of one
+ | Description:                                                  |
+ | 	This spell grants all players in a party the combat      |
+ | ability (the primary skill) of its most powerful member       |
+ |present. This amount also increases ontop of this amount       |
+ |as the priest gains in combat sphere levels.                   |
+ |	Only priests who follow a chosen deity from one of       |
+ | the affiliations have access to this prayer.                  |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+set^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ set <alias> <wiz command>
+
+SYNOPSIS
+ This command will set a wizards environment variables 
+ so that wiz commands can be aliased.
+
+
+^#^
+song^#^
+SUBTOPIC-bard^#^
+
+Spells from the School of Song are a mixture of spells from the schools
+of Illusion, and from the school of Charm.
+
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|      Song Spells             |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|   Ventriloquism              |:   Visual Illusion            |:||
+ ||:|   Phantasm                   |:   Permanent Illusion         |:||
+ ||:|   Phantasmal Force           |:   Improved Phantasm          |:||
+ ||:|   Invisibility               |:   Charm Animal               |:||
+ ||:|   Shadow Door                |:   Charm Monster              |:||
+ ||:|   Phantom Armour             |:   Hold Person                |:||
+ ||:|   Alter Reality              |:   Hold Monster               |:||
+ ||:|   Shadow Monster             |:   Scare                      |:||
+ ||:|   Friends                    |:   Suggest                    |:||
+ ||:|   Demand                     |:   Charm Person               |:||
+ ||:|   Morale                     |:                              |::|
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----'
+
+
+^#^
+spells^#^
+SUBTOPIC-player^#^
+SYNOPSIS: Spells and Skills
+
+DESCRIPTION:
+	A spell, or prayer, is a supernatural ability. Spells are granted soley
+	through study and understanding of magical energies, whereas priests
+	gain their power directly from a deity.
+
+
+	For mages, their spell power is broken up into schools of magic, which are:
+	Illusion, Charm, Conjuration, Abjuration, Necromancy, Evocation, Divination,
+	and Alteration
+
+	For cleric/priests, their spell/prayer power is broken up into spheres
+	of influence, which are: Healing, Necromancy, Combat, Stellar, 
+	Protection, Nature and Divination
+
+	Each skill has its own spell points. A player actual level has nothing to do
+	with casting spells. 
+
+	Example
+	If a player wants to cast a detect evil spell on something, he needs a
+	divination sphere level of 1, and 1 spell points (sp) in divination to cast it.
+
+	If a mage wants to cast a fireball spell, he needs an evocation level of
+	10, and 10 sp in evocation to cast it.
+
+	This ensures that if a player of 20th level suddenly joins a class, he does not
+	automatically have spell ability. He must advance his skills in order to 
+	be able to cast spells.
+
+	To advance your spell ability you must increase the spell skill you want.
+	It's no good advancing healing sphere if you want to cast combat spells!
+
+
+
+See also: man mage, man cleric
+	  help mage, help cleric
+^#^
+subclass^#^
+SUBTOPIC-player^#^
+                -=[ Sub-Classes ]=-
+
+	A sub-class is a specialty class that combines several elements of
+  its parent class, with features of its own. While you can be multi-classed
+  with a normal class, like fighter, if you are in a sub-class you can't be
+  multi-classed.
+
+
+  Fighter Sub-Classes
+  ~~~~~~~~~~~~~~~~~~~
+	Ranger -  Guardians of the wilderness. Whether it be a forest,
+		  a great desert, a swamp, or a field, a ranger is the 
+		  protector of nature. Ranger's most often follow Antaaries.
+		  See also: man ranger/help ranger
+
+	Paladin - Paladin's are holy knights, and follow the ways of chivalry
+		  and the church. 
+		  See also: man paladin/help paladin
+	
+  Thief Sub-Classes
+  ~~~~~~~~~~~~~~~~~
+	Bard -    Bard's are the wandering minstrels, scholars, and lore
+		  keepers of the medieval age. 
+		  See also: man bard/help bard
+
+
+  Monks Sub-Classes
+  ~~~~~~~~~~~~~~~~~
+	Monk -    Monks are a sub-class all to themselves. They are aesthetics
+		  who seek to achieve enlightenment through perfection of the
+		  body, mind, and soul. To this end, there are three orders of
+		  monk; kensai (the way of the sword), monk (the way of the body),
+		  and psionicist (the way of the mind).
+
+		  (under construction as of April 98)
+
+
+
+
+
+  Only certain races have the necesary skills to be trained in some 
+sub-classes. Dwarves and halflings are innately magic resistant, hence
+the study of magic is never to their advantage. Such races can not
+learn magic. Others are simply not intelligent enough, like the ogre,
+and giant kindred.
+
+  For more help, see also 'help <class>', and the manuals for classes.
+
+See also: help <class>
+	  help sub-class
+^#^
+subclasses^#^
+SUBTOPIC-player^#^
+                -=[ Sub-Classes ]=-
+
+	A sub-class is a specialty class that combines several elements of
+  its parent class, with features of its own. While you can be multi-classed
+  with a normal class, like fighter, if you are in a sub-class you can't be
+  multi-classed.
+
+
+  Fighter Sub-Classes
+  ~~~~~~~~~~~~~~~~~~~
+	Ranger -  Guardians of the wilderness. Whether it be a forest,
+		  a great desert, a swamp, or a field, a ranger is the 
+		  protector of nature. Ranger's most often follow Antaaries.
+		  See also: man ranger/help ranger
+
+	Paladin - Paladin's are holy knights, and follow the ways of chivalry
+		  and the church. 
+		  See also: man paladin/help paladin
+	
+  Thief Sub-Classes
+  ~~~~~~~~~~~~~~~~~
+	Bard -    Bard's are the wandering minstrels, scholars, and lore
+		  keepers of the medieval age. 
+		  See also: man bard/help bard
+
+
+  Monks Sub-Classes
+  ~~~~~~~~~~~~~~~~~
+	Monk -    Monks are a sub-class all to themselves. They are aesthetics
+		  who seek to achieve enlightenment through perfection of the
+		  body, mind, and soul. To this end, there are three orders of
+		  monk; kensai (the way of the sword), monk (the way of the body),
+		  and psionicist (the way of the mind).
+
+		  (under construction as of April 98)
+
+
+
+
+
+  Only certain races have the necesary skills to be trained in some 
+sub-classes. Dwarves and halflings are innately magic resistant, hence
+the study of magic is never to their advantage. Such races can not
+learn magic. Others are simply not intelligent enough, like the ogre,
+and giant kindred.
+
+  For more help, see also 'help <class>', and the manuals for classes.
+
+See also: help <class>
+	  help sub-class
+^#^
+spells-mage^#^
+SUBTOPIC-mage^#^
+SYNOPSIS: Spells and Skills
+
+DESCRIPTION:
+	A spell, or prayer, is a supernatural ability. Spells are granted soley
+	through study and understanding of magical energies, whereas priests
+	gain their power directly from a deity.
+
+
+	For mages, their spell power is broken up into schools of magic, which are:
+	Illusion, Charm, Conjuration, Abjuration, Necromancy, Evocation, Divination,
+	and Alteration
+
+	For cleric/priests, their spell/prayer power is broken up into spheres
+	of influence, which are: Healing, Necromancy, Combat, Stellar, 
+	Protection, Nature and Divination
+
+	Each skill has its own spell points. A player actual level has nothing to do
+	with casting spells. 
+
+	Example
+	If a player wants to cast a detect evil spell on something, he needs a
+	divination sphere level of 1, and 1 spell points (sp) in divination to cast it.
+
+	If a mage wants to cast a fireball spell, he needs an evocation level of
+	10, and 10 sp in evocation to cast it.
+
+	This ensures that if a player of 20th level suddenly joins a class, he does not
+	automatically have spell ability. He must advance his skills in order to 
+	be able to cast spells.
+
+	To advance your spell ability you must increase the spell skill you want.
+	It's no good advancing healing sphere if you want to cast combat spells!
+
+
+
+See also: man mage, man cleric
+	  help mage, help cleric

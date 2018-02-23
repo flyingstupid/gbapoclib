@@ -1,0 +1,55 @@
+Primary Skills
+--------------
+
+	Strength
+Strength is used for carrying things. It also determines the maximum WC 
+of a weapon you can wield. Some swords and similar items are simply too
+powerful for players to wield, and so strength is a measure of your over
+all ability to control such a weapon.
+
+	Intelligence
+Intelligence is roughly equatable to what is known as IQ in the old
+school of psychology. In game terms, intelligence allows you to notice
+secret doors more easily, as well as learn more new languages.
+
+	Wisdom
+Wisdom is will power. Some spells rely upon sheer resistance against
+them, and so a high wisdom allows a player no suffer either less effect,
+or in some instances receive no effect from spells. Wisdom also is 
+involved in combat; a player has to know when to run and when to stay.
+To this end, the higher your wisdom score, the higher you can set your
+wimpy score.
+
+	Dexterity
+Dexterity is your hand-eye coordination, as well as your ability to 
+dodge blows in combat. A high dexterity basically means you're able
+to dodge blows better.. making you harder to hit!
+
+	Charisma
+This stat involves your power of persuasion, and comes in handy when
+you are bargaining in sales. You can buy for less and sell for more
+if you have a better charisma!
+
+	Combat
+As it states, combat is your ability to hit harder when fighting.
+
+
+Secondary Skills
+----------------
+
+	Swiming
+You don't want to drown while you're in a lake, or in the sea. This
+ability enhances your ability to swim around, and not take damage from
+drowning! (You don't want to die from it either!)
+
+	Climbing
+There are some high walls, some cliffs, and some holes which require
+basic skills in climbing. You can hurt yourself seriously if you try
+to climb cliffs too high, or valleys too steep. You could even die
+from a fall!
+
+Class and Guild Skills
+
+See relevant help files and manuals for fighter, cleric, mage, thief, etc.
+
+						Angel, August 1995.

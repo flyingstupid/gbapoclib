@@ -1,0 +1,25 @@
+     w1--w2--w3--w4--w5--w6--w7
+     u       u
+     d       d
+     f7--f6--f5
+     |       |
+     f8      f4
+     |       |
+     f9      f3              h
+     |       |
+    f10      f2
+     |       |
+    f11-f12--f1
+
+     h  ->  moves player to f1
+     w7  ->  returns player to h
+     h  ->  connected to city proper
+
+f# = floor room number #
+w# = wall room number #
+h = house
+
+mini-quest starts and finishes in h
+
+files consist of floor1-floor12, wall1-wall7, house, mouse, kmouse
+   woman, dagger, bag, cloth, food, match, and stick

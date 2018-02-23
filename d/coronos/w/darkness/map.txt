@@ -1,0 +1,42 @@
+DARKNESS' AREA ILLE CORONOS.  
+Wall St, East Rd, Path, University St, Main St.
+
+
+
+               Tb     
+(Newbie)        |
+   |         Tree
+(N gate)        |      
+   |           Wt       
+(South          |        
+  Gate) -W1-W2-W3-W4-W5      (University)
+                      |      /
+                     E1-U1-U2
+                      |     |
+                     E2    U3-(idea... haunted dormitory)
+                      |     |
+               P2-P1-E3-U5-U4
+                      |     |
+                     E4    (To Commercial Area)
+                      |     
+               G1-F1-E5     
+(North         |  |  |
+   Gate)-M1-M2-M3-M4-M5
+          |  |
+         RS  (To Church)
+-------------------------------------------------------------------------
+FILES/Legend   (All files in /d/coronos/w/darkness)
+
+Tb: treebase.c
+Tree: oaktree.c
+Wt: walltop.c
+W1-W5: wallst1.c-wallst5.c
+E1-E5: eastrd1.c-eastrd5.c
+P1-P2: dpath1.c-dpath2.c
+U1-U5: univst1.c-univst5.c
+M1-M5: mainst1.c-mainst5.c
+G1: gazebo1.c
+F1: fountn.c
+Rs: rshop.c
+
+

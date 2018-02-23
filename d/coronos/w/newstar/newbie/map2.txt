@@ -1,0 +1,32 @@
+Newbie Area: Farm and Forest
+Newstar's and Darkness' area.  
+/d/coronos/w/newstar/newbie
+----------------------------------------------------------------------
+
+                           Key and info
+                           ----------------
+                
+     T2 F1-F2              
+      |  |  |              T1-T2) tree#.c    
+     T1-F4-F3              F1-F6) forest#.c
+         |                 Pnd1-Pnd2) pond#.c
+        F5     Pnd2        B1-B2) barn#.c
+         |     /           A1-A2) field#.c
+     B2 F6-Pnd1            G) garden.c
+      |  |  |              Y) yard.c
+     B1-A1-A2              H1-H4) house#.c
+         |                 P1-2) path#.c
+       G-Y-House(H1)          
+        /                  
+       P2                
+      /                    
+     P1                     
+   House---               
+                            
+        H2                
+         |                 
+   (A3)-H1-H3                             
+            |              
+           H4              
+                            
+

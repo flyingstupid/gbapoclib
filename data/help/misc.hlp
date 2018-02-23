@@ -1,0 +1,31 @@
+^#^
+-ic^#^
+SUBTOPIC-player^#^
+       Command: -ic 
+         Usage: -ic
+
+   Description: IC stands for 'In Character'.
+		If the mud uses Role Playing, there are certain
+		elements in the mud where you are expected to
+		role play. Hence there is an area where you
+		can just socialise.
+
+		To go 'in character', simply type -ic.
+
+      See also: -ooc, -ic
+^#^
+-ooc^#^
+SUBTOPIC-player^#^
+       Command: -ooc 
+         Usage: -ooc
+
+   Description: OOC stands for Out Of Character.
+		If the mud uses Role Playing, there are certain
+		elements in the mud where you are expected to
+		role play. Hence there is also an area where you
+		can just socialise.
+
+		To go 'out of character', simply type -ooc.
+
+      See also: -ooc, -ic
+

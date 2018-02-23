@@ -1,0 +1,15 @@
+
+/obj
+
+These are the standard objects found in the mudlib
+
+/obj/skills:	
+These are the objects for classes, including affiliations as well
+as the auto_loading class objects.
+
+/obj/shadows:
+All shadow objects go in here.
+
+
+/obj/party
+All party configurable objects go in here 8)

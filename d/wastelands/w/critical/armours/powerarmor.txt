@@ -1,0 +1,20 @@
+inherit MAGIC_ARMOUR;
+
+//Standard Power Armor!
+
+reset(arg) {
+  if(arg) return;
+  set_name("power_armour");
+  set_type("armour");
+  set_short("power armour");
+  set_long("A marvelously crafted exoskeleton that forms around the user.\n"+
+  "It covers the user in metal to protect them entirely. It also has a battery\n"+
+  "which is required to move in it. You can check the battery level");
+  set_info("This machine requires batteries in order to keep functioning\n"+
+  "called enterna batteries. These can be placed within the unit once its\n"+
+  "empty.\n");
+  set_ac(5);
+  set_weight(1);
+  set_value(1500);
+  set_armour_material("steel");
+  }

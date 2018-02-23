@@ -1,0 +1,492 @@
+--------------
+CREATOR POLICY
+--------------
+
+Concept:
+	This document outlines the security level system,
+	associated duties, and grounds for promotion.
+
+Description:
+
+
+	Contents
+	========
+
+	1.00      INTRODUCTION
+
+	2.00      CREATOR LEVELS
+	2.01      Security and Levels
+     	2.02      Where do I begin?
+     	2.03      Promotion
+     	2.04      Quality Control.
+
+
+	3.00      PROGRAMMING & THEMES
+	3.01      Code and You
+	3.02      Domains and Variant Themes
+
+
+	4.00      LEGALITIES & MUD POLICY
+	4.01      Copy Right. Who Owns My Code?
+     	4.02      Code of Behaviour - Do's and Don'ts
+
+	5.00 	  CHARACTERS FOR CREATORS
+	5.01 	  Player Characters
+	5.02 	  Test Characters
+	5.03 	  Test Creator Characters
+
+	6.00      CONCLUSIONS
+
+
+
+
+
+
+	1.00 INTRODUCTION
+	=================
+
+	Without players, we do not have a mud. Remember that it is for
+	players that you are coding. So when you code, think like a 
+	player as to what you would like to see, what you would like to
+	be able to do in a room, with an item, or with a suggested
+	action. Then, balance that out with what you know is allowable
+	by the administration.
+
+	Take pride in your work, and do the very best you can. That's all
+	the administration can every expect from you.
+
+
+
+
+	2.00 CREATOR LEVELS
+	===================
+
+	2.01 Security and Levels
+
+	Table 1: Levels Structure
+
+	Title            Security Access Level
+        ---------------------------------------------
+	90		ADMIN
+	80              ARCH
+	70              QC (Quality Control)
+	60              LORD (of a domain)
+	50              ELDER Creator
+	40              SENIOR Creator
+	30      	CREATOR
+	20              APPRENTICE Creator
+	10              ASPIRANT Creator
+        ---------------------------------------------
+
+
+	Security Level Descriptions:
+
+	1) ADMIN        i)   Driver administration
+        	        ii)  Global mudlib design and policy creation
+	                iii) Creator administration
+
+	2) ARCH         i)   Mudlib technical support
+	                ii)  General mudlib debugging
+	                iii) Support for ADMIN duties
+ 
+	3) QC           i)   Quality Control of ALL mudlib design
+	                ii)  Quality Control of ALL creator areas
+
+
+
+	4) LORD         i)   Domain creation and maintenance
+	                ii)  Creator support for all under his/her domain
+
+	5) ELDER        i)   Sponsors CREATORs
+	                ii)  Quality Control (QC) under direction of the QC(s)
+	                ii)  Some major mudlib coding; skills, quests, classes
+	                iv)  General and high level mud areas/monsters/etc
+
+	6) SENIOR       i)   Support for sponsored CREATORs
+	                ii)  Some Quality Control under direction of the QC(s)
+	                iii) Some general mudlib coding; skills, quests
+	                iv)  General coding of areas/monsters/etc
+
+
+
+	7) CREATOR
+	                i)   General coding of areas/monsters/etc
+                        ii)  General coding of above areas under direction 
+			     of LORDS and of QC(s)
+                        iii) General maintenance of own areas
+
+	8) APPRENTICE
+                        i)   Learning to create general coding of 
+			     areas/monsters/ etc
+                        ii)  Learning the mud's genre of theme and policy
+
+	9) ASPIRANT
+                        i)   Document reading
+                        ii)  Learning the mud's genre of theme and policy
+
+
+
+	10) PLAYER
+                        i)   Having fun
+                        ii)  Role playing
+                        iii) Killing monsters, collecting treasure, collecting
+			     experience and advancing classes
+                        iv)  Completing quests
+                        v)   Learning how to play a Heaven7 mud
+
+
+
+	2.02 Where do I begin?
+
+	All creators begin at ASPIRANT. At this level you are required
+	to read the documents outlining the do's and don't of coding and
+	player interaction. A week is given to do this, no less. To
+	proceed to the next level title is a contract to work and code
+	for the mud. Failure to do so means removal into the player
+	population.
+
+	After this time you may choose a DOMAIN, or, to work on part of
+	the existing MUDLIB which exists apart from the domain structure.
+	In any case, a workroom an access file, and a directory will be
+	given to you. At this time you will be promoted to an APPRENTICE.
+	Some helpful abilities are granted to you at this stage to allow
+	you to help in debugging your items.
+
+
+	2.03 Promotion
+	
+	The Heaven7 promotion system is based solely on contribution of
+	code to the mud as a whole. The more you contribute, the father
+	you will advance through the ranks.
+
+
+	CREATOR
+
+        A promotion to CREATOR is given when the mentoring ELDER approves
+	a creator's first area, placing it into player access. A CREATOR
+	man not open his area until it has been approved. If the CREATOR's
+	ELDER is not available, then a QC may approve the area.
+
+
+	SENIOR
+
+        Promotion to the position of SENIOR occurs when the
+	CREATOR can show that he has an understanding of code and
+	the policies of the mud. To achieve this position he must have
+	coded the following:
+
+	        1) A quest (that has been approved and implemented)
+        	2) No fewer than 10 skills or spells (that have been approved
+                   and implemented)
+
+        A SENIOR has the responsibility of passing on his knowledge
+	of coding to CREATORs beneath him. Knowledge of code of basic
+	monsters, rooms, weapons, treasure is essential. The SENIOR must
+	have also shown through his code that is currently in player use
+	that he understands more complex coding; like the use of heart beats,
+	call_out()'s, spells & skills.                                 
+
+
+	ELDER
+
+        Promotion to ELDER is done when a SENIOR has accomplished
+	the following:
+
+	        1) No fewer than 2 quests
+	        2) The creation of a new class and/or affiliation (that has
+                   been approved and implemented)
+	        3) The creation of skills and spells associated with the
+                   implementation of the chosen class and/or affiliation
+	        4) Has shown that he has been effective in the teaching and
+                   assistance of CREATORs of lower level.
+	        5) Has shown good motivation toward adding code to the mud
+		6) Has shown a good working knowledge of the policies and
+                   genre of the mud in general
+
+	An ELDER is granted the privlege of sponsoring a players to the level
+	of CREATOR. His job is to mentor and guide the CREATOR from ASPIRANT
+	until he reaches wishes to advance beyond CREATOR.
+
+	
+	LORD
+
+	An ELDER may be promoted to LORD when he has an idea for a large
+	and unique player area. He must write to the ADMIN expressing his
+	idea for his new area, known as a Domain. The ELDER must also show
+	that he has the support of 3 others of the same or lower level 
+	(who are not already engaged in other activities).
+
+	If the ADMIN agrees with the proposal, the ELDER is promoted to LORD.
+	The new LORD must then complete the majority of his Domain within
+	a single month. 
+
+	A QC will examine the Domain after one month to ascertain its 
+	stage of development. If the QC is satisfied that the Domain adheres
+	to the original idea presented to the ADMIN, and that the theme
+	adheres to the general genre of the mud, then the Domain can continue.
+
+
+	QC
+
+        QC, or Quality Control is a special position. It is usually
+	reserved for LORDs who have completed Domains and wish to move on to
+	more difficult tasks that involve the whole mud: new skills, spells,
+	whole new classes, new abilities for players, new whole mud features,
+	etc.
+
+        Promotion to QC is done when the creator can show he has
+	accomplished the following:
+
+		1) Knows the guidelines of coding of areas/monsters/etc
+        	2) Has coded the above
+        	3) Has completed one whole Domain
+        	4) Has shown initiative and imagination in his work
+        	5) Has shown he is able to motivate and work with other 
+                   creators
+        	6) Has shown he understands coding at a high level, as 
+                   per the requirements of the lower levels of creators
+
+	A QC generally check areas, and can shut down a whole area 
+	(even one done by an ADMIN) if it does not meet certain mud 
+	themes, or general coding policy. 
+
+	It is a QC's job to alter code when the problem is simple, 
+	and shut it down if the problem is complex. A QC will always 
+	notify you by mud-mail about the problem and what was done to 
+	correct it, or what the creator in question needs to do to 
+	correct it.
+
+        Additional QC notes are mentioned in section 2.03.
+
+
+	ARCH
+
+	An ARCH is the highest level that a creator can be promoted to.
+	To be promoted to ARCH a creator must have shown great dedication to
+	the mud and an ability to work with others. He must have passed 
+	through	each level and shown the ADMIN that he has a great 	
+	knowledge of how the mud runs.
+
+	ADMIN help run the mud with i) debugging, ii) mudlib coding.
+	Essentially, they help the ADMIN run the mud on a very general level.
+        Most ADMIN are appointed when certain tasks need to be accomplished
+	when the ADMIN are busy with other tasks.
+
+        An ARCH also helps creators. This is a VERY important part of
+	their general work. The ARCH creators have more to do with the 
+	day-to-day running of the mud than do the ADMIN    
+
+
+	ADMIN
+
+        A CREATOR can not be promoted to the ADMIN position. Such a
+	position is appointed by the current ADMIN. ADMIN work on the mud
+	as a whole, and normally have little to do with the players and 
+	creators themselves (although there is always exception). They 
+	work on the mud drivers, the mudlib inheritable objects, and 
+	general mudlib management.
+
+
+	On occasions it is necessary to temporarily promote creators
+	during a crisis, or if someone plans to go on holidays/is doing
+	exams/etc/ and needs someone to fill his place, etc. Sometimes,
+	promotion is performed by ADMIN to extend powers to a creator to
+	perform special tasks or functions within the mudlib. Promotion
+	may be given on rare occasions to those who show a particular
+	'keenness' towards certain aspects of the mud, even though they
+	may not fulfil the requirements of the level. For some people,
+	this is the best way for them to learn.
+
+
+
+	2.03 Quality Control
+
+	Quality Control measures for coding are listed in the manual QC.
+
+	QC are simply responsible for the greatest duty on the mud:
+	putting areas into player access.
+
+	The ruling of a QC is final. If an item is illegal, incorrectly 
+	coded, or not to the specifications required by the
+	ADMIN, then they have the following duties:
+
+		1) If the item is not available to players, then 
+		   they will notify the creator who coded the item, 
+		   asking them to fix it.
+
+		2) If an area has already been approved, the QC will 
+		   email the CREATOR and cc the sponsoring ELDER,
+		   notifying of the problem. The QC may either adjust
+		   the item so that it complies with the mud's 
+		   specifications, or simply remove it from play 
+
+		   E.g. Angel, a CREATOR, has made a sword. It's
+                   weight is only 1. When the QC notices the sword,
+                   she simply edits the item directly, adjusts the
+		   weight so that it complies with the muds 
+		   specifications, and then sends an email to Angel
+		   and his sponsoring ELDER.
+
+		3) If code has major problems such that it is 
+		   not readily fixable by a QC, then a QC may 
+		   close all entrances into the area, without notice.
+
+		   A QC will then mail the CREATOR (cc'ing the ELDER)
+		   involved, outlining the problem with the area. 
+		   Only when the CREATOR has corrected the problem, 
+		   and the QC has reevaluated the item area, may it
+		   be reconnected for use by players.
+
+
+		4) Note that the ELDER has the same privleges and 
+		   duties of a QC for over CREATOR he sponsored.
+
+		5) An ARCH or ADMIN also have the same rights as QC
+		   with respect to the above situations.
+
+
+
+
+	3.00      PROGRAMMING & THEMES
+        ==============================
+
+	3.01 Code and You
+
+	A CREATOR is welcome to code anything in his own directories,
+	as long as it does not attempt to bypass his allowable privileges
+	granted to him by his current security access. Those who attempt
+	to are have their creator file removed immediately.
+
+	All new areas should fit in with their surroundings, and must
+	be both aesthetically pleasing as well as to 'play' with.
+	You can't, however, code something for players that does not
+	fit in with the surrounding themes. A McDonalds coded for a 
+	fantasy theme will not be approved. A McDonalds coded for a
+	20th Century themed area, however, will be.
+
+	Only those who meet the requirements of LORD may open up new
+	themes and areas of his own design (see above section PROMOTION)  
+
+
+	3.02 Domains and Variant Themes.
+
+	The mudlib contains different themes, embraced in what is known
+	as a Domains. These are concepts different from the main mud. 
+	Where the main mud might be of a fantasy theme, a Domain may be
+	of any theme the Lord chooses, so long as it is approved by 
+	the ADMIN of the mud. It is important to check with a LORD or
+	the ADMIN to find out what themes are acceptable.
+
+
+
+
+	4.00      LEGALITIES & MUD POLICY
+        =================================
+
+	4.01 Copy Right. Who Owns My Code?
+
+	The mud driver code, and related code, comes under FSF's, and
+	Lars Penji's copy right. 
+
+	While global intellectual copyright laws protect the ideas
+	that you code on the mud, because the mud is Public Domain,
+	you can't claim actual "ownership" of it, only comment in the
+	code that it was you who came up with the idea in the first
+	place. 
+
+	If you contribute to the mud, the code remains with the mud.
+	You are not permitted to prevent the mud from using it or remove it
+	should you decide to leave. Once it has been placed on the server,
+	it remains a part of the mud. 
+
+	While there is no copyright on LPC-code, you should still not 
+	'steal' code from others. Ask their permission first, if you
+	decide you would like to use it, and retain their comments as
+	a sign of the origins of the code. If they do not wish you to
+	use it, then please respect their wishes and code it yourself.
+
+	The general policy is to let people to see, and use you code.
+	This is so people can learn how to code, and how to code better.
+	As such, don't refuse to let others who have been granted the 
+	privlege of looking at your code from doing so. 
+
+	Remember, it is possible that anyone in the world may eventually
+	see your code! So, please keep it neat, tidy and commented on the
+	tricky bits. It should be a real show piece!
+
+	One directory has been set aside to keep items in where no one
+	but yourself, the ADMIN and QC, can read it. Items here are for
+	your own personal use, and as long as they don't interfere with
+	the mudlib. This directory is a /private dir off your root dir.
+
+	It is your responsibility to keep copies of your code for your
+	own personal use. If, for some reason, the code is lost, removed,
+	or the mud shuts down and you have lost access to your files,
+	then the ADMIN is under no obligation to send it to you, or
+	recover your files.
+
+
+	4.02 Do's and Don'ts.
+
+	"Do's and Don'ts" can be found in the 'conduct' manual for
+	CREATORS. It contains a comprehensive list of creator ethics,      
+	what you can and can't do. Check this manual for those details.
+
+
+
+
+	5.00 CHARACTERS FOR CREATORS
+	============================
+
+	At various times it is necesary to use test characters and
+	test creators. Naming conventions are used to name such
+	characters to ensure that others can easily recognise their
+	purpose and do not confuse them with normal player characters.
+
+
+	5.01 Player Characters
+
+	Any CREATOR may have any number of player characters that he 
+	uses to play the mud with. He may not, however, be logged on
+	at the same time as his character. This removes the temptation
+	for using his CREATOR character to stat and read files and items
+	related to playing.
+
+
+	5.02 Test Characters
+
+	A CREATOR may have one test player character that he uses to
+	test out monsters and items he has recently completed. The
+	test character must contain the name of the CREATOR with the
+	word 'test' at the end. E.g. Angel and Angeltest
+
+	A CREATOR is free to patch, stat and clone items for this 
+	player character only and may be online while testing is 
+	done.
+
+
+	5.03 Test Creator Characters
+
+	From time-to-time it is necesary for higher level CREATORS,
+	such as ARCH, ADMIN to use test Creator characters. Only one
+	such test character may ever be created and must contain the 
+	word 'jr' after the name. E.g. Angel and Angeljr.
+
+	These should be removed once testing has been completed.
+	
+
+
+
+	6.00 CONCLUSIONS
+	================
+
+	It is in your best interests to know what is contained here
+	within this file as this outlines many important aspects of the
+	access/security within the mud, and how you fit into it as a
+	creator. If anything herein is unclear, or you wish to discuss
+	items of uncertainty, please see your sponsoring ELDER.
+
+
+	2002-01-17                                                                
+
+

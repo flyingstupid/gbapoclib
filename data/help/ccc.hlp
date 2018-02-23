@@ -1,0 +1,1111 @@
+^#^
+cls^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: cls
+         Usage: cls
+   Description: This simply sends a few carriage returns to 
+                clear your screen.
+
+Related topics: none.
+ 
+^#^
+church^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: square
+         Usage: square
+                church
+
+   Description: As a newbie it is easy to get lost.  All 1st
+                level characters get a free lift back to the
+                square.
+
+Related topics: none.
+ 
+^#^
+cat^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: cat
+         Usage: cat <file>
+
+   Description: The cat command types a file.  It is limited to the
+                first 45 lines of the file.
+
+Related topics: more, Cat, tail.
+ 
+^#^
+Cat^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Cat
+         Usage: Cat <file>
+
+   Description: The Cat command types a file.  It is limited to the
+                first 500 lines of the file.
+
+Related topics: more, cat, tail.
+ 
+^#^
+cd^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: cd
+         Usage: cd <directory>
+
+   Description: This command allows you to change your default
+                directory.  There are a number of symbolic tokens that
+                can be used.  These include: 
+                    ..         for parent directory
+                    ~          for home directory
+                    domain#    for domain home directory
+
+       Example: cd             change to /players/zilanthius
+                cd myth#open   change to /d/myth/w/zilanthius/open
+
+Related topics: mkdir, rmdir, rm, Rm, copy, Copy, mv, Mv, ed.
+ 
+^#^
+clean^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: clean
+         Usage: clean <item(s)>
+
+   Description: This command destructs all the inventory of item(s).  It
+                will not destruct interactive players.  Item(s) can be
+                any object(s) referenced by the object parser.
+
+       Example: clean zilanthius
+                clean room
+
+Related topics: parser, dest, bomb.
+ 
+^#^
+clone^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: clone
+         Usage: clone <file>
+
+   Description: This makes a clone of an object, and moves it to the
+                room or to the creator.
+
+Related topics: load, update.
+ 
+^#^
+command^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: command
+         Usage: command <who> <action>
+
+   Description: This command allows the creator to force another player
+                to do an action.  The creator must be higher then
+                security level SEC3 (30), and cannot command higher 
+                security level creators.
+
+       Example: command zilanthius wield sword
+
+Related topics: none.
+ 
+^#^
+copy^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: copy
+         Usage: copy <file1>
+                copy <file1> <file2>
+
+   Description: This command allows you copy a one file to another. 
+          Files can use the token '*' as a wildcard.  If the
+          destination directory/file is not given, the creator's
+          default directory is used.  copy will not overwrite
+          a file with the same name.
+
+Related topics: Copy, mv, Mv.
+ 
+^#^
+Copy^#^
+SUBTOPIC-creator^#^
+                    -=[ Help ]=-
+
+       command: Copy
+         Usage: Copy <file1>
+                Copy <file1> <file2>
+
+   Description: This command allows you copy a one file to another. 
+          Files can use the token '*' as a wildcard.  If the
+          destination directory/file is not given, the creator's
+          default directory is used.  Copy will overwrite a file
+          with the same name.
+
+Related topics: copy, mv, Mv.
+ 
+^#^
+call lightning^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Call Lightning       Sphere: Nature                   |
+ | Level:  8                      Cost: 8                        |
+ | Component: None.              Usage: call lightning target    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will summon a lightning storm. The cleric can     |
+ | direct a massive lightning strike to hit the prayer's         |
+ | designated target.                                            |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause blindness^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cause Blindness      Sphere: Healing                  |
+ | Level:  5                      Cost: 5                        |
+ | Component:  None.             Usage: cause blindness who      |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer has a chance of causing a person to go blind.     |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause critical wounds^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cause Critical Wounds Sphere: Healing                 |
+ | Level:  16                     Cost: 16                       |
+ | Component:  None.             Usage: Cause Critical wounds    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause wounds to open up on an opponent.      |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause deafness^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cause Deafness       Sphere: Healing                  |
+ | Level:  3                      Cost: 3                        |
+ | Component:  None.             Usage: cause deafness who       |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer has a chance of making a person deaf.             |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause disease^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cause Disease        Sphere: Healing                  |
+ | Level:  7                      Cost: 7                        |
+ | Component:  None.             Usage: cause disease who        |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will set a contagion onto a person, making them   |
+ | more susceptible to disease.                                  |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause heavy wounds^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cause Heavy Wounds   Sphere: Healing                  |
+ | Level:  23                     Cost: 23                       |
+ | Component:  None.             Usage: cause heavy wounds who   |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause heavy wounds to open up on the target  |
+ | of this spell.                                                |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause light wounds^#^
+SUBTOPIC-cleric^#^
+ ____________________________________________________________
+()___________________________________________________________)
+ | Prayer: Cause Light Wounds Sphere: Healing               |
+ | Level:  4                    Cost: 4                     |
+ | Component:  None.           Usage: cause light wounds who|
+ | Description:                                             |
+ |                                                          |    
+ | This prayer will cause light wounds to open up on the    |
+ | prayer's target.                                         |
+ |                                                          |
+ |                                                          |
+ |                                                          |
+ |__________________________________________________________|
+()__________________________________________________________)
+^#^
+cause major wounds^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cause Major Wounds   Sphere: Healing                  |
+ | Level:  19                     Cost: 19                       |
+ | Component:  None.             Usage: cause major wounds who   |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cause major wounds to open up on the         |
+ | prayer's target.                                              |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cause medium wounds^#^
+SUBTOPIC-cleric^#^
+ _____________________________________________________________
+()____________________________________________________________)
+ | Prayer: Cause Medium Wounds Sphere: Healing                |
+ | Level:  10                    Cost: 10                     |
+ | Component:  None.            Usage: cause medium wounds who|
+ | Description:                                               |
+ |                                                            |   
+ | This prayer will cause medium wounds to open up on the     |
+ | prayer's target.                                           |
+ |                                                            |
+ |                                                            |
+ |                                                            |
+ |____________________________________________________________|
+()____________________________________________________________)
+^#^
+cause minor wounds^#^
+SUBTOPIC-cleric^#^
+ ____________________________________________________________
+()___________________________________________________________)
+ | Prayer: Cause Minor Wounds Sphere: Healing               |
+ | Level:  7                    Cost: 7                     |
+ | Component:  None.           Usage: cause minor wounds who|
+ | Description:                                             |
+ |                                                          |     
+ | This prayer will cause minor wounds to open up on the    |
+ | prayer's target.                                         |
+ |                                                          |
+ |                                                          |
+ |                                                          |
+ |__________________________________________________________|
+()__________________________________________________________)
+^#^
+cause serious wounds^#^
+SUBTOPIC-cleric^#^
+ _______________________________________________________________
+()______________________________________________________________)
+ | Prayer: Cause Serious Wounds Sphere: Healing                 |
+ | Level:  13                     Cost: 13                      |
+ | Component:  None.             Usage: cause serious wounds who|
+ | Description:                                                 |
+ |                                                              | 
+ | This prayer will cause serious wounds to open up on the      |
+ | prayer's target.                                             |
+ |                                                              |
+ |                                                              |
+ |                                                              |
+ |______________________________________________________________|
+()______________________________________________________________)
+^#^
+cause wounds^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ | Prayer: Cause Wounds     Sphere: Healing              |
+ | Level:  1                  Cost: 1                    |
+ | Component:  None.         Usage: cause wounds who     |
+ | Description:                                          |
+ |                                                       |        
+ | This prayer will cause wounds to open up on the       |
+ | prayer's target.                                      |
+ |                                                       |
+ |                                                       |
+ |                                                       |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+combat sphere^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ |         Prayers from the Combat Sphere                |
+ |                                                       |
+ | Bless                    Meteorswarm                  |
+ | Curse                    Remove Curse                 |
+ | Prayer                                                |
+ | Spiritual Hammer                                      |
+ | Flamestrike                                           |
+ | Holy Arrow                                            |
+ | Holy Strike                                           |
+ | Holy Word                                             |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+create food^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Create Food          Sphere: Nature                   |
+ | Level:  8                      Cost: 8                        |
+ | Component: None.              Usage: create food              |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will create a bowl of lumpy food that the cleric  |
+ | can eat.                                                      |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+create water^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Create Water         Sphere: Nature                   |
+ | Level:  8                      Cost: 8                        |
+ | Component: Bottle.            Usage: create water             |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will fill an empty bottle with pure water.        |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure blindness^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cure Blindness       Sphere: Healing                  |
+ | Level:  5                      Cost: 5                        |
+ | Component:  None.             Usage: cure blindness who       |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cure a person of the affliction of blindness.|
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure critical wounds^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cure Critical Wounds  Sphere: Healing                 |
+ | Level:  16                     Cost: 16                       |
+ | Component:  None.             Usage: cure critical wounds who |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will heal 25 to 100 physical hit points to        |
+ | the target. If no target is given, the caster will be         |
+ | healed.                                                       |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure deafness^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cure Deafness        Sphere: Healing                  |
+ | Level:  3                      Cost: 3                        |
+ | Component:  None.             Usage: cure deafness who        |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cure a person of the affliction of deafness. |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure disease^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cure Disease         Sphere: Healing                  |
+ | Level:  7                      Cost: 7                        |
+ | Component:  None.             Usage: cure disease who         |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will cure a person of the affliction of a         |
+ | disease.                                                      |
+ |                                                               |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure heavy wounds^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cure Heavy Wounds    Sphere: Healing                  |
+ | Level:  23                     Cost: 23                       |
+ | Component:  None.             Usage: cure heavy wounds who    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will heal 35 to 150 physical hit points to        |
+ | the target. If no target is given, the caster will be         |
+ | healed.                                                       |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure light wounds^#^
+SUBTOPIC-cleric^#^
+ ____________________________________________________________
+()___________________________________________________________)
+ | Prayer: Cure Light Wounds  Sphere: Healing               |
+ | Level:  4                    Cost: 4                     |
+ | Component:  None.           Usage: cure light wounds who |
+ | Description:                                             |
+ |                                                          |                    
+ | This prayer will heal 5 to 20 physical hit points to     |
+ | the target. If no target is given, the caster will be    |
+ | healed.                                                  |
+ |                                                          |
+ |                                                          |
+ |__________________________________________________________|
+()__________________________________________________________)
+^#^
+cure major wounds^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Cure Major Wounds    Sphere: Healing                  |
+ | Level:  19                     Cost: 19                       |
+ | Component:  None.             Usage: cure major wounds who    |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will heal 30 to 120 physical hit points to        |
+ | the target. If no target is given, the caster will be         |
+ | healed.                                                       |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+cure medium wounds^#^
+SUBTOPIC-cleric^#^
+ _____________________________________________________________
+()____________________________________________________________)
+ | Prayer: Cure Medium Wounds  Sphere: Healing                |
+ | Level:  10                    Cost: 10                     |
+ | Component:  None.            Usage: cure medium wounds who |
+ | Description:                                               |
+ |                                                            |                  
+ | This prayer will heal 15 to 60 physical hit points to      |
+ | the target. If no target is given, the caster will be      |
+ | healed.                                                    |
+ |                                                            |
+ |                                                            |
+ |____________________________________________________________|
+()____________________________________________________________)
+^#^
+cure minor wounds^#^
+SUBTOPIC-cleric^#^
+ ____________________________________________________________
+()___________________________________________________________)
+ | Prayer: Cure Minor Wounds  Sphere: Healing               |
+ | Level:  7                    Cost: 7                     |
+ | Component:  None.           Usage: cure minor wounds who |
+ | Description:                                             |
+ |                                                          |                    
+ | This prayer will heal 10 to 40 physical hit points to    |
+ | the target. If no target is given, the caster will be    |
+ | healed.                                                  |
+ |                                                          |
+ |                                                          |
+ |__________________________________________________________|
+()__________________________________________________________)
+^#^
+cure serious wounds^#^
+SUBTOPIC-cleric^#^
+ _______________________________________________________________
+()______________________________________________________________)
+ | Prayer: Cure Serious Wounds  Sphere: Healing                 |
+ | Level:  13                     Cost: 13                      |
+ | Component:  None.             Usage: cure serious wounds who |
+ | Description:                                                 |
+ |                                                              |                
+ | This prayer will heal 20 to 80 physical hit points to        |
+ | the target. If no target is given, the caster will be        |
+ | healed.                                                      |
+ |                                                              |
+ |                                                              |
+ |______________________________________________________________|
+()______________________________________________________________)
+^#^
+cure wounds^#^
+SUBTOPIC-cleric^#^
+ _________________________________________________________
+()________________________________________________________)
+ | Prayer: Cure Wounds      Sphere: Healing              |
+ | Level:  1                  Cost: 1                    |
+ | Component:  None.         Usage: cure wounds who      |
+ | Description:                                          |
+ |                                                       |                       
+ | This prayer will heal 1 to 4 physical hit points to   |
+ | the target. If no target is given, the caster will    |
+ | be healed.                                            |
+ |                                                       |
+ |                                                       |
+ |_______________________________________________________|
+()________________________________________________________)
+^#^
+curse^#^
+SUBTOPIC-cleric^#^
+ ________________________________________________________________
+()_______________________________________________________________)
+ | Prayer: Curse                Sphere: Combat                   |
+ | Level:  1                      Cost: 1                        |
+ | Component:  None.             Usage: curse who                |
+ | Description:                                                  |
+ |                                                               |               
+ | This prayer will curse the recipient of this prayer. A        |
+ | cursed  recipient is generally worsens their ability to       |
+ | attack and defend.                                            |
+ |                                                               |
+ |                                                               |
+ |_______________________________________________________________|
+()_______________________________________________________________)
+^#^
+chain lightning^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Chain Lightning      |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   15                   |:  This spell causes a bolt    |:||
+ ||:| Level:  15                   |:  of lightning to leap from   |:||
+ ||:| Usage:  chain lightning      |:  one target to another in the|:||
+ ||:|                              |:  immediate locale. The bolt  |:||
+ ||:| Related Spells:              |:  will not hit the caster.    |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+charm^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|        Charm Spells          |:        Charm Spells          |:||
+ ||:|                              |:                              |:||
+ ||:|   Charm Animal               |:   Demand                     |:||
+ ||:|   Charm Monster              |:   Charm Person               |:||
+ ||:|   Hold Person                |:   FOD (Finger of Death)      |:||
+ ||:|   Hold Monster               |:                              |:||
+ ||:|   Scare                      |:                              |:||
+ ||:|   Friends                    |:                              |:||
+ ||:|   Suggest                    |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+^#^
+charm animal^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Charm Animal         |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   2                    |:  Charming creatures gives    |:||
+ ||:| Level:  2                    |:  the caster the opportunity  |:||
+ ||:| Usage:  charm animal who     |:  to persuade a creature to   |:||
+ ||:|                              |:  do things. The creature may |:||
+ ||:| Related Spells:              |:  refuse if it can resist the |:||
+ ||:| Charm Monster, Charm Person. |:  caster's persuasive ability.|:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Description:                 |:  Description:                |:||
+ ||:|                              |:                              |:||
+ ||:| The caster can only charm one|: drop, get, kill, follow,     |:||
+ ||:| creature at a time.          |: stay, and any feeling(soul)  |:||
+ ||:|                              |: commands.                    |:||
+ ||:| A command can be given by,   |:                              |:||
+ ||:| <creature's name> command.   |: Charm animal only effects    |:||
+ ||:| The commands a charmed       |: small, weak creatures with   |:||
+ ||:| creature may accept include: |: little will power.           |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+charm monster^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Charm Monster        |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   18                   |:  Charming creatures gives    |:||
+ ||:| Level:  18                   |:  the caster the opportunity  |:||
+ ||:| Usage:  charm monster who    |:  to persuade a creature to   |:||
+ ||:|                              |:  do things. The creature may |:||
+ ||:| Related Spells:              |:  refuse if it can resist the |:||
+ ||:| Charm Person, Charm Animal.  |:  caster's persuasive ability.|:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Description:                 |:  Description:                |:||
+ ||:|                              |:                              |:||
+ ||:| The caster can only charm one|: drop, get, kill, follow,     |:||
+ ||:| creature at a time.          |: stay, and any feeling(soul)  |:||
+ ||:|                              |: commands.                    |:||
+ ||:| A command can be given by,   |:                              |:||
+ ||:| <creature's name> command.   |: Charm Monster is a powerful  |:||
+ ||:| The commands a charmed       |: charm spell, and will effect |:||
+ ||:| creature may accept include: |: most creatures.              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+charm person^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Charm Person         |:  Description:                |:||
+ ||:| School: Charm                |:                              |:||
+ ||:| Cost:   12                   |:  Charming creatures gives    |:||
+ ||:| Level:  12                   |:  the caster the opportunity  |:||
+ ||:| Usage:  charm person who     |:  to persuade a creature to   |:||
+ ||:|                              |:  do things. The creature may |:||
+ ||:| Related Spells:              |:  refuse if it can resist the |:||
+ ||:| Charm Monster, Charm Animal. |:  caster's persuasive ability.|:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Description:                 |:  Description:                |:||
+ ||:|                              |:                              |:||
+ ||:| The caster can only charm one|: drop, get, kill, follow,     |:||
+ ||:| creature at a time.          |: stay, and any feeling(soul)  |:||
+ ||:|                              |: commands.                    |:||
+ ||:| A command can be given by,   |:                              |:||
+ ||:| <creature's name> command.   |: Charm Person only effects    |:||
+ ||:| The commands a charmed       |: humanoid creatures.          |:||
+ ||:| creature may accept include: |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+chill touch^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Chill Touch          |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   5                    |:  The spell causes the victim |:||
+ ||:| Level:  5                    |:  to freeze under the touch   |:||
+ ||:| Usage:  chill touch who      |:  of the caster.              |:||
+ ||:|                              |:                              |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+coc^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Cone of Cold         |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   10                   |:  This spell causes a cold of |:||
+ ||:| Level:  10                   |:  ice cold to be sprayed the  |:||
+ ||:| Usage:  coc who              |:  target. The target takes    |:||
+ ||:|                              |:  cold damage.                |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+comet^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Comet                |:  Description:                |:||
+ ||:| School: Conjuration          |:                              |:||
+ ||:| Cost:   8                    |:  This spell conjures a fiery |:||
+ ||:| Level:  8                    |:  comet, that strikes a       |:||
+ ||:| Usage:  comet who            |:  target designated by the    |:||
+ ||:|                              |:  caster.                     |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+cone of cold^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Cone of Cold         |:  Description:                |:||
+ ||:| School: Evocation            |:                              |:||
+ ||:| Cost:   10                   |:  This spell causes a cold of |:||
+ ||:| Level:  10                   |:  ice cold to be sprayed the  |:||
+ ||:| Usage:  coc who              |:  target. The target takes    |:||
+ ||:|                              |:  cold damage.                |:||
+ ||:| Related Spells:              |:                              |:||  
+ ||:| None.                        |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+^#^
+conjuration^#^
+SUBTOPIC-mage^#^
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|      Conjuration Spells      |:     Conjuration Spells       |:||
+ ||:|                              |:                              |:||
+ ||:|   Monster Summon 1           |:   Gate                       |:||
+ ||:|   Monster Summon 2           |:   Limited Wish               |:||
+ ||:|   Monster Summon 3           |:   Wish                       |:||
+ ||:|   Acid Rain                  |:   Magic Mouth                |:||
+ ||:|   Comet                      |:                              |:||
+ ||:|   Shooting Stars             |:                              |:||
+ ||:|   PWK (Power Word Kill)      |:                              |:||
+ ||:|   PWS (Power Word Stun)      |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+^#^
+categories^#^
+SUBTOPIC-general^#^
+                    -=[ Categories ]=-
+
+There are a number of subtopics, or categories for help.  If the help
+is not relevant to you, you will not be shown that information. 
+
+^#^
+close^#^
+SUBTOPIC-general^#^
+		-=[ Close ]=-
+
+	Command: close
+	  Usage: close <door|item>
+
+    Description: This command allows you to close a door or a 'closable'
+		 item like a chest for example.
+
+	Example: close east door
+
+ Related Topics: open, lock, unlock, search.
+^#^
+combat^#^
+SUBTOPIC-paladin^#^
+ ________________________________________________________
+ ()_______________________________________________________)
+ |	Prayers from the Combat Sphere			|
+ | Bless			Remove Curse		|
+ | Curse			Prayer			|
+ | Spiritual Hammer		Flamestrike		|
+ | Holy Strike			Holy Word		|
+ | Meteor Swarm						|
+ |______________________________________________________|
+()_______________________________________________________)
+
+^#^
+classes^#^
+SUBTOPIC-player^#^
+		-=[ Classes ]=-
+
+  There are four main classes within the Heaven7 Mudlib. Each player
+may obtain any number or combination of these, to a maximum of three
+classes in all. 
+  The classes available are:
+
+  1) Mage - Wizards who gather their power from 8 schools of magic.
+
+  2) Cleric - Servants of the Gods whose power is granted through
+     prayer and the spreading of the word of their faith. 
+
+  3) Fighter - Fighters are warriors, guards, and hired mercenaries.
+     Their strength comes from their skills of weaponry and armour.
+
+  4) Thief - Thieves are skilled in stealth, lock skills, and the
+     art of skullduggery. 
+
+  Only certain races have the necesary skills to be trained in some 
+classes. Dwarves and halflings are innately magic resistant, hence
+the study of magic is never to their advantage. Such races can not
+learn magic. Others are simply not intelligent enough, like the ogre,
+and giant kindred.
+
+  When you leave a class you must return to the place where you train.
+If you have an excessive amount of experience points still remaining
+your spendable experience points will be capped. This is to prevent
+players from using exp gained in one class spending it on a new one
+in which they have yet received no exp.
+
+  Note that all skills in the class you wish to leave will no longer
+be accessable, and hence set to zero. This is not done for realism but
+for overall game balance.
+
+
+
+
+  For more help, see also 'help <class>', and the manuals for classes.
+
+  See also: help <class>
+            help subclass
+
+^#^
+channel^#^
+SUBTOPIC-player^#^
+		-=[ Channel Help ]=-
+
+
+		Usage: channel <channel>
+	      Command: channel
+
+	  Description: The channel function is designed to allow
+		       players a chat/channel system for communication
+		       and discussion of various topics OOC (out of 
+                       character).
+
+		       There are several channels, including:
+		       OOC - Out of character discussion 
+		       wiz - Wizards channel only.
+		       lpc - Wizards discussion for lpc.
+
+	E.g. 'channel ooc' 
+	This will turn you onto the ooc channel. By typing it again
+	it will disable this channel.
+        When you type 'ooc <message', everyone listenning to the OOC
+        channel will hear you. By default, all players are listenning
+        to the OOC line.
+
+        Other commands: <channel> <who>
+                E.g.  : ooc who
+         Description  : Shows who is listenning to the <channel> channel.
+        
+        Other commands: <channel> -h
+                E.g.  : ooc -h
+         Description  : Shows you the last few messages on that channel.
+
+^#^
+chat^#^
+SUBTOPIC-player^#^
+		-=[ Chat Help ]=-
+
+	Usage : channel ooc
+      Command : channel
+
+  Description : Players can chat to eachother OOC (out of character)
+  by typing 'channel ooc'. Each time they type ooc <message>, then
+  all listenners to the OOC channel will hear them.
+
+  See also: help channel
+^#^
+contagion^#^
+SUBTOPIC-mage^#^
+
+     ______________________________  ______________________________
+  __/                              \/                              \__
+ | /|                              |:                              |:||
+ ||:| Spell:  Contagion            |:  Description:                |:||
+ ||:| School: Necromancy           |:                              |:||
+ ||:| Cost:   7                    |:  This spell will set a       |:||
+ ||:| Level:  7                    |:  contagion onto a person     |:||
+ ||:| Usage:  contagion who        |:  making them more susceptible|:||
+ ||:|                              |:  to disease.                 |:||
+ ||:| Related Spells:              |:                              |:||
+ ||:| Cause disease (cleric)       |:                              |:||
+ ||:|                              |:                              |:||
+ ||:|_____________________________ |: _____________________________|:||
+ ||/______________________________\|:/______________________________\||
+ |_______________________________      _______________________________|
+                                 '----`
+
+^#^
+craft^#^
+SUBTOPIC-ranger^#^
+Command: craft
+
+SYNOPSIS
+	Ranger skill
+
+DESCRIPTION
+	This command enables the ranger to craft a bow. A ranger must
+        find some good wood to be able to craft a fine bow.
+
+        Arrows and bolts can also be crafted, but wood and
+        an arrow head of some type must be found.
+
+        Note that arrows must be placed inside a quiver for
+        ease of drawing them during combat.
+
+See also: help ranger, man ranger
+^#^
+cha^#^
+SUBTOPIC-primary-skills^#^
+                    -=[ Help ]=-
+
+         Topic: Primary Stats
+     Sub Topic: charisma
+
+   Description: Charisma is used for bargaining. Charisma is also
+		used to persuade charmed monsters to perform
+		tasks.
+
+      See also: man stats
+
+
+Related topics: none
+^#^
+com^#^
+SUBTOPIC-primary-skills^#^
+                    -=[ Help ]=-
+
+         Topic: Primary Stats
+     Sub Topic: combat
+
+   Description: Combat is simply how hard you hit something, akin to
+		muscle and stamina. 
+
+      See also: man stats
+
+
+Related topics: none
+^#^
+con^#^
+SUBTOPIC-primary-skills^#^
+                    -=[ Help ]=-
+
+         Topic: Primary Stats
+     Sub Topic: constitution
+
+   Description: Constitution is your health, and how fit you are.
+		Con gives you hit points dependant upon your mix
+		of classes. If you add a class, your hit points
+		might not re-adjust to their new class total
+		until you raise your constitution again.
+
+      See also: man stats
+
+
+Related topics: none
+^#^
+chmod^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ chmod <name> <+/-> <read/write>
+
+SYNOPSIS
+ chmod allows the wizard the option of giving read or
+ write access to other wizards in directories which
+ they own. (i.e, the wizards home directory or domain
+ directory.)
+
+ Please note that this does not apply to mudlib directories.
+
+
+
+^#^
+cpu^#^
+SUBTOPIC-creator^#^
+SYNTAX
+ cpu
+
+SYNOPSIS
+ Gives information about the muds usage of the machines
+ cpu.
+ 
+^#^
+chfn^#^
+SUBTOPIC-player^#^
+                    -=[ Help ]=-
+
+       command: chfn
+         Usage: chfn
+   Description: chfn allows you to change finger information. 
+                Information includes your real name, email 
+                address, and plan.
+
+Related topics: finger, plan, email, url.
+ 

@@ -1,0 +1,64 @@
+	::: Security. Angel & Zilanthius, 1996 :::
+
+There have been a few things said about the security
+system - some good and some bad. Here is exactly what
+the system does.
+
+
+The security system only cares about two things:
+
+1) this_interactive()
+2) previous_object()
+
+
+In the end it doesn't matter how long your stack of callers is
+to check. All you need to do is check the interactive object
+and the object that did the last call to the security.c object.
+
+If the interactive and the previous object are the same, and 
+the previous object (its file name normally) is in a list that
+is allowed to perform that security call, then perform the 
+action. (NB, the list of valid security calls is in master.c)
+
+
+E.g. I walk into a room with a write_file to /usr or /obj
+which are all dirs which require a security check. I am
+certainly this_interactive() ! ..but the last ob to call 
+write_file was the room. The security.c checks the room's
+file name against the list of obs allowed to do write_file.
+
+If the room can do write_file, it says 'go ahead', otherwise
+even though _I_ might have the privs, it won't let me!
+
+Valid security objects are things like 
+		/obj/player.c
+		/obj/wizard.c
+		/obj/master.c  (for 3.2@++)
+		/secure/security.c
+		/secure/master.c (for 3.2.1@++)
+
+Security also covers some directories, like
+		/obj
+		/secure
+
+Security also makes sure ONLY special files can write to
+the following directories. This means /obj and /secure
+can only be written to by special objects - like when
+you are sec80+ *smile*
+
+
+
+Using this procedure you do not need to check the whole stack.
+All important security routines can currently be called only
+internally through the wizard.c object. These are also static
+strict types so they can not be called externally via a call_other.
+The same is for security and master.c
+
+
+
+Angel.
+
+
+
+
+
